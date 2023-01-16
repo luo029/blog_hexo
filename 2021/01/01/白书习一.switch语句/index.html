@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  
+  <title>白书习一.switch语句 | taoyifan</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="What’s past is prologue.">
+<meta property="og:type" content="article">
+<meta property="og:title" content="白书习一.switch语句">
+<meta property="og:url" content="https://taoyifan.cn/2021/01/01/%E7%99%BD%E4%B9%A6%E4%B9%A0%E4%B8%80.switch%E8%AF%AD%E5%8F%A5/index.html">
+<meta property="og:site_name" content="taoyifan">
+<meta property="og:description" content="What’s past is prologue.">
+<meta property="og:locale">
+<meta property="article:published_time" content="2021-01-01T10:09:00.000Z">
+<meta property="article:modified_time" content="2023-01-16T15:40:34.403Z">
+<meta property="article:author" content="taoyifan">
+<meta name="twitter:card" content="summary">
+  
+    <link rel="alternate" href="/atom.xml" title="taoyifan" type="application/atom+xml">
+  
+  
+    <link rel="shortcut icon" href="/favicon.png">
+  
+  
+    
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/typeface-source-code-pro@0.0.71/index.min.css">
+
+  
+  
+<link rel="stylesheet" href="/css/style.css">
+
+  
+    
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.min.css">
+
+  
+<meta name="generator" content="Hexo 6.3.0"></head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">taoyifan</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="https://taoyifan.cn"></form>
+      </div>
+    </div>
+  </div>
+</header>
+
+      <div class="outer">
+        <section id="main"><article id="post-白书习一.switch语句" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2021/01/01/%E7%99%BD%E4%B9%A6%E4%B9%A0%E4%B8%80.switch%E8%AF%AD%E5%8F%A5/" class="article-date">
+  <time class="dt-published" datetime="2021-01-01T10:09:00.000Z" itemprop="datePublished">2021-01-01</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="p-name article-title" itemprop="headline name">
+      白书习一.switch语句
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <p>What’s past is prologue.</p>
+<span id="more"></span>1.晶晶赴约会【1.4编程基础之逻辑表达式与条件分支11】
+<pre><code>晶晶的朋友贝贝约晶晶下周一起去看展览，但晶晶每周的1、3、5有课必须上课，请帮晶晶判断她能否接受贝贝的邀请，如果能输出YES；如果不能则输出NO。注意YES和NO都是大写字母！ 输入:
+输入有一行，贝贝邀请晶晶去看展览的日期，用数字1到7表示从星期一到星期日。 输出:
+输出有一行，如果晶晶可以接受贝贝的邀请，输出YES，否则，输出NO。注意YES和NO都是大写字母！ 样例输入:
+2 样例输出:
+YES
+</code></pre>
+<br>
+
+<pre><code>#include&lt;iostream&gt;
+using namespace std;
+int main()
+&#123;
+    int a;
+    cin&gt;&gt;a;
+    switch(a)
+    &#123;
+        case 1:cout&lt;&lt;&quot;NO&quot;;break;
+        case 2:cout&lt;&lt;&quot;YES&quot;;break;
+        case 3:cout&lt;&lt;&quot;NO&quot;;break;
+        case 4:cout&lt;&lt;&quot;YES&quot;;break;
+        case 5:cout&lt;&lt;&quot;NO&quot;;break;
+        case 6:cout&lt;&lt;&quot;YES&quot;;break;
+        case 7:cout&lt;&lt;&quot;NO&quot;;break;
+        default:cout&lt;&lt;&quot;One to Seven,plase.&quot;;
+        
+    &#125;
+&#125; 
+</code></pre>
+<br>
+
+<p>2.骑车与走路【1.4编程基础之逻辑表达式与条件分支12】<br>    在清华校园里，没有自行车，上课办事会很不方便。但实际上。并非去办任何事情都是骑车快,因为骑车总要找车、开锁、停车、锁车等,这要耽误一些时间。假设找到自行车，开锁并车上自行车的时间为27秒；停车锁车的时间为23秒；步行每秒行走1.2米，骑车每秒行走3.0米。请判断走不同的距离去办事,是骑车快还是走路快。如果骑车快，输出一行”Bike”；如果走路快，输出一行”Walk”；如果一样快，输出一行”All”。 输入:<br>    输入一行，包含一个整数，表示一次办事要行走的距离,单位为米。 输出:<br>    输出一行,如果骑车快,输出一行”Bike”;如果走路快,输出一行”Walk”;如果一样快,输出一行”All”。 样例输入:<br>    120 样例输出:<br>    Bike</p>
+<br>
+
+<pre><code>#include&lt;iostream&gt;
+using namespace std;
+/*
+设路程x m 
+自行车：x/3+50
+走路:x/1.2
+x/3+50 = x/1.2
+x=100
+x&gt;100,自行车快
+x&lt;100,走路快
+x==100，一样 
+*/
+
+int main()
+&#123;
+    int x;
+    cin&gt;&gt;x;
+    switch(x%100) //当x=100时 
+    &#123;
+        case 0:cout&lt;&lt;&quot;All&quot;;break;  //等于100时，求余为0，速度一样 
+        default:switch(x/100) //x小于100时为0，走路快 
+                &#123;
+                    case 0:cout&lt;&lt;&quot;Walk&quot;;break;
+                    default:cout&lt;&lt;&quot;Bike&quot;; 
+                &#125;
+    &#125; 
+&#125;
+</code></pre>
+<br>
+
+<p>3.分段函数【1.4编程基础之逻辑表达式与条件分支13】<br>    编写程序，计算下列分段函数y&#x3D;f(x)的值。结果保留到小数点后三位。<br>     y&#x3D;-x+2.5;           0&lt;&#x3D;x&lt;5<br>     y&#x3D;2-1.5(x-3)(x-3);  5&lt;&#x3D;x&lt;10<br>     y&#x3D;x&#x2F;2-1.5;         10&lt;&#x3D;x&lt;20 输入:<br>    一个浮点数N，0 &lt;&#x3D; N &lt; 20。 输出:<br>    输出N对应的分段函数值：f(N)。结果保留到小数点后三位。 样例输入:<br>    1.0 样例输出:<br>    1.500</p>
+<br>
+
+<pre><code>/*
+浮点，float 
+y=-x+2.5;0&lt;=x&lt;5;
+
+y=2-1.5(x-3)(x-3);5&lt;=x&lt;10;
+
+y=x/2-1.5;10&lt;x&lt;20
+</code></pre>
+<p>​<br>​    *&#x2F;<br>​<br>    #include<iostream><br>    #include<cstdio><br>    #include<iomanip><br>    using namespace std;<br>    int main()<br>    {<br>        float x,y;<br>        cin&gt;&gt;x;<br>        if ((x&gt;&#x3D;0)&amp;&amp;(x&lt;5))<br>        {<br>            y&#x3D;-x+2.5;<br>            cout&lt;&lt;fixed&lt;&lt;setprecision(3)&lt;&lt;y&lt;&lt;endl;<br>        }<br>        if ((x&gt;&#x3D;5)&amp;&amp;(x&lt;10))<br>        {</p>
+<pre><code>        y=2-1.5*(x-3)*(x-3);
+        cout&lt;&lt;fixed&lt;&lt;setprecision(3)&lt;&lt;y&lt;&lt;endl;
+    &#125;
+    if ((x&gt;=10)&amp;&amp;(x&lt;20))
+    &#123;
+        y=x/2-1.5;
+        cout&lt;&lt;fixed&lt;&lt;setprecision(3)&lt;&lt;y&lt;&lt;endl;
+    &#125;
+&#125;
+</code></pre>
+<br>
+
+<p>4.计算邮资【1.4编程基础之逻辑表达式与条件分支14】<br>    根据邮件的重量和用户是否选择加急计算邮费。计算规则：重量在1000克以内(包括1000克), 基本费8元。超过1000克的部分，每500克加收超重费4元，不足500克部分按500克计算；如果用户选择加急，多收5元。 输入:<br>    输入一行，包含整数和一个字符，以一个空格分开，分别表示重量（单位为克）和是否加急。如果字符是y，说明选择加急；如果字符是n，说明不加急。 输出:<br>    输出一行，包含一个整数，表示邮费。 样例输入:<br>    1200 y 样例输出:<br>    17</p>
+<br>
+
+<pre><code>/*
+
+重量:g,邮费:m ,超重费：h 加急:y 不加急:n 
+g&lt;=1000,m=8
+g&gt;1000,
+
+cin&gt;&gt;g&gt;&gt;a 
+if a ==&#39;y&#39;
+if a ==&#39;n&#39;
+</code></pre>
+<p>​<br>​    *&#x2F;<br>​<br>    #include<iostream><br>    using namespace std;<br>    int main()<br>    {<br>        int g,m,h;<br>        char a;<br>        cin&gt;&gt;g&gt;&gt;a;<br>        if (a&#x3D;&#x3D;’y’)<br>        {<br>            if ((g&lt;&#x3D;1000)&amp;&amp;(g&gt;0))  &#x2F;&#x2F;小于1000大于0<br>            {<br>            m &#x3D; 5+8;<br>            cout&lt;&lt;m&lt;&lt;endl;<br>            }<br>            if (g&gt;1000)<br>            {</p>
+<pre><code>            if ((g-1000)%500==0) //如1500,2000这些刚好能被500整除，求余为0 
+            &#123;
+                h=4*((g-1000)/500); // 能被整数，所以除以500后乘4即可 
+                m=5+8+h;
+                cout&lt;&lt;m&lt;&lt;endl;
+            &#125;
+            else
+            &#123;
+                h=4*(((g-1000)/500)+1);
+                m=5+8+h;
+                cout&lt;&lt;m&lt;&lt;endl;
+            &#125;
+        &#125;
+    &#125;
+    if (a==&#39;n&#39;)
+    &#123;
+        if ((g&lt;=1000)&amp;&amp;(g&gt;0)) cout&lt;&lt;8&lt;&lt;endl;
+        if (g&gt;=1000)
+        &#123;
+            if ((g-1000)%500==0)
+            &#123;
+                h=4*((g-1000)/500);
+                m=8+h;
+                cout&lt;&lt;m&lt;&lt;endl;
+            &#125;
+            else
+            &#123;
+                h=4*(((g-1000)/500)+1);
+                m=8+h;
+                cout&lt;&lt;m&lt;&lt;endl;
+            &#125;
+        &#125;
+    &#125;
+&#125;
+</code></pre>
+<br>
+
+<p>5.最大数输出【1.4编程基础之逻辑表达式与条件分支15】<br>     输入三个整数，数与数之间以一个空格分开。 输出一个整数，即最大的整数。 输入:<br>    输入为一行，包含三个整数，数与数之间以一个空格分开。 输出:<br>    输出一行，包含一个整数，即最大的整数。 样例输入:<br>    10 20 56 样例输出:<br>    56</p>
+<br>
+
+<pre><code>#include&lt;iostream&gt;
+using namespace std;
+int main()
+&#123;
+    int a,b,c;
+    cin&gt;&gt;a&gt;&gt;b&gt;&gt;c;
+    if (a&gt;b) //假设a&gt;b 
+    &#123;
+        a = a&gt;c? a:c; //a与b比较，a较大，再将a与c比较，较大的赋值给a，a便为最大值 
+        cout&lt;&lt;a&lt;&lt;endl;
+        
+    &#125;
+    else //b为a,b中较大的一个 
+    &#123;
+        b = b&gt;c? b:c; //b,c比较，较大赋值给b，b为max 
+        cout&lt;&lt;b&lt;&lt;endl;
+    &#125;
+&#125; 
+</code></pre>
+<br>
+
+<p>6.三角形判断【1.4编程基础之逻辑表达式与条件分支16】<br>    给定三个正整数，分别表示三条线段的长度，判断这三条线段能否构成一个三角形。如果能构成三角形，则输出“yes”，否则输出“no”。 输入:<br>    输入共一行，包含三个正整数，分别表示三条线段的长度，数与数之间以一个空格分开。 输出:<br>    如果能构成三角形，则输出“yes” ，否则输出“no”。 样例输入:<br>    3 4 5 样例输出:<br>    yes</p>
+<br>
+
+<pre><code>/*
+a+b&gt;c
+a+c&gt;b
+b+c&gt;a
+*/
+
+#include&lt;iostream&gt;
+using namespace std;
+int main()
+&#123;
+    int a,b,c;
+    cin&gt;&gt;a&gt;&gt;b&gt;&gt;c;
+    if ((a+b&gt;c)&amp;&amp;(a+c&gt;b)&amp;&amp;(b+c&gt;a))
+        cout&lt;&lt;&quot;yes&quot;;
+    else
+        cout&lt;&lt;&quot;no&quot;; 
+&#125;
+</code></pre>
+<br>
+
+<p>7.判断闰年【1.4编程基础之逻辑表达式与条件分支17】<br>    判断某年是否是闰年。如果公元a年是闰年输出Y，否则输出N。 输入:<br>    输入只有一行，包含一个整数a(0 &lt; a &lt; 3000)。 输出:<br>     一行，如果公元a年是闰年输出Y，否则输出N。 样例输入:<br>    2006 样例输出:<br>    N</p>
+<br>
+
+<pre><code>/*
+
+凡阳历中有闰日（2月为29日）的年，闰余（岁余置闰。阴历每年与回归年相比所差的时日）。
+
+普通闰年：公历年份是4的倍数的，且不是100的倍数，为普通闰年（如2004年、2020年就是闰年）。
+世纪闰年：公历年份是整百数的，必须是400的倍数才是世纪闰年（如1900年不是世纪闰年，2000年是世纪闰年）。
+
+年份a
+
+if a%4 ==0 &amp;&amp; a%100 !=0 yes
+if a%100 == 0 &amp;&amp; a%400 == 0 yes 
+
+*/
+
+#include&lt;iostream&gt;
+using namespace std;
+int main()
+&#123;
+    int x;
+    cin&gt;&gt;x;
+    if (x%4==0) //判断能否被4整除 
+    &#123;
+        if (x%100!=0) //判断是否为100的倍数 
+            cout&lt;&lt;&quot;yes&quot;; //此时，x能被4整除，不能被100整除，普通闰年 
+        else //此时，x能被4整除，能被100整除 且4与100同为偶数，在上一个if下写else即可 
+            if(x%400==0) //能被100整除，能被400整除，世纪闰年 
+                cout&lt;&lt;&quot;yes&quot;;
+            else //能被100整除，不能被400整除 
+                cout&lt;&lt;&quot;no&quot;;
+    &#125;
+&#125;
+</code></pre>
+<br>
+
+<p>8.点和正方形的关系【1.4编程基础之逻辑表达式与条件分支18】<br>    有一个正方形，四个角的坐标（x,y)分别是(1，-1)，(1，1)，(-1，-1)，(-1，1)，x是横轴，y是纵轴。写一个程序，判断一个给定的点是否在这个正方形内(包括正方形边界)。如果点在正方形内，则输出yes，否则输出no。 输入:<br>    输入一行，包括两个整数x、y，以一个空格分开，表示坐标(x,y)。 输出:<br>    输出一行，如果点在正方形内，则输出yes，否则输出no。 样例输入:<br>    1 1 样例输出:<br>    yes</p>
+<br>
+
+<pre><code>/*
+
+x&gt;=-1 &amp;&amp; x&lt;=1 &amp;&amp; y&gt;=-1 &amp;&amp; y&lt;=1
+
+*/
+
+#include&lt;iostream&gt;
+using namespace std;
+int main()
+&#123;
+    int x,y;
+    cin&gt;&gt;x&gt;&gt;y;
+    if ((x&gt;=-1)&amp;&amp;(x&lt;=1)&amp;&amp;(y&gt;=-1)&amp;&amp;(y&lt;=1))
+        cout&lt;&lt;&quot;yes&quot;;
+    else
+        cout&lt;&lt;&quot;no&quot;;
+&#125;
+</code></pre>
+<br>
+
+<p>9.简单计算器【1.4编程基础之逻辑表达式与条件分支19】<br>    一个最简单的计算器，支持+, -, *, &#x2F; 四种运算。仅需考虑输入输出为整数的情况，数据和运算结果不会超过int表示的范围。然而：<br>    1. 如果出现除数为0的情况，则输出：Divided by zero!<br>    2. 如果出现无效的操作符(即不为 +, -, <em>, &#x2F; 之一），则输出：Invalid operator! 输入:<br>    输入只有一行，共有三个参数，其中第1、2个参数为整数，第3个参数为操作符（+,-,</em>,&#x2F;）。 输出:<br>    输出只有一行，一个整数，为运算结果。然而：<br>    1.如果出现除数为0的情况，则输出：Divided by zero!<br>    2.如果出现无效的操作符(即不为 +, -, *, &#x2F; 之一），则输出：Invalid operator! 样例输入:<br>    1 2 + 样例输出<br>    3</p>
+<br>
+
+<pre><code>/*
+
++ - * /
+char a
+
+switch(a)
+
+case +
+case - 
+case *
+case / 
+&#123;
+if b==0
+&#125;
+default  
+
+int a,b
+
+*/
+
+#include&lt;iostream&gt;
+using namespace std;
+int main()
+&#123;
+    char c;
+    int a,b;
+    cin&gt;&gt;a&gt;&gt;b&gt;&gt;c;
+    switch(c)
+    &#123;
+        case &#39;+&#39;:cout&lt;&lt;a+b;break;
+        case &#39;-&#39;:cout&lt;&lt;a-b;break;
+        case &#39;*&#39;:cout&lt;&lt;a*b;break;
+        case &#39;/&#39;:
+            &#123;
+                if (b==0)
+                    cout&lt;&lt;&quot;Divided by zero!&quot;;
+                else
+                &#123;
+                    cout&lt;&lt;a/b; 
+                &#125;
+            &#125;
+        default:cout&lt;&lt;&quot;operator!&quot;;
+    &#125;
+&#125;
+</code></pre>
+<br>
+
+<p>10.求一元二次方程【1.4编程基础之逻辑表达式与条件分支20】<br>    利用公式x1 &#x3D; (-b + sqrt(b<em>b-4</em>a<em>c))&#x2F;(2</em>a)，x2 &#x3D; (-b - sqrt(b<em>b-4</em>a<em>c))&#x2F;(2</em>a)，求一元二次方程ax2+ bx + c &#x3D;0的根，其中a不等于0。结果要求精确到小数点后5位。 输入:<br>    输入一行，包含三个浮点数a, b, c（它们之间以一个空格分开），分别表示方程ax2 + bx + c &#x3D;0的系数。 输出:<br>    输出一行，表示方程的解。<br>    若两个实根相等，则输出形式为：x1&#x3D;x2&#x3D;…。<br>    若两个实根不等，则输出形式为：x1&#x3D;…;x2 &#x3D; …，其中x1若是两个虚根，则输出：x1&#x3D;实部+虚部i; x2&#x3D;实部-虚部i，其中x1,x2满足以下两个条件中的一个：<br>    1.x1的实部大于x2的实部<br>    2.x1的实部等于x2的实部且x1的虚部大于等于x2的虚部<br>    所有实数部分要求精确到小数点后5位，数字、符号之间没有空格。 样例输入:<br>    1.0 2.0 8.0 样例输出:<br>    x1&#x3D;-1.00000+2.64575i;x2&#x3D;-1.00000-2.64575i</p>
+<br>
+
+<pre><code>/*
+
+x1=(-b+sqrt(b*b-4*a*c))/(2*a)
+x2=(-b-sqrt(b*b-4*a*c))/(2*a)
+
+求：ax2+bx+c = 0 的根  a!=0 结果精确到小数点后五位
+
+float a,b,c
+
+if x1 == x2 
+if x1!= x2
+
+*/
+
+/*
+
+天真的孩子
+ 
+#include&lt;iostream&gt;
+#include&lt;math.h&gt;
+#include&lt;iomanip&gt;
+using namespace std;
+int main()
+&#123;
+    float a,b,c;
+    cin&gt;&gt;a&gt;&gt;b&gt;&gt;c;
+    a=(-b+sqrt(b*b-4*a*c))/(2-a);
+    b=(-b-sqrt(b*b-4*a*c))/(2*a);
+    if (a==b)
+        cout&lt;&lt;&quot;x1=x2=&quot;&lt;&lt;fixed&lt;&lt;setprecision(5)&lt;&lt;a;
+    else
+        cout&lt;&lt;&quot;x1=&quot;&lt;&lt;a&lt;&lt;&quot;x2=&quot;&lt;&lt;fixed&lt;&lt;setprecision(5)&lt;&lt;b;
+&#125;
+
+*/
+
+/*
+
+Δ= b^2-4*a*c 
+</code></pre>
+<p>​<br>​    b<em>b &#x3D;&#x3D; 4</em>a<em>c 即 Δ &#x3D;&#x3D; 0 ，此时两个实根相等 x1&#x3D;x2&#x3D;(-b+sqrt(b</em>b-4<em>a</em>c))&#x2F;(2<em>a)<br>​    b</em>b !&#x3D; 4<em>a</em>c<br>​    if b<em>b &gt;4</em>a<em>c 即 Δ &gt; 0<br>​    		x1 &#x3D; (-b+sqrt(b</em>b-4<em>a</em>c))&#x2F;(2<em>a)<br>​    		x2 &#x3D; (-b-sqrt(b</em>b-4<em>a</em>c))&#x2F;(2<em>a)<br>​    		<br>    if b</em>b &lt;4<em>a</em>c 即 Δ&lt;0 无实数根 有虚跟<br>     m &#x3D; -b&#x2F;(2<em>a) 求实部<br>     n &#x3D;sprt(4</em>a<em>c-b</em>b)&#x2F;(2<em>a） 求虚部<br>     x1&#x3D;cout&lt;&lt;fixed&lt;&lt;setprecision(5)&lt;&lt;m+n</em>i<br>     x2&#x3D;cout&lt;&lt;fixed&lt;&lt;setprecision(5)&lt;&lt;m-n*i</p>
+<p>​<br>​<br>​    if b^2 &#x3D;&#x3D; 4<em>a</em>c<br>​    	x1&#x3D;x2&#x3D;(-b+sqrt(b<em>b-4</em>a<em>c))&#x2F;(2</em>a)<br>​    else<br>​    	if b^2 &gt;4<em>a</em>c<br>​    		x1 &#x3D; (-b+sqrt(b<em>b-4</em>a<em>c))&#x2F;(2</em>a)<br>​    		x2 &#x3D; (-b-sqrt(b<em>b-4</em>a<em>c))&#x2F;(2</em>a)<br>​    		else<br>​    			x1 &#x3D; -b&#x2F;(2<em>a) 求实部<br>​    			x2 &#x3D;sprt(4</em>a<em>c-b</em>b)&#x2F;(2*a） 求虚部</p>
+<p>​<br>​<br>​<br>​    *&#x2F;</p>
+<p>​<br>​    #include<iostream><br>​    #include&lt;math.h&gt;<br>​    #include&lt;stdio.h&gt;<br>​    #include<iomanip><br>​    using namespace std;<br>​    int main()<br>​    {<br>​    	float a,b,c,d,e,x1,x2;<br>​    	cin&gt;&gt;a&gt;&gt;b&gt;&gt;c;<br>​    	if (b<em>b&#x3D;&#x3D;4</em>a<em>c)<br>​    		{<br>​    			d&#x3D;b</em>b-4<em>a</em>c;<br>​    			e&#x3D;sqrt(d);<br>​    			x1 &#x3D; (-b +e&#x2F;(2<em>a));<br>​    			cout&lt;&lt;”x1&#x3D;x2&#x3D;”&lt;&lt;x1;<br>​    		}<br>​    	else<br>​    		{<br>​    			if(b*b &gt;4</em>a<em>c)<br>​    				{<br>​    					x1&#x3D;(-b + e)&#x2F;(2</em>a);<br>​    					x2&#x3D;(-b - e)&#x2F;(2*a);<br>​    					cout&lt;&lt;”x1&#x3D;”&lt;&lt;x1&lt;&lt;”,x2&#x3D;”&lt;&lt;x2;<br>​    				}<br>​    			else<br>​    				{<br>​    					x1 &#x3D; -b&#x2F;(2*a); &#x2F;&#x2F;求实部<br>​    					x2 &#x3D; sqrt((4*a*c)-(b*b))&#x2F;(2*a); &#x2F;&#x2F;求虚部<br>​    					printf(“x1&#x3D;%0.5f+%0.5fi;x2&#x3D;%0.5f-%0.5fi”,x1,x2,x1,x2);<br>​    					<br>                    }<br>            }<br>    }<br><br><br><br></p>
+<hr>
+<p>最后一个，虚根那边还是有点没搞懂，没动脑子在做来着。<br>醒来后再研究吧，2021年1月2日02:17:31</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://taoyifan.cn/2021/01/01/%E7%99%BD%E4%B9%A6%E4%B9%A0%E4%B8%80.switch%E8%AF%AD%E5%8F%A5/" data-id="clcyzi4uc004c56af7zkhgmy0" data-title="白书习一.switch语句" class="article-share-link">Share</a>
+      
+      
+      
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/2021/01/02/%E7%99%BD%E4%B9%A6%E4%B9%A0%E8%AE%B0%E4%B8%80.%E6%B1%82%E4%B8%80%E5%85%83%E4%BA%8C%E6%AC%A1%E6%96%B9%E7%A8%8B%E6%A0%B9/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          白书习记一.求一元二次方程根
+        
+      </div>
+    </a>
+  
+  
+    <a href="/2021/01/01/%E7%99%BD%E4%B9%A6%E5%BF%97%E4%BA%8C.switch%E8%AF%AD%E5%8F%A5/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">白书志二.switch语句</div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+
+  
+    
+
+  
+    
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2023/01/">January 2023</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2021/04/">April 2021</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2021/02/">February 2021</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2021/01/">January 2021</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/12/">December 2020</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/08/">August 2020</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/05/">May 2020</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/04/">April 2020</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/03/">March 2020</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/02/">February 2020</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/01/">January 2020</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2023/01/16/hello-world/">Hello World</a>
+          </li>
+        
+          <li>
+            <a href="/2023/01/16/hello-world-1/">hello,world</a>
+          </li>
+        
+          <li>
+            <a href="/2021/04/04/%E7%99%BD%E4%B9%A6%E5%BF%97%E5%85%AD.%E4%B8%80%E7%BB%B4%E6%95%B0%E7%BB%84/">白书志六.一维数组</a>
+          </li>
+        
+          <li>
+            <a href="/2021/04/02/%E7%A2%8E%E7%A2%8E%E5%BF%B5/">碎碎念</a>
+          </li>
+        
+          <li>
+            <a href="/2021/02/19/%E7%99%BD%E4%B9%A6%E5%BF%97%E4%BA%94.do-while%E8%AF%AD%E5%8F%A5/">白书志五.do-while语句</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      
+      &copy; 2023 taoyifan<br>
+      Powered by <a href="https://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+
+<script src="/js/jquery-3.4.1.min.js"></script>
+
+
+
+  
+<script src="/fancybox/jquery.fancybox.min.js"></script>
+
+
+
+
+<script src="/js/script.js"></script>
+
+
+
+
+
+  </div>
+</body>
+</html>

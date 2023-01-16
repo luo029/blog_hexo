@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  
+  <title>An interesting experience abot SSL. | taoyifan</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="What’s past is prologue.">
+<meta property="og:type" content="article">
+<meta property="og:title" content="An interesting experience abot SSL.">
+<meta property="og:url" content="https://taoyifan.cn/2020/02/25/An%20interesting%20experience%20abot%20SSL./index.html">
+<meta property="og:site_name" content="taoyifan">
+<meta property="og:description" content="What’s past is prologue.">
+<meta property="og:locale">
+<meta property="article:published_time" content="2020-02-24T23:52:00.000Z">
+<meta property="article:modified_time" content="2023-01-16T15:26:14.127Z">
+<meta property="article:author" content="taoyifan">
+<meta name="twitter:card" content="summary">
+  
+    <link rel="alternate" href="/atom.xml" title="taoyifan" type="application/atom+xml">
+  
+  
+    <link rel="shortcut icon" href="/favicon.png">
+  
+  
+    
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/typeface-source-code-pro@0.0.71/index.min.css">
+
+  
+  
+<link rel="stylesheet" href="/css/style.css">
+
+  
+    
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.min.css">
+
+  
+<meta name="generator" content="Hexo 6.3.0"></head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">taoyifan</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="https://taoyifan.cn"></form>
+      </div>
+    </div>
+  </div>
+</header>
+
+      <div class="outer">
+        <section id="main"><article id="post-An interesting experience abot SSL." class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2020/02/25/An%20interesting%20experience%20abot%20SSL./" class="article-date">
+  <time class="dt-published" datetime="2020-02-24T23:52:00.000Z" itemprop="datePublished">2020-02-25</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="p-name article-title" itemprop="headline name">
+      An interesting experience abot SSL.
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <p>What’s past is prologue.</p>
+<span id="more"></span>
+
+<p>啧<br>下面的不用看了<br>失败了啧。<br>卡在<code>No TXT Record Found. Make to set the TTL to 1 second or if you cannot set the TTL then you must wait the TTL (in seconds) so it updates before verifying the domain. Contact your DNS provider if unsure.</code>这里了<br>估摸着是我这个已经申请了ssl证书的锅<br>但是我感觉不太阔能<br>唔。<br>还可能是我申请的是二级域名的锅<br>算了就这样吧。<br>二级域名不捣鼓了啧。<br>懒得去申请了主要是：D<br>腾讯云那边应该是可以申请的。<br>本想用免费的但是申请不了┓(???&#96;?)┏<br><del>明明看我组某沙同学就可以的来着(╯‵□′)╯︵┻━┻</del></p>
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p><del>给你的网站来个安全套</del><br>咳咳<br>一步步截图，申请个ssl证书.jpg<br>也算是记录下个人折腾过程吧<br><del>啧作业还没写完(╯‵□′)╯︵┻━┻</del><br>因为喜欢，所以折腾<br>是么hh<br>咳。<br>然后这次我准备申请ssl证书的域名是<code>i.wansz.xyz</code><br><del>输入域名的时候搜狗输入法莫名其妙给我换了个皮肤啧</del><br><del>不过换了的还挺好看的话说咳咳，独角兽蓝色的hh</del><br><del>当然现在换回来了咳咳</del><br>然后这个域名是图床<br><del>别想了私有图床hhh</del></p>
+<hr>
+<h3 id="准备"><a href="#准备" class="headerlink" title="准备"></a>准备</h3><p>网站：<a target="_blank" rel="noopener" href="https://www.sslforfree.com/">https://www.sslforfree.com/</a><br>域名：XXX</p>
+<hr>
+<h3 id="申请"><a href="#申请" class="headerlink" title="申请"></a>申请</h3><p>首先是打开网站，然后输入自己的域名。</p>
+<p>完成后点击<code>Create Free SSL Certificate</code>，进入下一步。<br>这边一共有三个选项。<br>用Google翻译了下。<br>第一个是<code>自动FTP验证</code>-输入FTP信息自动验证域名<br>第二个是<code>手动验证</code>-手动上传核查文件到域名来验证域名所有权<br>第三个是<code>手动验证（DNS）</code>-<code>添加TXT记录在DNS服务器来完成验证</code></p>
+<p>我选择的是第三个<br>选择后然后点击<code>Retry Manual Verification</code><br>之后会给你一个<code>TXT记录</code></p>
+<p>因为我的域名是在<code>阿里云</code>买的，所以就以阿里云为例：D<br>其他云的话是差不多的&#x3D; &#x3D;</p>
+<p>在云控制台找到自己的域名，点击<code>解析</code></p>
+<p>然后选择<code>添加记录</code><br><code>记录类型</code>为<code>TXT</code><br><code>主机记录</code>为图中的①，直接复制粘贴过去即可，网站给你的那个<br><code>记录值</code>为图中的②，网站给你的那个&#x3D; &#x3D;<br><code>TTL</code>为<code>10分钟</code></p>
+<p>上面这些捣鼓好了之后，返回网站<br>然后点击<code>Verify _acme-challenge.XXXX</code><br>然后因为<code>TTL</code>设置的是<code>十分钟</code>，所以需要耐心等待十分钟<br>如果可以设置<code>1秒</code>的话是允许设置<code>1秒</code>的<br><del>阿里云最少十分钟我能咋办(╯‵□′)╯︵┻━┻</del><br>若是出现<code>No TXT Record Found. Make to set the TTL to 1 second or if you cannot set the TTL then you must wait the TTL (in seconds) so it updates before verifying the domain. Contact your DNS provider if unsure.</code><br>字样的话，慢慢等吧：D<br>或者调下TTL时间，最少就行。</p>
+<p>一定要先验证一下是否解析是否生效，然后再选择下载ssl证书！切记！<br><del>别问我怎么知道的，得，又一个十分钟，写作业吧(╯‵□′)╯︵┻━┻</del></p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://taoyifan.cn/2020/02/25/An%20interesting%20experience%20abot%20SSL./" data-id="clcyzi4s6000256afffk4dq31" data-title="An interesting experience abot SSL." class="article-share-link">Share</a>
+      
+      
+      
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/2020/02/25/%E6%8D%A3%E9%BC%93%E4%BA%86%E4%B8%AA%E6%96%B0%E7%9A%84404%E9%A1%B5%E9%9D%A2/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          捣鼓了个新的404页面
+        
+      </div>
+    </a>
+  
+  
+    <a href="/2020/02/25/%E6%8D%A3%E9%BC%93%E4%BA%86%E4%B8%8Bsitemap,%E5%8F%91%E7%8E%B0%E4%B8%AA%E5%85%8D%E8%B4%B9%E7%94%B3%E8%AF%B7ssl%E7%BD%91%E7%AB%99/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">捣鼓了下sitemap,发现个免费申请ssl网站</div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+
+  
+    
+
+  
+    
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2023/01/">January 2023</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2021/04/">April 2021</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2021/02/">February 2021</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2021/01/">January 2021</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/12/">December 2020</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/08/">August 2020</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/05/">May 2020</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/04/">April 2020</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/03/">March 2020</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/02/">February 2020</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/01/">January 2020</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2023/01/16/hello-world/">Hello World</a>
+          </li>
+        
+          <li>
+            <a href="/2023/01/16/hello-world-1/">hello,world</a>
+          </li>
+        
+          <li>
+            <a href="/2021/04/04/%E7%99%BD%E4%B9%A6%E5%BF%97%E5%85%AD.%E4%B8%80%E7%BB%B4%E6%95%B0%E7%BB%84/">白书志六.一维数组</a>
+          </li>
+        
+          <li>
+            <a href="/2021/04/02/%E7%A2%8E%E7%A2%8E%E5%BF%B5/">碎碎念</a>
+          </li>
+        
+          <li>
+            <a href="/2021/02/19/%E7%99%BD%E4%B9%A6%E5%BF%97%E4%BA%94.do-while%E8%AF%AD%E5%8F%A5/">白书志五.do-while语句</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      
+      &copy; 2023 taoyifan<br>
+      Powered by <a href="https://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+
+<script src="/js/jquery-3.4.1.min.js"></script>
+
+
+
+  
+<script src="/fancybox/jquery.fancybox.min.js"></script>
+
+
+
+
+<script src="/js/script.js"></script>
+
+
+
+
+
+  </div>
+</body>
+</html>

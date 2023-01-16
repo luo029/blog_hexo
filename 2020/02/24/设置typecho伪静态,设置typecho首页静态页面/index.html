@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  
+  <title>设置typecho伪静态,设置typecho首页静态页面 | taoyifan</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="What’s past is prologue.">
+<meta property="og:type" content="article">
+<meta property="og:title" content="设置typecho伪静态,设置typecho首页静态页面">
+<meta property="og:url" content="https://taoyifan.cn/2020/02/24/%E8%AE%BE%E7%BD%AEtypecho%E4%BC%AA%E9%9D%99%E6%80%81,%E8%AE%BE%E7%BD%AEtypecho%E9%A6%96%E9%A1%B5%E9%9D%99%E6%80%81%E9%A1%B5%E9%9D%A2/index.html">
+<meta property="og:site_name" content="taoyifan">
+<meta property="og:description" content="What’s past is prologue.">
+<meta property="og:locale">
+<meta property="og:image" content="https://buyao.mobi/i/2020/02/25/nfrtz3.png">
+<meta property="article:published_time" content="2020-02-24T08:08:00.000Z">
+<meta property="article:modified_time" content="2023-01-16T15:36:02.888Z">
+<meta property="article:author" content="taoyifan">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://buyao.mobi/i/2020/02/25/nfrtz3.png">
+  
+    <link rel="alternate" href="/atom.xml" title="taoyifan" type="application/atom+xml">
+  
+  
+    <link rel="shortcut icon" href="/favicon.png">
+  
+  
+    
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/typeface-source-code-pro@0.0.71/index.min.css">
+
+  
+  
+<link rel="stylesheet" href="/css/style.css">
+
+  
+    
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.min.css">
+
+  
+<meta name="generator" content="Hexo 6.3.0"></head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">taoyifan</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="https://taoyifan.cn"></form>
+      </div>
+    </div>
+  </div>
+</header>
+
+      <div class="outer">
+        <section id="main"><article id="post-设置typecho伪静态,设置typecho首页静态页面" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2020/02/24/%E8%AE%BE%E7%BD%AEtypecho%E4%BC%AA%E9%9D%99%E6%80%81,%E8%AE%BE%E7%BD%AEtypecho%E9%A6%96%E9%A1%B5%E9%9D%99%E6%80%81%E9%A1%B5%E9%9D%A2/" class="article-date">
+  <time class="dt-published" datetime="2020-02-24T08:08:00.000Z" itemprop="datePublished">2020-02-24</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="p-name article-title" itemprop="headline name">
+      设置typecho伪静态,设置typecho首页静态页面
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <p>What’s past is prologue.</p>
+<span id="more"></span>
+
+<h3 id="设置typecho伪静态"><a href="#设置typecho伪静态" class="headerlink" title="设置typecho伪静态"></a>设置typecho伪静态</h3><h4 id="什么是伪静态？"><a href="#什么是伪静态？" class="headerlink" title="什么是伪静态？"></a>什么是伪静态？</h4><blockquote>
+<p>伪静态是相对真实静态来讲的，通常我们为了增强搜索引擎的友好面，都将文章内容生成静态页面，但是有的朋友为了实时的显示一些信息。或者还想运用动态脚本解决一些问题。不能用静态的方式来展示网站内容。但是这就损失了对搜索引擎的友好面。怎么样在两者之间找个中间方法呢，这就产生了伪静态技术。伪静态技术是指展示出来的是以html一类的静态页面形式，但其实是用ASP一类的动态脚本来处理的。</p>
+</blockquote>
+<p>简单来说<br>以域名<code>wansz.xyz</code>为例<br>如果用这个域名搭建博客的话<br>点击一篇文章<br>域名应该是<code>wansz.xyz/index.php/325</code><br>而设置了<code>伪静态</code><br>点击一篇文章<br>域名应该是<code>wansz.xyz/325.html</code><br>影响，唔，不大<br>但是缩短了一点，很简介，且有些人不是会看<code>index.php</code>不顺眼的嘛owo</p>
+<h4 id="如何设置？"><a href="#如何设置？" class="headerlink" title="如何设置？"></a>如何设置？</h4><p>参照了下这篇文章：<a target="_blank" rel="noopener" href="https://blog.csdn.net/yiferhuang/article/details/86473209">https://blog.csdn.net/yiferhuang/article/details/86473209</a></p>
+<p>首先在你的<code>程序根目录</code>创建一个<code>文件</code><br>文件名为<code>.htaccess</code><br>（有<code>.</code>不要忘记了，以及没有后缀，就是这么一个名字<br>（话说<code>.htaccess</code>就是后缀来着#run<br>（如果不知道<code>程序根目录</code>在哪里的话，唔，你看看你程序的<code>index.php</code>在哪里，<code>.htaccess</code>文件就放在哪里</p>
+<p>然后在<code>.htaccess</code>文件中放入以下代码</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">&lt;IfModule mod_rewrite.c&gt;</span><br><span class="line">RewriteEngine On</span><br><span class="line"># 下面是在根目录，文件夹要修改路径</span><br><span class="line">RewriteBase /</span><br><span class="line">RewriteCond %&#123;REQUEST_FILENAME&#125; !-f</span><br><span class="line">RewriteCond %&#123;REQUEST_FILENAME&#125; !-d</span><br><span class="line">RewriteRule ^(.*)$ /index.php/$1 [L]</span><br><span class="line">&lt;/IfModule&gt;</span><br></pre></td></tr></table></figure>
+<p>直接cv过去就好，不需要修改什么</p>
+<p>（针对<code>Apache</code>服务器而言是这样子的<br>（其他的话，我没有搞懂，因为我已经配置成功了就没去看其他例子<br>（我直接cv下好了，防止丢失</p>
+<p>Linux Apache环境（Nginx）</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">location / &#123;</span><br><span class="line">index index.html index.php;</span><br><span class="line">if (-f $request_filename/index.html) &#123;</span><br><span class="line">rewrite (.*) $1/index.html break;</span><br><span class="line">&#125;</span><br><span class="line">if (-f $request_filename/index.php) &#123;</span><br><span class="line">rewrite (.*) $1/index.php;</span><br><span class="line">&#125;</span><br><span class="line">if (!-f $request_filename) &#123;</span><br><span class="line">rewrite (.*) /index.php;</span><br><span class="line">&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>Windows IIS伪静态(httpd.ini)</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br></pre></td><td class="code"><pre><span class="line">[ISAPI_Rewrite]</span><br><span class="line"># 3600 = 1 hour</span><br><span class="line">CacheClockRate 3600</span><br><span class="line">RepeatLimit 32</span><br><span class="line"># 中文tag解决</span><br><span class="line">RewriteRule /tag/(.*) /index\.php\?tag=$1</span><br><span class="line"># sitemapxml</span><br><span class="line">RewriteRule /sitemap.xml /sitemap.xml [L]</span><br><span class="line">RewriteRule /favicon.ico /favicon.ico [L]</span><br><span class="line"># 内容页</span><br><span class="line">RewriteRule /(.*).html /index.php/$1.html [L]</span><br><span class="line"># 评论</span><br><span class="line">RewriteRule /(.*)/comment /index.php/$1/comment [L]</span><br><span class="line"># 分类页</span><br><span class="line">RewriteRule /category/(.*) /index.php/category/$1 [L]</span><br><span class="line"># 分页</span><br><span class="line">RewriteRule /page/(.*) /index.php/page/$1 [L]</span><br><span class="line"># 搜索页</span><br><span class="line">RewriteRule /search/(.*) /index.php/search/$1 [L]</span><br><span class="line"># feed</span><br><span class="line">RewriteRule /feed/(.*) /index.php/feed/$1 [L]</span><br><span class="line"># 日期归档</span><br><span class="line">RewriteRule /2(.*) /index.php/2$1 [L]</span><br><span class="line"># 上传图片等</span><br><span class="line">RewriteRule /action(.*) /index.php/action$1 [L]</span><br></pre></td></tr></table></figure>
+
+<h4 id="配置完后如何在typecho后台设置？"><a href="#配置完后如何在typecho后台设置？" class="headerlink" title="配置完后如何在typecho后台设置？"></a>配置完后如何在typecho后台设置？</h4><ul>
+<li>进入<code>后台</code></li>
+<li><code>设置</code>-<code>永久链接</code></li>
+<li><code>是否使用地址重写功能</code>选择<code>启用</code>，<code>自定义文章路径</code>选择<code>除第一个（默认风格）之外的任意一个</code></li>
+<li>保存设置</li>
+</ul>
+<p>（可能会提示<code>失败，是否要强制设置</code>什么的，不用管，选择<code>强制设置</code>就行了<br>（大概就这么个意思，忘了：D</p>
+<hr>
+<h3 id="设置typecho首页静态页面"><a href="#设置typecho首页静态页面" class="headerlink" title="设置typecho首页静态页面"></a>设置typecho首页静态页面</h3><p>来源：<a target="_blank" rel="noopener" href="https://itlu.org/articles/1857.html">https://itlu.org/articles/1857.html</a></p>
+<h4 id="新建文件"><a href="#新建文件" class="headerlink" title="新建文件"></a>新建文件</h4><p>新建文件<code>f5.php</code><br>放在<code>软件根目录</code>（即<code>index.php</code>所在的目录</p>
+<h4 id="放入代码"><a href="#放入代码" class="headerlink" title="放入代码"></a>放入代码</h4><p>将下列代码放入<code>f5.php</code>中</p>
+<figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;?php</span></span><br><span class="line"><span class="variable">$nowtime</span>=<span class="title function_ invoke__">time</span>();</span><br><span class="line"><span class="variable">$pastsec</span> = <span class="variable">$nowtime</span> - <span class="variable">$_GET</span>[<span class="string">&quot;t&quot;</span>];</span><br><span class="line"><span class="keyword">if</span>(<span class="variable">$pastsec</span>&lt;<span class="number">600</span>)</span><br><span class="line">&#123;</span><br><span class="line"><span class="keyword">exit</span>; <span class="comment">//10分钟更新一次，时间可以自己调整</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="title function_ invoke__">ob_start</span>(); <span class="comment">//打开缓冲区</span></span><br><span class="line"><span class="keyword">include</span>(<span class="string">&quot;index.php&quot;</span>);</span><br><span class="line"><span class="variable">$content</span> = <span class="title function_ invoke__">ob_get_contents</span>(); <span class="comment">//得到缓冲区的内容</span></span><br><span class="line"><span class="variable">$content</span> .= <span class="string">&quot;\n&lt;script language=javascript src=\&quot;f5.php?t=&quot;</span>.<span class="variable">$nowtime</span>.<span class="string">&quot;\&quot;&gt;&lt;/script&gt;&quot;</span>; <span class="comment">//加上调用更新程序的代码</span></span><br><span class="line"></span><br><span class="line"><span class="title function_ invoke__">file_put_contents</span>(<span class="string">&quot;index.html&quot;</span>,<span class="variable">$content</span>);</span><br><span class="line"><span class="keyword">if</span> (!<span class="title function_ invoke__">function_exists</span>(<span class="string">&quot;file_put_contents&quot;</span>))</span><br><span class="line">&#123;</span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">file_put_contents</span>(<span class="params"><span class="variable">$fn</span>,<span class="variable">$fs</span></span>)</span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line"><span class="variable">$fp</span>=<span class="title function_ invoke__">fopen</span>(<span class="variable">$fn</span>,<span class="string">&quot;w+&quot;</span>);</span><br><span class="line"><span class="title function_ invoke__">fputs</span>(<span class="variable">$fp</span>,<span class="variable">$fs</span>);</span><br><span class="line"><span class="title function_ invoke__">fclose</span>(<span class="variable">$fp</span>);  </span><br><span class="line">&#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="meta">?&gt;</span></span><br></pre></td></tr></table></figure>
+
+<h4 id="设置"><a href="#设置" class="headerlink" title="设置"></a>设置</h4><p>放入代码之后，在浏览器中打开<code>域名/f5.php</code><br>如我的网站是<code>wansz.xyz</code>，那么我应该打开的是<code>wansz.xyz/f5.php</code><br>打开后你看到的依旧是<code>首页</code>，且将会有一个<code>index.heml</code>文件在软件根目录生成。<br><code>刷新</code>，<code>重新进入</code>网站（不用进入<code>域名/f5.php</code>）<br><code>右键</code>页面，<code>查看网页源代码</code>&#x2F;<code>审查元素</code>都可以<br>若是末尾有出现<br><code>&lt;script language=javascript ……&quot;&gt;&lt;/script&gt;</code><br>即成功<br>即说明你访问的是“index.html”页面</p>
+<h4 id="补充"><a href="#补充" class="headerlink" title="补充"></a>补充</h4><p>若是<code>index.html</code>生成成功，末尾却没有出现<br><code>&lt;script language=javascript ……&quot;&gt;&lt;/script&gt;</code><br>可能是程序默认访问<code>index.php</code>的权限比<code>index.html</code>高。</p>
+<p><code>宝塔</code>的话在<code>站点修改</code>中的<code>默认文档</code>中<br>将<code>index.html</code>放在<code>index.php</code>上面即可</p>
+<p><code>cPanel</code>的话在<code>.heaccess</code>中添加代码<code>DirectoryIndex index.html index.php index.htm</code>然后保存即可。<br>（可以放在文档最上面，任意位置。</p>
+<h4 id="后话"><a href="#后话" class="headerlink" title="后话"></a>后话</h4><p>唔。<br>设置typecho首页静态页面那个<br>刚刚发现你发布文章的话是不能第一时间显示的<br>原因是这个：</p>
+<figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">if</span>(<span class="variable">$pastsec</span>&lt;<span class="number">600</span>)</span><br><span class="line">&#123;</span><br><span class="line"><span class="keyword">exit</span>; <span class="comment">//10分钟更新一次，时间可以自己调整</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>代码里的时间是，你想要刷新的时间（分钟）*60&#x3D;填写的时间<br>（填写的是<code>秒</code>计的：D<br>我觉得太慢了就设置了一分钟刷新一次，然后代码是这样子的：</p>
+<figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">if</span>(<span class="variable">$pastsec</span>&lt;<span class="number">60</span>)</span><br><span class="line">&#123;</span><br><span class="line"><span class="keyword">exit</span>; <span class="comment">//1分钟更新一次，时间可以自己调整</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>（修改了后没有改的话可以试试重新生成下<code>index.html</code>文件</p>
+<hr>
+<p><img src="https://buyao.mobi/i/2020/02/25/nfrtz3.png"><br><del>(小媳妇受欺负语气哈哈哈哈哈哈哈哈哈哈哈</del><br>应某沙强烈要求，补上图片hhhh<br>感谢我方<a target="_blank" rel="noopener" href="http://crash-logs.ml/">幻沙</a>同学。<br>也是，他最先提出来，然后我问他是不是捣鼓了伪静态&#x3D; &#x3D;<br>然后他说是，然后我就向他取了下<del>精</del>，经<br>也的确在我捣鼓的时候给我了一些帮助<br>行吧：D<br>(╯‵□′)╯︵┻━┻<br>咳，嘘。</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://taoyifan.cn/2020/02/24/%E8%AE%BE%E7%BD%AEtypecho%E4%BC%AA%E9%9D%99%E6%80%81,%E8%AE%BE%E7%BD%AEtypecho%E9%A6%96%E9%A1%B5%E9%9D%99%E6%80%81%E9%A1%B5%E9%9D%A2/" data-id="clcyzi4uq005756afc96g03zs" data-title="设置typecho伪静态,设置typecho首页静态页面" class="article-share-link">Share</a>
+      
+      
+      
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/2020/02/24/%E4%BA%8C%E5%8D%81%E5%85%AB/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          二十八
+        
+      </div>
+    </a>
+  
+  
+    <a href="/2020/02/23/%E6%98%BE%E7%A4%BA%E5%8A%A0%E8%BD%BD%E6%96%87%E7%AB%A0%E6%89%80%E6%B6%88%E8%80%97%E7%9A%84%E6%97%B6%E9%97%B4/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">显示加载文章所消耗的时间</div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+
+  
+    
+
+  
+    
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2023/01/">January 2023</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2021/04/">April 2021</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2021/02/">February 2021</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2021/01/">January 2021</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/12/">December 2020</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/08/">August 2020</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/05/">May 2020</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/04/">April 2020</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/03/">March 2020</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/02/">February 2020</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/01/">January 2020</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2023/01/16/hello-world/">Hello World</a>
+          </li>
+        
+          <li>
+            <a href="/2023/01/16/hello-world-1/">hello,world</a>
+          </li>
+        
+          <li>
+            <a href="/2021/04/04/%E7%99%BD%E4%B9%A6%E5%BF%97%E5%85%AD.%E4%B8%80%E7%BB%B4%E6%95%B0%E7%BB%84/">白书志六.一维数组</a>
+          </li>
+        
+          <li>
+            <a href="/2021/04/02/%E7%A2%8E%E7%A2%8E%E5%BF%B5/">碎碎念</a>
+          </li>
+        
+          <li>
+            <a href="/2021/02/19/%E7%99%BD%E4%B9%A6%E5%BF%97%E4%BA%94.do-while%E8%AF%AD%E5%8F%A5/">白书志五.do-while语句</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      
+      &copy; 2023 taoyifan<br>
+      Powered by <a href="https://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+
+<script src="/js/jquery-3.4.1.min.js"></script>
+
+
+
+  
+<script src="/fancybox/jquery.fancybox.min.js"></script>
+
+
+
+
+<script src="/js/script.js"></script>
+
+
+
+
+
+  </div>
+</body>
+</html>

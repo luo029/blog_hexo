@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  
+  <title>阅读次数统计,代码高亮 | taoyifan</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="What’s past is prologue.">
+<meta property="og:type" content="article">
+<meta property="og:title" content="阅读次数统计,代码高亮">
+<meta property="og:url" content="https://taoyifan.cn/2020/02/23/%E9%98%85%E8%AF%BB%E6%AC%A1%E6%95%B0%E7%BB%9F%E8%AE%A1,%E4%BB%A3%E7%A0%81%E9%AB%98%E4%BA%AE/index.html">
+<meta property="og:site_name" content="taoyifan">
+<meta property="og:description" content="What’s past is prologue.">
+<meta property="og:locale">
+<meta property="article:published_time" content="2020-02-23T04:47:00.000Z">
+<meta property="article:modified_time" content="2023-01-16T15:39:29.177Z">
+<meta property="article:author" content="taoyifan">
+<meta name="twitter:card" content="summary">
+  
+    <link rel="alternate" href="/atom.xml" title="taoyifan" type="application/atom+xml">
+  
+  
+    <link rel="shortcut icon" href="/favicon.png">
+  
+  
+    
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/typeface-source-code-pro@0.0.71/index.min.css">
+
+  
+  
+<link rel="stylesheet" href="/css/style.css">
+
+  
+    
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.min.css">
+
+  
+<meta name="generator" content="Hexo 6.3.0"></head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">taoyifan</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="https://taoyifan.cn"></form>
+      </div>
+    </div>
+  </div>
+</header>
+
+      <div class="outer">
+        <section id="main"><article id="post-阅读次数统计,代码高亮" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2020/02/23/%E9%98%85%E8%AF%BB%E6%AC%A1%E6%95%B0%E7%BB%9F%E8%AE%A1,%E4%BB%A3%E7%A0%81%E9%AB%98%E4%BA%AE/" class="article-date">
+  <time class="dt-published" datetime="2020-02-23T04:47:00.000Z" itemprop="datePublished">2020-02-23</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="p-name article-title" itemprop="headline name">
+      阅读次数统计,代码高亮
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <p>What’s past is prologue.</p>
+<span id="more"></span>### 阅读次数统计
+<p><strong>来源：<a target="_blank" rel="noopener" href="https://www.cnblogs.com/outsrkem/p/12182275.html">https://www.cnblogs.com/outsrkem/p/12182275.html</a></strong><br>想着说捣鼓个阅读统计<br>然后搜了下<br>就看到了：D<br>也算是有一点点&#x3D; &#x3D;<br>唔<br>虚荣心作祟是么hhh<br>想看看自己的文章有多少看hh<br>挺有成就感一件事<br>挺开心的：D<br>同时用了cookie验证，真实性会高点2333<br>（想把网站统计从51la换成cnzz了啧，51la用起来不是很顺手样子hh<br>咳。</p>
+<hr>
+<p>首先是将下列代码复制粘贴到外观的<code>functions.php</code>里面</p>
+<figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">Postviews</span>(<span class="params"><span class="variable">$archive</span></span>) </span>&#123;</span><br><span class="line">    <span class="variable">$db</span> = <span class="title class_">Typecho_Db</span>::<span class="title function_ invoke__">get</span>();</span><br><span class="line">    <span class="variable">$cid</span> = <span class="variable">$archive</span>-&gt;cid;</span><br><span class="line">    <span class="keyword">if</span> (!<span class="title function_ invoke__">array_key_exists</span>(<span class="string">&#x27;views&#x27;</span>, <span class="variable">$db</span>-&gt;<span class="title function_ invoke__">fetchRow</span>(<span class="variable">$db</span>-&gt;<span class="title function_ invoke__">select</span>()-&gt;<span class="keyword">from</span>(<span class="string">&#x27;table.contents&#x27;</span>)))) &#123;</span><br><span class="line">        <span class="variable">$db</span>-&gt;<span class="title function_ invoke__">query</span>(<span class="string">&#x27;ALTER TABLE `&#x27;</span>.<span class="variable">$db</span>-&gt;<span class="title function_ invoke__">getPrefix</span>().<span class="string">&#x27;contents` ADD `views` INT(10) DEFAULT 0;&#x27;</span>);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="variable">$exist</span> = <span class="variable">$db</span>-&gt;<span class="title function_ invoke__">fetchRow</span>(<span class="variable">$db</span>-&gt;<span class="title function_ invoke__">select</span>(<span class="string">&#x27;views&#x27;</span>)-&gt;<span class="keyword">from</span>(<span class="string">&#x27;table.contents&#x27;</span>)-&gt;<span class="title function_ invoke__">where</span>(<span class="string">&#x27;cid = ?&#x27;</span>, <span class="variable">$cid</span>))[<span class="string">&#x27;views&#x27;</span>];</span><br><span class="line">    <span class="keyword">if</span> (<span class="variable">$archive</span>-&gt;<span class="title function_ invoke__">is</span>(<span class="string">&#x27;single&#x27;</span>)) &#123;</span><br><span class="line">        <span class="variable">$cookie</span> = <span class="title class_">Typecho_Cookie</span>::<span class="title function_ invoke__">get</span>(<span class="string">&#x27;contents_views&#x27;</span>);</span><br><span class="line">        <span class="variable">$cookie</span> = <span class="variable">$cookie</span> ? <span class="title function_ invoke__">explode</span>(<span class="string">&#x27;,&#x27;</span>, <span class="variable">$cookie</span>) : <span class="keyword">array</span>();</span><br><span class="line">        <span class="keyword">if</span> (!<span class="title function_ invoke__">in_array</span>(<span class="variable">$cid</span>, <span class="variable">$cookie</span>)) &#123;</span><br><span class="line">            <span class="variable">$db</span>-&gt;<span class="title function_ invoke__">query</span>(<span class="variable">$db</span>-&gt;<span class="title function_ invoke__">update</span>(<span class="string">&#x27;table.contents&#x27;</span>)</span><br><span class="line">                -&gt;<span class="title function_ invoke__">rows</span>(<span class="keyword">array</span>(<span class="string">&#x27;views&#x27;</span> =&gt; (<span class="keyword">int</span>)<span class="variable">$exist</span>+<span class="number">1</span>))</span><br><span class="line">                -&gt;<span class="title function_ invoke__">where</span>(<span class="string">&#x27;cid = ?&#x27;</span>, <span class="variable">$cid</span>));</span><br><span class="line">            <span class="variable">$exist</span> = (<span class="keyword">int</span>)<span class="variable">$exist</span>+<span class="number">1</span>;</span><br><span class="line">            <span class="title function_ invoke__">array_push</span>(<span class="variable">$cookie</span>, <span class="variable">$cid</span>);</span><br><span class="line">            <span class="variable">$cookie</span> = <span class="title function_ invoke__">implode</span>(<span class="string">&#x27;,&#x27;</span>, <span class="variable">$cookie</span>);</span><br><span class="line">            <span class="title class_">Typecho_Cookie</span>::<span class="title function_ invoke__">set</span>(<span class="string">&#x27;contents_views&#x27;</span>, <span class="variable">$cookie</span>);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">echo</span> <span class="variable">$exist</span> == <span class="number">0</span> ? <span class="string">&#x27;   暂无阅读&#x27;</span> :<span class="string">&#x27;   阅读量：&#x27;</span> .<span class="variable">$exist</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>然后是在外观的<code>post.php</code>里面加入下列代码</p>
+<figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;?php</span> <span class="title function_ invoke__">Postviews</span>(<span class="variable">$this</span>); <span class="meta">?&gt;</span></span><br></pre></td></tr></table></figure>
+
+<p>其实这个就是调用代码<br>文章页<code>post</code>肯定是要加的：D<br>然后我是直接放到版权说明那边了<br>在需要显示的地方放上这行代码去调用即可<br>阅读次数记录在<code>db._contents.views</code>表中<br>嗯<br>虽然说现在弄这个话其实有点不准确了<br>毕竟之前的都没有统计<br>但是呢，我觉得为时不晚：D<br>有一句话挺有意思的。</p>
+<blockquote>
+<p>种一棵树的最好时间是十年前，其次是现在。——Dambisa Moyo</p>
+</blockquote>
+<hr>
+<h3 id="代码高亮"><a href="#代码高亮" class="headerlink" title="代码高亮"></a>代码高亮</h3><p>通过插件实现<br>插件：<a target="_blank" rel="noopener" href="https://github.com/Xcnte/Code-Prettify-for-typecho">Code-Prettify</a><br>嗯其实也可以用代码实现的似乎<br>但是太懒了<br>老了不愿折腾了是嘛哈哈哈哈哈哈哈<br>咳咳开玩笑<br>直接对主题操刀我有点从心<br>对，是从心，不是怂好吧啧<br>咳。<br>然后这个插件默认提供几款样式，之后又新增了几款mac风格的样式。<br>我这边不知道为什么mac风格怪怪的<br>我现在使用的<code>dark.css</code>样式<br>使用其实挺简单的。<br>安装好插件后记得重命名。<br>不要有<code>-（破折号）</code>即可<br>反正我是直接重命名为<code>CodePrettify</code><br>如果显示<code>sever error</code>可能就是插件名字问题：D，重命名下就好<br>然后调用的话是这样子的：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">/``` xxx(编程语言，如python/java/php……)</span><br><span class="line">code</span><br><span class="line">/```</span><br><span class="line">(使用的时候记得去掉“/”</span><br></pre></td></tr></table></figure>
+<p>没啦~！<br>PS:另外发现代码被挡住了啧，应该是我没配置好的原因。如果被挡住了的话有个简单解决方法就是在<code>插件设置</code>里面<code>取消显示代码行数</code>即可</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://taoyifan.cn/2020/02/23/%E9%98%85%E8%AF%BB%E6%AC%A1%E6%95%B0%E7%BB%9F%E8%AE%A1,%E4%BB%A3%E7%A0%81%E9%AB%98%E4%BA%AE/" data-id="clcyzi4uq005656af56asddnm" data-title="阅读次数统计,代码高亮" class="article-share-link">Share</a>
+      
+      
+      
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/2020/02/23/%E7%BD%91%E7%AB%99%E7%BB%9F%E8%AE%A1%E4%BD%BF%E7%94%A8cnzz/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          网站统计使用cnzz
+        
+      </div>
+    </a>
+  
+  
+    <a href="/2020/02/22/%E4%BA%8C%E5%8D%81%E5%85%AD/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">二十六</div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+
+  
+    
+
+  
+    
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2023/01/">January 2023</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2021/04/">April 2021</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2021/02/">February 2021</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2021/01/">January 2021</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/12/">December 2020</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/08/">August 2020</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/05/">May 2020</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/04/">April 2020</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/03/">March 2020</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/02/">February 2020</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/01/">January 2020</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2023/01/16/hello-world/">Hello World</a>
+          </li>
+        
+          <li>
+            <a href="/2023/01/16/hello-world-1/">hello,world</a>
+          </li>
+        
+          <li>
+            <a href="/2021/04/04/%E7%99%BD%E4%B9%A6%E5%BF%97%E5%85%AD.%E4%B8%80%E7%BB%B4%E6%95%B0%E7%BB%84/">白书志六.一维数组</a>
+          </li>
+        
+          <li>
+            <a href="/2021/04/02/%E7%A2%8E%E7%A2%8E%E5%BF%B5/">碎碎念</a>
+          </li>
+        
+          <li>
+            <a href="/2021/02/19/%E7%99%BD%E4%B9%A6%E5%BF%97%E4%BA%94.do-while%E8%AF%AD%E5%8F%A5/">白书志五.do-while语句</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      
+      &copy; 2023 taoyifan<br>
+      Powered by <a href="https://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+
+<script src="/js/jquery-3.4.1.min.js"></script>
+
+
+
+  
+<script src="/fancybox/jquery.fancybox.min.js"></script>
+
+
+
+
+<script src="/js/script.js"></script>
+
+
+
+
+
+  </div>
+</body>
+</html>
