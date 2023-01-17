@@ -1,0 +1,982 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 6.3.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon.ico">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon.ico">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+  <meta name="google-site-verification" content="google-site-verification=RO7cdH1wcd80G66gnwticAMlWxh2LGLPavVNDZJLD04">
+  <meta name="baidu-site-verification" content="codeva-p8Pp9toxnF">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+
+<script id="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"taoyifan.cn","root":"/","scheme":"Muse","version":"7.8.0","exturl":false,"sidebar":{"position":"right","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":true,"preload":true},"motion":{"enable":false,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
+  </script>
+
+  <meta name="description" content="What&#39;s past is prologue.">
+<meta property="og:type" content="article">
+<meta property="og:title" content="白书习一.switch语句">
+<meta property="og:url" content="https://taoyifan.cn/posts/fce7939f/index.html">
+<meta property="og:site_name" content="taoyifan">
+<meta property="og:description" content="What&#39;s past is prologue.">
+<meta property="og:locale">
+<meta property="article:published_time" content="2021-01-01T10:09:00.000Z">
+<meta property="article:modified_time" content="2023-01-17T17:09:37.418Z">
+<meta property="article:author" content="taoyifan">
+<meta name="twitter:card" content="summary">
+
+<link rel="canonical" href="https://taoyifan.cn/posts/fce7939f/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : false,
+    isPost : true,
+    lang   : 'zh-Hans'
+  };
+</script>
+
+  <title>白书习一.switch语句 | taoyifan</title>
+  
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+<link rel="alternate" href="/atom.xml" title="taoyifan" type="application/atom+xml">
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="Toggle navigation bar">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <h1 class="site-title">taoyifan</h1>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+
+<nav class="site-nav">
+  <ul id="menu" class="main-menu menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>Home</a>
+
+  </li>
+        <li class="menu-item menu-item-about">
+
+    <a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>About</a>
+
+  </li>
+        <li class="menu-item menu-item-tags">
+
+    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>Tags</a>
+
+  </li>
+        <li class="menu-item menu-item-categories">
+
+    <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>Categories</a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>Archives</a>
+
+  </li>
+        <li class="menu-item menu-item-sitemap">
+
+    <a href="/sitemap.xml" rel="section"><i class="fa fa-sitemap fa-fw"></i>Sitemap</a>
+
+  </li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>Search
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off"
+           placeholder="Searching..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div id="search-result">
+  <div id="no-result">
+    <i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+</div>
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+
+          <div class="content post posts-expand">
+            
+
+    
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-Hans">
+    <link itemprop="mainEntityOfPage" href="https://taoyifan.cn/posts/fce7939f/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.png">
+      <meta itemprop="name" content="taoyifan">
+      <meta itemprop="description" content="What is past is prologue.">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="taoyifan">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          白书习一.switch语句
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+
+              <time title="Created: 2021-01-01 18:09:00" itemprop="dateCreated datePublished" datetime="2021-01-01T18:09:00+08:00">2021-01-01</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">Edited on</span>
+                <time title="Modified: 2023-01-18 01:09:37" itemprop="dateModified" datetime="2023-01-18T01:09:37+08:00">2023-01-18</time>
+              </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <p>What's past is prologue.</p>
+<span id="more"></span>
+<p>1.晶晶赴约会【1.4编程基础之逻辑表达式与条件分支11】
+晶晶的朋友贝贝约晶晶下周一起去看展览，但晶晶每周的1、3、5有课必须上课，请帮晶晶判断她能否接受贝贝的邀请，如果能输出YES；如果不能则输出NO。注意YES和NO都是大写字母！
+输入:
+输入有一行，贝贝邀请晶晶去看展览的日期，用数字1到7表示从星期一到星期日。
+输出:
+输出有一行，如果晶晶可以接受贝贝的邀请，输出YES，否则，输出NO。注意YES和NO都是大写字母！
+样例输入: 2 样例输出: YES</p>
+<p><br></p>
+<pre><code>#include&lt;iostream&gt;
+using namespace std;
+int main()
+&#123;
+    int a;
+    cin&gt;&gt;a;
+    switch(a)
+    &#123;
+        case 1:cout&lt;&lt;&quot;NO&quot;;break;
+        case 2:cout&lt;&lt;&quot;YES&quot;;break;
+        case 3:cout&lt;&lt;&quot;NO&quot;;break;
+        case 4:cout&lt;&lt;&quot;YES&quot;;break;
+        case 5:cout&lt;&lt;&quot;NO&quot;;break;
+        case 6:cout&lt;&lt;&quot;YES&quot;;break;
+        case 7:cout&lt;&lt;&quot;NO&quot;;break;
+        default:cout&lt;&lt;&quot;One to Seven,plase.&quot;;
+        
+    &#125;
+&#125; </code></pre>
+<p><br></p>
+<p>2.骑车与走路【1.4编程基础之逻辑表达式与条件分支12】
+在清华校园里，没有自行车，上课办事会很不方便。但实际上。并非去办任何事情都是骑车快,因为骑车总要找车、开锁、停车、锁车等,这要耽误一些时间。假设找到自行车，开锁并车上自行车的时间为27秒；停车锁车的时间为23秒；步行每秒行走1.2米，骑车每秒行走3.0米。请判断走不同的距离去办事,是骑车快还是走路快。如果骑车快，输出一行"Bike"；如果走路快，输出一行"Walk"；如果一样快，输出一行"All"。
+输入: 输入一行，包含一个整数，表示一次办事要行走的距离,单位为米。 输出:
+输出一行,如果骑车快,输出一行"Bike";如果走路快,输出一行"Walk";如果一样快,输出一行"All"。
+样例输入: 120 样例输出: Bike</p>
+<p><br></p>
+<pre><code>#include&lt;iostream&gt;
+using namespace std;
+/*
+设路程x m 
+自行车：x/3+50
+走路:x/1.2
+x/3+50 = x/1.2
+x=100
+x&gt;100,自行车快
+x&lt;100,走路快
+x==100，一样 
+*/
+
+int main()
+&#123;
+    int x;
+    cin&gt;&gt;x;
+    switch(x%100) //当x=100时 
+    &#123;
+        case 0:cout&lt;&lt;&quot;All&quot;;break;  //等于100时，求余为0，速度一样 
+        default:switch(x/100) //x小于100时为0，走路快 
+                &#123;
+                    case 0:cout&lt;&lt;&quot;Walk&quot;;break;
+                    default:cout&lt;&lt;&quot;Bike&quot;; 
+                &#125;
+    &#125; 
+&#125;</code></pre>
+<p><br></p>
+<p>3.分段函数【1.4编程基础之逻辑表达式与条件分支13】
+编写程序，计算下列分段函数y=f(x)的值。结果保留到小数点后三位。 y=-x+2.5;
+0&lt;=x&lt;5 y=2-1.5(x-3)(x-3); 5&lt;=x&lt;10 y=x/2-1.5; 10&lt;=x&lt;20
+输入: 一个浮点数N，0 &lt;= N &lt; 20。 输出:
+输出N对应的分段函数值：f(N)。结果保留到小数点后三位。 样例输入: 1.0
+样例输出: 1.500</p>
+<p><br></p>
+<pre><code>/*
+浮点，float 
+y=-x+2.5;0&lt;=x&lt;5;
+
+y=2-1.5(x-3)(x-3);5&lt;=x&lt;10;
+
+y=x/2-1.5;10&lt;x&lt;20</code></pre>
+<p>​<br />
+​*/ ​<br />
+#include<iostream> #include<cstdio> #include<iomanip> using namespace
+std; int main() { float x,y; cin&gt;&gt;x; if
+((x&gt;=0)&amp;&amp;(x&lt;5)) { y=-x+2.5;
+cout&lt;&lt;fixed&lt;&lt;setprecision(3)&lt;&lt;y&lt;&lt;endl; } if
+((x&gt;=5)&amp;&amp;(x&lt;10)) {</p>
+<pre><code>        y=2-1.5*(x-3)*(x-3);
+        cout&lt;&lt;fixed&lt;&lt;setprecision(3)&lt;&lt;y&lt;&lt;endl;
+    &#125;
+    if ((x&gt;=10)&amp;&amp;(x&lt;20))
+    &#123;
+        y=x/2-1.5;
+        cout&lt;&lt;fixed&lt;&lt;setprecision(3)&lt;&lt;y&lt;&lt;endl;
+    &#125;
+&#125;</code></pre>
+<p><br></p>
+<p>4.计算邮资【1.4编程基础之逻辑表达式与条件分支14】
+根据邮件的重量和用户是否选择加急计算邮费。计算规则：重量在1000克以内(包括1000克),
+基本费8元。超过1000克的部分，每500克加收超重费4元，不足500克部分按500克计算；如果用户选择加急，多收5元。
+输入:
+输入一行，包含整数和一个字符，以一个空格分开，分别表示重量（单位为克）和是否加急。如果字符是y，说明选择加急；如果字符是n，说明不加急。
+输出: 输出一行，包含一个整数，表示邮费。 样例输入: 1200 y 样例输出:
+17</p>
+<p><br></p>
+<pre><code>/*
+
+重量:g,邮费:m ,超重费：h 加急:y 不加急:n 
+g&lt;=1000,m=8
+g&gt;1000,
+
+cin&gt;&gt;g&gt;&gt;a 
+if a ==&#39;y&#39;
+if a ==&#39;n&#39;</code></pre>
+<p>​<br />
+​*/ ​<br />
+#include<iostream> using namespace std; int main() { int g,m,h; char a;
+cin&gt;&gt;g&gt;&gt;a; if (a=='y') { if ((g&lt;=1000)&amp;&amp;(g&gt;0))
+//小于1000大于0 { m = 5+8; cout&lt;&lt;m&lt;&lt;endl; } if (g&gt;1000)
+{</p>
+<pre><code>            if ((g-1000)%500==0) //如1500,2000这些刚好能被500整除，求余为0 
+            &#123;
+                h=4*((g-1000)/500); // 能被整数，所以除以500后乘4即可 
+                m=5+8+h;
+                cout&lt;&lt;m&lt;&lt;endl;
+            &#125;
+            else
+            &#123;
+                h=4*(((g-1000)/500)+1);
+                m=5+8+h;
+                cout&lt;&lt;m&lt;&lt;endl;
+            &#125;
+        &#125;
+    &#125;
+    if (a==&#39;n&#39;)
+    &#123;
+        if ((g&lt;=1000)&amp;&amp;(g&gt;0)) cout&lt;&lt;8&lt;&lt;endl;
+        if (g&gt;=1000)
+        &#123;
+            if ((g-1000)%500==0)
+            &#123;
+                h=4*((g-1000)/500);
+                m=8+h;
+                cout&lt;&lt;m&lt;&lt;endl;
+            &#125;
+            else
+            &#123;
+                h=4*(((g-1000)/500)+1);
+                m=8+h;
+                cout&lt;&lt;m&lt;&lt;endl;
+            &#125;
+        &#125;
+    &#125;
+&#125;</code></pre>
+<p><br></p>
+<p>5.最大数输出【1.4编程基础之逻辑表达式与条件分支15】
+输入三个整数，数与数之间以一个空格分开。 输出一个整数，即最大的整数。
+输入: 输入为一行，包含三个整数，数与数之间以一个空格分开。 输出:
+输出一行，包含一个整数，即最大的整数。 样例输入: 10 20 56 样例输出:
+56</p>
+<p><br></p>
+<pre><code>#include&lt;iostream&gt;
+using namespace std;
+int main()
+&#123;
+    int a,b,c;
+    cin&gt;&gt;a&gt;&gt;b&gt;&gt;c;
+    if (a&gt;b) //假设a&gt;b 
+    &#123;
+        a = a&gt;c? a:c; //a与b比较，a较大，再将a与c比较，较大的赋值给a，a便为最大值 
+        cout&lt;&lt;a&lt;&lt;endl;
+        
+    &#125;
+    else //b为a,b中较大的一个 
+    &#123;
+        b = b&gt;c? b:c; //b,c比较，较大赋值给b，b为max 
+        cout&lt;&lt;b&lt;&lt;endl;
+    &#125;
+&#125; </code></pre>
+<p><br></p>
+<p>6.三角形判断【1.4编程基础之逻辑表达式与条件分支16】
+给定三个正整数，分别表示三条线段的长度，判断这三条线段能否构成一个三角形。如果能构成三角形，则输出“yes”，否则输出“no”。
+输入:
+输入共一行，包含三个正整数，分别表示三条线段的长度，数与数之间以一个空格分开。
+输出: 如果能构成三角形，则输出“yes” ，否则输出“no”。 样例输入: 3 4 5
+样例输出: yes</p>
+<p><br></p>
+<pre><code>/*
+a+b&gt;c
+a+c&gt;b
+b+c&gt;a
+*/
+
+#include&lt;iostream&gt;
+using namespace std;
+int main()
+&#123;
+    int a,b,c;
+    cin&gt;&gt;a&gt;&gt;b&gt;&gt;c;
+    if ((a+b&gt;c)&amp;&amp;(a+c&gt;b)&amp;&amp;(b+c&gt;a))
+        cout&lt;&lt;&quot;yes&quot;;
+    else
+        cout&lt;&lt;&quot;no&quot;; 
+&#125;</code></pre>
+<p><br></p>
+<p>7.判断闰年【1.4编程基础之逻辑表达式与条件分支17】
+判断某年是否是闰年。如果公元a年是闰年输出Y，否则输出N。 输入:
+输入只有一行，包含一个整数a(0 &lt; a &lt; 3000)。 输出:
+一行，如果公元a年是闰年输出Y，否则输出N。 样例输入: 2006 样例输出: N</p>
+<p><br></p>
+<pre><code>/*
+
+凡阳历中有闰日（2月为29日）的年，闰余（岁余置闰。阴历每年与回归年相比所差的时日）。
+
+普通闰年：公历年份是4的倍数的，且不是100的倍数，为普通闰年（如2004年、2020年就是闰年）。
+世纪闰年：公历年份是整百数的，必须是400的倍数才是世纪闰年（如1900年不是世纪闰年，2000年是世纪闰年）。
+
+年份a
+
+if a%4 ==0 &amp;&amp; a%100 !=0 yes
+if a%100 == 0 &amp;&amp; a%400 == 0 yes 
+
+*/
+
+#include&lt;iostream&gt;
+using namespace std;
+int main()
+&#123;
+    int x;
+    cin&gt;&gt;x;
+    if (x%4==0) //判断能否被4整除 
+    &#123;
+        if (x%100!=0) //判断是否为100的倍数 
+            cout&lt;&lt;&quot;yes&quot;; //此时，x能被4整除，不能被100整除，普通闰年 
+        else //此时，x能被4整除，能被100整除 且4与100同为偶数，在上一个if下写else即可 
+            if(x%400==0) //能被100整除，能被400整除，世纪闰年 
+                cout&lt;&lt;&quot;yes&quot;;
+            else //能被100整除，不能被400整除 
+                cout&lt;&lt;&quot;no&quot;;
+    &#125;
+&#125;</code></pre>
+<p><br></p>
+<p>8.点和正方形的关系【1.4编程基础之逻辑表达式与条件分支18】
+有一个正方形，四个角的坐标（x,y)分别是(1，-1)，(1，1)，(-1，-1)，(-1，1)，x是横轴，y是纵轴。写一个程序，判断一个给定的点是否在这个正方形内(包括正方形边界)。如果点在正方形内，则输出yes，否则输出no。
+输入: 输入一行，包括两个整数x、y，以一个空格分开，表示坐标(x,y)。 输出:
+输出一行，如果点在正方形内，则输出yes，否则输出no。 样例输入: 1 1
+样例输出: yes</p>
+<p><br></p>
+<pre><code>/*
+
+x&gt;=-1 &amp;&amp; x&lt;=1 &amp;&amp; y&gt;=-1 &amp;&amp; y&lt;=1
+
+*/
+
+#include&lt;iostream&gt;
+using namespace std;
+int main()
+&#123;
+    int x,y;
+    cin&gt;&gt;x&gt;&gt;y;
+    if ((x&gt;=-1)&amp;&amp;(x&lt;=1)&amp;&amp;(y&gt;=-1)&amp;&amp;(y&lt;=1))
+        cout&lt;&lt;&quot;yes&quot;;
+    else
+        cout&lt;&lt;&quot;no&quot;;
+&#125;</code></pre>
+<p><br></p>
+<p>9.简单计算器【1.4编程基础之逻辑表达式与条件分支19】
+一个最简单的计算器，支持+, -, <em>, /
+四种运算。仅需考虑输入输出为整数的情况，数据和运算结果不会超过int表示的范围。然而：
+1. 如果出现除数为0的情况，则输出：Divided by zero! 2.
+如果出现无效的操作符(即不为 +, -, </em>, / 之一），则输出：Invalid
+operator! 输入:
+输入只有一行，共有三个参数，其中第1、2个参数为整数，第3个参数为操作符（+,-,<em>,/）。
+输出: 输出只有一行，一个整数，为运算结果。然而：
+1.如果出现除数为0的情况，则输出：Divided by zero!
+2.如果出现无效的操作符(即不为 +, -, </em>, / 之一），则输出：Invalid
+operator! 样例输入: 1 2 + 样例输出 3</p>
+<p><br></p>
+<pre><code>/*
+
++ - * /
+char a
+
+switch(a)
+
+case +
+case - 
+case *
+case / 
+&#123;
+if b==0
+&#125;
+default  
+
+int a,b
+
+*/
+
+#include&lt;iostream&gt;
+using namespace std;
+int main()
+&#123;
+    char c;
+    int a,b;
+    cin&gt;&gt;a&gt;&gt;b&gt;&gt;c;
+    switch(c)
+    &#123;
+        case &#39;+&#39;:cout&lt;&lt;a+b;break;
+        case &#39;-&#39;:cout&lt;&lt;a-b;break;
+        case &#39;*&#39;:cout&lt;&lt;a*b;break;
+        case &#39;/&#39;:
+            &#123;
+                if (b==0)
+                    cout&lt;&lt;&quot;Divided by zero!&quot;;
+                else
+                &#123;
+                    cout&lt;&lt;a/b; 
+                &#125;
+            &#125;
+        default:cout&lt;&lt;&quot;operator!&quot;;
+    &#125;
+&#125;</code></pre>
+<p><br></p>
+<p>10.求一元二次方程【1.4编程基础之逻辑表达式与条件分支20】 利用公式x1 =
+(-b + sqrt(b<em>b-4</em>a<em>c))/(2</em>a)，x2 = (-b -
+sqrt(b<em>b-4</em>a<em>c))/(2</em>a)，求一元二次方程ax2+ bx + c
+=0的根，其中a不等于0。结果要求精确到小数点后5位。 输入:
+输入一行，包含三个浮点数a, b,
+c（它们之间以一个空格分开），分别表示方程ax2 + bx + c =0的系数。 输出:
+输出一行，表示方程的解。 若两个实根相等，则输出形式为：x1=x2=...。
+若两个实根不等，则输出形式为：x1=...;x2 =
+...，其中x1若是两个虚根，则输出：x1=实部+虚部i;
+x2=实部-虚部i，其中x1,x2满足以下两个条件中的一个：
+1.x1的实部大于x2的实部 2.x1的实部等于x2的实部且x1的虚部大于等于x2的虚部
+所有实数部分要求精确到小数点后5位，数字、符号之间没有空格。 样例输入:
+1.0 2.0 8.0 样例输出: x1=-1.00000+2.64575i;x2=-1.00000-2.64575i</p>
+<p><br></p>
+<pre><code>/*
+
+x1=(-b+sqrt(b*b-4*a*c))/(2*a)
+x2=(-b-sqrt(b*b-4*a*c))/(2*a)
+
+求：ax2+bx+c = 0 的根  a!=0 结果精确到小数点后五位
+
+float a,b,c
+
+if x1 == x2 
+if x1!= x2
+
+*/
+
+/*
+
+天真的孩子
+ 
+#include&lt;iostream&gt;
+#include&lt;math.h&gt;
+#include&lt;iomanip&gt;
+using namespace std;
+int main()
+&#123;
+    float a,b,c;
+    cin&gt;&gt;a&gt;&gt;b&gt;&gt;c;
+    a=(-b+sqrt(b*b-4*a*c))/(2-a);
+    b=(-b-sqrt(b*b-4*a*c))/(2*a);
+    if (a==b)
+        cout&lt;&lt;&quot;x1=x2=&quot;&lt;&lt;fixed&lt;&lt;setprecision(5)&lt;&lt;a;
+    else
+        cout&lt;&lt;&quot;x1=&quot;&lt;&lt;a&lt;&lt;&quot;x2=&quot;&lt;&lt;fixed&lt;&lt;setprecision(5)&lt;&lt;b;
+&#125;
+
+*/
+
+/*
+
+Δ= b^2-4*a*c </code></pre>
+<p>​<br />
+​b<em>b == 4</em>a<em>c 即 Δ == 0 ，此时两个实根相等
+x1=x2=(-b+sqrt(b</em>b-4<em>a</em>c))/(2<em>a) ​ b</em>b != 4<em>a</em>c ​
+if b<em>b &gt;4</em>a<em>c 即 Δ &gt; 0 ​ x1 =
+(-b+sqrt(b</em>b-4<em>a</em>c))/(2<em>a) ​ x2 =
+(-b-sqrt(b</em>b-4<em>a</em>c))/(2<em>a) ​<br />
+if b</em>b &lt;4<em>a</em>c 即 Δ&lt;0 无实数根 有虚跟 m = -b/(2<em>a)
+求实部 n =sprt(4</em>a<em>c-b</em>b)/(2<em>a） 求虚部
+x1=cout&lt;&lt;fixed&lt;&lt;setprecision(5)&lt;&lt;m+n</em>i
+x2=cout&lt;&lt;fixed&lt;&lt;setprecision(5)&lt;&lt;m-n*i</p>
+<p>​<br />
+​<br />
+​if b^2 == 4<em>a</em>c ​ x1=x2=(-b+sqrt(b<em>b-4</em>a<em>c))/(2</em>a) ​
+else ​ if b^2 &gt;4<em>a</em>c ​ x1 =
+(-b+sqrt(b<em>b-4</em>a<em>c))/(2</em>a) ​ x2 =
+(-b-sqrt(b<em>b-4</em>a<em>c))/(2</em>a) ​ else ​ x1 = -b/(2<em>a) 求实部 ​
+x2 =sprt(4</em>a<em>c-b</em>b)/(2*a） 求虚部</p>
+<p>​<br />
+​<br />
+​<br />
+​*/</p>
+<p>​<br />
+​#include<iostream> ​ #include&lt;math.h&gt; ​ #include&lt;stdio.h&gt; ​
+#include<iomanip> ​ using namespace std; ​ int main() ​ { ​ float
+a,b,c,d,e,x1,x2; ​ cin&gt;&gt;a&gt;&gt;b&gt;&gt;c; ​ if
+(b<em>b==4</em>a<em>c) ​ { ​ d=b</em>b-4<em>a</em>c; ​ e=sqrt(d); ​ x1 = (-b
++e/(2<em>a)); ​ cout&lt;&lt;"x1=x2="&lt;&lt;x1; ​ } ​ else ​ { ​ if(b</em>b
+&gt;4<em>a</em>c) ​ { ​ x1=(-b + e)/(2<em>a); ​ x2=(-b - e)/(2</em>a); ​
+cout&lt;&lt;"x1="&lt;&lt;x1&lt;&lt;",x2="&lt;&lt;x2; ​ } ​ else ​ { ​ x1 =
+-b/(2<em>a); //求实部 ​ x2 = sqrt((4</em>a<em>c)-(b</em>b))/(2*a);
+//求虚部 ​ printf("x1=%0.5f+%0.5fi;x2=%0.5f-%0.5fi",x1,x2,x1,x2); ​<br />
+} } } <br> <br></p>
+<hr />
+<p>最后一个，虚根那边还是有点没搞懂，没动脑子在做来着。
+醒来后再研究吧，2021年1月2日02:17:31</p>
+
+    </div>
+
+    
+    
+    
+        <div class="reward-container">
+  <div></div>
+  <button onclick="var qr = document.getElementById('qr'); qr.style.display = (qr.style.display === 'none') ? 'block' : 'none';">
+    Donate
+  </button>
+  <div id="qr" style="display: none;">
+      
+      <div style="display: inline-block;">
+        <img src="/images/wechatpay.png" alt="taoyifan WeChat Pay">
+        <p>WeChat Pay</p>
+      </div>
+      
+      <div style="display: inline-block;">
+        <img src="/images/alipay.png" alt="taoyifan Alipay">
+        <p>Alipay</p>
+      </div>
+
+  </div>
+</div>
+
+
+      <footer class="post-footer">
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/posts/be6a5832/" rel="prev" title="白书志二.switch语句">
+      <i class="fa fa-chevron-left"></i> 白书志二.switch语句
+    </a></div>
+      <div class="post-nav-item">
+    <a href="/posts/c60ac6b4/" rel="next" title="白书习记一.求一元二次方程根">
+      白书习记一.求一元二次方程根 <i class="fa fa-chevron-right"></i>
+    </a></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
+  
+
+
+
+          </div>
+          
+    
+  
+  <div class="comments">
+    <script src="https://giscus.app/client.js"
+        data-repo="luo029/blog_comments" 
+        data-repo-id="R_kgDOIysbVQ" 
+        data-category="Announcements"
+        data-category-id="DIC_kwDOIysbVc4CTpNt"
+        data-mapping="pathname" 
+        data-reactions-enabled="1" 
+        data-emit-metadata="0" 
+        data-theme="light"
+        data-lang="zh-CN"
+        crossorigin="anonymous"
+        data-input-position="bottom"
+        data-loading="lazy"
+        async>
+    </script>
+  </div>
+  
+  
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          Table of Contents
+        </li>
+        <li class="sidebar-nav-overview">
+          Overview
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="taoyifan"
+      src="/images/avatar.png">
+  <p class="site-author-name" itemprop="name">taoyifan</p>
+  <div class="site-description" itemprop="description">What is past is prologue.</div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">205</span>
+          <span class="site-state-item-name">posts</span>
+        </a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author motion-element">
+      <span class="links-of-author-item">
+        <a href="https://github.com/luo029" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;luo029" rel="noopener" target="_blank"><i class="fab fa-github fa-fw"></i>GitHub</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="mailto:i@taoyifan.cn" title="E-Mail → mailto:i@taoyifan.cn"><i class="fab fa-envelope fa-fw"></i>E-Mail</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://t.me/luo029" title="Telegram → https:&#x2F;&#x2F;t.me&#x2F;luo029" rel="noopener" target="_blank"><i class="fab fa-telegram fa-fw"></i>Telegram</a>
+      </span>
+  </div>
+
+
+
+      </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+        
+
+<div class="copyright">
+  
+  &copy; 2019 – 
+  <span itemprop="copyrightYear">2023</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">taoyifan</span>
+</div>
+  <div class="powered-by">Powered by <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://muse.theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Muse</a>
+  </div>
+
+        
+
+
+
+
+
+
+
+
+      </div>
+    </footer>
+  </div>
+
+  
+  <script src="/lib/anime.min.js"></script>
+  <script src="/lib/pjax/pjax.min.js"></script>
+
+<script src="/js/utils.js"></script>
+
+
+<script src="/js/schemes/muse.js"></script>
+
+
+<script src="/js/next-boot.js"></script>
+
+  <script>
+var pjax = new Pjax({
+  selectors: [
+    'head title',
+    '#page-configurations',
+    '.content-wrap',
+    '.post-toc-wrap',
+    '.languages',
+    '#pjax'
+  ],
+  switches: {
+    '.post-toc-wrap': Pjax.switches.innerHTML
+  },
+  analytics: false,
+  cacheBust: false,
+  scrollTo : !CONFIG.bookmark.enable
+});
+
+window.addEventListener('pjax:success', () => {
+  document.querySelectorAll('script[data-pjax], script#page-configurations, #pjax script').forEach(element => {
+    var code = element.text || element.textContent || element.innerHTML || '';
+    var parent = element.parentNode;
+    parent.removeChild(element);
+    var script = document.createElement('script');
+    if (element.id) {
+      script.id = element.id;
+    }
+    if (element.className) {
+      script.className = element.className;
+    }
+    if (element.type) {
+      script.type = element.type;
+    }
+    if (element.src) {
+      script.src = element.src;
+      // Force synchronous loading of peripheral JS.
+      script.async = false;
+    }
+    if (element.dataset.pjax !== undefined) {
+      script.dataset.pjax = '';
+    }
+    if (code !== '') {
+      script.appendChild(document.createTextNode(code));
+    }
+    parent.appendChild(script);
+  });
+  NexT.boot.refresh();
+  // Define Motion Sequence & Bootstrap Motion.
+  if (CONFIG.motion.enable) {
+    NexT.motion.integrator
+      .init()
+      .add(NexT.motion.middleWares.subMenu)
+      .add(NexT.motion.middleWares.postList)
+      .bootstrap();
+  }
+  NexT.utils.updateSidebarPosition();
+});
+</script>
+
+
+
+
+  
+  <script data-pjax>
+    (function(){
+      var canonicalURL, curProtocol;
+      //Get the <link> tag
+      var x=document.getElementsByTagName("link");
+		//Find the last canonical URL
+		if(x.length > 0){
+			for (i=0;i<x.length;i++){
+				if(x[i].rel.toLowerCase() == 'canonical' && x[i].href){
+					canonicalURL=x[i].href;
+				}
+			}
+		}
+    //Get protocol
+	    if (!canonicalURL){
+	    	curProtocol = window.location.protocol.split(':')[0];
+	    }
+	    else{
+	    	curProtocol = canonicalURL.split(':')[0];
+	    }
+      //Get current URL if the canonical URL does not exist
+	    if (!canonicalURL) canonicalURL = window.location.href;
+	    //Assign script content. Replace current URL with the canonical URL
+      !function(){var e=/([http|https]:\/\/[a-zA-Z0-9\_\.]+\.baidu\.com)/gi,r=canonicalURL,t=document.referrer;if(!e.test(r)){var n=(String(curProtocol).toLowerCase() === 'https')?"https://sp0.baidu.com/9_Q4simg2RQJ8t7jm9iCKT-xh_/s.gif":"//api.share.baidu.com/s.gif";t?(n+="?r="+encodeURIComponent(document.referrer),r&&(n+="&l="+r)):r&&(n+="?l="+r);var i=new Image;i.src=n}}(window);})();
+  </script>
+
+
+
+
+  
+<script src="/js/local-search.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div id="pjax">
+  
+
+  
+
+  
+
+    </div>
+</body>
+</html>

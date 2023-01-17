@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 6.3.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon.ico">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon.ico">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+  <meta name="google-site-verification" content="google-site-verification=RO7cdH1wcd80G66gnwticAMlWxh2LGLPavVNDZJLD04">
+  <meta name="baidu-site-verification" content="codeva-p8Pp9toxnF">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+
+<script id="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"taoyifan.cn","root":"/","scheme":"Muse","version":"7.8.0","exturl":false,"sidebar":{"position":"right","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":true,"preload":true},"motion":{"enable":false,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
+  </script>
+
+  <meta name="description" content="What&#39;s past is prologue.">
+<meta property="og:type" content="article">
+<meta property="og:title" content="设置typecho伪静态,设置typecho首页静态页面">
+<meta property="og:url" content="https://taoyifan.cn/posts/f0cbd505/index.html">
+<meta property="og:site_name" content="taoyifan">
+<meta property="og:description" content="What&#39;s past is prologue.">
+<meta property="og:locale">
+<meta property="og:image" content="https://buyao.mobi/i/2020/02/25/nfrtz3.png">
+<meta property="article:published_time" content="2020-02-24T08:08:00.000Z">
+<meta property="article:modified_time" content="2023-01-17T17:09:37.438Z">
+<meta property="article:author" content="taoyifan">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://buyao.mobi/i/2020/02/25/nfrtz3.png">
+
+<link rel="canonical" href="https://taoyifan.cn/posts/f0cbd505/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : false,
+    isPost : true,
+    lang   : 'zh-Hans'
+  };
+</script>
+
+  <title>设置typecho伪静态,设置typecho首页静态页面 | taoyifan</title>
+  
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+<link rel="alternate" href="/atom.xml" title="taoyifan" type="application/atom+xml">
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="Toggle navigation bar">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <h1 class="site-title">taoyifan</h1>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+
+<nav class="site-nav">
+  <ul id="menu" class="main-menu menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>Home</a>
+
+  </li>
+        <li class="menu-item menu-item-about">
+
+    <a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>About</a>
+
+  </li>
+        <li class="menu-item menu-item-tags">
+
+    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>Tags</a>
+
+  </li>
+        <li class="menu-item menu-item-categories">
+
+    <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>Categories</a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>Archives</a>
+
+  </li>
+        <li class="menu-item menu-item-sitemap">
+
+    <a href="/sitemap.xml" rel="section"><i class="fa fa-sitemap fa-fw"></i>Sitemap</a>
+
+  </li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>Search
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off"
+           placeholder="Searching..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div id="search-result">
+  <div id="no-result">
+    <i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+</div>
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+
+          <div class="content post posts-expand">
+            
+
+    
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-Hans">
+    <link itemprop="mainEntityOfPage" href="https://taoyifan.cn/posts/f0cbd505/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.png">
+      <meta itemprop="name" content="taoyifan">
+      <meta itemprop="description" content="What is past is prologue.">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="taoyifan">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          设置typecho伪静态,设置typecho首页静态页面
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+
+              <time title="Created: 2020-02-24 16:08:00" itemprop="dateCreated datePublished" datetime="2020-02-24T16:08:00+08:00">2020-02-24</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">Edited on</span>
+                <time title="Modified: 2023-01-18 01:09:37" itemprop="dateModified" datetime="2023-01-18T01:09:37+08:00">2023-01-18</time>
+              </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <p>What's past is prologue.</p>
+<span id="more"></span>
+<h3 id="设置typecho伪静态">设置typecho伪静态</h3>
+<h4 id="什么是伪静态">什么是伪静态？</h4>
+<blockquote>
+<p>伪静态是相对真实静态来讲的，通常我们为了增强搜索引擎的友好面，都将文章内容生成静态页面，但是有的朋友为了实时的显示一些信息。或者还想运用动态脚本解决一些问题。不能用静态的方式来展示网站内容。但是这就损失了对搜索引擎的友好面。怎么样在两者之间找个中间方法呢，这就产生了伪静态技术。伪静态技术是指展示出来的是以html一类的静态页面形式，但其实是用ASP一类的动态脚本来处理的。</p>
+</blockquote>
+<p>简单来说 以域名<code>wansz.xyz</code>为例 如果用这个域名搭建博客的话
+点击一篇文章 域名应该是<code>wansz.xyz/index.php/325</code>
+而设置了<code>伪静态</code> 点击一篇文章
+域名应该是<code>wansz.xyz/325.html</code> 影响，唔，不大
+但是缩短了一点，很简介，且有些人不是会看<code>index.php</code>不顺眼的嘛owo</p>
+<h4 id="如何设置">如何设置？</h4>
+<p>参照了下这篇文章：https://blog.csdn.net/yiferhuang/article/details/86473209</p>
+<p>首先在你的<code>程序根目录</code>创建一个<code>文件</code>
+文件名为<code>.htaccess</code>
+（有<code>.</code>不要忘记了，以及没有后缀，就是这么一个名字
+（话说<code>.htaccess</code>就是后缀来着#run
+（如果不知道<code>程序根目录</code>在哪里的话，唔，你看看你程序的<code>index.php</code>在哪里，<code>.htaccess</code>文件就放在哪里</p>
+<p>然后在<code>.htaccess</code>文件中放入以下代码 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">&lt;IfModule mod_rewrite.c&gt;</span><br><span class="line">RewriteEngine On</span><br><span class="line"># 下面是在根目录，文件夹要修改路径</span><br><span class="line">RewriteBase /</span><br><span class="line">RewriteCond %&#123;REQUEST_FILENAME&#125; !-f</span><br><span class="line">RewriteCond %&#123;REQUEST_FILENAME&#125; !-d</span><br><span class="line">RewriteRule ^(.*)$ /index.php/$1 [L]</span><br><span class="line">&lt;/IfModule&gt;</span><br></pre></td></tr></table></figure>
+直接cv过去就好，不需要修改什么</p>
+<p>（针对<code>Apache</code>服务器而言是这样子的
+（其他的话，我没有搞懂，因为我已经配置成功了就没去看其他例子
+（我直接cv下好了，防止丢失</p>
+<p>Linux Apache环境（Nginx） <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">location / &#123;</span><br><span class="line">index index.html index.php;</span><br><span class="line">if (-f $request_filename/index.html) &#123;</span><br><span class="line">rewrite (.*) $1/index.html break;</span><br><span class="line">&#125;</span><br><span class="line">if (-f $request_filename/index.php) &#123;</span><br><span class="line">rewrite (.*) $1/index.php;</span><br><span class="line">&#125;</span><br><span class="line">if (!-f $request_filename) &#123;</span><br><span class="line">rewrite (.*) /index.php;</span><br><span class="line">&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
+<p>Windows IIS伪静态(httpd.ini) <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br></pre></td><td class="code"><pre><span class="line">[ISAPI_Rewrite]</span><br><span class="line"># 3600 = 1 hour</span><br><span class="line">CacheClockRate 3600</span><br><span class="line">RepeatLimit 32</span><br><span class="line"># 中文tag解决</span><br><span class="line">RewriteRule /tag/(.*) /index\.php\?tag=$1</span><br><span class="line"># sitemapxml</span><br><span class="line">RewriteRule /sitemap.xml /sitemap.xml [L]</span><br><span class="line">RewriteRule /favicon.ico /favicon.ico [L]</span><br><span class="line"># 内容页</span><br><span class="line">RewriteRule /(.*).html /index.php/$1.html [L]</span><br><span class="line"># 评论</span><br><span class="line">RewriteRule /(.*)/comment /index.php/$1/comment [L]</span><br><span class="line"># 分类页</span><br><span class="line">RewriteRule /category/(.*) /index.php/category/$1 [L]</span><br><span class="line"># 分页</span><br><span class="line">RewriteRule /page/(.*) /index.php/page/$1 [L]</span><br><span class="line"># 搜索页</span><br><span class="line">RewriteRule /search/(.*) /index.php/search/$1 [L]</span><br><span class="line"># feed</span><br><span class="line">RewriteRule /feed/(.*) /index.php/feed/$1 [L]</span><br><span class="line"># 日期归档</span><br><span class="line">RewriteRule /2(.*) /index.php/2$1 [L]</span><br><span class="line"># 上传图片等</span><br><span class="line">RewriteRule /action(.*) /index.php/action$1 [L]</span><br></pre></td></tr></table></figure></p>
+<h4
+id="配置完后如何在typecho后台设置">配置完后如何在typecho后台设置？</h4>
+<ul>
+<li>进入<code>后台</code></li>
+<li><code>设置</code>-<code>永久链接</code></li>
+<li><code>是否使用地址重写功能</code>选择<code>启用</code>，<code>自定义文章路径</code>选择<code>除第一个（默认风格）之外的任意一个</code></li>
+<li>保存设置</li>
+</ul>
+<p>（可能会提示<code>失败，是否要强制设置</code>什么的，不用管，选择<code>强制设置</code>就行了
+（大概就这么个意思，忘了：D</p>
+<hr />
+<h3 id="设置typecho首页静态页面">设置typecho首页静态页面</h3>
+<p>来源：https://itlu.org/articles/1857.html</p>
+<h4 id="新建文件">新建文件</h4>
+<p>新建文件<code>f5.php</code>
+放在<code>软件根目录</code>（即<code>index.php</code>所在的目录</p>
+<h4 id="放入代码">放入代码</h4>
+<p>将下列代码放入<code>f5.php</code>中</p>
+<figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;?php</span></span><br><span class="line"><span class="variable">$nowtime</span>=<span class="title function_ invoke__">time</span>();</span><br><span class="line"><span class="variable">$pastsec</span> = <span class="variable">$nowtime</span> - <span class="variable">$_GET</span>[<span class="string">&quot;t&quot;</span>];</span><br><span class="line"><span class="keyword">if</span>(<span class="variable">$pastsec</span>&lt;<span class="number">600</span>)</span><br><span class="line">&#123;</span><br><span class="line"><span class="keyword">exit</span>; <span class="comment">//10分钟更新一次，时间可以自己调整</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="title function_ invoke__">ob_start</span>(); <span class="comment">//打开缓冲区</span></span><br><span class="line"><span class="keyword">include</span>(<span class="string">&quot;index.php&quot;</span>);</span><br><span class="line"><span class="variable">$content</span> = <span class="title function_ invoke__">ob_get_contents</span>(); <span class="comment">//得到缓冲区的内容</span></span><br><span class="line"><span class="variable">$content</span> .= <span class="string">&quot;\n&lt;script language=javascript src=\&quot;f5.php?t=&quot;</span>.<span class="variable">$nowtime</span>.<span class="string">&quot;\&quot;&gt;&lt;/script&gt;&quot;</span>; <span class="comment">//加上调用更新程序的代码</span></span><br><span class="line"></span><br><span class="line"><span class="title function_ invoke__">file_put_contents</span>(<span class="string">&quot;index.html&quot;</span>,<span class="variable">$content</span>);</span><br><span class="line"><span class="keyword">if</span> (!<span class="title function_ invoke__">function_exists</span>(<span class="string">&quot;file_put_contents&quot;</span>))</span><br><span class="line">&#123;</span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">file_put_contents</span>(<span class="params"><span class="variable">$fn</span>,<span class="variable">$fs</span></span>)</span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line"><span class="variable">$fp</span>=<span class="title function_ invoke__">fopen</span>(<span class="variable">$fn</span>,<span class="string">&quot;w+&quot;</span>);</span><br><span class="line"><span class="title function_ invoke__">fputs</span>(<span class="variable">$fp</span>,<span class="variable">$fs</span>);</span><br><span class="line"><span class="title function_ invoke__">fclose</span>(<span class="variable">$fp</span>);  </span><br><span class="line">&#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="meta">?&gt;</span></span><br></pre></td></tr></table></figure>
+<h4 id="设置">设置</h4>
+<p>放入代码之后，在浏览器中打开<code>域名/f5.php</code>
+如我的网站是<code>wansz.xyz</code>，那么我应该打开的是<code>wansz.xyz/f5.php</code>
+打开后你看到的依旧是<code>首页</code>，且将会有一个<code>index.heml</code>文件在软件根目录生成。
+<code>刷新</code>，<code>重新进入</code>网站（不用进入<code>域名/f5.php</code>）
+<code>右键</code>页面，<code>查看网页源代码</code>/<code>审查元素</code>都可以
+若是末尾有出现
+<code>&lt;script language=javascript ……"&gt;&lt;/script&gt;</code>
+即成功 即说明你访问的是“index.html”页面</p>
+<h4 id="补充">补充</h4>
+<p>若是<code>index.html</code>生成成功，末尾却没有出现
+<code>&lt;script language=javascript ……"&gt;&lt;/script&gt;</code>
+可能是程序默认访问<code>index.php</code>的权限比<code>index.html</code>高。</p>
+<p><code>宝塔</code>的话在<code>站点修改</code>中的<code>默认文档</code>中
+将<code>index.html</code>放在<code>index.php</code>上面即可</p>
+<p><code>cPanel</code>的话在<code>.heaccess</code>中添加代码<code>DirectoryIndex index.html index.php index.htm</code>然后保存即可。
+（可以放在文档最上面，任意位置。</p>
+<h4 id="后话">后话</h4>
+<p>唔。 设置typecho首页静态页面那个
+刚刚发现你发布文章的话是不能第一时间显示的 原因是这个：
+<figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">if</span>(<span class="variable">$pastsec</span>&lt;<span class="number">600</span>)</span><br><span class="line">&#123;</span><br><span class="line"><span class="keyword">exit</span>; <span class="comment">//10分钟更新一次，时间可以自己调整</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
+<p>代码里的时间是，你想要刷新的时间（分钟）*60=填写的时间
+（填写的是<code>秒</code>计的：D
+我觉得太慢了就设置了一分钟刷新一次，然后代码是这样子的：
+<figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">if</span>(<span class="variable">$pastsec</span>&lt;<span class="number">60</span>)</span><br><span class="line">&#123;</span><br><span class="line"><span class="keyword">exit</span>; <span class="comment">//1分钟更新一次，时间可以自己调整</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
+<p>（修改了后没有改的话可以试试重新生成下<code>index.html</code>文件</p>
+<hr />
+<p><img src="https://buyao.mobi/i/2020/02/25/nfrtz3.png" />
+<del>(小媳妇受欺负语气哈哈哈哈哈哈哈哈哈哈哈</del>
+应某沙强烈要求，补上图片hhhh 感谢我方<a
+target="_blank" rel="noopener" href="http://crash-logs.ml/">幻沙</a>同学。
+也是，他最先提出来，然后我问他是不是捣鼓了伪静态= =
+然后他说是，然后我就向他取了下<del>精</del>，经
+也的确在我捣鼓的时候给我了一些帮助 行吧：D (╯‵□′)╯︵┻━┻ 咳，嘘。</p>
+
+    </div>
+
+    
+    
+    
+        <div class="reward-container">
+  <div></div>
+  <button onclick="var qr = document.getElementById('qr'); qr.style.display = (qr.style.display === 'none') ? 'block' : 'none';">
+    Donate
+  </button>
+  <div id="qr" style="display: none;">
+      
+      <div style="display: inline-block;">
+        <img src="/images/wechatpay.png" alt="taoyifan WeChat Pay">
+        <p>WeChat Pay</p>
+      </div>
+      
+      <div style="display: inline-block;">
+        <img src="/images/alipay.png" alt="taoyifan Alipay">
+        <p>Alipay</p>
+      </div>
+
+  </div>
+</div>
+
+
+      <footer class="post-footer">
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/posts/ec4ec64e/" rel="prev" title="显示加载文章所消耗的时间">
+      <i class="fa fa-chevron-left"></i> 显示加载文章所消耗的时间
+    </a></div>
+      <div class="post-nav-item">
+    <a href="/posts/7b90a5c9/" rel="next" title="二十八">
+      二十八 <i class="fa fa-chevron-right"></i>
+    </a></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
+  
+
+
+
+          </div>
+          
+    
+  
+  <div class="comments">
+    <script src="https://giscus.app/client.js"
+        data-repo="luo029/blog_comments" 
+        data-repo-id="R_kgDOIysbVQ" 
+        data-category="Announcements"
+        data-category-id="DIC_kwDOIysbVc4CTpNt"
+        data-mapping="pathname" 
+        data-reactions-enabled="1" 
+        data-emit-metadata="0" 
+        data-theme="light"
+        data-lang="zh-CN"
+        crossorigin="anonymous"
+        data-input-position="bottom"
+        data-loading="lazy"
+        async>
+    </script>
+  </div>
+  
+  
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          Table of Contents
+        </li>
+        <li class="sidebar-nav-overview">
+          Overview
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%AE%BE%E7%BD%AEtypecho%E4%BC%AA%E9%9D%99%E6%80%81"><span class="nav-number">1.</span> <span class="nav-text">设置typecho伪静态</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E4%BB%80%E4%B9%88%E6%98%AF%E4%BC%AA%E9%9D%99%E6%80%81"><span class="nav-number">1.1.</span> <span class="nav-text">什么是伪静态？</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%A6%82%E4%BD%95%E8%AE%BE%E7%BD%AE"><span class="nav-number">1.2.</span> <span class="nav-text">如何设置？</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E9%85%8D%E7%BD%AE%E5%AE%8C%E5%90%8E%E5%A6%82%E4%BD%95%E5%9C%A8typecho%E5%90%8E%E5%8F%B0%E8%AE%BE%E7%BD%AE"><span class="nav-number">1.3.</span> <span class="nav-text">配置完后如何在typecho后台设置？</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%AE%BE%E7%BD%AEtypecho%E9%A6%96%E9%A1%B5%E9%9D%99%E6%80%81%E9%A1%B5%E9%9D%A2"><span class="nav-number">2.</span> <span class="nav-text">设置typecho首页静态页面</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%96%B0%E5%BB%BA%E6%96%87%E4%BB%B6"><span class="nav-number">2.1.</span> <span class="nav-text">新建文件</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%94%BE%E5%85%A5%E4%BB%A3%E7%A0%81"><span class="nav-number">2.2.</span> <span class="nav-text">放入代码</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E8%AE%BE%E7%BD%AE"><span class="nav-number">2.3.</span> <span class="nav-text">设置</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E8%A1%A5%E5%85%85"><span class="nav-number">2.4.</span> <span class="nav-text">补充</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%90%8E%E8%AF%9D"><span class="nav-number">2.5.</span> <span class="nav-text">后话</span></a></li></ol></li></ol></div>
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="taoyifan"
+      src="/images/avatar.png">
+  <p class="site-author-name" itemprop="name">taoyifan</p>
+  <div class="site-description" itemprop="description">What is past is prologue.</div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">205</span>
+          <span class="site-state-item-name">posts</span>
+        </a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author motion-element">
+      <span class="links-of-author-item">
+        <a href="https://github.com/luo029" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;luo029" rel="noopener" target="_blank"><i class="fab fa-github fa-fw"></i>GitHub</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="mailto:i@taoyifan.cn" title="E-Mail → mailto:i@taoyifan.cn"><i class="fab fa-envelope fa-fw"></i>E-Mail</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://t.me/luo029" title="Telegram → https:&#x2F;&#x2F;t.me&#x2F;luo029" rel="noopener" target="_blank"><i class="fab fa-telegram fa-fw"></i>Telegram</a>
+      </span>
+  </div>
+
+
+
+      </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+        
+
+<div class="copyright">
+  
+  &copy; 2019 – 
+  <span itemprop="copyrightYear">2023</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">taoyifan</span>
+</div>
+  <div class="powered-by">Powered by <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://muse.theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Muse</a>
+  </div>
+
+        
+
+
+
+
+
+
+
+
+      </div>
+    </footer>
+  </div>
+
+  
+  <script src="/lib/anime.min.js"></script>
+  <script src="/lib/pjax/pjax.min.js"></script>
+
+<script src="/js/utils.js"></script>
+
+
+<script src="/js/schemes/muse.js"></script>
+
+
+<script src="/js/next-boot.js"></script>
+
+  <script>
+var pjax = new Pjax({
+  selectors: [
+    'head title',
+    '#page-configurations',
+    '.content-wrap',
+    '.post-toc-wrap',
+    '.languages',
+    '#pjax'
+  ],
+  switches: {
+    '.post-toc-wrap': Pjax.switches.innerHTML
+  },
+  analytics: false,
+  cacheBust: false,
+  scrollTo : !CONFIG.bookmark.enable
+});
+
+window.addEventListener('pjax:success', () => {
+  document.querySelectorAll('script[data-pjax], script#page-configurations, #pjax script').forEach(element => {
+    var code = element.text || element.textContent || element.innerHTML || '';
+    var parent = element.parentNode;
+    parent.removeChild(element);
+    var script = document.createElement('script');
+    if (element.id) {
+      script.id = element.id;
+    }
+    if (element.className) {
+      script.className = element.className;
+    }
+    if (element.type) {
+      script.type = element.type;
+    }
+    if (element.src) {
+      script.src = element.src;
+      // Force synchronous loading of peripheral JS.
+      script.async = false;
+    }
+    if (element.dataset.pjax !== undefined) {
+      script.dataset.pjax = '';
+    }
+    if (code !== '') {
+      script.appendChild(document.createTextNode(code));
+    }
+    parent.appendChild(script);
+  });
+  NexT.boot.refresh();
+  // Define Motion Sequence & Bootstrap Motion.
+  if (CONFIG.motion.enable) {
+    NexT.motion.integrator
+      .init()
+      .add(NexT.motion.middleWares.subMenu)
+      .add(NexT.motion.middleWares.postList)
+      .bootstrap();
+  }
+  NexT.utils.updateSidebarPosition();
+});
+</script>
+
+
+
+
+  
+  <script data-pjax>
+    (function(){
+      var canonicalURL, curProtocol;
+      //Get the <link> tag
+      var x=document.getElementsByTagName("link");
+		//Find the last canonical URL
+		if(x.length > 0){
+			for (i=0;i<x.length;i++){
+				if(x[i].rel.toLowerCase() == 'canonical' && x[i].href){
+					canonicalURL=x[i].href;
+				}
+			}
+		}
+    //Get protocol
+	    if (!canonicalURL){
+	    	curProtocol = window.location.protocol.split(':')[0];
+	    }
+	    else{
+	    	curProtocol = canonicalURL.split(':')[0];
+	    }
+      //Get current URL if the canonical URL does not exist
+	    if (!canonicalURL) canonicalURL = window.location.href;
+	    //Assign script content. Replace current URL with the canonical URL
+      !function(){var e=/([http|https]:\/\/[a-zA-Z0-9\_\.]+\.baidu\.com)/gi,r=canonicalURL,t=document.referrer;if(!e.test(r)){var n=(String(curProtocol).toLowerCase() === 'https')?"https://sp0.baidu.com/9_Q4simg2RQJ8t7jm9iCKT-xh_/s.gif":"//api.share.baidu.com/s.gif";t?(n+="?r="+encodeURIComponent(document.referrer),r&&(n+="&l="+r)):r&&(n+="?l="+r);var i=new Image;i.src=n}}(window);})();
+  </script>
+
+
+
+
+  
+<script src="/js/local-search.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div id="pjax">
+  
+
+  
+
+  
+
+    </div>
+</body>
+</html>
