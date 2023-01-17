@@ -1,5 +1,6 @@
 ---
-title: 一个非常简单,泛滥的密码-ILOVEU
+title: '一个非常简单,泛滥的密码-ILOVEU'
+abbrlink: 30c0f39b
 date: 2020-01-28 05:09:00
 ---
 What's past is prologue.

@@ -1,5 +1,6 @@
 ---
 title: 一个五层表白密码——Iloveyoutoo
+abbrlink: c4f06dc
 date: 2020-01-28 04:08:00
 ---
 What's past is prologue.

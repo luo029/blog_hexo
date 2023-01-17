@@ -1,7 +1,8 @@
 ---
 title: typecho加上gzip压缩，使网站更快加载
+abbrlink: d5cfd609
 date: 2020-04-19 15:40:00
-categories: 
+categories:
 tags:
 ---
 What's past is prologue.

@@ -1,7 +1,8 @@
 ---
 title: Blog迁移折腾记
+abbrlink: 4ea14935
 date: 2020-03-01 10:53:00
-categories: 
+categories:
 tags:
 ---
 What's past is prologue.

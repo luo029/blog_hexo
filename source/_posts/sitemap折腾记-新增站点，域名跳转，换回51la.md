@@ -1,7 +1,8 @@
 ---
 title: sitemap折腾记-新增站点;域名跳转;换回51la
+abbrlink: 5df33c47
 date: 2020-03-02 06:02:00
-categories: 
+categories:
 tags:
 ---
 What's past is prologue.

@@ -1,7 +1,7 @@
 ---
 title: 给你的blog加上rss邮箱订阅吧！（文章若更新自动发送内容至订阅者邮箱）
+abbrlink: 58b15d4e
 date: 2020-03-05 07:40:00
-
 ---
 What's past is prologue.
 

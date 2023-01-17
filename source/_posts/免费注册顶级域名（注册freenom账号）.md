@@ -1,5 +1,6 @@
 ---
 title: 免费注册顶级域名（注册freenom账号）
+abbrlink: e255869a
 date: 2020-03-14 10:43:00
 ---
 What's past is prologue.

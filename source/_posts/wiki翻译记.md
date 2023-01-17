@@ -1,7 +1,8 @@
 ---
 title: wiki翻译记
+abbrlink: 174d3e8
 date: 2020-02-26 11:38:00
-categories: 
+categories:
 tags:
 ---
 What's past is prologue.

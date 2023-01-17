@@ -1,7 +1,7 @@
 ---
 title: 买了个com域名，心疼又心动
+abbrlink: 2435d27e
 date: 2020-03-01 07:30:00
-
 ---
 What's past is prologue.
 

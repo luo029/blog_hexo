@@ -1,7 +1,7 @@
 ---
-title: 设置typecho伪静态,设置typecho首页静态页面
+title: '设置typecho伪静态,设置typecho首页静态页面'
+abbrlink: f0cbd505
 date: 2020-02-24 16:08:00
-
 ---
 What's past is prologue.
 

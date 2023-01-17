@@ -1,7 +1,7 @@
 ---
-title: 一元注册cn域名,通过ssl证书绕过备案=免备案使用cn域名
+title: '一元注册cn域名,通过ssl证书绕过备案=免备案使用cn域名'
+abbrlink: 16e9f684
 date: 2020-04-05 05:30:00
-
 ---
 What's past is prologue.
 

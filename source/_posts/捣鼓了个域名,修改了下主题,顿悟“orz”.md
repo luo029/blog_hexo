@@ -1,7 +1,7 @@
 ---
-title: 捣鼓了个域名,修改了下主题,顿悟“orz”
+title: '捣鼓了个域名,修改了下主题,顿悟“orz”'
+abbrlink: ef19f1d5
 date: 2020-02-12 09:11:00
-
 ---
 What's past is prologue.
 

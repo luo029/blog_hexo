@@ -1,7 +1,7 @@
 ---
 title: awa
+abbrlink: ec9fc6fa
 date: 2020-02-05 06:32:00
-
 ---
 What's past is prologue.
 

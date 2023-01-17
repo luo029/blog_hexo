@@ -1,7 +1,7 @@
 ---
 title: 关于网站ssl证书
+abbrlink: 12aa4255
 date: 2020-02-18 03:16:00
-
 ---
 What's past is prologue.
 

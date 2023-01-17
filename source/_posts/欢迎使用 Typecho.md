@@ -1,7 +1,7 @@
 ---
 title: 欢迎使用 Typecho
+abbrlink: 6e020ab9
 date: 2020-12-25 11:16:00
-
 ---
 What's past is prologue.
 

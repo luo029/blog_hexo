@@ -1,9 +1,9 @@
 ---
-title:  Vampirism-Wiki翻译记
+title: Vampirism-Wiki翻译记
+abbrlink: 2e4f6c25
 date: 2020-02-27 12:12:00
-categories: 
+categories:
 tags:
-
 ---
 What's past is prologue.
 

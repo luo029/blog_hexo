@@ -1,7 +1,8 @@
 ---
 title: Mailchimp折腾记#不再显示弹窗之解决方法
+abbrlink: 5d3a37e4
 date: 2020-02-25 17:19:00
-categories: 
+categories:
 tags:
 ---
 What's past is prologue.

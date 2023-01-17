@@ -1,7 +1,7 @@
 ---
 title: 恢复每周rss邮件推送= =
+abbrlink: cee35b0d
 date: 2020-08-07 10:32:00
-
 ---
 What's past is prologue.
 

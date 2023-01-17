@@ -1,7 +1,7 @@
 ---
 title: 白书习记二、iomanip标准库【浮点数处理、输入输出格式】
+abbrlink: 6b47c55d
 date: 2021-01-02 05:19:00
-
 ---
 What's past is prologue.
 

@@ -1,7 +1,7 @@
 ---
 title: 改变网站title代码
+abbrlink: 70b2bbbe
 date: 2020-04-07 03:41:00
-
 ---
 What's past is prologue.
 

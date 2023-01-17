@@ -1,5 +1,6 @@
 ---
-title: 一个很迷的评论邮件通知插件,换了个头像
+title: '一个很迷的评论邮件通知插件,换了个头像'
+abbrlink: ebde5a83
 date: 2020-02-09 07:40:00
 ---
 What's past is prologue.

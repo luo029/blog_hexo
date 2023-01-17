@@ -1,7 +1,7 @@
 ---
-title: 修改了下版权说明,cv后有版权显示,字数统计,目录树插件,显示标签
+title: '修改了下版权说明,cv后有版权显示,字数统计,目录树插件,显示标签'
+abbrlink: daedd4c7
 date: 2020-02-16 11:30:00
-
 ---
 What's past is prologue.
 
