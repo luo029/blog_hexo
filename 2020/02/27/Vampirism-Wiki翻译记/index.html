@@ -65,10 +65,10 @@
         
           <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
         
-        <a id="nav-search-btn" class="nav-icon" title="Suche"></a>
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
       </nav>
       <div id="search-form-wrap">
-        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Suche"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="https://taoyifan.cn"></form>
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="https://taoyifan.cn"></form>
       </div>
     </div>
   </div>
@@ -137,10 +137,10 @@
 <p>If you want a certain creature to be convertible to a vampire version, follow these instructions. You first need to create a overlay image. It has to have the size of entity’s texture and has to be see-though. Anything in this image will be rendered over the original entity texture.<br>Example (Cow): Image<br>如果你想让某个生物变成吸血鬼，请按照以下说明进行操作。首先要画一个这个生物的吸血鬼的皮肤，必须是实体，而且必须是透明的。此图片上的任何内容都将在原始实体的纹理上进行渲染.<br>（如要允许马变成吸血鬼，就画一个马的吸血鬼的图片，那么’原始实体’便是’马’.）<br>例子：<br>牛的吸血鬼皮肤：<br>（想要什么生物变成吸血鬼就需要按照这个皮肤一样来创建吸血鬼皮肤）<br><img src="https://raw.githubusercontent.com/TeamLapen/Vampirism/aec60d2086c88093f7cf854e0327e98295994201/src/main/resources/assets/vampirism/textures/entity/vanilla/cow_overlay.png" alt="1"></p>
 <p>First get the texture of the creature (either it is available e.g. on Github, or you have to open the mod file (as zip, e.g. using 7zip, or by changing the file ending to .zip) and navigate to ‘resources&#x2F;assets…’).<br>首先获取生物的皮肤（从Github上找例子，或者通过压缩文件打开模组（也可以通过将模组扩展名改为.zip实现），然后在’resources&#x2F;assets’中找到皮肤）</p>
 <p>Then the file with an image tool that supports layers (e.g. GIMP or Photoshop). Create a new transparent layer and draw the ‘converted changes’ (e.g. red eyes) into this layer.<br>然后用能够支持图片编辑的软件（例如GIMP&#x2F;Photoshop）。<br>创建一个新的透明图层将’converted changes’(于原本的皮肤不同的地方)（如画个红眼睛）绘制到该图层中。</p>
-<p>然后将图层设置为“不可见”，并导出保存。然后将图片发送给作者（<a href="mailto:&#118;&#x61;&#x6d;&#112;&#105;&#114;&#x69;&#115;&#109;&#x40;&#109;&#x61;&#120;&#97;&#110;&#105;&#101;&#114;&#46;&#x64;&#x65;">&#118;&#x61;&#x6d;&#112;&#105;&#114;&#x69;&#115;&#109;&#x40;&#109;&#x61;&#120;&#97;&#110;&#105;&#101;&#114;&#46;&#x64;&#x65;</a>）</p>
+<p>然后将图层设置为“不可见”，并导出保存。然后将图片发送给作者（<a href="mailto:&#118;&#97;&#x6d;&#x70;&#x69;&#x72;&#x69;&#x73;&#x6d;&#64;&#109;&#x61;&#x78;&#97;&#110;&#x69;&#x65;&#x72;&#x2e;&#x64;&#101;">&#118;&#97;&#x6d;&#x70;&#x69;&#x72;&#x69;&#x73;&#x6d;&#64;&#109;&#x61;&#x78;&#97;&#110;&#x69;&#x65;&#x72;&#x2e;&#x64;&#101;</a>）</p>
 <p>PS：<br>这段是给模组作者写的，大概就是说，若是模组作者想要自己的生物也能够在作者的吸血鬼模组中有“一席之地”的话,即自己的生物在官方吸血鬼模组中默认带有吸血鬼皮肤，那么就需要自己创建一个自己生物的“吸血鬼类型”的皮肤。然后将自己的生物皮肤以及自己的生物吸血鬼类型的皮肤发到作者的邮箱里。</p>
 <p>If you want to test how it looks in-game beforehand, you can save the complete image (with base layer) and put it into a resource pack (at the same path as you found it in the mod’s file).<br>如果你想测试这个皮肤在游戏里的最终效果，可以保存完整的图像（带有基础图层），（PS:类似于上方那个牛的皮肤）并将其放入到材质包中。（路径一定要相同）</p>
-<p>Then contact the mod authors of Vampirism (e.g. send the image to <a href="mailto:&#x76;&#x61;&#x6d;&#x70;&#x69;&#x72;&#x69;&#x73;&#x6d;&#x40;&#x6d;&#97;&#x78;&#97;&#110;&#105;&#x65;&#x72;&#x2e;&#x64;&#101;">&#x76;&#x61;&#x6d;&#x70;&#x69;&#x72;&#x69;&#x73;&#x6d;&#x40;&#x6d;&#97;&#x78;&#97;&#110;&#105;&#x65;&#x72;&#x2e;&#x64;&#101;</a>). If you are a mod author consider making your modded creatures convertible using the API.<br>然后与吸血鬼模组的作者联系（例如，将图片发送到<a href="mailto:&#118;&#97;&#109;&#112;&#x69;&#x72;&#x69;&#115;&#x6d;&#64;&#x6d;&#97;&#x78;&#97;&#110;&#x69;&#101;&#114;&#x2e;&#x64;&#x65;">&#118;&#97;&#109;&#112;&#x69;&#x72;&#x69;&#115;&#x6d;&#64;&#x6d;&#97;&#x78;&#97;&#110;&#x69;&#101;&#114;&#x2e;&#x64;&#x65;</a>）<br>如果你是MOD开发者，请考虑使用API使您模组下的生物能够转换为吸血鬼类型。</p>
+<p>Then contact the mod authors of Vampirism (e.g. send the image to <a href="mailto:&#118;&#x61;&#x6d;&#x70;&#105;&#114;&#105;&#115;&#109;&#64;&#x6d;&#97;&#120;&#x61;&#x6e;&#105;&#x65;&#114;&#46;&#x64;&#x65;">&#118;&#x61;&#x6d;&#x70;&#105;&#114;&#105;&#115;&#109;&#64;&#x6d;&#97;&#120;&#x61;&#x6e;&#105;&#x65;&#114;&#46;&#x64;&#x65;</a>). If you are a mod author consider making your modded creatures convertible using the API.<br>然后与吸血鬼模组的作者联系（例如，将图片发送到<a href="mailto:&#x76;&#97;&#109;&#112;&#x69;&#x72;&#105;&#115;&#x6d;&#x40;&#109;&#x61;&#120;&#x61;&#x6e;&#105;&#101;&#x72;&#46;&#100;&#101;">&#x76;&#97;&#109;&#112;&#x69;&#x72;&#105;&#115;&#x6d;&#x40;&#109;&#x61;&#120;&#x61;&#x6e;&#105;&#101;&#x72;&#46;&#100;&#101;</a>）<br>如果你是MOD开发者，请考虑使用API使您模组下的生物能够转换为吸血鬼类型。</p>
 <h3 id="Structures"><a href="#Structures" class="headerlink" title="Structures"></a>Structures</h3><p>结构</p>
 <h4 id="Important-structures"><a href="#Important-structures" class="headerlink" title="Important structures"></a>Important structures</h4><p>重要遗迹</p>
 <p>There are new structures generated in the world. Here is a list of the most important ones:<br>世界上生成了新的遗迹，以下是最重要的几个：</p>
@@ -194,7 +194,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://taoyifan.cn/2020/02/27/Vampirism-Wiki%E7%BF%BB%E8%AF%91%E8%AE%B0/" data-id="clczsfccb000a2daf4kgcaiok" data-title="Vampirism-Wiki翻译记" class="article-share-link">Teilen</a>
+      <a data-url="https://taoyifan.cn/2020/02/27/Vampirism-Wiki%E7%BF%BB%E8%AF%91%E8%AE%B0/" data-id="clczsip1d0006efafezk9el7a" data-title="Vampirism-Wiki翻译记" class="article-share-link">Share</a>
       
       
       
@@ -205,7 +205,7 @@
 <nav id="article-nav">
   
     <a href="/2020/02/28/%E4%B8%AD%E6%96%87%E5%9F%9F%E5%90%8D%E9%87%8D%E5%AE%9A%E5%90%91%EF%BC%88%E4%BD%BF%E7%94%A8%E6%88%B7%E5%8F%AF%E4%BB%A5%E9%80%9A%E8%BF%87%E4%B8%AD%E6%96%87%E5%9F%9F%E5%90%8D%E8%AE%BF%E9%97%AE%E4%BD%A0%E7%9A%84%E7%BD%91%E7%AB%99%EF%BC%89/" id="article-nav-newer" class="article-nav-link-wrap">
-      <strong class="article-nav-caption">Neuer</strong>
+      <strong class="article-nav-caption">Newer</strong>
       <div class="article-nav-title">
         
           中文域名重定向（使用户可以通过中文域名访问你的网站）
@@ -215,7 +215,7 @@
   
   
     <a href="/2020/02/27/%E5%BC%BA%E5%88%B6https/" id="article-nav-older" class="article-nav-link-wrap">
-      <strong class="article-nav-caption">Älter</strong>
+      <strong class="article-nav-caption">Older</strong>
       <div class="article-nav-title">强制https</div>
     </a>
   
@@ -239,7 +239,7 @@
   
     
   <div class="widget-wrap">
-    <h3 class="widget-title">Archiv</h3>
+    <h3 class="widget-title">Archives</h3>
     <div class="widget">
       <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2023/01/">January 2023</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2021/04/">April 2021</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2021/02/">February 2021</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2021/01/">January 2021</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/12/">December 2020</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/08/">August 2020</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/05/">May 2020</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/04/">April 2020</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/03/">March 2020</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/02/">February 2020</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/01/">January 2020</a></li></ul>
     </div>
@@ -249,7 +249,7 @@
   
     
   <div class="widget-wrap">
-    <h3 class="widget-title">letzter Beitrag</h3>
+    <h3 class="widget-title">Recent Posts</h3>
     <div class="widget">
       <ul>
         
