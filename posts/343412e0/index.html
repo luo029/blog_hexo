@@ -30,7 +30,7 @@
 <meta property="og:description" content="What&#39;s past is prologue.">
 <meta property="og:locale">
 <meta property="article:published_time" content="2020-03-02T19:28:00.000Z">
-<meta property="article:modified_time" content="2023-01-17T17:09:37.418Z">
+<meta property="article:modified_time" content="2023-01-18T05:29:02.864Z">
 <meta property="article:author" content="taoyifan">
 <meta name="twitter:card" content="summary">
 
@@ -231,7 +231,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">Edited on</span>
-                <time title="Modified: 2023-01-18 01:09:37" itemprop="dateModified" datetime="2023-01-18T01:09:37+08:00">2023-01-18</time>
+                <time title="Modified: 2023-01-18 13:29:02" itemprop="dateModified" datetime="2023-01-18T13:29:02+08:00">2023-01-18</time>
               </span>
 
           
@@ -251,29 +251,15 @@
 有的时候这个颜色可能会比较亮眼来着run 但是挺好看的 = =
 放到主题的<code>footer.php</code>里面就好= =
 <code>&lt;/body&gt;</code>前面即可</p>
-<table style="width:15%;">
-<colgroup>
-<col style="width: 15%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: left;">唔。 然后发现在iphone手机里会显示错误= =
-显示NaN天NaN小时NaN分NaN秒 电脑可以正常显示
+<p>唔。 然后发现在iphone手机里会显示错误= = 显示NaN天NaN小时NaN分NaN秒
+电脑可以正常显示
 <del>我在想着不是有个typecho插件是能够手机跟电脑用两款不同主题么</del>
 <del>可以用这个插件来修改下/run，手机主题换我之前的那个= =</del>
-<del>要是能够完善成手机正常显示的话未尝不可啊/run</del></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;">自己最终还是用上了这款代码
-<del>谁叫他好看呢hh</del> 解决方法是什么？
+<del>要是能够完善成手机正常显示的话未尝不可啊/run</del></p>
+<p>自己最终还是用上了这款代码 <del>谁叫他好看呢hh</del> 解决方法是什么？
 安装个不同设备显示不同主题的插件——SwitchTheme
 然后主题的话我是直接cv了一份，另一份用的是原版的，无渐变的运行时间统计。
-同时还把返回顶部这个从手机主题那边删去了来着，太影响阅读了233</td>
-</tr>
-</tbody>
-</table>
+同时还把返回顶部这个从手机主题那边删去了来着，太影响阅读了233</p>
 <figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br></pre></td><td class="code"><pre><span class="line">&lt;!--安全运行代码开始--&gt;</span><br><span class="line">&lt;span id=<span class="string">&quot;momk&quot;</span>&gt;&lt;/span&gt;</span><br><span class="line">&lt;script language=javascript&gt;</span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">show_date_time</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line">window.<span class="title function_ invoke__">setTimeout</span>(<span class="string">&quot;show_date_time()&quot;</span>, <span class="number">1000</span>);</span><br><span class="line">BirthDay=<span class="keyword">new</span> <span class="title class_">Date</span>(<span class="string">&quot;01-27-2020 7:07:7&quot;</span>);<span class="comment">//日期</span></span><br><span class="line">today=<span class="keyword">new</span> <span class="title class_">Date</span>();</span><br><span class="line">timeold=(today.<span class="title function_ invoke__">getTime</span>()-BirthDay.<span class="title function_ invoke__">getTime</span>());</span><br><span class="line">sectimeold=timeold/<span class="number">1000</span></span><br><span class="line">secondsold=Math.<span class="title function_ invoke__">floor</span>(sectimeold);</span><br><span class="line">msPerDay=<span class="number">24</span>*<span class="number">60</span>*<span class="number">60</span>*<span class="number">1000</span></span><br><span class="line">e_daysold=timeold/msPerDay</span><br><span class="line">daysold=Math.<span class="title function_ invoke__">floor</span>(e_daysold);</span><br><span class="line">e_hrsold=(daysold-e_daysold)*-<span class="number">24</span>;</span><br><span class="line">hrsold=Math.<span class="title function_ invoke__">floor</span>(e_hrsold);</span><br><span class="line">e_minsold=(hrsold-e_hrsold)*-<span class="number">60</span>;</span><br><span class="line">minsold=Math.<span class="title function_ invoke__">floor</span>((hrsold-e_hrsold)*-<span class="number">60</span>);</span><br><span class="line">seconds=Math.<span class="title function_ invoke__">floor</span>((minsold-e_minsold)*-<span class="number">60</span>);</span><br><span class="line">momk.innerHTML=<span class="string">&quot;感谢有你：&quot;</span>+daysold+<span class="string">&quot;天&quot;</span>+hrsold+<span class="string">&quot;小时&quot;</span>+minsold+<span class="string">&quot;分&quot;</span>+seconds+<span class="string">&quot;秒&quot;</span> ;</span><br><span class="line">&#125;</span><br><span class="line"><span class="title function_ invoke__">show_date_time</span>();</span><br><span class="line">&lt;/script&gt;</span><br><span class="line">&lt;style&gt;</span><br><span class="line"><span class="comment">#momk&#123;animation:change 10s infinite;font-weight:800; &#125;</span></span><br><span class="line">@keyframes change&#123;<span class="number">0</span>%&#123;color:<span class="comment">#5cb85c;&#125;25%&#123;color:#556bd8;&#125;50%&#123;color:#e40707;&#125;75%&#123;color:#66e616;&#125;100% &#123;color:#67bd31;&#125;&#125;</span></span><br><span class="line">&lt;/style&gt;</span><br><span class="line">  &lt;!--安全运行代码结束--&gt;</span><br></pre></td></tr></table></figure>
 
     </div>
