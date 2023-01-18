@@ -78,7 +78,6 @@ What's past is prologue.
 
 
 
-----------
 咳。
 为什么要说这个呢。
 因为我那个域名：buyao.mobi
@@ -91,8 +90,6 @@ What's past is prologue.
 
 ┓(???`?)┏
 
-
-----------
 然后关于blog图片
 可能会放到图床上面多点
 不然的话怕迁移太麻烦。

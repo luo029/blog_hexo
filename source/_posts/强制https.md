@@ -5,13 +5,8 @@ date: 2020-02-27 06:39:00
 ---
 What's past is prologue.
 
-<!--more-->RewriteCond %{SERVER_PORT} !^443$
-RewriteRule ^(.*)?$ https://%{SERVER_NAME}/$1 [L,R]
+<!--more-->
 
-```
-
-
-----------
 放到`.htaccess`里就行。
 逛[某幻][1]blog看到的，然后就cv过来了啧。
 给自己的blog和引导页面用上了233
@@ -22,16 +17,14 @@ RewriteRule ^(.*)?$ https://%{SERVER_NAME}/$1 [L,R]
 因为我看了看，访问“http://wansz.xyz/feed”会变成“https://wansz.xyz/feed”来着，难说
 
 
-----------
+
 百度了下：D
 引自百度百科= =
 > Rewriterule是Rewrite中的一种规则。
 > Rewrite,一种服务器的重写脉冲技术，它使得服务器可以支持 URL 重写，是一种最新流行的服务器技术。
 
 
-----------
 
-```
 1、例如我们把某个特定的 IP 直接重定向到 baidu 首页，在网站根目录的 .htaccess 文件里添加代码：
 RewriteCond % 123.123.123.123 [NC]RewriteRule ^(.*)$ http://www.baidu.com/$1 [R=301] 将 123.123.123.123 这个 IP 替换成您要限制的 IP 即可
 2、如果要实现多个 IP ，可以这样写：

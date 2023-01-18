@@ -13,29 +13,15 @@ What's past is prologue.
 毕竟也是用了十天左右了：D
 
 
-----------
-/*
 
     wansz.xyz
 
-*/
 
-
-![](https://buyao.mobi/i/2020/02/23/zkd3oy.png)
-
-
-----------
-/*
 
     zhiluo.top
 
-*/
 
 
-![](https://buyao.mobi/i/2020/02/23/zkd0uc.png)
-
-
-----------
 至于`buyao.mobi`这个
 我是准备不放网站统计了
 一个是不知道放哪个位置

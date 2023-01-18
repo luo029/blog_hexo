@@ -9,7 +9,7 @@ What's past is prologue.
 记录下防止啥时候自己用到但是找不到/捂脸
 
 
-----------
+
 ```php
 var OriginTitile = document.title;
 var titleTime;

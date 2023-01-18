@@ -31,8 +31,10 @@ As a workaround you can go to your config directory (or use the GUI Main Menu ->
 <br>
 <br>
 ----------
-###Biteable Creatures
+
+Biteable Creatures
 可以从中吸血的生物
+----------
 
 In Vampirism you can bite several creatures to get blood.
 Sometimes they even become vampires and act different.

@@ -17,9 +17,6 @@ What's past is prologue.
 ob_start('ob_gzhandler');
 ```
 
-
-----------
-
 可以去<http://tool.chinaz.com/gzips/>查看是否开启。
 gzip是一项压缩技术，减小网络传输的数据量，使网站得到更快的加载。
 ~~各位可以自行尝试~~

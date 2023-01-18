@@ -43,14 +43,10 @@ What's past is prologue.
 然后这个域名是图床
 ~~别想了私有图床hhh~~
 
-
-----------
 ### 准备
 网站：https://www.sslforfree.com/
 域名：XXX
 
-
-----------
 ### 申请
 首先是打开网站，然后输入自己的域名。
 
