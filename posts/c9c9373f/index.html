@@ -30,7 +30,7 @@
 <meta property="og:description" content="What&#39;s past is prologue.">
 <meta property="og:locale">
 <meta property="article:published_time" content="2020-12-25T06:38:00.000Z">
-<meta property="article:modified_time" content="2023-01-17T17:09:37.421Z">
+<meta property="article:modified_time" content="2023-01-18T06:18:00.509Z">
 <meta property="article:author" content="taoyifan">
 <meta name="twitter:card" content="summary">
 
@@ -231,7 +231,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">Edited on</span>
-                <time title="Modified: 2023-01-18 01:09:37" itemprop="dateModified" datetime="2023-01-18T01:09:37+08:00">2023-01-18</time>
+                <time title="Modified: 2023-01-18 14:18:00" itemprop="dateModified" datetime="2023-01-18T14:18:00+08:00">2023-01-18</time>
               </span>
 
           
@@ -251,7 +251,6 @@
 <blockquote>
 <p>C++提供三种选择结构：if选择结构，if-else选择结构和switch选择结构</p>
 </blockquote>
-<hr />
 <h2 id="if语句单分支结构">if语句（单分支结构）</h2>
 <p><br></p>
 <ul>
@@ -265,32 +264,23 @@
 如果条件表达式的值为真（即条件成立），执行语句1
 否则，语句1将不被执行，程序将按顺序从整个选择结构之后的下一条语句继续执行。</p>
 <p><br></p>
-<table style="width:15%;">
-<colgroup>
-<col style="width: 15%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;"><br></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><strong>例子</strong>：
-题：读入一个整数a，如果a为奇数在屏幕上输出no</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">#include <iostream> using namespace std;
-int main() { int a; cin &gt;&gt; a; if(a%2!=0)
-cout&lt;&lt;"no"&lt;&lt;endl; return 0; }</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><br></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">&gt; 关系运算符 ==
-用来表示该符号左右两边是否相等，=为赋值号</td>
-</tr>
-</tbody>
-</table>
+<p><br></p>
+<p><strong>例子</strong>：
+题：读入一个整数a，如果a为奇数在屏幕上输出no</p>
+<pre><code>#include &lt;iostream&gt;
+using namespace std;
+int main()
+&#123;
+  int a;
+  cin &gt;&gt; a;
+  if(a%2!=0)
+    cout&lt;&lt;&quot;no&quot;&lt;&lt;endl;
+  return 0;
+&#125;</code></pre>
+<p><br></p>
+<blockquote>
+<p>关系运算符 == 用来表示该符号左右两边是否相等，=为赋值号</p>
+</blockquote>
 <p><br> <strong>例子：</strong></p>
 <pre><code>if ((a&gt;1) &amp;&amp; (a&lt;100)) // a大于1并且小于100</code></pre>
 <p><br> &gt; 当需要满足两个条件时，用符号 &amp;&amp; &gt;
@@ -332,26 +322,22 @@ int main()
   return 0;
 &#125;</code></pre>
 <p><br></p>
-<table style="width:15%;">
-<colgroup>
-<col style="width: 15%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: left;"><br> &gt;
-if语句允许嵌套，即语句1和语句2还可以是if语句 &gt;
-&gt;当if语句嵌套时，约定else总是和最近的一个if语句配对 <br></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;"><br></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">三目运算符</td>
-</tr>
-</tbody>
-</table>
+<p><br></p>
+<blockquote>
+<p>if语句允许嵌套，即语句1和语句2还可以是if语句</p>
+<p>当if语句嵌套时，约定else总是和最近的一个if语句配对 <br></p>
+</blockquote>
+<pre><code>if (a&gt;b)
+  if (b&gt;c) y=a;
+    else y=c;   //else部分否定的是条件b&gt;c，与第二个if语句配对</code></pre>
+<p><br></p>
+<pre><code>if (a&gt;b)
+&#123;
+  if (b&gt;c) y=a;
+&#125;
+else y=c; //想让else与第一个if语句配对，需要引入一个复合语句 </code></pre>
+<p><br></p>
+<h2 id="三目运算符">三目运算符</h2>
 <blockquote>
 <p>c++里有一个常用来代替if-else语句的操作符，被称为三目运算符（?:） <br>
 <strong>通用格式：</strong></p>
@@ -361,39 +347,21 @@ if语句允许嵌套，即语句1和语句2还可以是if语句 &gt;
 <p><strong>例子：</strong> x=5&gt;3? 10:12 //5&gt;3为true，所以x=10</p>
 <pre><code>x=3==9？ 25:18 //3==9为false，所以x=18</code></pre>
 <p><br></p>
-<table style="width:15%;">
-<colgroup>
-<col style="width: 15%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;"><br></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">&gt;
-三目运算符返回一个值，可以将其赋给变量或者将其放到一个更大的表达式中。</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><br></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">例子：</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">x=a&gt;b? (c&gt;d? e:f):g</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">相当于：</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">if (a&gt;b) { if(c&gt;d) x=e; else:x=f }
-else x=g;</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><br></td>
-</tr>
-</tbody>
-</table>
+<p><br></p>
+<blockquote>
+<p>三目运算符返回一个值，可以将其赋给变量或者将其放到一个更大的表达式中。</p>
+</blockquote>
+<p><br></p>
+<p>例子：</p>
+<pre><code>x=a&gt;b? (c&gt;d? e:f):g</code></pre>
+<p>相当于：</p>
+<pre><code>if (a&gt;b)
+&#123;
+  if(c&gt;d) x=e;
+  else:x=f
+&#125;
+else x=g;</code></pre>
+<p><br></p>
 <pre><code>x=(a&gt;b)? a:b</code></pre>
 <blockquote>
 <p>条件操作符最适合于简单关系和简单表达式的值</p>
@@ -519,7 +487,7 @@ else x=g;</td>
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#if%E8%AF%AD%E5%8F%A5%E5%8D%95%E5%88%86%E6%94%AF%E7%BB%93%E6%9E%84"><span class="nav-number">1.</span> <span class="nav-text">if语句（单分支结构）</span></a></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#if%E8%AF%AD%E5%8F%A5%E5%8D%95%E5%88%86%E6%94%AF%E7%BB%93%E6%9E%84"><span class="nav-number">1.</span> <span class="nav-text">if语句（单分支结构）</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%89%E7%9B%AE%E8%BF%90%E7%AE%97%E7%AC%A6"><span class="nav-number">2.</span> <span class="nav-text">三目运算符</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 
