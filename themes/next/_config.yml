@@ -827,7 +827,7 @@ mermaid:
 # Use velocity to animate everything.
 # For more information: http://velocityjs.org
 motion:
-  enable: false
+  enable: true
   async: false
   transition:
     # Transition variants:
@@ -857,8 +857,8 @@ pace:
 # JavaScript 3D library.
 # Dependencies: https://github.com/theme-next/theme-next-three
 three:
-  enable: false
-  three_waves: false
+  enable: true
+  three_waves: true
   canvas_lines: false
   canvas_sphere: false
 
