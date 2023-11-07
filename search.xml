@@ -696,12 +696,6 @@ data-cites="e">@e [vampirism:minLevel=7]</span>
 ]]></content>
   </entry>
   <entry>
-    <title>one</title>
-    <url>/posts/7a6c86f1/</url>
-    <content><![CDATA[
-]]></content>
-  </entry>
-  <entry>
     <title>Hello World</title>
     <url>/posts/4a17b156/</url>
     <content><![CDATA[<p>What's past is prologue.</p>
@@ -767,6 +761,22 @@ gzip是一项压缩技术，减小网络传输的数据量，使网站得到更�
 ]]></content>
   </entry>
   <entry>
+    <title>√八月计划</title>
+    <url>/posts/6293c640/</url>
+    <content><![CDATA[<p>What's past is prologue.</p>
+<span id="more"></span>
+<p>周一——周六 6:00——6:30：<strong>起床（不确定啊……）+锻炼</strong>
+6:30——7:00：<strong>早餐</strong> 7:00——12:00：<strong>码字</strong>
+12:00——12:30：<strong>午餐</strong> 12:30——17:00：<strong>作业</strong>
+17:00——17:30：<strong>晚餐</strong> 17:30:——19:30：<strong>练字</strong>
+19:30——21:00：<strong>看书</strong> 21：00——21:30：<strong>锻炼</strong>
+21:30——21:50：<strong>洗澡+洗衣服</strong>
+21:50——22:00：<strong>看一个新闻/看几句话/看一个小故事/看一篇文章/听一小段英语听力</strong>
+周日： 早睡早起</p>
+<p>接下来可能还有网课，补习什么的，所以计划随时都会被打乱。 望天。</p>
+]]></content>
+  </entry>
+  <entry>
     <title>wiki翻译记</title>
     <url>/posts/174d3e8/</url>
     <content><![CDATA[<p>What's past is prologue.</p>
@@ -785,22 +795,6 @@ href="http://www.animaniamod.net/index.php/Main_Page">wiki文档页面</a>
 唔翻译的挺累的hhhh
 跟我组某鱼同学翻译的部分应该是相差不大的，不过是小组作品也不需要在意这些：D
 没了：D</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>√八月计划</title>
-    <url>/posts/6293c640/</url>
-    <content><![CDATA[<p>What's past is prologue.</p>
-<span id="more"></span>
-<p>周一——周六 6:00——6:30：<strong>起床（不确定啊……）+锻炼</strong>
-6:30——7:00：<strong>早餐</strong> 7:00——12:00：<strong>码字</strong>
-12:00——12:30：<strong>午餐</strong> 12:30——17:00：<strong>作业</strong>
-17:00——17:30：<strong>晚餐</strong> 17:30:——19:30：<strong>练字</strong>
-19:30——21:00：<strong>看书</strong> 21：00——21:30：<strong>锻炼</strong>
-21:30——21:50：<strong>洗澡+洗衣服</strong>
-21:50——22:00：<strong>看一个新闻/看几句话/看一个小故事/看一篇文章/听一小段英语听力</strong>
-周日： 早睡早起</p>
-<p>接下来可能还有网课，补习什么的，所以计划随时都会被打乱。 望天。</p>
 ]]></content>
   </entry>
   <entry>
@@ -1332,19 +1326,6 @@ class="uri">http://www.xinnet.com/composite/zt/20200316activity.html</a>
 ]]></content>
   </entry>
   <entry>
-    <title>一语之路边闲谈</title>
-    <url>/posts/4f63b0bf/</url>
-    <content><![CDATA[<p>What's past is prologue.</p>
-<span id="more"></span>
-<p>"你们现在就读书了？" “嗯”
-“哦，你是。。。你们是不是上周就开始读书了？你们是不是早一点的？” “嗯”
-“听他们说，你成绩还可以啊，怎么样，年级段有十几名么？” “额...没有...” ……
-没了。 大概是六点多点吧，上学路上遇到一位“我不认识但是她认识我”的老人。
-然后跟我说了一些话。 最后就没了。</p>
-<p>加油吧。</p>
-]]></content>
-  </entry>
-  <entry>
     <title>一款简约,完善的我的世界官网源码</title>
     <url>/posts/25344189/</url>
     <content><![CDATA[<p>What's past is prologue.</p>
@@ -1366,6 +1347,19 @@ class="uri">http://www.xinnet.com/composite/zt/20200316activity.html</a>
 只需搜索“填写”然后一处处修改过去即可... 其他的话，大概就没了。
 嗯，这款源码网上搜来，并且顺便修改了下。
 嗯，我不生产源码，我只是源码的搬运工是嘛</em>(:з」∠)_ 在线下载↓</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>一语之路边闲谈</title>
+    <url>/posts/4f63b0bf/</url>
+    <content><![CDATA[<p>What's past is prologue.</p>
+<span id="more"></span>
+<p>"你们现在就读书了？" “嗯”
+“哦，你是。。。你们是不是上周就开始读书了？你们是不是早一点的？” “嗯”
+“听他们说，你成绩还可以啊，怎么样，年级段有十几名么？” “额...没有...” ……
+没了。 大概是六点多点吧，上学路上遇到一位“我不认识但是她认识我”的老人。
+然后跟我说了一些话。 最后就没了。</p>
+<p>加油吧。</p>
 ]]></content>
   </entry>
   <entry>
@@ -3374,20 +3368,6 @@ pinshi.tk pindao.tk pinshi.ga pindao.ga</p>
 ]]></content>
   </entry>
   <entry>
-    <title>今日诗词·增些许格调于评论</title>
-    <url>/posts/f1d736eb/</url>
-    <content><![CDATA[<p>What's past is prologue.</p>
-<span id="more"></span>
-<p><a href="https://www.jinrishici.com/">今日诗词官网</a>
-嗯一个随机诗句的接口 我把它放在了评论里面。 本来想在评论文本里显示的。
-可惜不会┓(???`?)┏ 只好显示在左下角了 不过还行 比原先来说的话
-可能多了一些文化气息？ <del>更有格调是么</del> 其实差不多了</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;script src=&quot;https://sdk.jinrishici.com/v2/browser/jinrishici.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;</span><br><span class="line">&lt;div id=&quot;poem_sentence&quot;&gt;&lt;/div&gt;</span><br><span class="line">&lt;div id=&quot;poem_info&quot;&gt;&lt;/div&gt;</span><br><span class="line">&lt;script type=&quot;text/javascript&quot;&gt;</span><br><span class="line">  jinrishici.load(function(result) &#123;</span><br><span class="line">    var sentence = document.querySelector(&quot;#poem_sentence&quot;)</span><br><span class="line">    var info = document.querySelector(&quot;#poem_info&quot;)</span><br><span class="line">    sentence.innerHTML = result.data.content</span><br><span class="line">    info.innerHTML = &#x27;【&#x27; + result.data.origin.dynasty + &#x27;】&#x27; + result.data.origin.author + &#x27;《&#x27; + result.data.origin.title + &#x27;》&#x27;</span><br><span class="line">  &#125;);</span><br><span class="line">&lt;/script&gt;</span><br></pre></td></tr></table></figure>
-<p>我是直接用的官网给的例子= = 各位可以自行调试┓(???`?)┏ 觉得挺不错的=
-=</p>
-]]></content>
-  </entry>
-  <entry>
     <title>今日春分</title>
     <url>/posts/c7477cd3/</url>
     <content><![CDATA[<p>What's past is prologue.</p>
@@ -3403,6 +3383,20 @@ pinshi.tk pindao.tk pinshi.ga pindao.ga</p>
 看到了一本书，还没看，但是看上去似乎挺不错的。
 《异世盗皇》，看封面应该是挺久之前的书了，还可以。
 准备尝试了看看，试试毒。 其他。。 无。</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>今日诗词·增些许格调于评论</title>
+    <url>/posts/f1d736eb/</url>
+    <content><![CDATA[<p>What's past is prologue.</p>
+<span id="more"></span>
+<p><a href="https://www.jinrishici.com/">今日诗词官网</a>
+嗯一个随机诗句的接口 我把它放在了评论里面。 本来想在评论文本里显示的。
+可惜不会┓(???`?)┏ 只好显示在左下角了 不过还行 比原先来说的话
+可能多了一些文化气息？ <del>更有格调是么</del> 其实差不多了</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;script src=&quot;https://sdk.jinrishici.com/v2/browser/jinrishici.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;</span><br><span class="line">&lt;div id=&quot;poem_sentence&quot;&gt;&lt;/div&gt;</span><br><span class="line">&lt;div id=&quot;poem_info&quot;&gt;&lt;/div&gt;</span><br><span class="line">&lt;script type=&quot;text/javascript&quot;&gt;</span><br><span class="line">  jinrishici.load(function(result) &#123;</span><br><span class="line">    var sentence = document.querySelector(&quot;#poem_sentence&quot;)</span><br><span class="line">    var info = document.querySelector(&quot;#poem_info&quot;)</span><br><span class="line">    sentence.innerHTML = result.data.content</span><br><span class="line">    info.innerHTML = &#x27;【&#x27; + result.data.origin.dynasty + &#x27;】&#x27; + result.data.origin.author + &#x27;《&#x27; + result.data.origin.title + &#x27;》&#x27;</span><br><span class="line">  &#125;);</span><br><span class="line">&lt;/script&gt;</span><br></pre></td></tr></table></figure>
+<p>我是直接用的官网给的例子= = 各位可以自行调试┓(???`?)┏ 觉得挺不错的=
+=</p>
 ]]></content>
   </entry>
   <entry>
@@ -4717,6 +4711,20 @@ href="https://www.php.wf/archives/top-to-bottom-remram-typecho-plug-in.html">Top
 ]]></content>
   </entry>
   <entry>
+    <title>卜记六</title>
+    <url>/posts/1f360bdb/</url>
+    <content><![CDATA[<p>What's past is prologue.</p>
+<span id="more"></span>
+<p>秘： 于庚子年庚寅月乙酉日末时，与友射覆。其报字“鼠”。
+字为上下结构，其上六画，其下七画。余以全画加时辰数取爻。得主卦水山蹇，互卦火水未济，变卦水地比。
+余误猜瓜果之物，黄色。后其开覆，鼠标也。
+体卦为坎，坎为黑色。用卦艮，手指握住之意，且报字“鼠”。
+酉时，余见一人钱被骗，兴起起卦。以年月日时起卦。子年，一数。腊月，十二数。廿五，二十五数。酉时，十数。本卦水地比，互卦山地剥，变卦风山渐。
+体为主，用为财/失物。体卦坤土，用卦坎水，体克用。书云“体克用，有财。”又云“体克用，可寻迟得”卦中无克体之卦，无生体之卦。比和则吉。且坤艮土旺于辰戌丑未月。辰戌丑未月，坎卦气衰。卦中土多水少，且坎水变巽木，水生木，余不知是否可作“泄气”。有克，有泄，月令亦克坎，坎为钱财，为失物，故余粗断：钱能要回来。
+且所得之卦亦有诸多奥妙。 梅花易数 庚子年庚寅月丙戌日亥时</p>
+]]></content>
+  </entry>
+  <entry>
     <title>卜记四</title>
     <url>/posts/4cda19d/</url>
     <content><![CDATA[<p>What's past is prologue.</p>
@@ -4732,20 +4740,6 @@ href="https://www.php.wf/archives/top-to-bottom-remram-typecho-plug-in.html">Top
 余想其中缘由，心念一动，后知后觉：张先说之数，六也，坎也。坎主雨，故一日多雨乎？
 然腊月为农历十二月，为四季之月。四季之月，坎卦气衰也。可一日之雨该当何解？莫不是雨下一天便停之意？余惑矣。
 梅花易数 庚子年己丑月庚午日末时</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>卜记六</title>
-    <url>/posts/1f360bdb/</url>
-    <content><![CDATA[<p>What's past is prologue.</p>
-<span id="more"></span>
-<p>秘： 于庚子年庚寅月乙酉日末时，与友射覆。其报字“鼠”。
-字为上下结构，其上六画，其下七画。余以全画加时辰数取爻。得主卦水山蹇，互卦火水未济，变卦水地比。
-余误猜瓜果之物，黄色。后其开覆，鼠标也。
-体卦为坎，坎为黑色。用卦艮，手指握住之意，且报字“鼠”。
-酉时，余见一人钱被骗，兴起起卦。以年月日时起卦。子年，一数。腊月，十二数。廿五，二十五数。酉时，十数。本卦水地比，互卦山地剥，变卦风山渐。
-体为主，用为财/失物。体卦坤土，用卦坎水，体克用。书云“体克用，有财。”又云“体克用，可寻迟得”卦中无克体之卦，无生体之卦。比和则吉。且坤艮土旺于辰戌丑未月。辰戌丑未月，坎卦气衰。卦中土多水少，且坎水变巽木，水生木，余不知是否可作“泄气”。有克，有泄，月令亦克坎，坎为钱财，为失物，故余粗断：钱能要回来。
-且所得之卦亦有诸多奥妙。 梅花易数 庚子年庚寅月丙戌日亥时</p>
 ]]></content>
   </entry>
   <entry>
@@ -5733,6 +5727,20 @@ at it”. 他贩卖了上百万弹药，于所有的军.阀和独立领.导人�
 ]]></content>
   </entry>
   <entry>
+    <title>图片360°循环旋转代码</title>
+    <url>/posts/f540900f/</url>
+    <content><![CDATA[<p>What's past is prologue.</p>
+<span id="more"></span>
+<p>主要是在捣鼓<a
+href="http://gagagagagagaga.ga/">页面</a>的时候需要用到= =</p>
+<h2 id="所以顺便记录下">所以顺便记录下。</h2>
+<figure class="highlight php"><table><tr><td class="code"><pre><span class="line">&lt;!DOCTYPE html&gt;</span><br><span class="line">&lt;html&gt;</span><br><span class="line">&lt;head&gt;</span><br><span class="line">&lt;meta charset=<span class="string">&quot;utf-8&quot;</span> /&gt;</span><br><span class="line">&lt;title&gt;图片循环旋转&lt;/title&gt;</span><br><span class="line">&lt;style&gt;</span><br><span class="line">*&#123;margin: <span class="number">0</span>; padding: <span class="number">0</span>;&#125;</span><br><span class="line"></span><br><span class="line">.ta_c&#123;text-align: center;</span><br><span class="line">margin-top: <span class="number">100</span>px;&#125;</span><br><span class="line"></span><br><span class="line">@-webkit-keyframes rotation&#123;</span><br><span class="line"><span class="keyword">from</span> &#123;-webkit-transform: <span class="title function_ invoke__">rotate</span>(<span class="number">0</span>deg);&#125;</span><br><span class="line">to &#123;-webkit-transform: <span class="title function_ invoke__">rotate</span>(<span class="number">360</span>deg);&#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">.Rotation&#123;</span><br><span class="line">-webkit-transform: <span class="title function_ invoke__">rotate</span>(<span class="number">360</span>deg);</span><br><span class="line">animation: rotation <span class="number">3</span>s linear infinite;</span><br><span class="line">-moz-animation: rotation <span class="number">3</span>s linear infinite;</span><br><span class="line">-webkit-animation: rotation <span class="number">3</span>s linear infinite;</span><br><span class="line">-o-animation: rotation <span class="number">3</span>s linear infinite;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">.img&#123;border-radius: <span class="number">250</span>px;&#125;</span><br><span class="line"></span><br><span class="line">&lt;/style&gt;</span><br><span class="line">&lt;/head&gt;</span><br><span class="line">&lt;body&gt;</span><br><span class="line"></span><br><span class="line">&lt;div <span class="class"><span class="keyword">class</span>=&quot;<span class="title">ta_c</span>&quot;&gt;</span></span><br><span class="line"><span class="class">&lt;<span class="title">img</span> <span class="title">class</span>=&quot;<span class="title">Rotation</span> <span class="title">img</span>&quot; <span class="title">src</span>=&quot;/00.<span class="title">png</span>&quot; <span class="title">width</span>=&quot;500&quot; <span class="title">height</span>=&quot;500&quot;/&gt;</span></span><br><span class="line"><span class="class">&lt;/<span class="title">div</span>&gt;</span></span><br><span class="line"><span class="class"></span></span><br><span class="line"><span class="class">&lt;/<span class="title">body</span>&gt;</span></span><br><span class="line"><span class="class">&lt;/<span class="title">html</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<p>在对应的地方，即<code>&lt;head&gt;</code>和<code>&lt;body&gt;</code>中分别加上上述部分里的<code>&lt;head&gt;</code>和<code>&lt;body&gt;</code>中的代码即可。
+图片是<code>00.png</code>，默认在同一目录，若是放在文件夹中，例如<code>imgs</code>中的话，可以将<code>&lt;img class="Rotation img" src="/00.png" width="500" height="500"/&gt;</code>修改为<code>&lt;img class="Rotation img" src="imgs/00.png" width="500" height="500"/&gt;</code>
+若是图片格式不一样，不是'.png'的话，修改代码中的<code>.png</code>即可。，如改为'1.jpg'这样子</p>
+]]></content>
+  </entry>
+  <entry>
     <title>处处玄</title>
     <url>/posts/869b514f/</url>
     <content><![CDATA[<p>What's past is prologue.</p>
@@ -5767,20 +5775,6 @@ class="uri">http://q7cd66l0a.bkt.clouddn.com/xuan.mp4</a>
 遇爻动 若是有月建生扶 此卦便吉象浮 当旬空则无用 测身命 测姻缘
 卜后何妨随缘行 莫要牢抓不放 眼下时机未到 学易学 入玄门
 此生无悔伴道旁</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>图片360°循环旋转代码</title>
-    <url>/posts/f540900f/</url>
-    <content><![CDATA[<p>What's past is prologue.</p>
-<span id="more"></span>
-<p>主要是在捣鼓<a
-href="http://gagagagagagaga.ga/">页面</a>的时候需要用到= =</p>
-<h2 id="所以顺便记录下">所以顺便记录下。</h2>
-<figure class="highlight php"><table><tr><td class="code"><pre><span class="line">&lt;!DOCTYPE html&gt;</span><br><span class="line">&lt;html&gt;</span><br><span class="line">&lt;head&gt;</span><br><span class="line">&lt;meta charset=<span class="string">&quot;utf-8&quot;</span> /&gt;</span><br><span class="line">&lt;title&gt;图片循环旋转&lt;/title&gt;</span><br><span class="line">&lt;style&gt;</span><br><span class="line">*&#123;margin: <span class="number">0</span>; padding: <span class="number">0</span>;&#125;</span><br><span class="line"></span><br><span class="line">.ta_c&#123;text-align: center;</span><br><span class="line">margin-top: <span class="number">100</span>px;&#125;</span><br><span class="line"></span><br><span class="line">@-webkit-keyframes rotation&#123;</span><br><span class="line"><span class="keyword">from</span> &#123;-webkit-transform: <span class="title function_ invoke__">rotate</span>(<span class="number">0</span>deg);&#125;</span><br><span class="line">to &#123;-webkit-transform: <span class="title function_ invoke__">rotate</span>(<span class="number">360</span>deg);&#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">.Rotation&#123;</span><br><span class="line">-webkit-transform: <span class="title function_ invoke__">rotate</span>(<span class="number">360</span>deg);</span><br><span class="line">animation: rotation <span class="number">3</span>s linear infinite;</span><br><span class="line">-moz-animation: rotation <span class="number">3</span>s linear infinite;</span><br><span class="line">-webkit-animation: rotation <span class="number">3</span>s linear infinite;</span><br><span class="line">-o-animation: rotation <span class="number">3</span>s linear infinite;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">.img&#123;border-radius: <span class="number">250</span>px;&#125;</span><br><span class="line"></span><br><span class="line">&lt;/style&gt;</span><br><span class="line">&lt;/head&gt;</span><br><span class="line">&lt;body&gt;</span><br><span class="line"></span><br><span class="line">&lt;div <span class="class"><span class="keyword">class</span>=&quot;<span class="title">ta_c</span>&quot;&gt;</span></span><br><span class="line"><span class="class">&lt;<span class="title">img</span> <span class="title">class</span>=&quot;<span class="title">Rotation</span> <span class="title">img</span>&quot; <span class="title">src</span>=&quot;/00.<span class="title">png</span>&quot; <span class="title">width</span>=&quot;500&quot; <span class="title">height</span>=&quot;500&quot;/&gt;</span></span><br><span class="line"><span class="class">&lt;/<span class="title">div</span>&gt;</span></span><br><span class="line"><span class="class"></span></span><br><span class="line"><span class="class">&lt;/<span class="title">body</span>&gt;</span></span><br><span class="line"><span class="class">&lt;/<span class="title">html</span>&gt;</span></span><br></pre></td></tr></table></figure>
-<p>在对应的地方，即<code>&lt;head&gt;</code>和<code>&lt;body&gt;</code>中分别加上上述部分里的<code>&lt;head&gt;</code>和<code>&lt;body&gt;</code>中的代码即可。
-图片是<code>00.png</code>，默认在同一目录，若是放在文件夹中，例如<code>imgs</code>中的话，可以将<code>&lt;img class="Rotation img" src="/00.png" width="500" height="500"/&gt;</code>修改为<code>&lt;img class="Rotation img" src="imgs/00.png" width="500" height="500"/&gt;</code>
-若是图片格式不一样，不是'.png'的话，修改代码中的<code>.png</code>即可。，如改为'1.jpg'这样子</p>
 ]]></content>
   </entry>
   <entry>
@@ -5963,6 +5957,254 @@ Chocolate”（健达巧克力）和“Mylikes”（麦丽素） 嗯贼贵那个
 <p>假如你避免不了，就得去忍受
 不能忍受生命中注定要忍受的事，就是软弱和愚蠢的表现。</p>
 </blockquote>
+]]></content>
+  </entry>
+  <entry>
+    <title>容我测试下这个编辑器咯。</title>
+    <url>/posts/18056294/</url>
+    <content><![CDATA[<p>What's past is prologue.</p>
+<span id="more"></span>
+<h1 id="section"></h1>
+<p><del>123？</del></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">your code</span><br></pre></td></tr></table></figure>
+<figure class="highlight php"><table><tr><td class="code"><pre><span class="line"><span class="meta">&lt;?php</span> <span class="keyword">echo</span> <span class="string">&#x27;hello jrotty!&#x27;</span>; <span class="meta">?&gt;</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">1</span><br></pre></td></tr></table></figure>
+<pre><code>1978</code></pre>
+<p><span
+style="color:LightSlateGray;">这是比font标签更好的方式。可以试试。</span></p>
+<p>日常测试。 没捣鼓明白。</p>
+<p><strong>加粗文字是这个咯？</strong></p>
+<p><em>这个是倾斜文字？</em></p>
+<p><a href="https://zhiluo.top">个人引导页链接？</a></p>
+<blockquote>
+<p>引用？</p>
+</blockquote>
+<pre><code>代码咯？</code></pre>
+<ul>
+<li>12</li>
+<li>。。。</li>
+</ul>
+<h2 id="唔试试">唔试试</h2>
+<p>标题文字↑</p>
+<!--more-->
+<p>[原文]^(yuán wén)</p>
+<p>测试下这个咯= = <del>滴</del></p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="built_in">print</span>(<span class="string">&quot;hello,world&quot;</span>)</span><br></pre></td></tr></table></figure>
+<p>print("hello,world")</p>
+<table>
+<thead>
+<tr class="header">
+<th>表头</th>
+<th>表头</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>单元格</td>
+<td>单元格</td>
+</tr>
+<tr class="even">
+<td>单元格</td>
+<td>单元格</td>
+</tr>
+</tbody>
+</table>
+<table border="1">
+<tr>
+<th>
+4
+</th>
+<th>
+Savings
+</th>
+</tr>
+<tr>
+<td>
+January
+</td>
+<td>
+$100
+</td>
+</tr>
+<tr>
+<td>
+February
+</td>
+<td>
+$80
+</td>
+</tr>
+</table>
+<table>
+<p style="text-align:center ">
+功课表
+</p>
+<tr>
+<th>
+语文
+</th>
+<td>
+7:00-7:40
+</td>
+<td>
+7:50-8:30
+</td>
+</tr>
+<tr>
+<th>
+数学
+</th>
+<td>
+7:00-7:40
+</td>
+<td>
+7:50-8:30
+</td>
+</tr>
+<tr>
+<th>
+英文
+</th>
+<td>
+7:00-7:40
+</td>
+<td>
+7:50-8:30
+</td>
+</tr>
+</table>
+<style type="text/css">
+
+table.tftable {font-size:12px;color:#333333;width:100%;border-width: 1px;border-color: #9dcc7a;border-collapse: collapse;}
+
+table.tftable th {font-size:12px;background-color:#abd28e;border-width: 1px;padding: 8px;border-style: solid;border-color: #9dcc7a;text-align:left;}
+
+table.tftable tr {background-color:#ffffff;}
+
+table.tftable td {font-size:12px;border-width: 1px;padding: 8px;border-style: solid;border-color: #9dcc7a;}
+
+</style>
+<table id="tfhover" class="tftable" border="1">
+<tr>
+<th>
+Header 1
+</th>
+<th>
+Header 2
+</th>
+<th>
+Header 3
+</th>
+<th>
+Header 4
+</th>
+<th>
+Header 5
+</th>
+</tr>
+<tr>
+<td>
+Row:1 Cell:1
+</td>
+<td>
+Row:1 Cell:2
+</td>
+<td>
+Row:1 Cell:3
+</td>
+<td>
+Row:1 Cell:4
+</td>
+<td>
+Row:1 Cell:5
+</td>
+</tr>
+<tr>
+<td>
+Row:2 Cell:1
+</td>
+<td>
+Row:2 Cell:2
+</td>
+<td>
+Row:2 Cell:3
+</td>
+<td>
+Row:2 Cell:4
+</td>
+<td>
+Row:2 Cell:5
+</td>
+</tr>
+<tr>
+<td>
+Row:3 Cell:1
+</td>
+<td>
+Row:3 Cell:2
+</td>
+<td>
+Row:3 Cell:3
+</td>
+<td>
+Row:3 Cell:4
+</td>
+<td>
+Row:3 Cell:5
+</td>
+</tr>
+<tr>
+<td>
+Row:4 Cell:1
+</td>
+<td>
+Row:4 Cell:2
+</td>
+<td>
+Row:4 Cell:3
+</td>
+<td>
+Row:4 Cell:4
+</td>
+<td>
+Row:4 Cell:5
+</td>
+</tr>
+<tr>
+<td>
+Row:5 Cell:1
+</td>
+<td>
+Row:5 Cell:2
+</td>
+<td>
+Row:5 Cell:3
+</td>
+<td>
+Row:5 Cell:4
+</td>
+<td>
+Row:5 Cell:5
+</td>
+</tr>
+<tr>
+<td>
+Row:6 Cell:1
+</td>
+<td>
+Row:6 Cell:2
+</td>
+<td>
+Row:6 Cell:3
+</td>
+<td>
+Row:6 Cell:4
+</td>
+<td>
+Row:6 Cell:5
+</td>
+</tr>
+</table>
 ]]></content>
   </entry>
   <entry>
@@ -9075,272 +9317,6 @@ id="一世界的bug终究是我一个人承担了">一、世界的BUG，终究�
 ]]></content>
   </entry>
   <entry>
-    <title>容我测试下这个编辑器咯。</title>
-    <url>/posts/18056294/</url>
-    <content><![CDATA[<p>What's past is prologue.</p>
-<span id="more"></span>
-<h1 id="section"></h1>
-<p><del>123？</del></p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">your code</span><br></pre></td></tr></table></figure>
-<figure class="highlight php"><table><tr><td class="code"><pre><span class="line"><span class="meta">&lt;?php</span> <span class="keyword">echo</span> <span class="string">&#x27;hello jrotty!&#x27;</span>; <span class="meta">?&gt;</span></span><br></pre></td></tr></table></figure>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">1</span><br></pre></td></tr></table></figure>
-<pre><code>1978</code></pre>
-<p><span
-style="color:LightSlateGray;">这是比font标签更好的方式。可以试试。</span></p>
-<p>日常测试。 没捣鼓明白。</p>
-<p><strong>加粗文字是这个咯？</strong></p>
-<p><em>这个是倾斜文字？</em></p>
-<p><a href="https://zhiluo.top">个人引导页链接？</a></p>
-<blockquote>
-<p>引用？</p>
-</blockquote>
-<pre><code>代码咯？</code></pre>
-<ul>
-<li>12</li>
-<li>。。。</li>
-</ul>
-<h2 id="唔试试">唔试试</h2>
-<p>标题文字↑</p>
-<!--more-->
-<p>[原文]^(yuán wén)</p>
-<p>测试下这个咯= = <del>滴</del></p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="built_in">print</span>(<span class="string">&quot;hello,world&quot;</span>)</span><br></pre></td></tr></table></figure>
-<p>print("hello,world")</p>
-<table>
-<thead>
-<tr class="header">
-<th>表头</th>
-<th>表头</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>单元格</td>
-<td>单元格</td>
-</tr>
-<tr class="even">
-<td>单元格</td>
-<td>单元格</td>
-</tr>
-</tbody>
-</table>
-<table border="1">
-<tr>
-<th>
-4
-</th>
-<th>
-Savings
-</th>
-</tr>
-<tr>
-<td>
-January
-</td>
-<td>
-$100
-</td>
-</tr>
-<tr>
-<td>
-February
-</td>
-<td>
-$80
-</td>
-</tr>
-</table>
-<table>
-<p style="text-align:center ">
-功课表
-</p>
-<tr>
-<th>
-语文
-</th>
-<td>
-7:00-7:40
-</td>
-<td>
-7:50-8:30
-</td>
-</tr>
-<tr>
-<th>
-数学
-</th>
-<td>
-7:00-7:40
-</td>
-<td>
-7:50-8:30
-</td>
-</tr>
-<tr>
-<th>
-英文
-</th>
-<td>
-7:00-7:40
-</td>
-<td>
-7:50-8:30
-</td>
-</tr>
-</table>
-<style type="text/css">
-
-table.tftable {font-size:12px;color:#333333;width:100%;border-width: 1px;border-color: #9dcc7a;border-collapse: collapse;}
-
-table.tftable th {font-size:12px;background-color:#abd28e;border-width: 1px;padding: 8px;border-style: solid;border-color: #9dcc7a;text-align:left;}
-
-table.tftable tr {background-color:#ffffff;}
-
-table.tftable td {font-size:12px;border-width: 1px;padding: 8px;border-style: solid;border-color: #9dcc7a;}
-
-</style>
-<table id="tfhover" class="tftable" border="1">
-<tr>
-<th>
-Header 1
-</th>
-<th>
-Header 2
-</th>
-<th>
-Header 3
-</th>
-<th>
-Header 4
-</th>
-<th>
-Header 5
-</th>
-</tr>
-<tr>
-<td>
-Row:1 Cell:1
-</td>
-<td>
-Row:1 Cell:2
-</td>
-<td>
-Row:1 Cell:3
-</td>
-<td>
-Row:1 Cell:4
-</td>
-<td>
-Row:1 Cell:5
-</td>
-</tr>
-<tr>
-<td>
-Row:2 Cell:1
-</td>
-<td>
-Row:2 Cell:2
-</td>
-<td>
-Row:2 Cell:3
-</td>
-<td>
-Row:2 Cell:4
-</td>
-<td>
-Row:2 Cell:5
-</td>
-</tr>
-<tr>
-<td>
-Row:3 Cell:1
-</td>
-<td>
-Row:3 Cell:2
-</td>
-<td>
-Row:3 Cell:3
-</td>
-<td>
-Row:3 Cell:4
-</td>
-<td>
-Row:3 Cell:5
-</td>
-</tr>
-<tr>
-<td>
-Row:4 Cell:1
-</td>
-<td>
-Row:4 Cell:2
-</td>
-<td>
-Row:4 Cell:3
-</td>
-<td>
-Row:4 Cell:4
-</td>
-<td>
-Row:4 Cell:5
-</td>
-</tr>
-<tr>
-<td>
-Row:5 Cell:1
-</td>
-<td>
-Row:5 Cell:2
-</td>
-<td>
-Row:5 Cell:3
-</td>
-<td>
-Row:5 Cell:4
-</td>
-<td>
-Row:5 Cell:5
-</td>
-</tr>
-<tr>
-<td>
-Row:6 Cell:1
-</td>
-<td>
-Row:6 Cell:2
-</td>
-<td>
-Row:6 Cell:3
-</td>
-<td>
-Row:6 Cell:4
-</td>
-<td>
-Row:6 Cell:5
-</td>
-</tr>
-</table>
-]]></content>
-  </entry>
-  <entry>
-    <title>很遗憾，很抱歉，终究还是做了这个决定</title>
-    <url>/posts/204b923e/</url>
-    <content><![CDATA[<p>What's past is prologue.</p>
-<span id="more"></span>
-<p>抱歉！！！！！ 承蒙各位厚爱，小站自2020.1.27起航，一直至今日.
-断断续续两三月，挥挥洒洒一百文。
-从刚开始的一无所有，到现在的略有起色，这一路走来，却是说不尽的唏嘘。
-评论，从一开始的刺眼的0，到了现在的三位数，甚至超过了文章总数，大感欣慰之余，亦怀自豪些微。
-文章，从一开始的hello，typecho，到现在的一百+篇，不由得感慨，我竟坚持如此之久？
-友链，从一开始的空白，到现在的三三两两，不由得发觉自己竟已有了些许同道中人，喜且惊。
-你们伴我走过风风雨雨，我却辜负了汝等期待；
-你们与我共享酸甜苦辣，我却选择了转身离开。 最后的最后， 我想说： <br>
-<br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
-<br> <br> <strong>愚人节快乐！</strong></p>
-<p><strong>纵横正有凌云笔，俯仰随人亦可怜</strong></p>
-]]></content>
-  </entry>
-  <entry>
     <title>强制https</title>
     <url>/posts/30eb72fe/</url>
     <content><![CDATA[<p>What's past is prologue.</p>
@@ -9364,6 +9340,24 @@ href="https://crash-logs.ml/wrong/crash-2020-02-25_3-client.txt">某幻</a>blog�
 124.124.124.124 [NC]RewriteRule ^(.*)\)</span> http://www.baidu.com/$1
 [R=301] ```</p>
 <p>我觉得可以/好评</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>很遗憾，很抱歉，终究还是做了这个决定</title>
+    <url>/posts/204b923e/</url>
+    <content><![CDATA[<p>What's past is prologue.</p>
+<span id="more"></span>
+<p>抱歉！！！！！ 承蒙各位厚爱，小站自2020.1.27起航，一直至今日.
+断断续续两三月，挥挥洒洒一百文。
+从刚开始的一无所有，到现在的略有起色，这一路走来，却是说不尽的唏嘘。
+评论，从一开始的刺眼的0，到了现在的三位数，甚至超过了文章总数，大感欣慰之余，亦怀自豪些微。
+文章，从一开始的hello，typecho，到现在的一百+篇，不由得感慨，我竟坚持如此之久？
+友链，从一开始的空白，到现在的三三两两，不由得发觉自己竟已有了些许同道中人，喜且惊。
+你们伴我走过风风雨雨，我却辜负了汝等期待；
+你们与我共享酸甜苦辣，我却选择了转身离开。 最后的最后， 我想说： <br>
+<br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
+<br> <br> <strong>愚人节快乐！</strong></p>
+<p><strong>纵横正有凌云笔，俯仰随人亦可怜</strong></p>
 ]]></content>
   </entry>
   <entry>
@@ -10160,6 +10154,17 @@ href="https://tinypng.com/">tinypng</a> 然后盖是没有了</p>
 ]]></content>
   </entry>
   <entry>
+    <title>换了个个人引导页</title>
+    <url>/posts/3b6fee6d/</url>
+    <content><![CDATA[<p>What's past is prologue.</p>
+<span id="more"></span>
+<p>嗯。 zhiluo.top 很简洁的一个个人引导页
+果然老了么...越来越喜欢这种简单纯粹单纯的了..
+<del>不，那是大道至简</del> <del>不，那是返璞归真</del>
+<del>不，那是赤子之心</del></p>
+]]></content>
+  </entry>
+  <entry>
     <title>换了个个人引导页并迁移</title>
     <url>/posts/18bcaca5/</url>
     <content><![CDATA[<p>What's past is prologue.</p>
@@ -10181,17 +10186,6 @@ href="https://www.51.la/">51la</a> 源码网上找的 嗯自己修改了下。 �
 <p>中国的话，七月初七是七夕节= = 我觉得应该过七夕节吧= =
 这个情人节。。也是真的= = <del>情人啊，情人，不是第三者么咳咳</del>
 没了没了。 溜了。 听课。</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>换了个个人引导页</title>
-    <url>/posts/3b6fee6d/</url>
-    <content><![CDATA[<p>What's past is prologue.</p>
-<span id="more"></span>
-<p>嗯。 zhiluo.top 很简洁的一个个人引导页
-果然老了么...越来越喜欢这种简单纯粹单纯的了..
-<del>不，那是大道至简</del> <del>不，那是返璞归真</del>
-<del>不，那是赤子之心</del></p>
 ]]></content>
   </entry>
   <entry>
@@ -10603,6 +10597,21 @@ https://www.bilibili.com/read/cv4332227/?spm_id_from=333.788.b_636f6d6d656e74.7<
 ]]></content>
   </entry>
   <entry>
+    <title>浅谈爱国观</title>
+    <url>/posts/1ede0606/</url>
+    <content><![CDATA[<p>What's past is prologue.</p>
+<span id="more"></span>
+<h1 id="浅谈爱国观">浅谈爱国观</h1>
+<p>怀疑心下的，是一颗悄然觉醒的心。</p>
+<p>偶然看到一篇新闻，听闻“XXX对XXX,XXX，体现了XXX的XXX之情“，心中却升起了反感。</p>
+<p>是少年的叛逆罢？盖是如此的！若不然，我也要对自己的不爱国而哂之了。其实对于执政组织，以前大多无多大印象。后偶然知晓其人数已达九千万之多，心中一惊的同时，又忍不住下意识感慨”九千万人？出于民者，心为于民者，行为于民者，千万人有乎？“不论是在各种社交平台如知乎上看到的人们对成员的感慨，言他们对申请一事背后充斥的暗的控诉，还是自身本就很少接触组织成员，我在看到庞大的人数之后，以及平常的一些小碎语所带来的，不可避免的，我产生了怀疑。</p>
+<p>念及于此，我总会念叨着“我本就不爱这个组织，我崇敬的只会是昔日为民抱薪取暖者，今日为民做事者。我愿意为之流泪者，只会是那些为民弯腰，为民横眉，甘之如饴者。只是他们大多来源于这个组织，但这并不是我想要加入这个组织，对着组织充满无穷的敬意的缘由。”于是乎，我的疑心愈发加重。</p>
+<p>就像对于一些科学家获得了诺贝尔奖后，人们说的“他们并不因诺贝尔奖而崇高，诺贝尔奖因他们而光辉”为民者与组织，亦诚如斯言。我愿意将自身的敬意加注到个人，或是加注到一个民族，而不是一个团体，一个组织，一个国家。国家？我一直爱戴着这片土地，喜爱着所有为了她而世代奋斗着的人们，以及在她庇佑下辛勤劳作的人们。这片土地的掌权者换了又换，人民一代代地传承着，唯有其名为“华夏”的精神，刻在骨子里，随着血脉的流淌，源源不绝。我热爱的是人民，敬佩的是人民，能让我热爱的，敬佩的，也唯有人民，以及由人民组成的，民族，国家。组织跟国家，不一样的。</p>
+<p>以前的我也许看着《雷锋的故事》，看着网上流传的好人好事的文字报道，视频会愚昧不知，一笑而过。如今的我却最是怕见到这些，能令我瞬间潸然泪下的承载着一种说不清道不明却令我的灵魂深深颤栗的视频、文字了。于是我知晓，我开始了共情，我对人民，对与我同在一片天空下的人们，在经历了小时候懵懵懂懂的“断线失联“后，”恢复了链接“。我的心，开始为之牵动。遇难时恨不得能够亲身前往，替他们阻挡哪怕片刻的危险，哪怕杯水车薪，哪怕于事无补，至少体内这一颗心，会在他们的面前受到解脱，不再流泪。每当见到有人愿意为了他们伸出援手，哪怕是下意识的小小举动，我却会又一次的控制不住自己，泪湿眼眶、明明是“男儿有泪不轻弹”，却不知为何我的泪水在他们的面前是那么的廉价。在人间真情面前，在世间美好之前，我忘记了社会黑暗，忘记了阶级压迫，忘记了礼制规矩，只是单纯的为了这份无言的人性体现，难以自禁。</p>
+<p>我爱国，但我更爱人民。</p>
+]]></content>
+  </entry>
+  <entry>
     <title>每日一愿之坚决不熬夜</title>
     <url>/posts/9535d931/</url>
     <content><![CDATA[<p>What's past is prologue.</p>
@@ -10623,18 +10632,16 @@ class="uri">https://www.coolapk.com/feed/17911131?shareKey=MGNlY2RmMDQzODc4NWU5M
 ]]></content>
   </entry>
   <entry>
-    <title>浅谈爱国观</title>
-    <url>/posts/1ede0606/</url>
+    <title>清明时节雨，纷纷</title>
+    <url>/posts/dbe76576/</url>
     <content><![CDATA[<p>What's past is prologue.</p>
 <span id="more"></span>
-<h1 id="浅谈爱国观">浅谈爱国观</h1>
-<p>怀疑心下的，是一颗悄然觉醒的心。</p>
-<p>偶然看到一篇新闻，听闻“XXX对XXX,XXX，体现了XXX的XXX之情“，心中却升起了反感。</p>
-<p>是少年的叛逆罢？盖是如此的！若不然，我也要对自己的不爱国而哂之了。其实对于执政组织，以前大多无多大印象。后偶然知晓其人数已达九千万之多，心中一惊的同时，又忍不住下意识感慨”九千万人？出于民者，心为于民者，行为于民者，千万人有乎？“不论是在各种社交平台如知乎上看到的人们对成员的感慨，言他们对申请一事背后充斥的暗的控诉，还是自身本就很少接触组织成员，我在看到庞大的人数之后，以及平常的一些小碎语所带来的，不可避免的，我产生了怀疑。</p>
-<p>念及于此，我总会念叨着“我本就不爱这个组织，我崇敬的只会是昔日为民抱薪取暖者，今日为民做事者。我愿意为之流泪者，只会是那些为民弯腰，为民横眉，甘之如饴者。只是他们大多来源于这个组织，但这并不是我想要加入这个组织，对着组织充满无穷的敬意的缘由。”于是乎，我的疑心愈发加重。</p>
-<p>就像对于一些科学家获得了诺贝尔奖后，人们说的“他们并不因诺贝尔奖而崇高，诺贝尔奖因他们而光辉”为民者与组织，亦诚如斯言。我愿意将自身的敬意加注到个人，或是加注到一个民族，而不是一个团体，一个组织，一个国家。国家？我一直爱戴着这片土地，喜爱着所有为了她而世代奋斗着的人们，以及在她庇佑下辛勤劳作的人们。这片土地的掌权者换了又换，人民一代代地传承着，唯有其名为“华夏”的精神，刻在骨子里，随着血脉的流淌，源源不绝。我热爱的是人民，敬佩的是人民，能让我热爱的，敬佩的，也唯有人民，以及由人民组成的，民族，国家。组织跟国家，不一样的。</p>
-<p>以前的我也许看着《雷锋的故事》，看着网上流传的好人好事的文字报道，视频会愚昧不知，一笑而过。如今的我却最是怕见到这些，能令我瞬间潸然泪下的承载着一种说不清道不明却令我的灵魂深深颤栗的视频、文字了。于是我知晓，我开始了共情，我对人民，对与我同在一片天空下的人们，在经历了小时候懵懵懂懂的“断线失联“后，”恢复了链接“。我的心，开始为之牵动。遇难时恨不得能够亲身前往，替他们阻挡哪怕片刻的危险，哪怕杯水车薪，哪怕于事无补，至少体内这一颗心，会在他们的面前受到解脱，不再流泪。每当见到有人愿意为了他们伸出援手，哪怕是下意识的小小举动，我却会又一次的控制不住自己，泪湿眼眶、明明是“男儿有泪不轻弹”，却不知为何我的泪水在他们的面前是那么的廉价。在人间真情面前，在世间美好之前，我忘记了社会黑暗，忘记了阶级压迫，忘记了礼制规矩，只是单纯的为了这份无言的人性体现，难以自禁。</p>
-<p>我爱国，但我更爱人民。</p>
+<p>三分钟 长鸣 是你们的呐喊 是国人的呼唤。</p>
+<p>你们执 利剑 划破了黑暗 你们迎 厉风 撷下了曙光。</p>
+<p>时代 落下了一粒灰 于你 抗起了一座山 而我 有了一个港湾。</p>
+<p>此刻春暖 花开 如今海晏 河清 万物生长 清明。</p>
+<p>清明雨 纷纷 黄土又埋 几许人？</p>
+<p>悄落泪 沾袖 残寒销尽 清明后。</p>
 ]]></content>
   </entry>
   <entry>
@@ -10656,19 +10663,6 @@ class="uri">https://www.coolapk.com/feed/17911131?shareKey=MGNlY2RmMDQzODc4NWU5M
 然后主题的话我是直接cv了一份，另一份用的是原版的，无渐变的运行时间统计。
 同时还把返回顶部这个从手机主题那边删去了来着，太影响阅读了233</p>
 <figure class="highlight php"><table><tr><td class="code"><pre><span class="line">&lt;!--安全运行代码开始--&gt;</span><br><span class="line">&lt;span id=<span class="string">&quot;momk&quot;</span>&gt;&lt;/span&gt;</span><br><span class="line">&lt;script language=javascript&gt;</span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">show_date_time</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line">window.<span class="title function_ invoke__">setTimeout</span>(<span class="string">&quot;show_date_time()&quot;</span>, <span class="number">1000</span>);</span><br><span class="line">BirthDay=<span class="keyword">new</span> <span class="title class_">Date</span>(<span class="string">&quot;01-27-2020 7:07:7&quot;</span>);<span class="comment">//日期</span></span><br><span class="line">today=<span class="keyword">new</span> <span class="title class_">Date</span>();</span><br><span class="line">timeold=(today.<span class="title function_ invoke__">getTime</span>()-BirthDay.<span class="title function_ invoke__">getTime</span>());</span><br><span class="line">sectimeold=timeold/<span class="number">1000</span></span><br><span class="line">secondsold=Math.<span class="title function_ invoke__">floor</span>(sectimeold);</span><br><span class="line">msPerDay=<span class="number">24</span>*<span class="number">60</span>*<span class="number">60</span>*<span class="number">1000</span></span><br><span class="line">e_daysold=timeold/msPerDay</span><br><span class="line">daysold=Math.<span class="title function_ invoke__">floor</span>(e_daysold);</span><br><span class="line">e_hrsold=(daysold-e_daysold)*-<span class="number">24</span>;</span><br><span class="line">hrsold=Math.<span class="title function_ invoke__">floor</span>(e_hrsold);</span><br><span class="line">e_minsold=(hrsold-e_hrsold)*-<span class="number">60</span>;</span><br><span class="line">minsold=Math.<span class="title function_ invoke__">floor</span>((hrsold-e_hrsold)*-<span class="number">60</span>);</span><br><span class="line">seconds=Math.<span class="title function_ invoke__">floor</span>((minsold-e_minsold)*-<span class="number">60</span>);</span><br><span class="line">momk.innerHTML=<span class="string">&quot;感谢有你：&quot;</span>+daysold+<span class="string">&quot;天&quot;</span>+hrsold+<span class="string">&quot;小时&quot;</span>+minsold+<span class="string">&quot;分&quot;</span>+seconds+<span class="string">&quot;秒&quot;</span> ;</span><br><span class="line">&#125;</span><br><span class="line"><span class="title function_ invoke__">show_date_time</span>();</span><br><span class="line">&lt;/script&gt;</span><br><span class="line">&lt;style&gt;</span><br><span class="line"><span class="comment">#momk&#123;animation:change 10s infinite;font-weight:800; &#125;</span></span><br><span class="line">@keyframes change&#123;<span class="number">0</span>%&#123;color:<span class="comment">#5cb85c;&#125;25%&#123;color:#556bd8;&#125;50%&#123;color:#e40707;&#125;75%&#123;color:#66e616;&#125;100% &#123;color:#67bd31;&#125;&#125;</span></span><br><span class="line">&lt;/style&gt;</span><br><span class="line">  &lt;!--安全运行代码结束--&gt;</span><br></pre></td></tr></table></figure>
-]]></content>
-  </entry>
-  <entry>
-    <title>清明时节雨，纷纷</title>
-    <url>/posts/dbe76576/</url>
-    <content><![CDATA[<p>What's past is prologue.</p>
-<span id="more"></span>
-<p>三分钟 长鸣 是你们的呐喊 是国人的呼唤。</p>
-<p>你们执 利剑 划破了黑暗 你们迎 厉风 撷下了曙光。</p>
-<p>时代 落下了一粒灰 于你 抗起了一座山 而我 有了一个港湾。</p>
-<p>此刻春暖 花开 如今海晏 河清 万物生长 清明。</p>
-<p>清明雨 纷纷 黄土又埋 几许人？</p>
-<p>悄落泪 沾袖 残寒销尽 清明后。</p>
 ]]></content>
   </entry>
   <entry>
@@ -11429,41 +11423,6 @@ alt="2.jpg" /></p>
 ]]></content>
   </entry>
   <entry>
-    <title>白书习记三、数字取整</title>
-    <url>/posts/40bca712/</url>
-    <content><![CDATA[<p>What's past is prologue.</p>
-<span id="more"></span>
-<p>ceil函数（向上取整）</p>
-<blockquote>
-<p>函数名： ceil</p>
-<p>用 法： double ceil(double x);</p>
-<p>功 能： 返回大于或者等于指定表达式的最小整数</p>
-<p>头文件：math.h</p>
-<p>返回数据类型：double</p>
-</blockquote>
-<pre><code>ceil(1.2) = 2   ceil(0.0) = 0   ceil(-1.2) = -1</code></pre>
-<p><br> <br> floor函数（向下取整） -------------</p>
-<blockquote>
-<p>函数名： floor</p>
-<p>用 法： double floor(double x)</p>
-<p>功 能： 返回不大于x的最大整数</p>
-<p>头文件：math.h</p>
-<p>返回数据类型：double</p>
-</blockquote>
-<pre><code>floor(1.2) = 1  floor(0.0) = 0  floor(-1.2) = -2</code></pre>
-<p><br> <br> round函数（四舍五入） -------------</p>
-<blockquote>
-<p>函数名： round</p>
-<p>用 法： double round(double x)</p>
-<p>功 能： 返回将x四舍五入后的值</p>
-<p>头文件：math.h</p>
-<p>返回数据类型：double</p>
-</blockquote>
-<pre><code>round(2.1)=2.0     round(2.5)=3.0      round(-2.1)=-2.0           round(-2.5)=-3.0    round(0)=0</code></pre>
-<p><br> <br></p>
-]]></content>
-  </entry>
-  <entry>
     <title>白书习记二、iomanip标准库【浮点数处理、输入输出格式】</title>
     <url>/posts/6b47c55d/</url>
     <content><![CDATA[<p>What's past is prologue.</p>
@@ -11526,6 +11485,41 @@ return 0 ;<br />
 }<br />
 输出结果如下： 3.141592654 3.1 3.14 *******3.1415926540
 3.1415926540******* 3.1415926540e+000 3.1415926540E+000</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>白书习记三、数字取整</title>
+    <url>/posts/40bca712/</url>
+    <content><![CDATA[<p>What's past is prologue.</p>
+<span id="more"></span>
+<p>ceil函数（向上取整）</p>
+<blockquote>
+<p>函数名： ceil</p>
+<p>用 法： double ceil(double x);</p>
+<p>功 能： 返回大于或者等于指定表达式的最小整数</p>
+<p>头文件：math.h</p>
+<p>返回数据类型：double</p>
+</blockquote>
+<pre><code>ceil(1.2) = 2   ceil(0.0) = 0   ceil(-1.2) = -1</code></pre>
+<p><br> <br> floor函数（向下取整） -------------</p>
+<blockquote>
+<p>函数名： floor</p>
+<p>用 法： double floor(double x)</p>
+<p>功 能： 返回不大于x的最大整数</p>
+<p>头文件：math.h</p>
+<p>返回数据类型：double</p>
+</blockquote>
+<pre><code>floor(1.2) = 1  floor(0.0) = 0  floor(-1.2) = -2</code></pre>
+<p><br> <br> round函数（四舍五入） -------------</p>
+<blockquote>
+<p>函数名： round</p>
+<p>用 法： double round(double x)</p>
+<p>功 能： 返回将x四舍五入后的值</p>
+<p>头文件：math.h</p>
+<p>返回数据类型：double</p>
+</blockquote>
+<pre><code>round(2.1)=2.0     round(2.5)=3.0      round(-2.1)=-2.0           round(-2.5)=-3.0    round(0)=0</code></pre>
+<p><br> <br></p>
 ]]></content>
   </entry>
   <entry>
@@ -12929,6 +12923,48 @@ href="https://github.com/jzwalk/HighSlide">HighSlide</a>
 ]]></content>
   </entry>
   <entry>
+    <title>趣事</title>
+    <url>/posts/412717f5/</url>
+    <content><![CDATA[<p>What's past is prologue.</p>
+<span id="more"></span>
+<p>咳。 其实说起来有点丢人的说// 有点不务正业其实// 占卜之人能吃牛肉么？
+这是在我中午下楼时看到牛肉并且已经开始吃的时候想的。
+然后想着吃都吃了。。就。。没怎么管。 “其实自己也不算个占卜之人是吧hh”
+嗯然后上楼。 去搜了下。 如图：</p>
+<p>看来可以吃/// 咳咳，道家，不是讲究顺其自然么。 随性而为。
+既如此，可有忌食？
+主要是之前在看占卜视频的时候，因为心定不下来，然后就去看来下一些有关中华传统武术的视频。
+然后在看武当山的师父们展示。
+嗯然后看到弹幕那边说“道教两大派中全真派素食；正一派四不吃：牛肉，狗肉，乌鱼，鸿雁”
+嗯然后有点慌。 嗯然后因为忘记弹幕然后就去百度了。 嗯然后更慌了///</p>
+<blockquote>
+<p>道教不仅明文规定了各种修持戒律，也在祀神、修真、拜师、斋醮、参访、饮食等方面形成了独特的宗教禁忌。</p>
+</blockquote>
+<blockquote>
+<p>四不吃：道教徒不吃四种肉食——牛肉、乌鱼、鸿雁、狗肉，因为牛、乌鱼、鸿雁、狗分别代表忠、孝、节、义。</p>
+</blockquote>
+<blockquote>
+<p>道不言寿：道教重生恶死，忌讳询问年龄，所以问老道长高寿是不礼貌的行为。</p>
+</blockquote>
+<blockquote>
+<p>戊不朝真：道教逢阴历天干为“戊”之日(戊子、戊戌、戊午、戊寅、戊申、戊辰)，不烧香、不诵经、不朝拜，不建斋设醮。</p>
+</blockquote>
+<blockquote>
+<p>参考资料来源：百度百科-道教</p>
+</blockquote>
+<p>我信仰道家？有点。 所以。。我这个。。 算不算。。。 hh。 下次注意吧。
+挺好吃的。。。 咳咳。 幸亏其他的很少吃。 （或者基本没吃过= =</p>
+<p>然后呢就是早上心血来潮。 想了一些有关占卜却又跟占卜无关的。
+就是想着说能不能把自己的能力大致数据化一下。 就是分等级。
+嗯其实这个是真的有点不务正业了是吧///
+但是我觉得这样子可能更能令我坚持下去？ 我不知道。 拙见。
+所以还是看下吧：D</p>
+<p>嗯，我懒。 道徒。 道士。 就两个级别。 我对自己要求不高// 级别分九重。
+九，为数极，代表无穷无尽。 所以道徒-道士那可就是质的飞跃了= =</p>
+<p>给自己来个总结吧： 道徒一重（1/10）</p>
+]]></content>
+  </entry>
+  <entry>
     <title>迷惑小卦</title>
     <url>/posts/b5f77874/</url>
     <content><![CDATA[<p>What's past is prologue.</p>
@@ -12975,48 +13011,6 @@ href="https://github.com/jzwalk/HighSlide">HighSlide</a>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">2020年3月9日23时12分</span><br><span class="line">男</span><br><span class="line">今天天气如何？</span><br><span class="line">第六次：……</span><br><span class="line">第五次：……</span><br><span class="line">第四次：……</span><br><span class="line">第三次：……</span><br><span class="line">第二次：背字背</span><br><span class="line">第一次：背背花</span><br></pre></td></tr></table></figure>
 <p><font color='MediumAquaMarine'> 有人给我这个萌新检验自己的机会嘛owo
 </font></p>
-]]></content>
-  </entry>
-  <entry>
-    <title>趣事</title>
-    <url>/posts/412717f5/</url>
-    <content><![CDATA[<p>What's past is prologue.</p>
-<span id="more"></span>
-<p>咳。 其实说起来有点丢人的说// 有点不务正业其实// 占卜之人能吃牛肉么？
-这是在我中午下楼时看到牛肉并且已经开始吃的时候想的。
-然后想着吃都吃了。。就。。没怎么管。 “其实自己也不算个占卜之人是吧hh”
-嗯然后上楼。 去搜了下。 如图：</p>
-<p>看来可以吃/// 咳咳，道家，不是讲究顺其自然么。 随性而为。
-既如此，可有忌食？
-主要是之前在看占卜视频的时候，因为心定不下来，然后就去看来下一些有关中华传统武术的视频。
-然后在看武当山的师父们展示。
-嗯然后看到弹幕那边说“道教两大派中全真派素食；正一派四不吃：牛肉，狗肉，乌鱼，鸿雁”
-嗯然后有点慌。 嗯然后因为忘记弹幕然后就去百度了。 嗯然后更慌了///</p>
-<blockquote>
-<p>道教不仅明文规定了各种修持戒律，也在祀神、修真、拜师、斋醮、参访、饮食等方面形成了独特的宗教禁忌。</p>
-</blockquote>
-<blockquote>
-<p>四不吃：道教徒不吃四种肉食——牛肉、乌鱼、鸿雁、狗肉，因为牛、乌鱼、鸿雁、狗分别代表忠、孝、节、义。</p>
-</blockquote>
-<blockquote>
-<p>道不言寿：道教重生恶死，忌讳询问年龄，所以问老道长高寿是不礼貌的行为。</p>
-</blockquote>
-<blockquote>
-<p>戊不朝真：道教逢阴历天干为“戊”之日(戊子、戊戌、戊午、戊寅、戊申、戊辰)，不烧香、不诵经、不朝拜，不建斋设醮。</p>
-</blockquote>
-<blockquote>
-<p>参考资料来源：百度百科-道教</p>
-</blockquote>
-<p>我信仰道家？有点。 所以。。我这个。。 算不算。。。 hh。 下次注意吧。
-挺好吃的。。。 咳咳。 幸亏其他的很少吃。 （或者基本没吃过= =</p>
-<p>然后呢就是早上心血来潮。 想了一些有关占卜却又跟占卜无关的。
-就是想着说能不能把自己的能力大致数据化一下。 就是分等级。
-嗯其实这个是真的有点不务正业了是吧///
-但是我觉得这样子可能更能令我坚持下去？ 我不知道。 拙见。
-所以还是看下吧：D</p>
-<p>嗯，我懒。 道徒。 道士。 就两个级别。 我对自己要求不高// 级别分九重。
-九，为数极，代表无穷无尽。 所以道徒-道士那可就是质的飞跃了= =</p>
-<p>给自己来个总结吧： 道徒一重（1/10）</p>
 ]]></content>
   </entry>
   <entry>

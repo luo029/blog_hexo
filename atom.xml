@@ -6,7 +6,7 @@
   <link href="https://taoyifan.cn/atom.xml" rel="self"/>
   
   <link href="https://taoyifan.cn/"/>
-  <updated>2023-11-07T05:57:37.203Z</updated>
+  <updated>2023-01-17T17:09:37.381Z</updated>
   <id>https://taoyifan.cn/</id>
   
   <author>
@@ -15,25 +15,6 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>one</title>
-    <link href="https://taoyifan.cn/posts/7a6c86f1/"/>
-    <id>https://taoyifan.cn/posts/7a6c86f1/</id>
-    <published>2023-11-07T05:57:28.000Z</published>
-    <updated>2023-11-07T05:57:37.203Z</updated>
-    
-    
-      
-      
-    <summary type="html">
-</summary>
-      
-    
-    
-    
-    
-  </entry>
   
   <entry>
     <title>Hello World</title>
@@ -311,6 +292,21 @@
     <id>https://taoyifan.cn/posts/6686cf96/</id>
     <published>2021-02-19T03:22:00.000Z</published>
     <updated>2023-01-17T17:09:37.434Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;What&#39;s past is prologue.&lt;/p&gt;</summary>
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>白书志四.while语句</title>
+    <link href="https://taoyifan.cn/posts/807ec8ff/"/>
+    <id>https://taoyifan.cn/posts/807ec8ff/</id>
+    <published>2021-02-14T20:36:00.000Z</published>
+    <updated>2023-01-18T05:46:42.065Z</updated>
     
     
     <summary type="html">&lt;p&gt;What&#39;s past is prologue.&lt;/p&gt;</summary>
