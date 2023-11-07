@@ -109,27 +109,6 @@
 ]]></content>
   </entry>
   <entry>
-    <title>Blog迁移折腾记</title>
-    <url>/posts/4ea14935/</url>
-    <content><![CDATA[<p>What's past is prologue.</p>
-<span id="more"></span>
-<p>换了域名。 企业邮箱也换了。 目前我的邮箱是<code>i@nololi.com</code>
-域名的话= = “nololi.com” hhh 没有loli么= = 不一定= =
-解读起来可以有其他含义的吧_(:з」∠)_</p>
-<p>然后。唔。 没了= = 就邮件订阅这边有点问题。 一直说是连接不到网址。
-可能是刚弄得原因。 过几天再看看。
-wansz.xyz这个域名的话依旧是当做blog用好了。 备用域名。
-毕竟共用一个数据库的awa 以后捣鼓主题什么的也可以在那边捣鼓233 没了
-撒花。</p>
-<p>咳。 再说下。 blog名字吧。 <font color="Drakgrey"> Noctiflorous ——
-that flowers at night </font> 夜间的花。 然后中文我选择的是“海棠花未眠”
-嗯= = 挺有意境的来着。</p>
-<p>以及网站统计用了<a href="https://web.51.la/">51la</a>
-<del>我让你一直动动动，我看你不爽很久啦啦(╯‵□′)╯︵┻━┻</del> 咳咳。
-开玩笑开玩笑hh</p>
-]]></content>
-  </entry>
-  <entry>
     <title>An_interesting_voice_call</title>
     <url>/posts/713dd8ed/</url>
     <content><![CDATA[<p>What's past is prologue.</p>
@@ -182,6 +161,27 @@ me。”因此，释怀。 咳咳。 又有点跑题。 思维有些许发散了
 当然，我也不是说那些直接挂断的人的不好，因为他占用了你的时间，你当然可以选择是否耐心听他讲完。
 只是我觉得，在本来就冷冰冰的虚拟网络上，能够做个能够温暖他人的人，真的很好啊……</p>
 <p>总之，这种感觉很棒。</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>Blog迁移折腾记</title>
+    <url>/posts/4ea14935/</url>
+    <content><![CDATA[<p>What's past is prologue.</p>
+<span id="more"></span>
+<p>换了域名。 企业邮箱也换了。 目前我的邮箱是<code>i@nololi.com</code>
+域名的话= = “nololi.com” hhh 没有loli么= = 不一定= =
+解读起来可以有其他含义的吧_(:з」∠)_</p>
+<p>然后。唔。 没了= = 就邮件订阅这边有点问题。 一直说是连接不到网址。
+可能是刚弄得原因。 过几天再看看。
+wansz.xyz这个域名的话依旧是当做blog用好了。 备用域名。
+毕竟共用一个数据库的awa 以后捣鼓主题什么的也可以在那边捣鼓233 没了
+撒花。</p>
+<p>咳。 再说下。 blog名字吧。 <font color="Drakgrey"> Noctiflorous ——
+that flowers at night </font> 夜间的花。 然后中文我选择的是“海棠花未眠”
+嗯= = 挺有意境的来着。</p>
+<p>以及网站统计用了<a href="https://web.51.la/">51la</a>
+<del>我让你一直动动动，我看你不爽很久啦啦(╯‵□′)╯︵┻━┻</del> 咳咳。
+开玩笑开玩笑hh</p>
 ]]></content>
   </entry>
   <entry>
@@ -696,6 +696,12 @@ data-cites="e">@e [vampirism:minLevel=7]</span>
 ]]></content>
   </entry>
   <entry>
+    <title>one</title>
+    <url>/posts/7a6c86f1/</url>
+    <content><![CDATA[
+]]></content>
+  </entry>
+  <entry>
     <title>Hello World</title>
     <url>/posts/4a17b156/</url>
     <content><![CDATA[<p>What's past is prologue.</p>
@@ -726,21 +732,6 @@ href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
 ]]></content>
   </entry>
   <entry>
-    <title>typecho加上gzip压缩，使网站更快加载</title>
-    <url>/posts/d5cfd609/</url>
-    <content><![CDATA[<p>What's past is prologue.</p>
-<span id="more"></span>
-<p>放到网站<code>根目录</code>的<code>index.php</code>文件中即可，建议放在开头。（不是<code>主题</code>的那个<code>index.php</code>，是整个<code>主程序</code>的）
-代码：</p>
-<figure class="highlight php"><table><tr><td class="code"><pre><span class="line"><span class="comment">/*添加Gzip*/</span></span><br><span class="line"><span class="title function_ invoke__">ob_start</span>(<span class="string">&#x27;ob_gzhandler&#x27;</span>);</span><br></pre></td></tr></table></figure>
-<p>可以去<a href="http://tool.chinaz.com/gzips/"
-class="uri">http://tool.chinaz.com/gzips/</a>查看是否开启。
-gzip是一项压缩技术，减小网络传输的数据量，使网站得到更快的加载。
-<del>各位可以自行尝试</del>
-<del>反正我加了后不管是不是心理作用，总之是变快了挺多。。。三分之一有余吧？</del></p>
-]]></content>
-  </entry>
-  <entry>
     <title>sitemap折腾记-新增站点;域名跳转;换回51la</title>
     <url>/posts/5df33c47/</url>
     <content><![CDATA[<p>What's past is prologue.</p>
@@ -758,6 +749,21 @@ gzip是一项压缩技术，减小网络传输的数据量，使网站得到更�
 <figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">&lt;script language=<span class="string">&quot;javascript&quot;</span> type=<span class="string">&quot;text/javascript&quot;</span>&gt;</span><br><span class="line">   <span class="variable language_">window</span>.<span class="property">location</span>.<span class="property">href</span>=<span class="string">&#x27;https://nololi.com&#x27;</span>;</span><br><span class="line">&lt;/script&gt;</span><br></pre></td></tr></table></figure> 没了#run</p>
 <p>换回51la统计 nololi.com是在3.1开始的 zhiluo.top在今天，3.2加入统计
 记录下之前的吧hh 应该有十天左右233</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>typecho加上gzip压缩，使网站更快加载</title>
+    <url>/posts/d5cfd609/</url>
+    <content><![CDATA[<p>What's past is prologue.</p>
+<span id="more"></span>
+<p>放到网站<code>根目录</code>的<code>index.php</code>文件中即可，建议放在开头。（不是<code>主题</code>的那个<code>index.php</code>，是整个<code>主程序</code>的）
+代码：</p>
+<figure class="highlight php"><table><tr><td class="code"><pre><span class="line"><span class="comment">/*添加Gzip*/</span></span><br><span class="line"><span class="title function_ invoke__">ob_start</span>(<span class="string">&#x27;ob_gzhandler&#x27;</span>);</span><br></pre></td></tr></table></figure>
+<p>可以去<a href="http://tool.chinaz.com/gzips/"
+class="uri">http://tool.chinaz.com/gzips/</a>查看是否开启。
+gzip是一项压缩技术，减小网络传输的数据量，使网站得到更快的加载。
+<del>各位可以自行尝试</del>
+<del>反正我加了后不管是不是心理作用，总之是变快了挺多。。。三分之一有余吧？</del></p>
 ]]></content>
   </entry>
   <entry>
@@ -1326,6 +1332,19 @@ class="uri">http://www.xinnet.com/composite/zt/20200316activity.html</a>
 ]]></content>
   </entry>
   <entry>
+    <title>一语之路边闲谈</title>
+    <url>/posts/4f63b0bf/</url>
+    <content><![CDATA[<p>What's past is prologue.</p>
+<span id="more"></span>
+<p>"你们现在就读书了？" “嗯”
+“哦，你是。。。你们是不是上周就开始读书了？你们是不是早一点的？” “嗯”
+“听他们说，你成绩还可以啊，怎么样，年级段有十几名么？” “额...没有...” ……
+没了。 大概是六点多点吧，上学路上遇到一位“我不认识但是她认识我”的老人。
+然后跟我说了一些话。 最后就没了。</p>
+<p>加油吧。</p>
+]]></content>
+  </entry>
+  <entry>
     <title>一款简约,完善的我的世界官网源码</title>
     <url>/posts/25344189/</url>
     <content><![CDATA[<p>What's past is prologue.</p>
@@ -1380,19 +1399,6 @@ class="uri">http://www.xinnet.com/composite/zt/20200316activity.html</a>
 你认为快乐的，就去寻找；你认为幸福的，就去珍惜。
 没有不被评说的事，没有不被猜测的人。 依心而行，无憾今生。</p>
 </blockquote>
-]]></content>
-  </entry>
-  <entry>
-    <title>一语之路边闲谈</title>
-    <url>/posts/4f63b0bf/</url>
-    <content><![CDATA[<p>What's past is prologue.</p>
-<span id="more"></span>
-<p>"你们现在就读书了？" “嗯”
-“哦，你是。。。你们是不是上周就开始读书了？你们是不是早一点的？” “嗯”
-“听他们说，你成绩还可以啊，怎么样，年级段有十几名么？” “额...没有...” ……
-没了。 大概是六点多点吧，上学路上遇到一位“我不认识但是她认识我”的老人。
-然后跟我说了一些话。 最后就没了。</p>
-<p>加油吧。</p>
 ]]></content>
   </entry>
   <entry>
@@ -2202,31 +2208,6 @@ run</p>
 ]]></content>
   </entry>
   <entry>
-    <title>九</title>
-    <url>/posts/ea135b66/</url>
-    <content><![CDATA[<p>What's past is prologue.</p>
-<span id="more"></span>
-<p>今天。 嗯。 2020年2月5日20:38:43。 早睡。 毕竟今天这个计划被腰斩了。
-明天可不能这样(╯‵□′)╯︵┻━┻ 然后今天也没什么可以介绍的。。
-就一直在写作业。。 好吧顺带玩了下电脑┓(???`?)┏ 就差数学了 九张试卷。
-还行。 其他的话。 唔。 给这个网站加了个插件。 打字特效的。 嗯挺好的= =
-也不是特别卡，还行，就用着吧_(:з」∠)_ 啧说好的日记呢 咳咳。</p>
-<p>日常，晚饭┓(???`?)┏</p>
-<p>真的好奇吃蝙蝠的为什么要吃蝙蝠(╯‵□′)╯︵┻━┻
-我就想出去吃饭怎么就这么难(╯‵□′)╯︵┻━┻
-在家里只能吃馒头馄饨水饺了啊(╯‵□′)╯︵┻━┻ 米饭好久没吃了hh
-主要跟家里人吃饭时间错开了 或者说是不想去一起吃这样子的
-啧一寒假没碰米饭了┓(???<code>?)┏ 上学后又天天米饭┓(???</code>?)┏ 唔。
-然后现在一直在听这首歌。 嗯偶然看见然后便觉得挺不错的。</p>
-<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&amp;id=1336990977&amp;auto=1&amp;height=66">
-</iframe>
-<p>没了的。 分享个句子吧。</p>
-<blockquote>
-<p>人生的路程就像爬山一样，看起来走了许多冤枉的路，但最终都会到达山顶。</p>
-</blockquote>
-]]></content>
-  </entry>
-  <entry>
     <title>中文域名重定向（使用户可以通过中文域名访问你的网站）</title>
     <url>/posts/9bd860eb/</url>
     <content><![CDATA[<p>What's past is prologue.</p>
@@ -2296,6 +2277,31 @@ href="https://support.mfpad.com/zh/zhuanfa/differences-between-methods/">官方�
 <p><del>其实真的挺想买aslongas.icu来着</del>
 icu官方解释是说<code>I see you</code>的谐音，同时又有<code>重症监护室</code>含义。
 2333 <code>只要遇见你</code>,好卑微啊..... 挺好的。 容易满足= =</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>九</title>
+    <url>/posts/ea135b66/</url>
+    <content><![CDATA[<p>What's past is prologue.</p>
+<span id="more"></span>
+<p>今天。 嗯。 2020年2月5日20:38:43。 早睡。 毕竟今天这个计划被腰斩了。
+明天可不能这样(╯‵□′)╯︵┻━┻ 然后今天也没什么可以介绍的。。
+就一直在写作业。。 好吧顺带玩了下电脑┓(???`?)┏ 就差数学了 九张试卷。
+还行。 其他的话。 唔。 给这个网站加了个插件。 打字特效的。 嗯挺好的= =
+也不是特别卡，还行，就用着吧_(:з」∠)_ 啧说好的日记呢 咳咳。</p>
+<p>日常，晚饭┓(???`?)┏</p>
+<p>真的好奇吃蝙蝠的为什么要吃蝙蝠(╯‵□′)╯︵┻━┻
+我就想出去吃饭怎么就这么难(╯‵□′)╯︵┻━┻
+在家里只能吃馒头馄饨水饺了啊(╯‵□′)╯︵┻━┻ 米饭好久没吃了hh
+主要跟家里人吃饭时间错开了 或者说是不想去一起吃这样子的
+啧一寒假没碰米饭了┓(???<code>?)┏ 上学后又天天米饭┓(???</code>?)┏ 唔。
+然后现在一直在听这首歌。 嗯偶然看见然后便觉得挺不错的。</p>
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&amp;id=1336990977&amp;auto=1&amp;height=66">
+</iframe>
+<p>没了的。 分享个句子吧。</p>
+<blockquote>
+<p>人生的路程就像爬山一样，看起来走了许多冤枉的路，但最终都会到达山顶。</p>
+</blockquote>
 ]]></content>
   </entry>
   <entry>
@@ -3009,6 +3015,66 @@ hh在下载的时候还发现了“应版权方要求，下载的付费歌曲只
 ]]></content>
   </entry>
   <entry>
+    <title>五十</title>
+    <url>/posts/eff9d98a/</url>
+    <content><![CDATA[<p>What's past is prologue.</p>
+<span id="more"></span>
+<p>2020年3月17日22:51:19 半百了hhh</p>
+<p>伊始，心脏倒是不疼了= =
+然后就日常听课洗漱听课了，难得吃了早饭<del>对你没猜错，还是麻糍咳</del>
+中午。。。我干嘛来着。。中午。。写作业吧盖是 下午，听课写作业。
+顺带着洗了个澡。 一身舒坦hhh
+<del>想想作业这种感觉很快就容易压下了呢，真好呢</del> <del>咳</del>
+晚上，听课写作业玩一下电脑。</p>
+<p>随便说点什么吧。 bilibili投稿了自己的第一个鬼畜视频，然后没有过hhh
+有想到。 心态的话。。 hhhh
+我得内心毫无波澜甚至还有点<del>大事尽在我手中</del>猜到了的激动hhhh
+毕竟是玄学，2.15后网络上就开始清扫这些网络算卦了的来着hh 这种。。
+难审核通过大概是特殊时间吧，如果疫情过后还记得的话那就再上传一次好了。
+<del>忘了那就当我没说，吃土吧</del> 毕竟是第一个捣鼓的。
+从开始接触软件，到作词调教也就花了十几个小时罢了= = <a
+href="http://q7cd66l0a.bkt.clouddn.com/xuan.mp4"
+class="uri">http://q7cd66l0a.bkt.clouddn.com/xuan.mp4</a> ↑点击观看
+（顺便补充下吧，易学不仅仅是只有术数，还有其他很多很多值得去学习的）
+<del>怪我咯当时脑子一抽就写了这样的词</del>
+<del>现在看看有些的确不太好</del> <del>但是有些我还是挺满意哒!</del>
+用的是七牛云的空间储存= = 链接也是一个月限时链接hhhh 没事⑧慌
+反正词也不太好以及调教的也不是特别好
+我主要是想写词的，调教这方面属实懒得折腾 但是又不想跟不想的人合作
+也不是曲高和寡
+只是单纯的就是觉得这玩意儿我除非是懒，或者是能力不够，要不然我为什么要跟你一起合作。。
+是吧
+浪费你我的时间，一旦磨合不好，意见不当又会闹，然后我就会溜了的来着/扶额
+这几年大概也就是这么过的：算了吧，我溜了 大概就是这么个状态hhhh
+<del>这叫淡然，这叫与世无争，这叫看破红尘</del>
+<del>说好听点不就这样么</del> <del>消极点不就是没少年朝气么</del>
+hhh会不会一个颓废萎靡三观不正的少年形象跃然纸上？
+<del>我三观挺正的/扶额</del></p>
+<p>（这边七牛云是有10G流量限制的来着） <del>话说能够用完么hhh</del>
+<del>好歹也是个十天下来ip破千的小website来着</del></p>
+<p>唔。 让我再想想还有什么可以说<del>扯</del>的 大概没了
+数学还没写完，还要写下的来着 十一点了又 啊。 对了。
+网上买的手抓饼（饼皮）到了
+因为不确定是否好吃<del>以及没钱了</del>，所以就买了个13R左右的60g原味手抓饼（皮）二十片hhh
+下午快递到了 这包装属实一言难尽
+完全是饱受人间磨难，历经世事风霜，<del>看淡红尘我就这样了你拿我咋滴</del>的模样。
+是泡沫包装的来着/挠头 然后迷惑的是泡沫一些边边角角粉碎了
+以及是圆柱形的，我还找不到正反面/扶额
+不过拿回家后发现里面倒是有个食品冰冻的一个装着冰的一个小物品
+（不过是真的软哪怕有这个冰冻袋）
+然后立即拿出两片烧（这用啥动词啊，煎会不会好点）了下
+嗯第一片味道一言难尽，可能是我鸡蛋放了两个以及并没有煎得特别焦的原因吧，只是能吃=
+= 然后第二片的话，嗯，挺不错的。 hhhhh真的 准备啥时候多买点
+剩最后几片的时候再说吧hhh √ Breakfast,Lunch,Dinner</p>
+<p>刚想起来 临摹??4 开始美少年不怕开水烫系列hhh/捂脸
+（电脑关机完才想起来/扶额，用手机写的）</p>
+<p>这里是<del>饿了的</del>句子</p>
+<blockquote>
+<p>“约不约？” “约！” 这么美好的对话竟然被数学老师用来因式分解.</p>
+</blockquote>
+]]></content>
+  </entry>
+  <entry>
     <title>五十一</title>
     <url>/posts/e837aca9/</url>
     <content><![CDATA[<p>What's past is prologue.</p>
@@ -3106,66 +3172,6 @@ unfold its wings but cannot fly.</p>
 </blockquote>
 <blockquote>
 <p>思想是天空中的鸟，在语言的笼中，也许会展翅，却不会飞翔。</p>
-</blockquote>
-]]></content>
-  </entry>
-  <entry>
-    <title>五十</title>
-    <url>/posts/eff9d98a/</url>
-    <content><![CDATA[<p>What's past is prologue.</p>
-<span id="more"></span>
-<p>2020年3月17日22:51:19 半百了hhh</p>
-<p>伊始，心脏倒是不疼了= =
-然后就日常听课洗漱听课了，难得吃了早饭<del>对你没猜错，还是麻糍咳</del>
-中午。。。我干嘛来着。。中午。。写作业吧盖是 下午，听课写作业。
-顺带着洗了个澡。 一身舒坦hhh
-<del>想想作业这种感觉很快就容易压下了呢，真好呢</del> <del>咳</del>
-晚上，听课写作业玩一下电脑。</p>
-<p>随便说点什么吧。 bilibili投稿了自己的第一个鬼畜视频，然后没有过hhh
-有想到。 心态的话。。 hhhh
-我得内心毫无波澜甚至还有点<del>大事尽在我手中</del>猜到了的激动hhhh
-毕竟是玄学，2.15后网络上就开始清扫这些网络算卦了的来着hh 这种。。
-难审核通过大概是特殊时间吧，如果疫情过后还记得的话那就再上传一次好了。
-<del>忘了那就当我没说，吃土吧</del> 毕竟是第一个捣鼓的。
-从开始接触软件，到作词调教也就花了十几个小时罢了= = <a
-href="http://q7cd66l0a.bkt.clouddn.com/xuan.mp4"
-class="uri">http://q7cd66l0a.bkt.clouddn.com/xuan.mp4</a> ↑点击观看
-（顺便补充下吧，易学不仅仅是只有术数，还有其他很多很多值得去学习的）
-<del>怪我咯当时脑子一抽就写了这样的词</del>
-<del>现在看看有些的确不太好</del> <del>但是有些我还是挺满意哒!</del>
-用的是七牛云的空间储存= = 链接也是一个月限时链接hhhh 没事⑧慌
-反正词也不太好以及调教的也不是特别好
-我主要是想写词的，调教这方面属实懒得折腾 但是又不想跟不想的人合作
-也不是曲高和寡
-只是单纯的就是觉得这玩意儿我除非是懒，或者是能力不够，要不然我为什么要跟你一起合作。。
-是吧
-浪费你我的时间，一旦磨合不好，意见不当又会闹，然后我就会溜了的来着/扶额
-这几年大概也就是这么过的：算了吧，我溜了 大概就是这么个状态hhhh
-<del>这叫淡然，这叫与世无争，这叫看破红尘</del>
-<del>说好听点不就这样么</del> <del>消极点不就是没少年朝气么</del>
-hhh会不会一个颓废萎靡三观不正的少年形象跃然纸上？
-<del>我三观挺正的/扶额</del></p>
-<p>（这边七牛云是有10G流量限制的来着） <del>话说能够用完么hhh</del>
-<del>好歹也是个十天下来ip破千的小website来着</del></p>
-<p>唔。 让我再想想还有什么可以说<del>扯</del>的 大概没了
-数学还没写完，还要写下的来着 十一点了又 啊。 对了。
-网上买的手抓饼（饼皮）到了
-因为不确定是否好吃<del>以及没钱了</del>，所以就买了个13R左右的60g原味手抓饼（皮）二十片hhh
-下午快递到了 这包装属实一言难尽
-完全是饱受人间磨难，历经世事风霜，<del>看淡红尘我就这样了你拿我咋滴</del>的模样。
-是泡沫包装的来着/挠头 然后迷惑的是泡沫一些边边角角粉碎了
-以及是圆柱形的，我还找不到正反面/扶额
-不过拿回家后发现里面倒是有个食品冰冻的一个装着冰的一个小物品
-（不过是真的软哪怕有这个冰冻袋）
-然后立即拿出两片烧（这用啥动词啊，煎会不会好点）了下
-嗯第一片味道一言难尽，可能是我鸡蛋放了两个以及并没有煎得特别焦的原因吧，只是能吃=
-= 然后第二片的话，嗯，挺不错的。 hhhhh真的 准备啥时候多买点
-剩最后几片的时候再说吧hhh √ Breakfast,Lunch,Dinner</p>
-<p>刚想起来 临摹??4 开始美少年不怕开水烫系列hhh/捂脸
-（电脑关机完才想起来/扶额，用手机写的）</p>
-<p>这里是<del>饿了的</del>句子</p>
-<blockquote>
-<p>“约不约？” “约！” 这么美好的对话竟然被数学老师用来因式分解.</p>
 </blockquote>
 ]]></content>
   </entry>
@@ -3368,6 +3374,20 @@ pinshi.tk pindao.tk pinshi.ga pindao.ga</p>
 ]]></content>
   </entry>
   <entry>
+    <title>今日诗词·增些许格调于评论</title>
+    <url>/posts/f1d736eb/</url>
+    <content><![CDATA[<p>What's past is prologue.</p>
+<span id="more"></span>
+<p><a href="https://www.jinrishici.com/">今日诗词官网</a>
+嗯一个随机诗句的接口 我把它放在了评论里面。 本来想在评论文本里显示的。
+可惜不会┓(???`?)┏ 只好显示在左下角了 不过还行 比原先来说的话
+可能多了一些文化气息？ <del>更有格调是么</del> 其实差不多了</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;script src=&quot;https://sdk.jinrishici.com/v2/browser/jinrishici.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;</span><br><span class="line">&lt;div id=&quot;poem_sentence&quot;&gt;&lt;/div&gt;</span><br><span class="line">&lt;div id=&quot;poem_info&quot;&gt;&lt;/div&gt;</span><br><span class="line">&lt;script type=&quot;text/javascript&quot;&gt;</span><br><span class="line">  jinrishici.load(function(result) &#123;</span><br><span class="line">    var sentence = document.querySelector(&quot;#poem_sentence&quot;)</span><br><span class="line">    var info = document.querySelector(&quot;#poem_info&quot;)</span><br><span class="line">    sentence.innerHTML = result.data.content</span><br><span class="line">    info.innerHTML = &#x27;【&#x27; + result.data.origin.dynasty + &#x27;】&#x27; + result.data.origin.author + &#x27;《&#x27; + result.data.origin.title + &#x27;》&#x27;</span><br><span class="line">  &#125;);</span><br><span class="line">&lt;/script&gt;</span><br></pre></td></tr></table></figure>
+<p>我是直接用的官网给的例子= = 各位可以自行调试┓(???`?)┏ 觉得挺不错的=
+=</p>
+]]></content>
+  </entry>
+  <entry>
     <title>今日春分</title>
     <url>/posts/c7477cd3/</url>
     <content><![CDATA[<p>What's past is prologue.</p>
@@ -3383,20 +3403,6 @@ pinshi.tk pindao.tk pinshi.ga pindao.ga</p>
 看到了一本书，还没看，但是看上去似乎挺不错的。
 《异世盗皇》，看封面应该是挺久之前的书了，还可以。
 准备尝试了看看，试试毒。 其他。。 无。</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>今日诗词·增些许格调于评论</title>
-    <url>/posts/f1d736eb/</url>
-    <content><![CDATA[<p>What's past is prologue.</p>
-<span id="more"></span>
-<p><a href="https://www.jinrishici.com/">今日诗词官网</a>
-嗯一个随机诗句的接口 我把它放在了评论里面。 本来想在评论文本里显示的。
-可惜不会┓(???`?)┏ 只好显示在左下角了 不过还行 比原先来说的话
-可能多了一些文化气息？ <del>更有格调是么</del> 其实差不多了</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;script src=&quot;https://sdk.jinrishici.com/v2/browser/jinrishici.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;</span><br><span class="line">&lt;div id=&quot;poem_sentence&quot;&gt;&lt;/div&gt;</span><br><span class="line">&lt;div id=&quot;poem_info&quot;&gt;&lt;/div&gt;</span><br><span class="line">&lt;script type=&quot;text/javascript&quot;&gt;</span><br><span class="line">  jinrishici.load(function(result) &#123;</span><br><span class="line">    var sentence = document.querySelector(&quot;#poem_sentence&quot;)</span><br><span class="line">    var info = document.querySelector(&quot;#poem_info&quot;)</span><br><span class="line">    sentence.innerHTML = result.data.content</span><br><span class="line">    info.innerHTML = &#x27;【&#x27; + result.data.origin.dynasty + &#x27;】&#x27; + result.data.origin.author + &#x27;《&#x27; + result.data.origin.title + &#x27;》&#x27;</span><br><span class="line">  &#125;);</span><br><span class="line">&lt;/script&gt;</span><br></pre></td></tr></table></figure>
-<p>我是直接用的官网给的例子= = 各位可以自行调试┓(???`?)┏ 觉得挺不错的=
-=</p>
 ]]></content>
   </entry>
   <entry>
@@ -4711,20 +4717,6 @@ href="https://www.php.wf/archives/top-to-bottom-remram-typecho-plug-in.html">Top
 ]]></content>
   </entry>
   <entry>
-    <title>卜记六</title>
-    <url>/posts/1f360bdb/</url>
-    <content><![CDATA[<p>What's past is prologue.</p>
-<span id="more"></span>
-<p>秘： 于庚子年庚寅月乙酉日末时，与友射覆。其报字“鼠”。
-字为上下结构，其上六画，其下七画。余以全画加时辰数取爻。得主卦水山蹇，互卦火水未济，变卦水地比。
-余误猜瓜果之物，黄色。后其开覆，鼠标也。
-体卦为坎，坎为黑色。用卦艮，手指握住之意，且报字“鼠”。
-酉时，余见一人钱被骗，兴起起卦。以年月日时起卦。子年，一数。腊月，十二数。廿五，二十五数。酉时，十数。本卦水地比，互卦山地剥，变卦风山渐。
-体为主，用为财/失物。体卦坤土，用卦坎水，体克用。书云“体克用，有财。”又云“体克用，可寻迟得”卦中无克体之卦，无生体之卦。比和则吉。且坤艮土旺于辰戌丑未月。辰戌丑未月，坎卦气衰。卦中土多水少，且坎水变巽木，水生木，余不知是否可作“泄气”。有克，有泄，月令亦克坎，坎为钱财，为失物，故余粗断：钱能要回来。
-且所得之卦亦有诸多奥妙。 梅花易数 庚子年庚寅月丙戌日亥时</p>
-]]></content>
-  </entry>
-  <entry>
     <title>卜记四</title>
     <url>/posts/4cda19d/</url>
     <content><![CDATA[<p>What's past is prologue.</p>
@@ -4740,6 +4732,20 @@ href="https://www.php.wf/archives/top-to-bottom-remram-typecho-plug-in.html">Top
 余想其中缘由，心念一动，后知后觉：张先说之数，六也，坎也。坎主雨，故一日多雨乎？
 然腊月为农历十二月，为四季之月。四季之月，坎卦气衰也。可一日之雨该当何解？莫不是雨下一天便停之意？余惑矣。
 梅花易数 庚子年己丑月庚午日末时</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>卜记六</title>
+    <url>/posts/1f360bdb/</url>
+    <content><![CDATA[<p>What's past is prologue.</p>
+<span id="more"></span>
+<p>秘： 于庚子年庚寅月乙酉日末时，与友射覆。其报字“鼠”。
+字为上下结构，其上六画，其下七画。余以全画加时辰数取爻。得主卦水山蹇，互卦火水未济，变卦水地比。
+余误猜瓜果之物，黄色。后其开覆，鼠标也。
+体卦为坎，坎为黑色。用卦艮，手指握住之意，且报字“鼠”。
+酉时，余见一人钱被骗，兴起起卦。以年月日时起卦。子年，一数。腊月，十二数。廿五，二十五数。酉时，十数。本卦水地比，互卦山地剥，变卦风山渐。
+体为主，用为财/失物。体卦坤土，用卦坎水，体克用。书云“体克用，有财。”又云“体克用，可寻迟得”卦中无克体之卦，无生体之卦。比和则吉。且坤艮土旺于辰戌丑未月。辰戌丑未月，坎卦气衰。卦中土多水少，且坎水变巽木，水生木，余不知是否可作“泄气”。有克，有泄，月令亦克坎，坎为钱财，为失物，故余粗断：钱能要回来。
+且所得之卦亦有诸多奥妙。 梅花易数 庚子年庚寅月丙戌日亥时</p>
 ]]></content>
   </entry>
   <entry>
@@ -5727,20 +5733,6 @@ at it”. 他贩卖了上百万弹药，于所有的军.阀和独立领.导人�
 ]]></content>
   </entry>
   <entry>
-    <title>图片360°循环旋转代码</title>
-    <url>/posts/f540900f/</url>
-    <content><![CDATA[<p>What's past is prologue.</p>
-<span id="more"></span>
-<p>主要是在捣鼓<a
-href="http://gagagagagagaga.ga/">页面</a>的时候需要用到= =</p>
-<h2 id="所以顺便记录下">所以顺便记录下。</h2>
-<figure class="highlight php"><table><tr><td class="code"><pre><span class="line">&lt;!DOCTYPE html&gt;</span><br><span class="line">&lt;html&gt;</span><br><span class="line">&lt;head&gt;</span><br><span class="line">&lt;meta charset=<span class="string">&quot;utf-8&quot;</span> /&gt;</span><br><span class="line">&lt;title&gt;图片循环旋转&lt;/title&gt;</span><br><span class="line">&lt;style&gt;</span><br><span class="line">*&#123;margin: <span class="number">0</span>; padding: <span class="number">0</span>;&#125;</span><br><span class="line"></span><br><span class="line">.ta_c&#123;text-align: center;</span><br><span class="line">margin-top: <span class="number">100</span>px;&#125;</span><br><span class="line"></span><br><span class="line">@-webkit-keyframes rotation&#123;</span><br><span class="line"><span class="keyword">from</span> &#123;-webkit-transform: <span class="title function_ invoke__">rotate</span>(<span class="number">0</span>deg);&#125;</span><br><span class="line">to &#123;-webkit-transform: <span class="title function_ invoke__">rotate</span>(<span class="number">360</span>deg);&#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">.Rotation&#123;</span><br><span class="line">-webkit-transform: <span class="title function_ invoke__">rotate</span>(<span class="number">360</span>deg);</span><br><span class="line">animation: rotation <span class="number">3</span>s linear infinite;</span><br><span class="line">-moz-animation: rotation <span class="number">3</span>s linear infinite;</span><br><span class="line">-webkit-animation: rotation <span class="number">3</span>s linear infinite;</span><br><span class="line">-o-animation: rotation <span class="number">3</span>s linear infinite;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">.img&#123;border-radius: <span class="number">250</span>px;&#125;</span><br><span class="line"></span><br><span class="line">&lt;/style&gt;</span><br><span class="line">&lt;/head&gt;</span><br><span class="line">&lt;body&gt;</span><br><span class="line"></span><br><span class="line">&lt;div <span class="class"><span class="keyword">class</span>=&quot;<span class="title">ta_c</span>&quot;&gt;</span></span><br><span class="line"><span class="class">&lt;<span class="title">img</span> <span class="title">class</span>=&quot;<span class="title">Rotation</span> <span class="title">img</span>&quot; <span class="title">src</span>=&quot;/00.<span class="title">png</span>&quot; <span class="title">width</span>=&quot;500&quot; <span class="title">height</span>=&quot;500&quot;/&gt;</span></span><br><span class="line"><span class="class">&lt;/<span class="title">div</span>&gt;</span></span><br><span class="line"><span class="class"></span></span><br><span class="line"><span class="class">&lt;/<span class="title">body</span>&gt;</span></span><br><span class="line"><span class="class">&lt;/<span class="title">html</span>&gt;</span></span><br></pre></td></tr></table></figure>
-<p>在对应的地方，即<code>&lt;head&gt;</code>和<code>&lt;body&gt;</code>中分别加上上述部分里的<code>&lt;head&gt;</code>和<code>&lt;body&gt;</code>中的代码即可。
-图片是<code>00.png</code>，默认在同一目录，若是放在文件夹中，例如<code>imgs</code>中的话，可以将<code>&lt;img class="Rotation img" src="/00.png" width="500" height="500"/&gt;</code>修改为<code>&lt;img class="Rotation img" src="imgs/00.png" width="500" height="500"/&gt;</code>
-若是图片格式不一样，不是'.png'的话，修改代码中的<code>.png</code>即可。，如改为'1.jpg'这样子</p>
-]]></content>
-  </entry>
-  <entry>
     <title>处处玄</title>
     <url>/posts/869b514f/</url>
     <content><![CDATA[<p>What's past is prologue.</p>
@@ -5775,6 +5767,20 @@ class="uri">http://q7cd66l0a.bkt.clouddn.com/xuan.mp4</a>
 遇爻动 若是有月建生扶 此卦便吉象浮 当旬空则无用 测身命 测姻缘
 卜后何妨随缘行 莫要牢抓不放 眼下时机未到 学易学 入玄门
 此生无悔伴道旁</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>图片360°循环旋转代码</title>
+    <url>/posts/f540900f/</url>
+    <content><![CDATA[<p>What's past is prologue.</p>
+<span id="more"></span>
+<p>主要是在捣鼓<a
+href="http://gagagagagagaga.ga/">页面</a>的时候需要用到= =</p>
+<h2 id="所以顺便记录下">所以顺便记录下。</h2>
+<figure class="highlight php"><table><tr><td class="code"><pre><span class="line">&lt;!DOCTYPE html&gt;</span><br><span class="line">&lt;html&gt;</span><br><span class="line">&lt;head&gt;</span><br><span class="line">&lt;meta charset=<span class="string">&quot;utf-8&quot;</span> /&gt;</span><br><span class="line">&lt;title&gt;图片循环旋转&lt;/title&gt;</span><br><span class="line">&lt;style&gt;</span><br><span class="line">*&#123;margin: <span class="number">0</span>; padding: <span class="number">0</span>;&#125;</span><br><span class="line"></span><br><span class="line">.ta_c&#123;text-align: center;</span><br><span class="line">margin-top: <span class="number">100</span>px;&#125;</span><br><span class="line"></span><br><span class="line">@-webkit-keyframes rotation&#123;</span><br><span class="line"><span class="keyword">from</span> &#123;-webkit-transform: <span class="title function_ invoke__">rotate</span>(<span class="number">0</span>deg);&#125;</span><br><span class="line">to &#123;-webkit-transform: <span class="title function_ invoke__">rotate</span>(<span class="number">360</span>deg);&#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">.Rotation&#123;</span><br><span class="line">-webkit-transform: <span class="title function_ invoke__">rotate</span>(<span class="number">360</span>deg);</span><br><span class="line">animation: rotation <span class="number">3</span>s linear infinite;</span><br><span class="line">-moz-animation: rotation <span class="number">3</span>s linear infinite;</span><br><span class="line">-webkit-animation: rotation <span class="number">3</span>s linear infinite;</span><br><span class="line">-o-animation: rotation <span class="number">3</span>s linear infinite;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">.img&#123;border-radius: <span class="number">250</span>px;&#125;</span><br><span class="line"></span><br><span class="line">&lt;/style&gt;</span><br><span class="line">&lt;/head&gt;</span><br><span class="line">&lt;body&gt;</span><br><span class="line"></span><br><span class="line">&lt;div <span class="class"><span class="keyword">class</span>=&quot;<span class="title">ta_c</span>&quot;&gt;</span></span><br><span class="line"><span class="class">&lt;<span class="title">img</span> <span class="title">class</span>=&quot;<span class="title">Rotation</span> <span class="title">img</span>&quot; <span class="title">src</span>=&quot;/00.<span class="title">png</span>&quot; <span class="title">width</span>=&quot;500&quot; <span class="title">height</span>=&quot;500&quot;/&gt;</span></span><br><span class="line"><span class="class">&lt;/<span class="title">div</span>&gt;</span></span><br><span class="line"><span class="class"></span></span><br><span class="line"><span class="class">&lt;/<span class="title">body</span>&gt;</span></span><br><span class="line"><span class="class">&lt;/<span class="title">html</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<p>在对应的地方，即<code>&lt;head&gt;</code>和<code>&lt;body&gt;</code>中分别加上上述部分里的<code>&lt;head&gt;</code>和<code>&lt;body&gt;</code>中的代码即可。
+图片是<code>00.png</code>，默认在同一目录，若是放在文件夹中，例如<code>imgs</code>中的话，可以将<code>&lt;img class="Rotation img" src="/00.png" width="500" height="500"/&gt;</code>修改为<code>&lt;img class="Rotation img" src="imgs/00.png" width="500" height="500"/&gt;</code>
+若是图片格式不一样，不是'.png'的话，修改代码中的<code>.png</code>即可。，如改为'1.jpg'这样子</p>
 ]]></content>
   </entry>
   <entry>
@@ -5816,14 +5822,6 @@ class="uri">http://q7cd66l0a.bkt.clouddn.com/xuan.mp4</a>
 <p>且我问的是“今日雨否”</p>
 <p>所以卦中告诉我“辰酉相合，父母爻合住，主不雨，今日不下雨了，别想了”么？</p>
 <p>争取啥时候遇到一个能够看应期且能看对了的卦#run</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>始</title>
-    <url>/posts/cb44bbdf/</url>
-    <content><![CDATA[<p>What's past is prologue.</p>
-<span id="more"></span>
-<p>雷初响 雨渐下 吾始醒</p>
 ]]></content>
   </entry>
   <entry>
@@ -5888,6 +5886,14 @@ class="uri">http://q7cd66l0a.bkt.clouddn.com/xuan.mp4</a>
 <p>弊宿说："既然如此，我就皈依灭度如来及法和众僧。自今以后，尽形寿持守五戒，并且广行布施。"</p>
 <p>于是，不仅是弊宿婆罗门得度，在场所有梵志、婆罗门和居士，听闻童女迦叶的开示，都法喜充满，并对佛法生起坚固的信心</p>
 </blockquote>
+]]></content>
+  </entry>
+  <entry>
+    <title>始</title>
+    <url>/posts/cb44bbdf/</url>
+    <content><![CDATA[<p>What's past is prologue.</p>
+<span id="more"></span>
+<p>雷初响 雨渐下 吾始醒</p>
 ]]></content>
   </entry>
   <entry>
@@ -5957,654 +5963,6 @@ Chocolate”（健达巧克力）和“Mylikes”（麦丽素） 嗯贼贵那个
 <p>假如你避免不了，就得去忍受
 不能忍受生命中注定要忍受的事，就是软弱和愚蠢的表现。</p>
 </blockquote>
-]]></content>
-  </entry>
-  <entry>
-    <title>容我测试下这个编辑器咯。</title>
-    <url>/posts/18056294/</url>
-    <content><![CDATA[<p>What's past is prologue.</p>
-<span id="more"></span>
-<h1 id="section"></h1>
-<p><del>123？</del></p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">your code</span><br></pre></td></tr></table></figure>
-<figure class="highlight php"><table><tr><td class="code"><pre><span class="line"><span class="meta">&lt;?php</span> <span class="keyword">echo</span> <span class="string">&#x27;hello jrotty!&#x27;</span>; <span class="meta">?&gt;</span></span><br></pre></td></tr></table></figure>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">1</span><br></pre></td></tr></table></figure>
-<pre><code>1978</code></pre>
-<p><span
-style="color:LightSlateGray;">这是比font标签更好的方式。可以试试。</span></p>
-<p>日常测试。 没捣鼓明白。</p>
-<p><strong>加粗文字是这个咯？</strong></p>
-<p><em>这个是倾斜文字？</em></p>
-<p><a href="https://zhiluo.top">个人引导页链接？</a></p>
-<blockquote>
-<p>引用？</p>
-</blockquote>
-<pre><code>代码咯？</code></pre>
-<ul>
-<li>12</li>
-<li>。。。</li>
-</ul>
-<h2 id="唔试试">唔试试</h2>
-<p>标题文字↑</p>
-<!--more-->
-<p>[原文]^(yuán wén)</p>
-<p>测试下这个咯= = <del>滴</del></p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="built_in">print</span>(<span class="string">&quot;hello,world&quot;</span>)</span><br></pre></td></tr></table></figure>
-<p>print("hello,world")</p>
-<table>
-<thead>
-<tr class="header">
-<th>表头</th>
-<th>表头</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>单元格</td>
-<td>单元格</td>
-</tr>
-<tr class="even">
-<td>单元格</td>
-<td>单元格</td>
-</tr>
-</tbody>
-</table>
-<table border="1">
-<tr>
-<th>
-4
-</th>
-<th>
-Savings
-</th>
-</tr>
-<tr>
-<td>
-January
-</td>
-<td>
-$100
-</td>
-</tr>
-<tr>
-<td>
-February
-</td>
-<td>
-$80
-</td>
-</tr>
-</table>
-<table>
-<p style="text-align:center ">
-功课表
-</p>
-<tr>
-<th>
-语文
-</th>
-<td>
-7:00-7:40
-</td>
-<td>
-7:50-8:30
-</td>
-</tr>
-<tr>
-<th>
-数学
-</th>
-<td>
-7:00-7:40
-</td>
-<td>
-7:50-8:30
-</td>
-</tr>
-<tr>
-<th>
-英文
-</th>
-<td>
-7:00-7:40
-</td>
-<td>
-7:50-8:30
-</td>
-</tr>
-</table>
-<style type="text/css">
-
-table.tftable {font-size:12px;color:#333333;width:100%;border-width: 1px;border-color: #9dcc7a;border-collapse: collapse;}
-
-table.tftable th {font-size:12px;background-color:#abd28e;border-width: 1px;padding: 8px;border-style: solid;border-color: #9dcc7a;text-align:left;}
-
-table.tftable tr {background-color:#ffffff;}
-
-table.tftable td {font-size:12px;border-width: 1px;padding: 8px;border-style: solid;border-color: #9dcc7a;}
-
-</style>
-<table id="tfhover" class="tftable" border="1">
-<tr>
-<th>
-Header 1
-</th>
-<th>
-Header 2
-</th>
-<th>
-Header 3
-</th>
-<th>
-Header 4
-</th>
-<th>
-Header 5
-</th>
-</tr>
-<tr>
-<td>
-Row:1 Cell:1
-</td>
-<td>
-Row:1 Cell:2
-</td>
-<td>
-Row:1 Cell:3
-</td>
-<td>
-Row:1 Cell:4
-</td>
-<td>
-Row:1 Cell:5
-</td>
-</tr>
-<tr>
-<td>
-Row:2 Cell:1
-</td>
-<td>
-Row:2 Cell:2
-</td>
-<td>
-Row:2 Cell:3
-</td>
-<td>
-Row:2 Cell:4
-</td>
-<td>
-Row:2 Cell:5
-</td>
-</tr>
-<tr>
-<td>
-Row:3 Cell:1
-</td>
-<td>
-Row:3 Cell:2
-</td>
-<td>
-Row:3 Cell:3
-</td>
-<td>
-Row:3 Cell:4
-</td>
-<td>
-Row:3 Cell:5
-</td>
-</tr>
-<tr>
-<td>
-Row:4 Cell:1
-</td>
-<td>
-Row:4 Cell:2
-</td>
-<td>
-Row:4 Cell:3
-</td>
-<td>
-Row:4 Cell:4
-</td>
-<td>
-Row:4 Cell:5
-</td>
-</tr>
-<tr>
-<td>
-Row:5 Cell:1
-</td>
-<td>
-Row:5 Cell:2
-</td>
-<td>
-Row:5 Cell:3
-</td>
-<td>
-Row:5 Cell:4
-</td>
-<td>
-Row:5 Cell:5
-</td>
-</tr>
-<tr>
-<td>
-Row:6 Cell:1
-</td>
-<td>
-Row:6 Cell:2
-</td>
-<td>
-Row:6 Cell:3
-</td>
-<td>
-Row:6 Cell:4
-</td>
-<td>
-Row:6 Cell:5
-</td>
-</tr>
-</table>
-]]></content>
-  </entry>
-  <entry>
-    <title>强制https</title>
-    <url>/posts/30eb72fe/</url>
-    <content><![CDATA[<p>What's past is prologue.</p>
-<span id="more"></span>
-<p>放到<code>.htaccess</code>里就行。 逛<a
-href="https://crash-logs.ml/wrong/crash-2020-02-25_3-client.txt">某幻</a>blog看到的，然后就cv过来了啧。
-给自己的blog和引导页面用上了233
-若用户输入的是"http://wansz.xyz",会跳转到"https://wansz.xyz"
-自从Chrome68以来，对于没有ssl证书的网站就会报<code>不安全</code>了来着=
-= 所以这个还是挺有必要的嘛：D
-然后不确定这个是否会影响Mailchimp收集rss然后推送邮件。
-因为我看了看，访问“http://wansz.xyz/feed”会变成“https://wansz.xyz/feed”来着，难说</p>
-<p>百度了下：D 引自百度百科= = &gt; Rewriterule是Rewrite中的一种规则。
-&gt; Rewrite,一种服务器的重写脉冲技术，它使得服务器可以支持 URL
-重写，是一种最新流行的服务器技术。</p>
-<p>1、例如我们把某个特定的 IP 直接重定向到 baidu 首页，在网站根目录的
-.htaccess 文件里添加代码： RewriteCond % 123.123.123.123 [NC]RewriteRule
-^(.*)$ http://www.baidu.com/<span class="math inline">\(1 [R=301] 将
-123.123.123.123 这个 IP 替换成您要限制的 IP 即可 2、如果要实现多个 IP
-，可以这样写： RewriteCond % 123.123.123.123 [OR]RewriteCond %
-124.124.124.124 [NC]RewriteRule ^(.*)\)</span> http://www.baidu.com/$1
-[R=301] ```</p>
-<p>我觉得可以/好评</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>很遗憾，很抱歉，终究还是做了这个决定</title>
-    <url>/posts/204b923e/</url>
-    <content><![CDATA[<p>What's past is prologue.</p>
-<span id="more"></span>
-<p>抱歉！！！！！ 承蒙各位厚爱，小站自2020.1.27起航，一直至今日.
-断断续续两三月，挥挥洒洒一百文。
-从刚开始的一无所有，到现在的略有起色，这一路走来，却是说不尽的唏嘘。
-评论，从一开始的刺眼的0，到了现在的三位数，甚至超过了文章总数，大感欣慰之余，亦怀自豪些微。
-文章，从一开始的hello，typecho，到现在的一百+篇，不由得感慨，我竟坚持如此之久？
-友链，从一开始的空白，到现在的三三两两，不由得发觉自己竟已有了些许同道中人，喜且惊。
-你们伴我走过风风雨雨，我却辜负了汝等期待；
-你们与我共享酸甜苦辣，我却选择了转身离开。 最后的最后， 我想说： <br>
-<br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
-<br> <br> <strong>愚人节快乐！</strong></p>
-<p><strong>纵横正有凌云笔，俯仰随人亦可怜</strong></p>
-]]></content>
-  </entry>
-  <entry>
-    <title>总要正视的</title>
-    <url>/posts/577c8edb/</url>
-    <content><![CDATA[<p>What's past is prologue.</p>
-<span id="more"></span>
-<h1 id="总要正视的">总要正视的</h1>
-<p>山海间的奔赴</p>
-<p>//虽然一度不是特别想写这篇文，因为耗脑子不说还耗时间，但为了能之后能够正常点生活，还是写了吧。</p>
-<p>正视的是什么？呵，现在最困扰我的是什么？或者说深层次下困扰我的是什么？很明显是对女性的看法以及在与女性交流时的各种思绪。</p>
-<p>算了，范围缩小点，毕竟我可没那么“上下通吃”。大概是我与同辈姑娘之间相处的二三事罢。</p>
-<p>我应该是不太正常的。每次与姑娘聊天，与一位陌生姑娘相识，我想我最开始想的或许是正常的，或者说，那只是一个试探过程。而后呢，聊久了，我便开始胡思乱想了。诚然，我不会想着去谈恋爱，但我却总是在与姑娘的相处中，不断地希望能够发展成恋爱关系？或者说，总是想着对方能够喜欢我？突然我也不知该怎么形容这种关系。怕是缺爱，想从别人那里得到关心与爱护？但也没遇到这种关怀的女子呀，反倒是各种，私以为只有恋爱关系下才能心安理得一起做的小动作，做的挺多的。我与姑娘聊天，到底可曾抱有目的？我想是有的。先不论我认为男女之间纯粹的友谊哪怕是有也不太可能在虚拟网络上或者在我身上体现，光是对方在我日常生活中的地位不断加重，我愿意为此放下自己的事，哪怕聊烦了依旧继续聊，每次结束交流更多的是对方率先离开，我都觉得我是抱有一些不可告人的目的的。话说，这算不算舔狗行为嘞？应该算吧，指不定没有了那些暧昧的词汇罢了。啊，是啊，我跟姑娘之间的关系，也只是没有了暧昧词汇以及我个人一方相信迟早离开的……额，对对方似乎不太好，不然还是想说就是恋爱关系了。只不过也不能说是恋爱关系吧，私以为恋爱关系之下的我可不会这么拘束，可不会顺着他人的话而渐渐忘却自己的想法。以及：我也不知道怎么定义恋爱关系啊，我怎么知道谈恋爱要做什么，我又没谈过，我怎么能够类比呢。笑</p>
-<p>其实，把恋人换成知己，也是无差的。我在寻找恋人，不若说我在寻找知己。只是我不太愿意寻找男性，所以知己也就慢慢变了，慢慢地成了对恋人的追寻。红颜知己，红颜便是知己，知己便是红颜。敞开了讲，我在不断地寻找我的恋人，我遇到了一位又一位的姑娘，抱着一次又一次的幻想，聊着一天又一天的天，而后看着泡沫一个接着一个的碎。她们都有我反感的点，哪怕这些点其实挺莫名其妙的，甚至不是性格、人品上的，而只是一些小事。但我的容忍程度却是低的令人发指。我似乎很少言明我的喜恶，或者说是具体到某个人，某件物的。就像明星，大部分都是厌恶的，就像歌手，当代年轻的歌手大部分也都是厌恶的。他们的丑闻，娱乐圈的混乱，粉丝们疯狂的追星，都是我深深痛恶的一点。可现在挺多女孩是追星的，哪怕不追星，听歌也会喜欢听……笑。我也不知道对这些年轻歌手的厌恶从哪来，但我就默默地藏在心底就好，不必多说，听到他人言及，亦笑笑即可。毕竟，喜恶终究是私人的事，他们既然喜欢，那就远离他们好了。志不同道不合者，避之。</p>
-<p>所以我会意外的因为一些个小事而蓦然对于我相谈甚欢的姑娘产生疏远之感。似乎我一开始聊天的目的便是想要“谈个恋爱”，于是当我发现对方并不能够成为我的恋人之后，我也就只好抽身而退了。好吧，我更想说是找个知己，但没差的了，那就用这样的词汇吧。虚拟网络与现实唯一的区别，大概便是现实中我有更多的参照因素，比如更直接的颜值、身材、气质、为人处世。固然现实中的我面对少女会是意外的羞涩，便是与其谈论一句话也会感到变扭不自在，但依旧不影响我在远离她们的地方默默地观察着。只不过令人伤心的大概是，身边那些好看的少女们，为人处世却是意外地避开了能够吸引我的点……她们的三观，行为实在是不敢苟同。于是慢慢地也就放弃观察了，毕竟为了避免鲜花最后的凋谢，我还是放弃培养一朵鲜花吧。好吧，主要是她们也没有那么的美丽，直慑人心……正是现实的一次次打击，我来到了虚拟网络，开始结交一位又一位的我觉得都挺不错的姑娘。莫名的渣男行为？为何在这句话中所体现的，笑。我总是不喜欢损人的，于是对于一个存在的评价往往之有”不错“”还行“，唯有那些感兴趣的，有所好感的，可能会评价个”挺好“吧？或者其他，笑。</p>
-<p>虚拟网络最大的特点是什么？是我无法直观地了解到屏幕对面的是一个怎样的人。就像抠脚大汉也能在网上乔装一遍成为妙龄少女，我怎么知道与我交流的对面是男是女，真实想法是什么，遇到一些事情是否真的会想口中所说的那样做……这些都是未知的。于是我会产生不断的幻想，我会不断的脑补，在跟她们的交谈中不断丰富她们在我脑海中的形象，将她们的性格、思想、三观套在了我一开始就充满好感的一个模型上。然后不出意外的在收集这些的过程中我收集到了能够破坏我好感度的存在。然后模型碎了。</p>
-<p>大致便是如此，不知不觉，近两千字了。小说写的都没这么顺手过，笑。</p>
-<p>大概，也许，突然觉得这句话或许会挺贴切的：我一直爱着一位姑娘，但我不知那位姑娘长什么样，是什么性格，是怎样的三观。于是我开始了寻找，我将我遇到的姑娘一个个地与她进行比对，每当多一份恰到好处的比对，我便会欣喜一分，期待一分，每当多一份截然不同的比对，我便失望十分，产生了退念。</p>
-<p>所以呐，我不打算再继续找了。</p>
-<p>我不要试图摘月，我要月亮奔我而来。</p>
-<p>咳咳，上面那句听听就好，我没那么自信霸气orz</p>
-<p>只是真的不太打算再继续找了，以前我也经常会有一段时间的颓废期，想着女人有什么好的，可惜后来还是乐此不疲地飞蛾扑火着。</p>
-<p>恋人，或者说知己总是那么的美好，找寻她们的路上总是会遭遇现世的种种磨难，我并不害怕磨难，我未曾想过退缩，只是……我不知该怎么劝说我继续为了一个极有可能不存在的存在而前进了。</p>
-<p>我的全部感情都寄托在了她的身上。</p>
-<p>她是谁？</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>恢复每周rss邮件推送= =</title>
-    <url>/posts/cee35b0d/</url>
-    <content><![CDATA[<p>What's past is prologue.</p>
-<span id="more"></span>
-<p>邮件推送刚刚捣鼓了下。 之前是关了，现在可以了。
-订阅了的可以在每周一早上八点左右收到一份邮件，里面有我blog这一周更新的内容。
-呐大概就是这样。 （应该是周一/捂脸 （应该是八点多/捂脸
-（us的/捂脸，所以有延迟/望天</p>
-<p>虽然话说回来，这个blog是一个生活向blog来着。 emmm。
-有空变得技术一点哒。 （也是个做过一个python项目参赛了的准高一生呀hh
-（虽然最后连名次都不知道，初中时候参加的，现在都毕业了，望天？
-/蒟蒻，望天，别闹。</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>成语扯一</title>
-    <url>/posts/2a7a4ea/</url>
-    <content><![CDATA[<p>What's past is prologue.</p>
-<span id="more"></span>
-<p><strong>拨乱反正/拨乱反治</strong>： [褒义]
-一、治理乱世，使回归正常秩序
-二、结束“文*”所造成的混乱状态，恢复正常的社会生活和秩序
-三、纠正错误，以恢复正确的东西和事理等（一般为比较重大的错误） <br>
-<strong>拨云见日/拨云睹日</strong> 一、拨开乌云，见到太阳
-二、比喻冲破黑暗的阻挡而见到光明，前途大有希望
-三、受到启发，思想豁然开朗 <br> <strong>波澜不惊</strong>
-一、水面很平静，没有波澜
-二、比喻局面平静或局势平静，没有变化，也没有高潮起伏或曲折等
-三、内心有主见而表面平静，不因外界局势的变化而自乱方寸
-四、为人行事低调，不事张扬 <br> <strong>波澜老成</strong>
-[褒义]【波澜：波涛】【老成：老练成熟】 一、形容文章气势雄壮 <br>
-<strong>波澜起伏</strong> [褒义]【澜：大波浪】 一、波浪起起落落。
-二、形容局势、情节、内心等起伏不平 三、形容文章的气势起伏不平 <br>
-<strong>波澜壮阔</strong> [褒义]【澜：大波浪】 一、波浪浩大汹涌
-二、比喻声势浩大，规模宏伟 <br> 扯：
-《如何在一分钟内花掉一分钱》一文，行文流畅，<strong>波澜老成</strong>。针对当今人们已经不再重视的这在好好久之前发挥了大作用的一分钱的现象，作者笔下的文字如同一双巨手，<strong>拨乱反正</strong>，将一分钱对个人，对社会，对国家，乃至对世界的贡献性，说的那是一个<strong>波澜起伏</strong>，小明只觉自己<strong>拨云见日</strong>，眼前仿佛浮现出了一片<strong>波澜壮阔</strong>的大海，令他不由得觉得当今这如此<strong>波澜不惊</strong>的局面是如此扯淡！</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>成语扯二</title>
-    <url>/posts/39278a43/</url>
-    <content><![CDATA[<p>What's past is prologue.</p>
-<span id="more"></span>
-<p><strong>不揣冒昧</strong>：
-【揣：揣度、考虑】【冒昧：言行轻率、鲁莽】
-一、没有考虑自己言行轻率，多用作自谦之词 <br> <strong>不辞而别</strong>
-【辞：告辞】 一、不打招呼就走了 <br> <strong>不辞辛苦</strong>
-【辞：推辞】 一、形容能吃苦，不怕劳累 <br> <strong>不存芥蒂</strong>
-【芥蒂：细小的梗塞物，比喻心中的怨恨或不快】 一、心里没有怨恨或不快
-二、形容心地开阔，襟怀坦荡 <br> <strong>不打自招</strong>
-一、没有用刑，自己就招认了罪行 二、无意中讲出了自己的打算 <br>
-<strong>不得而知</strong> 【得：能够】 一、没有办法知道 <br>
-<strong>不得人心</strong> 一、不能得到人们的支持和拥护
-二、所作所为不符合人们的心愿 <br> <strong>不得要领</strong>
-【要：腰、腰部】【领：衣领】【要领：衣服的腰部或领部，比喻事物的关键部分】
-一、看问题找不到关键 <br> <strong>不得已而为之</strong>
-【不得已：无可奈何】 一、没有办法，只能这样做 <br>
-<strong>不登大雅之堂</strong> 【大雅：高雅】【堂：殿堂，高大的房屋】
-一、不能登上高雅的厅堂 二、作品粗俗，不文雅 <br> 扯：
-见您为了我<strong>不揣冒昧</strong>说出的言语而<strong>不辞辛苦</strong>从城西来到城东，我想给您推荐一本书，并希望您能借此原谅我上次的<strong>不辞而别</strong>，心中<strong>不存芥蒂</strong>。而关于这本书，虽此书作者<strong>不得而知</strong>，且文中多有一些<strong>不登大雅之堂</strong>的粗语，和少许<strong>不得人心</strong>的厌世言语，但相比那些<strong>不得要领</strong>，作者困为生计<strong>不得已而为之</strong>的作品，此书还是很不错的。所以，您看，如今我已<strong>不打自招</strong>，您手中的那根，长三米，粗如大腿的棍子，是不是可以放下了！</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>我。久。今。照。</title>
-    <url>/posts/b318a94c/</url>
-    <content><![CDATA[<p>What's past is prologue.</p>
-<span id="more"></span>
-<center>
-<font color="LightSlateGray"> 我。久。今。照。 </font>
-</center>
-<hr />
-<p><font color="LightSlateGray">
-<strong>依旧年少的818以及之后的我：</strong> </font> <br></p>
-<blockquote>
-<p>要命，居然真的写了这个。</p>
-</blockquote>
-<blockquote>
-<p>本以为写了计划书能够避免的，呵？期待属实没了啊，不满中砥砺前行？看小说看到现在啊，喂。</p>
-</blockquote>
-<blockquote>
-<p>要命，居然真的写了这个。不知道写些什么。</p>
-</blockquote>
-<blockquote>
-<p>现在的我，名头上是个高中生，是个学生，结果书也不看，字也不练，作业也不写。</p>
-</blockquote>
-<blockquote>
-<p>要命。真的，是，命数，注定？</p>
-</blockquote>
-<blockquote>
-<p>不改命了，把自己修理修理。</p>
-</blockquote>
-<blockquote>
-<p>自己修理完了再说说命吧。</p>
-</blockquote>
-<blockquote>
-<p>看书？</p>
-</blockquote>
-<blockquote>
-<p>练字？</p>
-</blockquote>
-<blockquote>
-<p>写小说？</p>
-</blockquote>
-<blockquote>
-<p>你说呢？</p>
-</blockquote>
-<blockquote>
-<p>没日没夜看小说？</p>
-</blockquote>
-<blockquote>
-<p>凌晨睡八九点起？</p>
-</blockquote>
-<blockquote>
-<p>早饭买来每一次是趁热吃的？</p>
-</blockquote>
-<blockquote>
-<p>睡的最晚起的也最晚？</p>
-</blockquote>
-<blockquote>
-<p>好玩么？</p>
-</blockquote>
-<blockquote>
-<p>真他的。</p>
-</blockquote>
-<blockquote>
-<p>没脏话了都。</p>
-</blockquote>
-<blockquote>
-<p>那就：</p>
-</blockquote>
-<blockquote>
-<p>傻子，呆子，脑子没被动物踢过的说？</p>
-</blockquote>
-<blockquote>
-<p>笨蛋，傻蛋，脑子挺聪明的说？</p>
-</blockquote>
-<blockquote>
-<p>聪明的我啊，见过多少人，走过多少路，看过多少书，写过多少字，赏过多少景？</p>
-</blockquote>
-<blockquote>
-<p>咋，每天事这么少？心还这么累？</p>
-</blockquote>
-<blockquote>
-<p>咋，老了干嘛？干坐着？</p>
-</blockquote>
-<blockquote>
-<p>吵架还要有个伴呢！</p>
-</blockquote>
-<blockquote>
-<p>谈恋爱，矫情，清高，我愿意，行，之前的我愿意，现在的我愿意，那么，以后的我，记住了，愿意！自己做的选择，记住了，谈一次！或者，不谈！你懂你自己，有些事，不该做，有些话，你不该说，有些人，不该碰。</p>
-</blockquote>
-<blockquote>
-<p>写小说，淡泊，悠哉，我开心，行，小时候，中时候的憧憬嘛，可以，满足你。每天写，日日写，构思有了就写，灵感没了也写，记住了，写！好歹是本书，好歹是个故事！故事里的人，你需要给他们，给自己，给读者，结局！听故事的人，总期待惊险；故事里的人，只希望平安。你是听故事的，还是故事里的？嗯？给自己个笑脸，这些事，很美好，很美好。</p>
-</blockquote>
-<blockquote>
-<p>练字，字丑，作文字体分没拿过满分，那就练！楷书行书草书，瘦金体簪花小楷，该买的字帖一样不落，结果才练了多久？Lamy的钢笔别人送的也没握过几回吧？甚至说丢就丢，也没有丝毫心疼甚至懒得找？工欲善其事必先利其器。你的笔啊！你的魂啊！喂！脑子啊。练字，要练的。回到之前，谈恋爱，不喜欢字丑吧？自己不喜欢吧？哪怕对方不在意？嗯哼？哪怕？哪怕？写小说，喜欢电脑里打出来，自己写一遍装订成册纪念吧？啊？嗯？不练字？想干嘛？啊？练字不好？就是脑子里充满奇思幻想，想着穿越重生，字也要好吧？哪怕不炫耀，那总要，给自己，一个开心的，地方，啊？练字，要练的。瘦金体，喜欢，就写啊。</p>
-</blockquote>
-<blockquote>
-<p>学习，懒，理解。学习怕是最有意思的吧？明明经历过很多，甚至一些事情他人根本无法感同身受？脑瓜子总归是个聪明的？学习嘛，不难，呵，简单，分分钟。啊？对吧？对啊！分分钟啊！你他的“分分钟”都没有花啊！你没有过程，就想要结果？你不愿意花的凋谢，就拒绝种花？你为了不美好的结局，避免一切开始？啊？！学习啊！人生在世，学习总要，考个研吧？听到一句话，人到三十才会发现许多比男女还有意思的事。不是早熟么？不是思想过于奇怪么？不是不愿沟通么？那心理年龄快点到三十啊！男女之事放下啊！淡然啊！在意这些干什么啊！学习啊！长相？长得，总归落得一个清秀？！清秀还不够？！才华呢！腹有诗书气自华呢？！今年几岁？啊？几岁啊！不会长大？女生还女大十八变呢，你今年多大？！啊？你现在还在成长，还在不断进步啊！脑子混了么，想这么多？！舒服？累？累就对了啊！舒服给谁的？！舒服是给死人的！再说了，苦中作乐，一个明明不美好，但是又美好的成语，总归很符合你的口味吧？！啊？！你说呢！学到老活到老，学习是一辈子的事，不仅仅是学业上的。学业上，考个研，不好么！？学习还有其他的，对啊！但是现在学业为重啊！？嗯？！学习啊，学到老，活到老，累，最好。人在忙碌中会忘记多少东西？会少思考多少事情？啊！？总归很清楚的啊，明明就那么爱奇奇怪怪的思考了，为什么要放纵自己啊，还美名其曰随性，随缘，随心啊。你的本心，是。。。呵？少年的肩头，是草长莺飞，明月清风？你愿意一直这样？你是少年？是，年少嘛，少年嘛，但是，小学，初中，熬出头了？没吧。继续熬呀，像现在熬夜，不知不觉中，不就，熬过去了么。美好的东西这么容易得到干什么，会珍惜？会觉得美好？戒骄戒躁，总归，是一件很棒的事情。</p>
-</blockquote>
-<blockquote>
-<p>呵，说了这么多，真的没想过写这个啊。</p>
-</blockquote>
-<blockquote>
-<p>呵，说了这么少。</p>
-</blockquote>
-<blockquote>
-<p>接下来，知道了？</p>
-</blockquote>
-<blockquote>
-<p>现实中明明有那么多美好的事物，有皓月，有星辰，有清风，有赤日，有瑶花，有蔓草，有，姑娘。</p>
-</blockquote>
-<blockquote>
-<p>但是总是不愿意去见啊，皓月抬头可见，星辰抬头可见，清风外出可感，赤日抬头亦可见。蔓草瑶花，参天古树，环顾四周，皆在。姑娘，呵，说到底，谈恋爱？呵，明明自己心里门清，榆木脑袋非要装万花丛中过，片叶不沾身的人？不过嘛，明明也知道，心门像锁了三把锁，别人有一把钥匙都觉得是可以时不时唠嗑几句的人，三把？太难了，找到也不愿意相信吧？毕竟自己也不想被别人看透？清高人？不俗人？小雅士？嗯？真的是，很有趣啊。</p>
-</blockquote>
-<blockquote>
-<p>呼。</p>
-</blockquote>
-<blockquote>
-<p>我，有，明珠一颗</p>
-</blockquote>
-<blockquote>
-<p>久，被，尘劳关锁</p>
-</blockquote>
-<blockquote>
-<p>今，朝，尘尽光生</p>
-</blockquote>
-<blockquote>
-<p>照，破，山河万朵</p>
-</blockquote>
-<p><br></p>
-<p align="right">
-此致
-</p>
-<p align="right">
-今天，以后的，自己
-</p>
-<p align="right">
-庚子年甲申月癸巳日子时
-</p>
-<p>​</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>我一定会赢得，属于我的国度</title>
-    <url>/posts/be8c7c69/</url>
-    <content><![CDATA[<p>What's past is prologue.</p>
-<span id="more"></span>
-<h1 id="我一定会赢得属于我的国度">我一定会赢得，属于我的国度</h1>
-<p>我的宝剑已经锻造出炉，我的铁衣已经披挂停当，我的马儿怀着奔跑的渴望。</p>
-<p>写文，除了考场，还是莫要写那八股文罢。
-将这些文字分享出来后，感到羞耻的也是自己。羞耻好啊，羞耻才能让我逐渐揭开那一层覆盖着的虚假啊。被那自负包裹全身，需要一点点扒下。也许除了自负，还有那与“谦逊”相斥的“傲气”。不知何来的“傲气”呵。极度自卑后的自傲？我喜欢谦逊，谦谦君子，卑以自牧。但我是做不到谦逊的，因为我没有实力去“谦逊”。也正是如此，反倒滋生了我的“骄傲”。半桶水响叮当，一桶水不声不响。明白道理，实践起来却并非容易。若是人们能够“坐而论道”后“起而行之”，也许就不会用所谓的迷茫，更所谓那“清醒地迷茫着”。所谓“清醒地迷茫着”，不过是清醒的程度不够深罢了。
-谈及少年一词，应与平庸相斥。
-《平凡之路》，一首歌。“我曾经失落失望失掉所有方向，直到看见平凡才是唯一的答案。”
-平庸也许不等同与平凡？平庸：寻常而不突出。平凡：平常；不稀奇。似乎没什么区别呵？两者本就是近义词。少年人该有心气，该有冲劲，该放肆，该一言不合便要嚷嚷着“改变世界”。然后，现实的一剑又一剑，剑剑深入。起初触到了表皮，感到了寒意，疙瘩起来了，少年人无甚在意，激起了心气。而后刺进肌层，点点血珠滑落，少年人喋血而亢奋了。剑指骨头，疼痛加深了，少年人发现了，自己开始脱力了。紧接着，剑自另一边刺了出来，穿透肌肤，扎入骨髓，少年人“清醒”了，自己面对的，是什么。也许我还有时间可以不断变强。也许我能够赢。
-太多的也许，太多的如果。
-棱角若被磨平，该需要有多大的毅力，才能再次显现锋利呢？ 是不是很消极？
-呵，无病呻吟的文字罢了，消磨时光的产物罢了，一头想将自己形容为动物的动物罢了。
-人与动物不同，大约是有了思想，有了独立思考的能力吧。
-无人听到的无病呻吟，何尝不是一场自我救赎。
-其实我开始想写的并不是这些，笔迹不自觉滑至这里罢了。
-不断与自己的魂灵产生对话，不断与自己的存在产生质疑，不断。
-我还有挺多想谈的，既然浪费了时间，便浪费下去罢，现在是下午五时三十二分，天还未黑。
-谈什么？很多啊，我的迷茫又何止这些？
-文字能传达我的情感么？应该能吧，毕竟在无意识的情况下，我只是下意识地将我心中所想，写了出来。所写即我心。
-不知为何，总想先谈谈我这，大约初一下学期开始的对异性的莫名的不知该如何定义的“憧憬”。
-当然也许是我的“传统”思想作祟，我不会用一些更，我觉得“开放”“不喜”的词来形容这个。
-等等吧，让我把近几天发生的事说完再谈吧，这是一个大家伙。 -
-中秋，国庆，假期让人应接不暇。中秋放假的第一天，是九月十九号。那天是CSP-S的初赛。我于凌晨四点五十五分醒来，洗完澡后已是五点十多分。而后便乘着伯伯的车，与要去上大学的堂姐一起，踏上路途。一路上，我看着黑暗渐渐散去，我看着天边鱼肚白渐渐浮现，我看着天际明暗交织。“我从黑暗驶向黎明，也将从黎明驶向至午。”这是在车上的我的所思所想。送完堂姐已是七点，待我到了考点，七点三十分光景。考试是九点三十分，我的时间很充裕。在一鸣吃了些早饭，拿起一本通，看起了动态规划。期间，遇到了有道小图灵课堂的老师，他们拿着传单，分发给遇到的考生——我遇到他们的时候，考点只有我一个考生。我加了他们的微信，因为他们说可以提前估分。我觉得没有拒绝的必要，也就加了。我曾坐在一个小凳子上看书，那个凳子是环卫工人做的似乎，他来了，让我莫要再坐，将凳子放回原位（因阳光照晒，我将凳子右移约莫五米，阴影处）我照做了。恰巧那几位有道课堂的老师看到了，便与老伯说“老伯，这是来考试的考生，让他坐一下吧，他可是以后的国家的人才啊。”我赧颜，老伯也摆了摆手，让我自便。我于是将凳子又搬了回来，不过倒是没有坐了，而是将书放在上面，自己半蹲着看了起来。大概这就是考前的事情了吧。谢谢那位老伯，谢谢那几位老师。虽说，我不一定会成为“人才”，我不一定真的需要那张凳子……但是我不知怎么推却，感谢她的好意吧，毕竟我还是用到了凳子，得了利，莫要“放下碗骂娘”了。（呵，我可不说脏话了）其实我为何要有这种想法？我只是爱想得多罢了，但这似乎也不是为我辩解开脱的理由。我还是感谢他们的，无关此事。这件事并不影响我对他们的感谢。啊，不知如何遣词造句了。借凳子此事，我赧颜，我不知所措。我不知该怎么表达，我不愿麻烦他们，也不愿麻烦老伯，毕竟本就是人家的东西，我未经允许便擅自挪用，未有言语就已该感谢了。借凳子此事，该做何解？是否觉得我想的太多了，连这点也许双方都已经忘记的事，却还要耿耿于怀。这就是我啊……记一些我想记的……啊。我对自己的要求是“君子”，是的，也许是这个词。当然，也许并不是这样一个词。我对自己有一个束缚，有个道德要求。他们为我向老伯借凳子，我便将他们代入为我，我因此而羞愧，无颜。我不愿麻烦别人，特别是为了自己的事而麻烦别人，特别是在这种小事上。我不喜欢这样，于是我开始胡思乱想。呵，是我想太多了罢……
-考后，我没有情绪波动的出了考场。没有放松，没有压力，没有紧张。“心如止水”？也不太算得上。
-上了个厕所，便又一次来到了一鸣，点了个蓝莓酸奶，拿出笔记本，在看洛谷。很快，答案出来了，我于是对了对，五十左右浮动。当时心中就已经有些惊讶了，甚至已经有所“预感”了，但我不愿醒，不愿意让这个梦，如此短暂地破碎。
-中秋三天假期放完，回到学校，我像往常一般前往老师办公室，只是不再复习，也不再学习其他知识，随便看看，刷刷知乎，洛谷，b站。文化课依旧不听，开始看一本通上的图论，数据结构，心情也不似先前那边，非要“看完”“看懂”。不求甚解，大约如此。同时，那几天，头疼的实在厉害，有一天，更是达到了之前从未有过的状态，比熬夜通宵还要剧烈的疼痛。那一天，脑袋昏昏沉沉，一天基本都在睡眠中度过，书未曾翻页，话未曾出口，只知闭眼，图个一时“放松”。间隔一天后又是如此症状，我又一次睡得迷迷糊糊。当然，晚自修还是去了办公室的，虽说脑袋昏沉，却是无心呆在教室的。直至周五，班主任在早读之际，说“你这几天就不要去办公室了，等这个初赛成绩出来了，确定能去第二轮了再去好吧。”我于是待在了教室。九月二十八日。三次在下课后前往办公室，想了结这七天的颓废，挣扎，心力交瘁。可惜成绩迟迟未出。下午，有些预感的去了办公室，成绩出了。50。分数线58.5，比较前几年，降了约莫二十分，也又有什么用呢？呵，没过啊……以沉默？以无奈？以淡然？我怎么知道，心情交织，早有所感，只是血淋淋的现实摆在面前，还是有些难以接受罢了。不知怎般的走回教室，趴在桌上如往常般躺了会儿。
-晚上颇有些“装模作样”地前往办公室，在老师的目光下再次查起了成绩，恩，现实不为人的意识所更改嘛，老师也知道了，我未曾留意老师神情，也就不知他是何种心情了。
-我颇有些洒脱地说：“哎，看来没过啊……”老师说：“没事，大学后再搞这些也行嘛。”安慰的本领属实不咋地，不得不说。当时的我也没有听进去就是了。笑着说“光荣退役”，呵，光荣么。晚自修不愿待在教室，又去了办公室，美其名曰“死也要死得明白”，找的理由为“看下试题解析”，于是又消磨了一个晚上。
-我还应该说些什么……
-我似乎有挺多话想说的，但是又觉得这些话实在没有发表出来的必要，但又想到这并不是要发表刊登出来的文章，我只需要写我心里所想的就可以了。
-信息竞赛对我来说到底是什么？
-小学开始接触游戏，而后五六年级渐渐从易语言开始与编程结缘，接着便开始买书。买了Java的书，想着为mc开发模组，可惜看了几页还是没有耐心看下去。而后买了python的书，也忘了买书的初衷了，当时是在初中了。之后又买了啊哈C语言和啊哈算法，算法那本一页未翻，c语言那本看了约莫一半，又懒得看了。至于python那本，硬着头皮看完，后面的实例项目却未曾细看。初三疫情之际，有一个程序设计比赛，心中有了参赛的念头。于是花了一个下午+一个晚上，终于在早晨通过钉钉将比赛作品发给了信息老师。那个作品是个滑雪小游戏，用了pygame库。现学现用，一些需要用到的图片则是自己绘制的，绘制水平大约是能够看出来是这个“词语”所表示的“事物”这种水平，并无美感。游戏内容很简单，有一座无限高的山，滑雪人自山顶开始不断向下滑，途中有一些东西，收集到口罩可以加分数，若是碰到病毒就会死亡，游戏结束。很简陋的小游戏，只得了个三等奖，且这奖项还是在我高一上（或者是下）学期的时候，信息老师通过微信发给我。
-紧接着，真正去了解编程应该也就是高一了。具体点说，是高一下学期的暑假，即将升高二的时候。我产生了“我要搞竞赛”的念头。这个念头的产生，除了曾经在初三曾跟同学说过，“我在高中要试试看信息竞赛”之外，便是我所在小组的组员的影响吧。于是我开始买书。一开始我便想着要先过初赛再说，所以没买太多书，只买了《信息学竞赛一本通》，而后八月份的时候，买了洛谷的深入浅出程序竞赛，以及买了网课。同时，又买了算法导论,c++primerplus,算法经典，算法训练指南。
-秉着贪心策略，我只看了深基，白皮书，以及啊哈算法。可惜的是，我并没有过初赛，哈。之前所准备的一些知识点，全部没有考到，一些人物，奖项，网络知识，都没有考到，呵。
-这些书想着，要蒙尘了罢。 大概我有关信息竞赛的事，就到此结束了。
-但是我的路，似乎并没有结束。这个“否”字，并未否定我的整个人生呢……其实我在看到这个否字，产生了这个否字是否否定了我整个人生的念头时就觉得扯淡，我在“为赋新词强说愁”。
-那天晚读期间，我写下了一段文字。结尾，我写了：我想搞……物竟。
-是的，物理竞赛。其实影响我参加竞赛的因素似乎真的挺多，近几天学霸文流行，《学霸的黑科技系统》是我最早接触的学霸文，而这几个月接触到的大约是《学魔养成系统》，书中男主是搞化竞的，同时之后又参加了另外四个学科竞赛（美其名曰“集龙珠”），不过他所热忱的是物理。物理啊，我不知道，该怎么对待这门学科。初二开始科学才分为化学和物理，对于物理我似乎并没有多大的兴趣——对待所有学科我都没有展现出热忱，包括计算机。我只是单纯的喜欢折腾，但是同样我也有因为折腾太麻烦了而懒得折腾。似乎我喜欢“简单”的折腾，而不是“复杂”的折腾。说到底，我怕太难的，嫌弃太简单的，只做当前水平的——以致我的水平犹如一条直线。其实对于物理，可能还是有一点莫名的憧憬的。毕竟无论是从知乎看到的一些文章也好，还是小说里所感受到的也好。啊，又不知怎么说了。物理竞赛我知道很难，也许我连预赛都过不了，但是，我还有一年。高三我还可以参加。也许一年很短，毕竟许多人都是从小学，从初中，从高一开始。假如，我真的有天赋呢？天赋是存在的，努力同样存在，两者的结合，才是他们存在的意义。哈哈哈，多笑笑嘛，毕竟对身体好。“种一棵树最好的时间是十年前，其次是现在”，哪有那么多时间给我犹豫，既然想学，那就去学啊。
-我唯一没变的，大概就是对世界的好奇了。 至此，翻篇。 -
-好了，洗个澡，出去买个饭，吃点东西顺便喝下不知为何想喝的珍珠奶茶，再来写……大东西。
-- 我似乎……</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>我的狗屁流水回忆</title>
-    <url>/posts/428928be/</url>
-    <content><![CDATA[<p>What's past is prologue.</p>
-<span id="more"></span>
-<h1 id="我的狗屁流水回忆">我的狗屁流水回忆</h1>
-<p>未完待续……</p>
-<p>……</p>
-<p>以何开头？</p>
-<p>2022年2月26日00:59:36</p>
-<p>我现在在哪里？学校旁的一间出租屋里。我现在在做什么？躺在床上，靠着枕头，弯着膝盖，笔记本放置在大腿、被子的上方。穿着学校里的冬季校服，有些冰凉的手敲打着发光的键盘。</p>
-<p>房间里关着灯。显示屏成了唯一的光亮。</p>
-<p>这篇文章，可以说是预谋已久罢。在文章《问》中便有了些许苗头。这一次，注定我将通宵达旦……</p>
-<p>名为《我的沉思录》罢！</p>
-<p>……</p>
-<p>不若，容我缓缓道来？自那CSP-S初赛出成绩那天，开始谈谈近几个月的事，以及我对于青春、少女、恋爱的看法罢。</p>
-<p>2021年9月28日，CSP-S浙江省初赛成绩，公布。那是下午的两点半左右。那天我约莫去了三躺老师的办公室，分别是大课间、中午、下午第一节下课。出成绩的时候，大概是第二节下课，抑或第三节下课。50分的刺眼成绩，58.5的分数线，ctrl+f熟练的在一大串名单的pdf中寻找到了自己的成绩。一个“否”字，让我忍不住数次对了对我的考号。ZJ-1038……大概是这个考号？我忘了，但那时的我想着是最为记忆深刻的吧。其实在来前就有了心理准备，其实我真的真的做好了失败的准备，我真的真的幻想了无数次不通过的时刻，以及不可避免的通过时刻的幻想。我甚至希冀着分数线低一点，再低一点。但一切尘埃落定。查分时候老师并未在场，我默默地关掉了网页，离开了办公室，从四楼走到了三楼。而后穿过走廊，走回自己的班级……熙熙攘攘的学生，他们欢声笑语，我一言不发，加快了脚步。回到教室，沉默地走回座位，终究还是没忍住，趴在了桌上。那时候的下一节课，似是自修。于是我趴了一节课。</p>
-<p>其实，那时候我还抱着幻想。晚饭结束，我再次去了办公室，老师也在。当着他的面我又一次查了成绩，事实并没有改变，我反倒又没有那么难过了。老师也安慰了我几句，我笑着说着“光荣退役”，可其实在脱口而出的同时，便后悔了。哪来的“光荣”啊……而后，晚自修第二节上课时候的眼保健操时间，我又去了办公室，借了某位老师的手机，拨打了noi官网上台州负责人的电话，想着说，也许，有所谓的“推送名额”（忘记是什么名称了，是可以让一名没通过的考试正常参加复赛的名额）能够留着呢？毕竟我也有50分啊……只差八分。在眼保健操的声音中，电话拨通，他拒绝了我。意料之中，先前与老师谈论时便谈论过这个，他言这些名额一般都是本校的或者兄弟学校的……我不死心啊。负责人说名额只能本校学生才可以，其实我曾发邮件给了csp-s官网那边的一个负责人，询问名额能否给非本校的考生，他回复了，“可以”。呵呵，其实我并没有多大在意这个……只是希望的再次破灭罢了……我当初在想的什么我现在还记得……我在想，也许我的老师能够帮我要到这个名额呢？也许他会在微信上加台州负责人的微信，而后与他交谈一番，觉得50分的话，应该可以有一个名额呢？这只是我的想法……一厢情愿，不甘心罢了……若是要我声明，我便会在对读者说一句“我并未对老师、对那位负责人有任何的不满，我不甘心于自己是如此的差劲，不甘心于眼前居然没有了任何希望……”可我还是想写给自己，那我还是不想解释这些……懂你的人不需要你解释，不懂的人解释了也不听……</p>
-<p>那天下午和晚自修，我没有了任何干劲，只想睡觉。睡眠是个很好的药剂，药效长，效果佳。</p>
-<p>那天下午，吃完饭回来的我，似乎写了篇文章……盖是那天所写吧。但，这次挫折，这场打击哪是这么容易拯救的呢。</p>
-<p>那几天后便是国庆。国庆在家，我似乎彻底放纵了自己，我慢慢减少了自加的束缚，我开始了说脏话，开始了高强度的网上冲浪。重新下载了社交软件，看起了视频，看起了小说，如痴如狂。就像一个掉入泥潭的人儿，挣扎了几下后，看了看天空，深知无望后，破罐子破摔，只愿早日下坠。而后是国庆假期结束的前一天，大概是十月七日的夜晚，我尝试了盘腿打坐，冥想。在高一时候，住宿期间，有时候我便会冥想一会儿，约莫十几分钟，而后便睡去。冥想也不为何，只是单纯冥想，放空下自己罢了。那天一如既往的冥想后，我便睡去了。十月八日？大概吧，我返校了。我本以为，本以为，我会振作起来，这场竞赛的后遗症，应该要结束了。可……接下来我用完了一整个请假本。</p>
-<p>返校后没几天，我开始了肚子疼。本以为只是正常的肠胃不适应，或者在假期吃坏了肚子，排泄完就可以了。可没想到在排泄完后，肚子依旧疼的厉害。强忍了一两天，而后在某一天的凌晨五点半左右，被肚子疼给硬生生疼醒了。宿舍里有卫生间，但很明显，我的羞耻心让我不可能在宿舍里面解决。于是，我背起了出发，准备离开寝室，去教学楼那边的厕所解决。那天下着大雨，我背着书包，撑着伞，走过了链接这宿舍楼与教学楼的桥，来到了教学楼一楼——二楼有门，锁着。于是我决定在一楼。我把书包放在一楼的某件备用教室的门口，而后冲进了卫生间。令我印象深刻的是，在另一栋教学楼里，我看到了手电筒的灯光——门卫他们起来了，开始开通往楼上的锁了。我没管，反正不挨着我。</p>
-<p>可是那天依旧疼的厉害，终于，我去请假了。那是我第二次请假？自九月一日开学那天就请假一次出校门买晚餐外，这大概便是第二次吧。拿了手机，自己一个人乘着公交车，回到了家中。说来有趣，回到了家中，肚子的疼痛倒是有所缓解，真不知是否是心理因素也有一部分在其中。小时候的我就有得过胃病，肚子疼痛对我来说家常便饭，小初高，基本都有因胃病而去医院开药，倒也习惯了。</p>
-<p>胃炎过后，肚子倒是没有那么痛了。去医院拍了b超，做了个c14检测（也正是这个时候我才发现我已经能够仅呵水就吞咽下药丸了），开了药，胃炎就算结束了。但，疼痛开始转移了，我的头开始了疼痛。</p>
-<p>那是难以遏制的疼痛。并非天旋地转，而是犹若大脑中有一个气球，正在不断地充气膨胀着。尤其是在午睡醒来的那段时间，头疼的真的忍不住想要叫出声，全身乏力。甚至，那段时间我的额头温度还会持续升温，很烫很烫，且难以降下来。于是我理所当然地请假了，理由是发烧。</p>
-<p>似乎自那时候，我就没有将手机交上去了。一律放在寝室的行李箱包中。于是请假后我也没有去政教处拿手机，直接回了寝室，拿了手机，回家了。家里刚好买了测温枪，测了测，约莫37多度，明显的发烧，于是便去医院了。去的是当地的二院，离家挺近。首先做的是核酸，要抽血。很明显，不可能是阳性。诊断结果是感冒，开了些感冒药，便离开了医院。</p>
-<p>在家休息了一天，又返校了。本以为事情就此结束了，我也要开始补之前落下来的一个月的课程了，但事情远远没有结束——头继续疼起来了。</p>
-<p>于是我继续请假。父亲决定带我去诊所挂点滴——从小到大，我基本就没怎么靠吃药好过，都靠挂点滴。（当然，也有从小我就不吃药，吃胶囊根本咽不下去的因素在……）点滴连续挂了两三天，似乎病情好转了，时间也来到了十月中旬，我又回校了。可天不遂人愿，病来如山倒。很明显，竞赛失利后我的精神状态绝对是低迷到了极点，我开始肆无忌惮的悲观、消极。于是我的头疼又一次犯了。我依稀记得有一天的晚上，晚自修结束后，九点二十分后，我去办公室找班主任请假，班主任不在，于是我去了政教处，给班主任打了电话，在政教处盖了章成功请了假然后回了家……其实我回家后也不知道可以做什么，毕竟似乎也没有发烧……但我那天似乎说的便是发烧?毕竟我睡一觉后，额头的温度总是高的吓人，还降不下去。我去政教处大概请过两次假，第二次请假的时候也是晚上了，似乎第一次是下午？不确定了。第二次请假时候，
-我说我的体温达到了37.8℃，于是班主任又让我请假了。那天我打车回的家……我现在还记得那辆网约车的司机是个中年大叔，年龄偏大，副驾上还坐着身份大概是他母亲的一个人。那天下着雨，晚上九点四十左右。打车时候，倒也有件趣事。我一共打了大约三辆车，这三辆车，除了第一次是我主动取消的订单，后两单都是他们莫名其妙的迟迟不来，还在距离几百米的时候取消了订单。于是等我打到网约车的时候，已经是九点四五十了。当时目的地是医院，父亲先到的医院，我在十点半左右到达。而后又准备去做核酸，但医护人员说结果大概要十二点出来，想了想，又决定隔天早上再去，遂归家。翌日，做了核酸，又是一次抽血。结果依旧是感冒，没诊断出什么，我也就无奈了。但头疼照旧。</p>
-<p>无奈，决定去拍个ct。而后是显示是鼻窦炎。医生也说正因为鼻窦炎，所以会导致额头发热，头疼。于是买了喷雾，开始了鼻窦炎的治疗。回到学校后，大概十月月末左右，二十几号，我又有请假，我已经忘记了理由。那一次请假我整整一周没去学校。</p>
-<p>我现在还记得在诊所挂点滴的时候，父亲与医生说的一句话“他从月初开始生病，基本隔几天就跑一趟医院，这个月就没怎么读书了啊”是的，十月份，我用完了一个请假本，一月有四周，每周我大约仅有一两天在学校。</p>
-<p>大概在十月十几号吧，我在家修养的时候，大概是胃炎那段时间，我开始了直播。我也很疑惑，我当初重新拾起直播的缘由是什么？想发展新的人际关系？想与人交往？（交流？）想赚钱？应该都有吧。其实消遣应该占主要因素。可能是想跟人聊天了。直播，能直播什么？唯有游戏。游戏，能玩什么游戏？Minecraft。有趣的是，我只在直播的时候玩游戏，下播后我对游戏完全不感兴趣。哪怕直播的时候也对游戏没那么大兴趣，只是不知道直播什么，只好选择直播游戏罢了。游戏只是载体，桥梁，我在小学时候就已经把自己对游戏的所有感情倾注了。于是我疏远了游戏。未曾想最后却因为直播开始玩起了游戏。</p>
-<p>之后，建了个粉丝群，弄了个我的世界服务器。神奇宝可梦、魔法金属、群峦传说……开了挺多类型的，不过还是以宝可梦为主，开了基本有两个周目，也就是两个月。其中的花费都是水友赞助的，我倒是只在其中花费了人力，负责开服，修改bug罢了。</p>
-<p>于是大概在十几号的时候，开始了直播之后，我就开始一去不复返了……仅有的在校时间也有想着直播里的事……</p>
-<p>有时候哪是回家养病，回家玩电脑罢了………</p>
-<p>就这么请假请到了十一月份，我曾在十月月底的时候，对自己说“下个月要振作起来，不这样了！”，可……</p>
-<p>（2022年2月26日02:24:58，睡觉，有点困，不想打字了，3776词了，累了。这是在不断的精神输出，太累了。）</p>
-<p>……</p>
-<p>2022年3月25日16:31:26</p>
-<p>流水账罢了……</p>
-<p>2020年十一月份？又间歇请假了一些日子。2020年十二月份？记不大清，约莫也有请假罢。2021年一月份？啊，有学考在这个月。唯一的印象大概便是某节班会，老师让同学上去说接下来的复习计划，想法——轮到我时，我说了些“要多锻炼，保养好身体，身体是革命的本钱。别像我一样，一直请假……”以及“希望学考能过”。这似乎不是同一节班会说的？忘了。过往如云烟，烟消云散。既如此，何须与过往格格不入。</p>
-<p>二月份是寒假，十六号便开学，哈。关于期间的春节，是真真睡了一天呢……毫无动力，小说也不看了……</p>
-<p>大概，便没了？</p>
-<p>这不是沉思呢，这是回忆。不甘、懊悔、无奈、厌恶、惆怅的过往。</p>
-<p>过往云烟，烟消了又起，云散了又聚。</p>
-<p>……</p>
-<p>青春、少女、恋爱。</p>
-<p>少女、恋爱。</p>
-<p>恋爱。</p>
-<p>爱恋。</p>
-<p>大概“欲望”吧。</p>
-<p>性欲？</p>
-<p>荷尔蒙？</p>
-<p>不知科学如何解释。</p>
-<p>若是“爱不知何起，一往情深”，那，“性欲不知何来，难以自拔”。</p>
-<p>有时总是暗暗地想，若是现代女子能够如古代那般，深锁闺房，轻纱掩面，往往与男子的初见，便是一生，那是不是会更适合我呢……渐渐地长大，慢慢明白了这是占有欲太重，直至病态。</p>
-<p>……</p>
-<p>2022年3月31日23:22:04</p>
-<p>也许，我享受的是被人喜欢。yy他人，每次的情节竟全是他人倒贴，我颇有点“欲拒还迎”……我不喜欢主动？我太被动？也许，是我根本就没打算跟“这位”谈呢……我享受的，似乎只是这种，也许可以称之为“舔狗”的行为？或者说，是他人对自己的，犹如亲朋的宽慰，属下的恭敬，无奈的气愤，不舍……是什么造成了这个？也许，是自记事起便缺乏关心？但我并不需要关心……抑或着说，我并不需要主动去寻求关心啊。我总是将自己与世人分的很是清楚的。”人与人之间的悲欢各不相通”也罢，“君忧我亦忧，君喜我亦喜”也罢，我的悲伤，欣喜，总是难以与他人分享的。我悲春天之萌芽，我喜秋日之凋零，叶落之疏疏。犹如此般。一口一句世人，我也是世人之一呵。“逢人不说人间事，便是人间无事人。“有些思绪唯有幽暗的心河才得以安放。</p>
-<p>难道我真的不需要关心？不。若真如此，悲伤之际我也不会去社交软件上聊天，欣喜之际我也就不会去群里分享自己所遇之事。只是，他们的关心于我又是一种“什么”呢？锦上添花还是雪中送炭？也许待我过了那时，想起悲伤时他人的宽慰（啊，真的有吗？悲伤之际我并不会去社交软件上言及伤感，只会不断的聊天来麻痹，劝慰自己罢了）……呵，在说些什么啊！</p>
-<p>近几天想着想着，想到了四个字“俗不可耐”。（有趣之一，打字之时，第一次打出来的是“俗人可耐”）言及yy，我怕不是一个猥琐淫秽之人。然，于我幻想，更多的却是并无一张面庞是同现实中的人物相近的。我喜欢的，爱慕的，向往的，是她们的行为，她们的言语，她们深处的魂灵。我幻想的，与现实有所相关联的，怕便只有环境、物件了罢。我心中的人儿，足以模糊世界，唯她一人清晰夺目。若伴之左右，他人之言语与我何干？</p>
-<p>俗不可耐，更多的是我为了自己开脱而想出来的。我心中厌烦着现世的这些女性，又因她们是女性，女性所挺有的魅力又令我着迷。（啊，或许称呼为姑娘更加妥当，毕竟若论起来，我却还是喜欢貌美的。啊，若是愿意听我辩解，那请知晓：我相信有人的灵魂能让我与之神交，忘却皮囊）我一边向往着，又一边厌恶着，反感她们仗着自身的美好肆意妄为，美的破碎在我眼中是那么的无可奈何，不知何言。不但反感她们，也反感自身，反感自身居然曾着迷与她们，曾希冀着她们是那么的美好。</p>
-<p>皮囊的美丽或许能让我着迷，却难以令我为之痴狂。我会为皮囊美的人儿的行为无奈，厌恶，好奇，惆怅，却不会想着倾尽所有，只为红颜一笑。她们的外在的美丽只能令我目眩，意动。唯有魂魄的灵性能令我心向往之，为此神迷。</p>
-<p>所以想想也是可笑……但总归是阻挠了我许久。</p>
-<p>美人何美哉？人美美何哉？</p>
-<p>人间可有绝色乎？</p>
-<p>……</p>
-<p>2022年4月16日22:26:51</p>
-<p>这根本不是什么沉思录啊，只是狗屁的流水账、回忆！</p>
-<p>想抒发一些感受，居然还在想是写在沉思录这篇文章里面还是新开一章，不由烦躁起来。</p>
-<p>狗屁的沉思录！</p>
-<p>故，易名。</p>
-<p>《我的流水回忆》，好！</p>
-<p>然后将其中的一些感受再单发一章罢！</p>
-<p>狗屁的束缚！真的很烦，以至于厌恶。</p>
-<p>怕是躁郁症，唯一了解的就这个症了，且莫名还有点符合现在的自己了……不想去医院啊，有个焦虑就够受的了。自从不头疼后便停药了，实在讨厌吃药……以及那种，明明，难道，这是病吗？心灵的问题，是为心病？</p>
-<p>罢了罢了，让我忘却这些！</p>
-<p>若有所思，便再成一章罢！</p>
-<p>去他妈的世界！</p>
 ]]></content>
   </entry>
   <entry>
@@ -9717,6 +9075,654 @@ id="一世界的bug终究是我一个人承担了">一、世界的BUG，终究�
 ]]></content>
   </entry>
   <entry>
+    <title>容我测试下这个编辑器咯。</title>
+    <url>/posts/18056294/</url>
+    <content><![CDATA[<p>What's past is prologue.</p>
+<span id="more"></span>
+<h1 id="section"></h1>
+<p><del>123？</del></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">your code</span><br></pre></td></tr></table></figure>
+<figure class="highlight php"><table><tr><td class="code"><pre><span class="line"><span class="meta">&lt;?php</span> <span class="keyword">echo</span> <span class="string">&#x27;hello jrotty!&#x27;</span>; <span class="meta">?&gt;</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">1</span><br></pre></td></tr></table></figure>
+<pre><code>1978</code></pre>
+<p><span
+style="color:LightSlateGray;">这是比font标签更好的方式。可以试试。</span></p>
+<p>日常测试。 没捣鼓明白。</p>
+<p><strong>加粗文字是这个咯？</strong></p>
+<p><em>这个是倾斜文字？</em></p>
+<p><a href="https://zhiluo.top">个人引导页链接？</a></p>
+<blockquote>
+<p>引用？</p>
+</blockquote>
+<pre><code>代码咯？</code></pre>
+<ul>
+<li>12</li>
+<li>。。。</li>
+</ul>
+<h2 id="唔试试">唔试试</h2>
+<p>标题文字↑</p>
+<!--more-->
+<p>[原文]^(yuán wén)</p>
+<p>测试下这个咯= = <del>滴</del></p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="built_in">print</span>(<span class="string">&quot;hello,world&quot;</span>)</span><br></pre></td></tr></table></figure>
+<p>print("hello,world")</p>
+<table>
+<thead>
+<tr class="header">
+<th>表头</th>
+<th>表头</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>单元格</td>
+<td>单元格</td>
+</tr>
+<tr class="even">
+<td>单元格</td>
+<td>单元格</td>
+</tr>
+</tbody>
+</table>
+<table border="1">
+<tr>
+<th>
+4
+</th>
+<th>
+Savings
+</th>
+</tr>
+<tr>
+<td>
+January
+</td>
+<td>
+$100
+</td>
+</tr>
+<tr>
+<td>
+February
+</td>
+<td>
+$80
+</td>
+</tr>
+</table>
+<table>
+<p style="text-align:center ">
+功课表
+</p>
+<tr>
+<th>
+语文
+</th>
+<td>
+7:00-7:40
+</td>
+<td>
+7:50-8:30
+</td>
+</tr>
+<tr>
+<th>
+数学
+</th>
+<td>
+7:00-7:40
+</td>
+<td>
+7:50-8:30
+</td>
+</tr>
+<tr>
+<th>
+英文
+</th>
+<td>
+7:00-7:40
+</td>
+<td>
+7:50-8:30
+</td>
+</tr>
+</table>
+<style type="text/css">
+
+table.tftable {font-size:12px;color:#333333;width:100%;border-width: 1px;border-color: #9dcc7a;border-collapse: collapse;}
+
+table.tftable th {font-size:12px;background-color:#abd28e;border-width: 1px;padding: 8px;border-style: solid;border-color: #9dcc7a;text-align:left;}
+
+table.tftable tr {background-color:#ffffff;}
+
+table.tftable td {font-size:12px;border-width: 1px;padding: 8px;border-style: solid;border-color: #9dcc7a;}
+
+</style>
+<table id="tfhover" class="tftable" border="1">
+<tr>
+<th>
+Header 1
+</th>
+<th>
+Header 2
+</th>
+<th>
+Header 3
+</th>
+<th>
+Header 4
+</th>
+<th>
+Header 5
+</th>
+</tr>
+<tr>
+<td>
+Row:1 Cell:1
+</td>
+<td>
+Row:1 Cell:2
+</td>
+<td>
+Row:1 Cell:3
+</td>
+<td>
+Row:1 Cell:4
+</td>
+<td>
+Row:1 Cell:5
+</td>
+</tr>
+<tr>
+<td>
+Row:2 Cell:1
+</td>
+<td>
+Row:2 Cell:2
+</td>
+<td>
+Row:2 Cell:3
+</td>
+<td>
+Row:2 Cell:4
+</td>
+<td>
+Row:2 Cell:5
+</td>
+</tr>
+<tr>
+<td>
+Row:3 Cell:1
+</td>
+<td>
+Row:3 Cell:2
+</td>
+<td>
+Row:3 Cell:3
+</td>
+<td>
+Row:3 Cell:4
+</td>
+<td>
+Row:3 Cell:5
+</td>
+</tr>
+<tr>
+<td>
+Row:4 Cell:1
+</td>
+<td>
+Row:4 Cell:2
+</td>
+<td>
+Row:4 Cell:3
+</td>
+<td>
+Row:4 Cell:4
+</td>
+<td>
+Row:4 Cell:5
+</td>
+</tr>
+<tr>
+<td>
+Row:5 Cell:1
+</td>
+<td>
+Row:5 Cell:2
+</td>
+<td>
+Row:5 Cell:3
+</td>
+<td>
+Row:5 Cell:4
+</td>
+<td>
+Row:5 Cell:5
+</td>
+</tr>
+<tr>
+<td>
+Row:6 Cell:1
+</td>
+<td>
+Row:6 Cell:2
+</td>
+<td>
+Row:6 Cell:3
+</td>
+<td>
+Row:6 Cell:4
+</td>
+<td>
+Row:6 Cell:5
+</td>
+</tr>
+</table>
+]]></content>
+  </entry>
+  <entry>
+    <title>很遗憾，很抱歉，终究还是做了这个决定</title>
+    <url>/posts/204b923e/</url>
+    <content><![CDATA[<p>What's past is prologue.</p>
+<span id="more"></span>
+<p>抱歉！！！！！ 承蒙各位厚爱，小站自2020.1.27起航，一直至今日.
+断断续续两三月，挥挥洒洒一百文。
+从刚开始的一无所有，到现在的略有起色，这一路走来，却是说不尽的唏嘘。
+评论，从一开始的刺眼的0，到了现在的三位数，甚至超过了文章总数，大感欣慰之余，亦怀自豪些微。
+文章，从一开始的hello，typecho，到现在的一百+篇，不由得感慨，我竟坚持如此之久？
+友链，从一开始的空白，到现在的三三两两，不由得发觉自己竟已有了些许同道中人，喜且惊。
+你们伴我走过风风雨雨，我却辜负了汝等期待；
+你们与我共享酸甜苦辣，我却选择了转身离开。 最后的最后， 我想说： <br>
+<br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
+<br> <br> <strong>愚人节快乐！</strong></p>
+<p><strong>纵横正有凌云笔，俯仰随人亦可怜</strong></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>强制https</title>
+    <url>/posts/30eb72fe/</url>
+    <content><![CDATA[<p>What's past is prologue.</p>
+<span id="more"></span>
+<p>放到<code>.htaccess</code>里就行。 逛<a
+href="https://crash-logs.ml/wrong/crash-2020-02-25_3-client.txt">某幻</a>blog看到的，然后就cv过来了啧。
+给自己的blog和引导页面用上了233
+若用户输入的是"http://wansz.xyz",会跳转到"https://wansz.xyz"
+自从Chrome68以来，对于没有ssl证书的网站就会报<code>不安全</code>了来着=
+= 所以这个还是挺有必要的嘛：D
+然后不确定这个是否会影响Mailchimp收集rss然后推送邮件。
+因为我看了看，访问“http://wansz.xyz/feed”会变成“https://wansz.xyz/feed”来着，难说</p>
+<p>百度了下：D 引自百度百科= = &gt; Rewriterule是Rewrite中的一种规则。
+&gt; Rewrite,一种服务器的重写脉冲技术，它使得服务器可以支持 URL
+重写，是一种最新流行的服务器技术。</p>
+<p>1、例如我们把某个特定的 IP 直接重定向到 baidu 首页，在网站根目录的
+.htaccess 文件里添加代码： RewriteCond % 123.123.123.123 [NC]RewriteRule
+^(.*)$ http://www.baidu.com/<span class="math inline">\(1 [R=301] 将
+123.123.123.123 这个 IP 替换成您要限制的 IP 即可 2、如果要实现多个 IP
+，可以这样写： RewriteCond % 123.123.123.123 [OR]RewriteCond %
+124.124.124.124 [NC]RewriteRule ^(.*)\)</span> http://www.baidu.com/$1
+[R=301] ```</p>
+<p>我觉得可以/好评</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>总要正视的</title>
+    <url>/posts/577c8edb/</url>
+    <content><![CDATA[<p>What's past is prologue.</p>
+<span id="more"></span>
+<h1 id="总要正视的">总要正视的</h1>
+<p>山海间的奔赴</p>
+<p>//虽然一度不是特别想写这篇文，因为耗脑子不说还耗时间，但为了能之后能够正常点生活，还是写了吧。</p>
+<p>正视的是什么？呵，现在最困扰我的是什么？或者说深层次下困扰我的是什么？很明显是对女性的看法以及在与女性交流时的各种思绪。</p>
+<p>算了，范围缩小点，毕竟我可没那么“上下通吃”。大概是我与同辈姑娘之间相处的二三事罢。</p>
+<p>我应该是不太正常的。每次与姑娘聊天，与一位陌生姑娘相识，我想我最开始想的或许是正常的，或者说，那只是一个试探过程。而后呢，聊久了，我便开始胡思乱想了。诚然，我不会想着去谈恋爱，但我却总是在与姑娘的相处中，不断地希望能够发展成恋爱关系？或者说，总是想着对方能够喜欢我？突然我也不知该怎么形容这种关系。怕是缺爱，想从别人那里得到关心与爱护？但也没遇到这种关怀的女子呀，反倒是各种，私以为只有恋爱关系下才能心安理得一起做的小动作，做的挺多的。我与姑娘聊天，到底可曾抱有目的？我想是有的。先不论我认为男女之间纯粹的友谊哪怕是有也不太可能在虚拟网络上或者在我身上体现，光是对方在我日常生活中的地位不断加重，我愿意为此放下自己的事，哪怕聊烦了依旧继续聊，每次结束交流更多的是对方率先离开，我都觉得我是抱有一些不可告人的目的的。话说，这算不算舔狗行为嘞？应该算吧，指不定没有了那些暧昧的词汇罢了。啊，是啊，我跟姑娘之间的关系，也只是没有了暧昧词汇以及我个人一方相信迟早离开的……额，对对方似乎不太好，不然还是想说就是恋爱关系了。只不过也不能说是恋爱关系吧，私以为恋爱关系之下的我可不会这么拘束，可不会顺着他人的话而渐渐忘却自己的想法。以及：我也不知道怎么定义恋爱关系啊，我怎么知道谈恋爱要做什么，我又没谈过，我怎么能够类比呢。笑</p>
+<p>其实，把恋人换成知己，也是无差的。我在寻找恋人，不若说我在寻找知己。只是我不太愿意寻找男性，所以知己也就慢慢变了，慢慢地成了对恋人的追寻。红颜知己，红颜便是知己，知己便是红颜。敞开了讲，我在不断地寻找我的恋人，我遇到了一位又一位的姑娘，抱着一次又一次的幻想，聊着一天又一天的天，而后看着泡沫一个接着一个的碎。她们都有我反感的点，哪怕这些点其实挺莫名其妙的，甚至不是性格、人品上的，而只是一些小事。但我的容忍程度却是低的令人发指。我似乎很少言明我的喜恶，或者说是具体到某个人，某件物的。就像明星，大部分都是厌恶的，就像歌手，当代年轻的歌手大部分也都是厌恶的。他们的丑闻，娱乐圈的混乱，粉丝们疯狂的追星，都是我深深痛恶的一点。可现在挺多女孩是追星的，哪怕不追星，听歌也会喜欢听……笑。我也不知道对这些年轻歌手的厌恶从哪来，但我就默默地藏在心底就好，不必多说，听到他人言及，亦笑笑即可。毕竟，喜恶终究是私人的事，他们既然喜欢，那就远离他们好了。志不同道不合者，避之。</p>
+<p>所以我会意外的因为一些个小事而蓦然对于我相谈甚欢的姑娘产生疏远之感。似乎我一开始聊天的目的便是想要“谈个恋爱”，于是当我发现对方并不能够成为我的恋人之后，我也就只好抽身而退了。好吧，我更想说是找个知己，但没差的了，那就用这样的词汇吧。虚拟网络与现实唯一的区别，大概便是现实中我有更多的参照因素，比如更直接的颜值、身材、气质、为人处世。固然现实中的我面对少女会是意外的羞涩，便是与其谈论一句话也会感到变扭不自在，但依旧不影响我在远离她们的地方默默地观察着。只不过令人伤心的大概是，身边那些好看的少女们，为人处世却是意外地避开了能够吸引我的点……她们的三观，行为实在是不敢苟同。于是慢慢地也就放弃观察了，毕竟为了避免鲜花最后的凋谢，我还是放弃培养一朵鲜花吧。好吧，主要是她们也没有那么的美丽，直慑人心……正是现实的一次次打击，我来到了虚拟网络，开始结交一位又一位的我觉得都挺不错的姑娘。莫名的渣男行为？为何在这句话中所体现的，笑。我总是不喜欢损人的，于是对于一个存在的评价往往之有”不错“”还行“，唯有那些感兴趣的，有所好感的，可能会评价个”挺好“吧？或者其他，笑。</p>
+<p>虚拟网络最大的特点是什么？是我无法直观地了解到屏幕对面的是一个怎样的人。就像抠脚大汉也能在网上乔装一遍成为妙龄少女，我怎么知道与我交流的对面是男是女，真实想法是什么，遇到一些事情是否真的会想口中所说的那样做……这些都是未知的。于是我会产生不断的幻想，我会不断的脑补，在跟她们的交谈中不断丰富她们在我脑海中的形象，将她们的性格、思想、三观套在了我一开始就充满好感的一个模型上。然后不出意外的在收集这些的过程中我收集到了能够破坏我好感度的存在。然后模型碎了。</p>
+<p>大致便是如此，不知不觉，近两千字了。小说写的都没这么顺手过，笑。</p>
+<p>大概，也许，突然觉得这句话或许会挺贴切的：我一直爱着一位姑娘，但我不知那位姑娘长什么样，是什么性格，是怎样的三观。于是我开始了寻找，我将我遇到的姑娘一个个地与她进行比对，每当多一份恰到好处的比对，我便会欣喜一分，期待一分，每当多一份截然不同的比对，我便失望十分，产生了退念。</p>
+<p>所以呐，我不打算再继续找了。</p>
+<p>我不要试图摘月，我要月亮奔我而来。</p>
+<p>咳咳，上面那句听听就好，我没那么自信霸气orz</p>
+<p>只是真的不太打算再继续找了，以前我也经常会有一段时间的颓废期，想着女人有什么好的，可惜后来还是乐此不疲地飞蛾扑火着。</p>
+<p>恋人，或者说知己总是那么的美好，找寻她们的路上总是会遭遇现世的种种磨难，我并不害怕磨难，我未曾想过退缩，只是……我不知该怎么劝说我继续为了一个极有可能不存在的存在而前进了。</p>
+<p>我的全部感情都寄托在了她的身上。</p>
+<p>她是谁？</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>恢复每周rss邮件推送= =</title>
+    <url>/posts/cee35b0d/</url>
+    <content><![CDATA[<p>What's past is prologue.</p>
+<span id="more"></span>
+<p>邮件推送刚刚捣鼓了下。 之前是关了，现在可以了。
+订阅了的可以在每周一早上八点左右收到一份邮件，里面有我blog这一周更新的内容。
+呐大概就是这样。 （应该是周一/捂脸 （应该是八点多/捂脸
+（us的/捂脸，所以有延迟/望天</p>
+<p>虽然话说回来，这个blog是一个生活向blog来着。 emmm。
+有空变得技术一点哒。 （也是个做过一个python项目参赛了的准高一生呀hh
+（虽然最后连名次都不知道，初中时候参加的，现在都毕业了，望天？
+/蒟蒻，望天，别闹。</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>成语扯一</title>
+    <url>/posts/2a7a4ea/</url>
+    <content><![CDATA[<p>What's past is prologue.</p>
+<span id="more"></span>
+<p><strong>拨乱反正/拨乱反治</strong>： [褒义]
+一、治理乱世，使回归正常秩序
+二、结束“文*”所造成的混乱状态，恢复正常的社会生活和秩序
+三、纠正错误，以恢复正确的东西和事理等（一般为比较重大的错误） <br>
+<strong>拨云见日/拨云睹日</strong> 一、拨开乌云，见到太阳
+二、比喻冲破黑暗的阻挡而见到光明，前途大有希望
+三、受到启发，思想豁然开朗 <br> <strong>波澜不惊</strong>
+一、水面很平静，没有波澜
+二、比喻局面平静或局势平静，没有变化，也没有高潮起伏或曲折等
+三、内心有主见而表面平静，不因外界局势的变化而自乱方寸
+四、为人行事低调，不事张扬 <br> <strong>波澜老成</strong>
+[褒义]【波澜：波涛】【老成：老练成熟】 一、形容文章气势雄壮 <br>
+<strong>波澜起伏</strong> [褒义]【澜：大波浪】 一、波浪起起落落。
+二、形容局势、情节、内心等起伏不平 三、形容文章的气势起伏不平 <br>
+<strong>波澜壮阔</strong> [褒义]【澜：大波浪】 一、波浪浩大汹涌
+二、比喻声势浩大，规模宏伟 <br> 扯：
+《如何在一分钟内花掉一分钱》一文，行文流畅，<strong>波澜老成</strong>。针对当今人们已经不再重视的这在好好久之前发挥了大作用的一分钱的现象，作者笔下的文字如同一双巨手，<strong>拨乱反正</strong>，将一分钱对个人，对社会，对国家，乃至对世界的贡献性，说的那是一个<strong>波澜起伏</strong>，小明只觉自己<strong>拨云见日</strong>，眼前仿佛浮现出了一片<strong>波澜壮阔</strong>的大海，令他不由得觉得当今这如此<strong>波澜不惊</strong>的局面是如此扯淡！</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>成语扯二</title>
+    <url>/posts/39278a43/</url>
+    <content><![CDATA[<p>What's past is prologue.</p>
+<span id="more"></span>
+<p><strong>不揣冒昧</strong>：
+【揣：揣度、考虑】【冒昧：言行轻率、鲁莽】
+一、没有考虑自己言行轻率，多用作自谦之词 <br> <strong>不辞而别</strong>
+【辞：告辞】 一、不打招呼就走了 <br> <strong>不辞辛苦</strong>
+【辞：推辞】 一、形容能吃苦，不怕劳累 <br> <strong>不存芥蒂</strong>
+【芥蒂：细小的梗塞物，比喻心中的怨恨或不快】 一、心里没有怨恨或不快
+二、形容心地开阔，襟怀坦荡 <br> <strong>不打自招</strong>
+一、没有用刑，自己就招认了罪行 二、无意中讲出了自己的打算 <br>
+<strong>不得而知</strong> 【得：能够】 一、没有办法知道 <br>
+<strong>不得人心</strong> 一、不能得到人们的支持和拥护
+二、所作所为不符合人们的心愿 <br> <strong>不得要领</strong>
+【要：腰、腰部】【领：衣领】【要领：衣服的腰部或领部，比喻事物的关键部分】
+一、看问题找不到关键 <br> <strong>不得已而为之</strong>
+【不得已：无可奈何】 一、没有办法，只能这样做 <br>
+<strong>不登大雅之堂</strong> 【大雅：高雅】【堂：殿堂，高大的房屋】
+一、不能登上高雅的厅堂 二、作品粗俗，不文雅 <br> 扯：
+见您为了我<strong>不揣冒昧</strong>说出的言语而<strong>不辞辛苦</strong>从城西来到城东，我想给您推荐一本书，并希望您能借此原谅我上次的<strong>不辞而别</strong>，心中<strong>不存芥蒂</strong>。而关于这本书，虽此书作者<strong>不得而知</strong>，且文中多有一些<strong>不登大雅之堂</strong>的粗语，和少许<strong>不得人心</strong>的厌世言语，但相比那些<strong>不得要领</strong>，作者困为生计<strong>不得已而为之</strong>的作品，此书还是很不错的。所以，您看，如今我已<strong>不打自招</strong>，您手中的那根，长三米，粗如大腿的棍子，是不是可以放下了！</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>我。久。今。照。</title>
+    <url>/posts/b318a94c/</url>
+    <content><![CDATA[<p>What's past is prologue.</p>
+<span id="more"></span>
+<center>
+<font color="LightSlateGray"> 我。久。今。照。 </font>
+</center>
+<hr />
+<p><font color="LightSlateGray">
+<strong>依旧年少的818以及之后的我：</strong> </font> <br></p>
+<blockquote>
+<p>要命，居然真的写了这个。</p>
+</blockquote>
+<blockquote>
+<p>本以为写了计划书能够避免的，呵？期待属实没了啊，不满中砥砺前行？看小说看到现在啊，喂。</p>
+</blockquote>
+<blockquote>
+<p>要命，居然真的写了这个。不知道写些什么。</p>
+</blockquote>
+<blockquote>
+<p>现在的我，名头上是个高中生，是个学生，结果书也不看，字也不练，作业也不写。</p>
+</blockquote>
+<blockquote>
+<p>要命。真的，是，命数，注定？</p>
+</blockquote>
+<blockquote>
+<p>不改命了，把自己修理修理。</p>
+</blockquote>
+<blockquote>
+<p>自己修理完了再说说命吧。</p>
+</blockquote>
+<blockquote>
+<p>看书？</p>
+</blockquote>
+<blockquote>
+<p>练字？</p>
+</blockquote>
+<blockquote>
+<p>写小说？</p>
+</blockquote>
+<blockquote>
+<p>你说呢？</p>
+</blockquote>
+<blockquote>
+<p>没日没夜看小说？</p>
+</blockquote>
+<blockquote>
+<p>凌晨睡八九点起？</p>
+</blockquote>
+<blockquote>
+<p>早饭买来每一次是趁热吃的？</p>
+</blockquote>
+<blockquote>
+<p>睡的最晚起的也最晚？</p>
+</blockquote>
+<blockquote>
+<p>好玩么？</p>
+</blockquote>
+<blockquote>
+<p>真他的。</p>
+</blockquote>
+<blockquote>
+<p>没脏话了都。</p>
+</blockquote>
+<blockquote>
+<p>那就：</p>
+</blockquote>
+<blockquote>
+<p>傻子，呆子，脑子没被动物踢过的说？</p>
+</blockquote>
+<blockquote>
+<p>笨蛋，傻蛋，脑子挺聪明的说？</p>
+</blockquote>
+<blockquote>
+<p>聪明的我啊，见过多少人，走过多少路，看过多少书，写过多少字，赏过多少景？</p>
+</blockquote>
+<blockquote>
+<p>咋，每天事这么少？心还这么累？</p>
+</blockquote>
+<blockquote>
+<p>咋，老了干嘛？干坐着？</p>
+</blockquote>
+<blockquote>
+<p>吵架还要有个伴呢！</p>
+</blockquote>
+<blockquote>
+<p>谈恋爱，矫情，清高，我愿意，行，之前的我愿意，现在的我愿意，那么，以后的我，记住了，愿意！自己做的选择，记住了，谈一次！或者，不谈！你懂你自己，有些事，不该做，有些话，你不该说，有些人，不该碰。</p>
+</blockquote>
+<blockquote>
+<p>写小说，淡泊，悠哉，我开心，行，小时候，中时候的憧憬嘛，可以，满足你。每天写，日日写，构思有了就写，灵感没了也写，记住了，写！好歹是本书，好歹是个故事！故事里的人，你需要给他们，给自己，给读者，结局！听故事的人，总期待惊险；故事里的人，只希望平安。你是听故事的，还是故事里的？嗯？给自己个笑脸，这些事，很美好，很美好。</p>
+</blockquote>
+<blockquote>
+<p>练字，字丑，作文字体分没拿过满分，那就练！楷书行书草书，瘦金体簪花小楷，该买的字帖一样不落，结果才练了多久？Lamy的钢笔别人送的也没握过几回吧？甚至说丢就丢，也没有丝毫心疼甚至懒得找？工欲善其事必先利其器。你的笔啊！你的魂啊！喂！脑子啊。练字，要练的。回到之前，谈恋爱，不喜欢字丑吧？自己不喜欢吧？哪怕对方不在意？嗯哼？哪怕？哪怕？写小说，喜欢电脑里打出来，自己写一遍装订成册纪念吧？啊？嗯？不练字？想干嘛？啊？练字不好？就是脑子里充满奇思幻想，想着穿越重生，字也要好吧？哪怕不炫耀，那总要，给自己，一个开心的，地方，啊？练字，要练的。瘦金体，喜欢，就写啊。</p>
+</blockquote>
+<blockquote>
+<p>学习，懒，理解。学习怕是最有意思的吧？明明经历过很多，甚至一些事情他人根本无法感同身受？脑瓜子总归是个聪明的？学习嘛，不难，呵，简单，分分钟。啊？对吧？对啊！分分钟啊！你他的“分分钟”都没有花啊！你没有过程，就想要结果？你不愿意花的凋谢，就拒绝种花？你为了不美好的结局，避免一切开始？啊？！学习啊！人生在世，学习总要，考个研吧？听到一句话，人到三十才会发现许多比男女还有意思的事。不是早熟么？不是思想过于奇怪么？不是不愿沟通么？那心理年龄快点到三十啊！男女之事放下啊！淡然啊！在意这些干什么啊！学习啊！长相？长得，总归落得一个清秀？！清秀还不够？！才华呢！腹有诗书气自华呢？！今年几岁？啊？几岁啊！不会长大？女生还女大十八变呢，你今年多大？！啊？你现在还在成长，还在不断进步啊！脑子混了么，想这么多？！舒服？累？累就对了啊！舒服给谁的？！舒服是给死人的！再说了，苦中作乐，一个明明不美好，但是又美好的成语，总归很符合你的口味吧？！啊？！你说呢！学到老活到老，学习是一辈子的事，不仅仅是学业上的。学业上，考个研，不好么！？学习还有其他的，对啊！但是现在学业为重啊！？嗯？！学习啊，学到老，活到老，累，最好。人在忙碌中会忘记多少东西？会少思考多少事情？啊！？总归很清楚的啊，明明就那么爱奇奇怪怪的思考了，为什么要放纵自己啊，还美名其曰随性，随缘，随心啊。你的本心，是。。。呵？少年的肩头，是草长莺飞，明月清风？你愿意一直这样？你是少年？是，年少嘛，少年嘛，但是，小学，初中，熬出头了？没吧。继续熬呀，像现在熬夜，不知不觉中，不就，熬过去了么。美好的东西这么容易得到干什么，会珍惜？会觉得美好？戒骄戒躁，总归，是一件很棒的事情。</p>
+</blockquote>
+<blockquote>
+<p>呵，说了这么多，真的没想过写这个啊。</p>
+</blockquote>
+<blockquote>
+<p>呵，说了这么少。</p>
+</blockquote>
+<blockquote>
+<p>接下来，知道了？</p>
+</blockquote>
+<blockquote>
+<p>现实中明明有那么多美好的事物，有皓月，有星辰，有清风，有赤日，有瑶花，有蔓草，有，姑娘。</p>
+</blockquote>
+<blockquote>
+<p>但是总是不愿意去见啊，皓月抬头可见，星辰抬头可见，清风外出可感，赤日抬头亦可见。蔓草瑶花，参天古树，环顾四周，皆在。姑娘，呵，说到底，谈恋爱？呵，明明自己心里门清，榆木脑袋非要装万花丛中过，片叶不沾身的人？不过嘛，明明也知道，心门像锁了三把锁，别人有一把钥匙都觉得是可以时不时唠嗑几句的人，三把？太难了，找到也不愿意相信吧？毕竟自己也不想被别人看透？清高人？不俗人？小雅士？嗯？真的是，很有趣啊。</p>
+</blockquote>
+<blockquote>
+<p>呼。</p>
+</blockquote>
+<blockquote>
+<p>我，有，明珠一颗</p>
+</blockquote>
+<blockquote>
+<p>久，被，尘劳关锁</p>
+</blockquote>
+<blockquote>
+<p>今，朝，尘尽光生</p>
+</blockquote>
+<blockquote>
+<p>照，破，山河万朵</p>
+</blockquote>
+<p><br></p>
+<p align="right">
+此致
+</p>
+<p align="right">
+今天，以后的，自己
+</p>
+<p align="right">
+庚子年甲申月癸巳日子时
+</p>
+<p>​</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>我一定会赢得，属于我的国度</title>
+    <url>/posts/be8c7c69/</url>
+    <content><![CDATA[<p>What's past is prologue.</p>
+<span id="more"></span>
+<h1 id="我一定会赢得属于我的国度">我一定会赢得，属于我的国度</h1>
+<p>我的宝剑已经锻造出炉，我的铁衣已经披挂停当，我的马儿怀着奔跑的渴望。</p>
+<p>写文，除了考场，还是莫要写那八股文罢。
+将这些文字分享出来后，感到羞耻的也是自己。羞耻好啊，羞耻才能让我逐渐揭开那一层覆盖着的虚假啊。被那自负包裹全身，需要一点点扒下。也许除了自负，还有那与“谦逊”相斥的“傲气”。不知何来的“傲气”呵。极度自卑后的自傲？我喜欢谦逊，谦谦君子，卑以自牧。但我是做不到谦逊的，因为我没有实力去“谦逊”。也正是如此，反倒滋生了我的“骄傲”。半桶水响叮当，一桶水不声不响。明白道理，实践起来却并非容易。若是人们能够“坐而论道”后“起而行之”，也许就不会用所谓的迷茫，更所谓那“清醒地迷茫着”。所谓“清醒地迷茫着”，不过是清醒的程度不够深罢了。
+谈及少年一词，应与平庸相斥。
+《平凡之路》，一首歌。“我曾经失落失望失掉所有方向，直到看见平凡才是唯一的答案。”
+平庸也许不等同与平凡？平庸：寻常而不突出。平凡：平常；不稀奇。似乎没什么区别呵？两者本就是近义词。少年人该有心气，该有冲劲，该放肆，该一言不合便要嚷嚷着“改变世界”。然后，现实的一剑又一剑，剑剑深入。起初触到了表皮，感到了寒意，疙瘩起来了，少年人无甚在意，激起了心气。而后刺进肌层，点点血珠滑落，少年人喋血而亢奋了。剑指骨头，疼痛加深了，少年人发现了，自己开始脱力了。紧接着，剑自另一边刺了出来，穿透肌肤，扎入骨髓，少年人“清醒”了，自己面对的，是什么。也许我还有时间可以不断变强。也许我能够赢。
+太多的也许，太多的如果。
+棱角若被磨平，该需要有多大的毅力，才能再次显现锋利呢？ 是不是很消极？
+呵，无病呻吟的文字罢了，消磨时光的产物罢了，一头想将自己形容为动物的动物罢了。
+人与动物不同，大约是有了思想，有了独立思考的能力吧。
+无人听到的无病呻吟，何尝不是一场自我救赎。
+其实我开始想写的并不是这些，笔迹不自觉滑至这里罢了。
+不断与自己的魂灵产生对话，不断与自己的存在产生质疑，不断。
+我还有挺多想谈的，既然浪费了时间，便浪费下去罢，现在是下午五时三十二分，天还未黑。
+谈什么？很多啊，我的迷茫又何止这些？
+文字能传达我的情感么？应该能吧，毕竟在无意识的情况下，我只是下意识地将我心中所想，写了出来。所写即我心。
+不知为何，总想先谈谈我这，大约初一下学期开始的对异性的莫名的不知该如何定义的“憧憬”。
+当然也许是我的“传统”思想作祟，我不会用一些更，我觉得“开放”“不喜”的词来形容这个。
+等等吧，让我把近几天发生的事说完再谈吧，这是一个大家伙。 -
+中秋，国庆，假期让人应接不暇。中秋放假的第一天，是九月十九号。那天是CSP-S的初赛。我于凌晨四点五十五分醒来，洗完澡后已是五点十多分。而后便乘着伯伯的车，与要去上大学的堂姐一起，踏上路途。一路上，我看着黑暗渐渐散去，我看着天边鱼肚白渐渐浮现，我看着天际明暗交织。“我从黑暗驶向黎明，也将从黎明驶向至午。”这是在车上的我的所思所想。送完堂姐已是七点，待我到了考点，七点三十分光景。考试是九点三十分，我的时间很充裕。在一鸣吃了些早饭，拿起一本通，看起了动态规划。期间，遇到了有道小图灵课堂的老师，他们拿着传单，分发给遇到的考生——我遇到他们的时候，考点只有我一个考生。我加了他们的微信，因为他们说可以提前估分。我觉得没有拒绝的必要，也就加了。我曾坐在一个小凳子上看书，那个凳子是环卫工人做的似乎，他来了，让我莫要再坐，将凳子放回原位（因阳光照晒，我将凳子右移约莫五米，阴影处）我照做了。恰巧那几位有道课堂的老师看到了，便与老伯说“老伯，这是来考试的考生，让他坐一下吧，他可是以后的国家的人才啊。”我赧颜，老伯也摆了摆手，让我自便。我于是将凳子又搬了回来，不过倒是没有坐了，而是将书放在上面，自己半蹲着看了起来。大概这就是考前的事情了吧。谢谢那位老伯，谢谢那几位老师。虽说，我不一定会成为“人才”，我不一定真的需要那张凳子……但是我不知怎么推却，感谢她的好意吧，毕竟我还是用到了凳子，得了利，莫要“放下碗骂娘”了。（呵，我可不说脏话了）其实我为何要有这种想法？我只是爱想得多罢了，但这似乎也不是为我辩解开脱的理由。我还是感谢他们的，无关此事。这件事并不影响我对他们的感谢。啊，不知如何遣词造句了。借凳子此事，我赧颜，我不知所措。我不知该怎么表达，我不愿麻烦他们，也不愿麻烦老伯，毕竟本就是人家的东西，我未经允许便擅自挪用，未有言语就已该感谢了。借凳子此事，该做何解？是否觉得我想的太多了，连这点也许双方都已经忘记的事，却还要耿耿于怀。这就是我啊……记一些我想记的……啊。我对自己的要求是“君子”，是的，也许是这个词。当然，也许并不是这样一个词。我对自己有一个束缚，有个道德要求。他们为我向老伯借凳子，我便将他们代入为我，我因此而羞愧，无颜。我不愿麻烦别人，特别是为了自己的事而麻烦别人，特别是在这种小事上。我不喜欢这样，于是我开始胡思乱想。呵，是我想太多了罢……
+考后，我没有情绪波动的出了考场。没有放松，没有压力，没有紧张。“心如止水”？也不太算得上。
+上了个厕所，便又一次来到了一鸣，点了个蓝莓酸奶，拿出笔记本，在看洛谷。很快，答案出来了，我于是对了对，五十左右浮动。当时心中就已经有些惊讶了，甚至已经有所“预感”了，但我不愿醒，不愿意让这个梦，如此短暂地破碎。
+中秋三天假期放完，回到学校，我像往常一般前往老师办公室，只是不再复习，也不再学习其他知识，随便看看，刷刷知乎，洛谷，b站。文化课依旧不听，开始看一本通上的图论，数据结构，心情也不似先前那边，非要“看完”“看懂”。不求甚解，大约如此。同时，那几天，头疼的实在厉害，有一天，更是达到了之前从未有过的状态，比熬夜通宵还要剧烈的疼痛。那一天，脑袋昏昏沉沉，一天基本都在睡眠中度过，书未曾翻页，话未曾出口，只知闭眼，图个一时“放松”。间隔一天后又是如此症状，我又一次睡得迷迷糊糊。当然，晚自修还是去了办公室的，虽说脑袋昏沉，却是无心呆在教室的。直至周五，班主任在早读之际，说“你这几天就不要去办公室了，等这个初赛成绩出来了，确定能去第二轮了再去好吧。”我于是待在了教室。九月二十八日。三次在下课后前往办公室，想了结这七天的颓废，挣扎，心力交瘁。可惜成绩迟迟未出。下午，有些预感的去了办公室，成绩出了。50。分数线58.5，比较前几年，降了约莫二十分，也又有什么用呢？呵，没过啊……以沉默？以无奈？以淡然？我怎么知道，心情交织，早有所感，只是血淋淋的现实摆在面前，还是有些难以接受罢了。不知怎般的走回教室，趴在桌上如往常般躺了会儿。
+晚上颇有些“装模作样”地前往办公室，在老师的目光下再次查起了成绩，恩，现实不为人的意识所更改嘛，老师也知道了，我未曾留意老师神情，也就不知他是何种心情了。
+我颇有些洒脱地说：“哎，看来没过啊……”老师说：“没事，大学后再搞这些也行嘛。”安慰的本领属实不咋地，不得不说。当时的我也没有听进去就是了。笑着说“光荣退役”，呵，光荣么。晚自修不愿待在教室，又去了办公室，美其名曰“死也要死得明白”，找的理由为“看下试题解析”，于是又消磨了一个晚上。
+我还应该说些什么……
+我似乎有挺多话想说的，但是又觉得这些话实在没有发表出来的必要，但又想到这并不是要发表刊登出来的文章，我只需要写我心里所想的就可以了。
+信息竞赛对我来说到底是什么？
+小学开始接触游戏，而后五六年级渐渐从易语言开始与编程结缘，接着便开始买书。买了Java的书，想着为mc开发模组，可惜看了几页还是没有耐心看下去。而后买了python的书，也忘了买书的初衷了，当时是在初中了。之后又买了啊哈C语言和啊哈算法，算法那本一页未翻，c语言那本看了约莫一半，又懒得看了。至于python那本，硬着头皮看完，后面的实例项目却未曾细看。初三疫情之际，有一个程序设计比赛，心中有了参赛的念头。于是花了一个下午+一个晚上，终于在早晨通过钉钉将比赛作品发给了信息老师。那个作品是个滑雪小游戏，用了pygame库。现学现用，一些需要用到的图片则是自己绘制的，绘制水平大约是能够看出来是这个“词语”所表示的“事物”这种水平，并无美感。游戏内容很简单，有一座无限高的山，滑雪人自山顶开始不断向下滑，途中有一些东西，收集到口罩可以加分数，若是碰到病毒就会死亡，游戏结束。很简陋的小游戏，只得了个三等奖，且这奖项还是在我高一上（或者是下）学期的时候，信息老师通过微信发给我。
+紧接着，真正去了解编程应该也就是高一了。具体点说，是高一下学期的暑假，即将升高二的时候。我产生了“我要搞竞赛”的念头。这个念头的产生，除了曾经在初三曾跟同学说过，“我在高中要试试看信息竞赛”之外，便是我所在小组的组员的影响吧。于是我开始买书。一开始我便想着要先过初赛再说，所以没买太多书，只买了《信息学竞赛一本通》，而后八月份的时候，买了洛谷的深入浅出程序竞赛，以及买了网课。同时，又买了算法导论,c++primerplus,算法经典，算法训练指南。
+秉着贪心策略，我只看了深基，白皮书，以及啊哈算法。可惜的是，我并没有过初赛，哈。之前所准备的一些知识点，全部没有考到，一些人物，奖项，网络知识，都没有考到，呵。
+这些书想着，要蒙尘了罢。 大概我有关信息竞赛的事，就到此结束了。
+但是我的路，似乎并没有结束。这个“否”字，并未否定我的整个人生呢……其实我在看到这个否字，产生了这个否字是否否定了我整个人生的念头时就觉得扯淡，我在“为赋新词强说愁”。
+那天晚读期间，我写下了一段文字。结尾，我写了：我想搞……物竟。
+是的，物理竞赛。其实影响我参加竞赛的因素似乎真的挺多，近几天学霸文流行，《学霸的黑科技系统》是我最早接触的学霸文，而这几个月接触到的大约是《学魔养成系统》，书中男主是搞化竞的，同时之后又参加了另外四个学科竞赛（美其名曰“集龙珠”），不过他所热忱的是物理。物理啊，我不知道，该怎么对待这门学科。初二开始科学才分为化学和物理，对于物理我似乎并没有多大的兴趣——对待所有学科我都没有展现出热忱，包括计算机。我只是单纯的喜欢折腾，但是同样我也有因为折腾太麻烦了而懒得折腾。似乎我喜欢“简单”的折腾，而不是“复杂”的折腾。说到底，我怕太难的，嫌弃太简单的，只做当前水平的——以致我的水平犹如一条直线。其实对于物理，可能还是有一点莫名的憧憬的。毕竟无论是从知乎看到的一些文章也好，还是小说里所感受到的也好。啊，又不知怎么说了。物理竞赛我知道很难，也许我连预赛都过不了，但是，我还有一年。高三我还可以参加。也许一年很短，毕竟许多人都是从小学，从初中，从高一开始。假如，我真的有天赋呢？天赋是存在的，努力同样存在，两者的结合，才是他们存在的意义。哈哈哈，多笑笑嘛，毕竟对身体好。“种一棵树最好的时间是十年前，其次是现在”，哪有那么多时间给我犹豫，既然想学，那就去学啊。
+我唯一没变的，大概就是对世界的好奇了。 至此，翻篇。 -
+好了，洗个澡，出去买个饭，吃点东西顺便喝下不知为何想喝的珍珠奶茶，再来写……大东西。
+- 我似乎……</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>我的狗屁流水回忆</title>
+    <url>/posts/428928be/</url>
+    <content><![CDATA[<p>What's past is prologue.</p>
+<span id="more"></span>
+<h1 id="我的狗屁流水回忆">我的狗屁流水回忆</h1>
+<p>未完待续……</p>
+<p>……</p>
+<p>以何开头？</p>
+<p>2022年2月26日00:59:36</p>
+<p>我现在在哪里？学校旁的一间出租屋里。我现在在做什么？躺在床上，靠着枕头，弯着膝盖，笔记本放置在大腿、被子的上方。穿着学校里的冬季校服，有些冰凉的手敲打着发光的键盘。</p>
+<p>房间里关着灯。显示屏成了唯一的光亮。</p>
+<p>这篇文章，可以说是预谋已久罢。在文章《问》中便有了些许苗头。这一次，注定我将通宵达旦……</p>
+<p>名为《我的沉思录》罢！</p>
+<p>……</p>
+<p>不若，容我缓缓道来？自那CSP-S初赛出成绩那天，开始谈谈近几个月的事，以及我对于青春、少女、恋爱的看法罢。</p>
+<p>2021年9月28日，CSP-S浙江省初赛成绩，公布。那是下午的两点半左右。那天我约莫去了三躺老师的办公室，分别是大课间、中午、下午第一节下课。出成绩的时候，大概是第二节下课，抑或第三节下课。50分的刺眼成绩，58.5的分数线，ctrl+f熟练的在一大串名单的pdf中寻找到了自己的成绩。一个“否”字，让我忍不住数次对了对我的考号。ZJ-1038……大概是这个考号？我忘了，但那时的我想着是最为记忆深刻的吧。其实在来前就有了心理准备，其实我真的真的做好了失败的准备，我真的真的幻想了无数次不通过的时刻，以及不可避免的通过时刻的幻想。我甚至希冀着分数线低一点，再低一点。但一切尘埃落定。查分时候老师并未在场，我默默地关掉了网页，离开了办公室，从四楼走到了三楼。而后穿过走廊，走回自己的班级……熙熙攘攘的学生，他们欢声笑语，我一言不发，加快了脚步。回到教室，沉默地走回座位，终究还是没忍住，趴在了桌上。那时候的下一节课，似是自修。于是我趴了一节课。</p>
+<p>其实，那时候我还抱着幻想。晚饭结束，我再次去了办公室，老师也在。当着他的面我又一次查了成绩，事实并没有改变，我反倒又没有那么难过了。老师也安慰了我几句，我笑着说着“光荣退役”，可其实在脱口而出的同时，便后悔了。哪来的“光荣”啊……而后，晚自修第二节上课时候的眼保健操时间，我又去了办公室，借了某位老师的手机，拨打了noi官网上台州负责人的电话，想着说，也许，有所谓的“推送名额”（忘记是什么名称了，是可以让一名没通过的考试正常参加复赛的名额）能够留着呢？毕竟我也有50分啊……只差八分。在眼保健操的声音中，电话拨通，他拒绝了我。意料之中，先前与老师谈论时便谈论过这个，他言这些名额一般都是本校的或者兄弟学校的……我不死心啊。负责人说名额只能本校学生才可以，其实我曾发邮件给了csp-s官网那边的一个负责人，询问名额能否给非本校的考生，他回复了，“可以”。呵呵，其实我并没有多大在意这个……只是希望的再次破灭罢了……我当初在想的什么我现在还记得……我在想，也许我的老师能够帮我要到这个名额呢？也许他会在微信上加台州负责人的微信，而后与他交谈一番，觉得50分的话，应该可以有一个名额呢？这只是我的想法……一厢情愿，不甘心罢了……若是要我声明，我便会在对读者说一句“我并未对老师、对那位负责人有任何的不满，我不甘心于自己是如此的差劲，不甘心于眼前居然没有了任何希望……”可我还是想写给自己，那我还是不想解释这些……懂你的人不需要你解释，不懂的人解释了也不听……</p>
+<p>那天下午和晚自修，我没有了任何干劲，只想睡觉。睡眠是个很好的药剂，药效长，效果佳。</p>
+<p>那天下午，吃完饭回来的我，似乎写了篇文章……盖是那天所写吧。但，这次挫折，这场打击哪是这么容易拯救的呢。</p>
+<p>那几天后便是国庆。国庆在家，我似乎彻底放纵了自己，我慢慢减少了自加的束缚，我开始了说脏话，开始了高强度的网上冲浪。重新下载了社交软件，看起了视频，看起了小说，如痴如狂。就像一个掉入泥潭的人儿，挣扎了几下后，看了看天空，深知无望后，破罐子破摔，只愿早日下坠。而后是国庆假期结束的前一天，大概是十月七日的夜晚，我尝试了盘腿打坐，冥想。在高一时候，住宿期间，有时候我便会冥想一会儿，约莫十几分钟，而后便睡去。冥想也不为何，只是单纯冥想，放空下自己罢了。那天一如既往的冥想后，我便睡去了。十月八日？大概吧，我返校了。我本以为，本以为，我会振作起来，这场竞赛的后遗症，应该要结束了。可……接下来我用完了一整个请假本。</p>
+<p>返校后没几天，我开始了肚子疼。本以为只是正常的肠胃不适应，或者在假期吃坏了肚子，排泄完就可以了。可没想到在排泄完后，肚子依旧疼的厉害。强忍了一两天，而后在某一天的凌晨五点半左右，被肚子疼给硬生生疼醒了。宿舍里有卫生间，但很明显，我的羞耻心让我不可能在宿舍里面解决。于是，我背起了出发，准备离开寝室，去教学楼那边的厕所解决。那天下着大雨，我背着书包，撑着伞，走过了链接这宿舍楼与教学楼的桥，来到了教学楼一楼——二楼有门，锁着。于是我决定在一楼。我把书包放在一楼的某件备用教室的门口，而后冲进了卫生间。令我印象深刻的是，在另一栋教学楼里，我看到了手电筒的灯光——门卫他们起来了，开始开通往楼上的锁了。我没管，反正不挨着我。</p>
+<p>可是那天依旧疼的厉害，终于，我去请假了。那是我第二次请假？自九月一日开学那天就请假一次出校门买晚餐外，这大概便是第二次吧。拿了手机，自己一个人乘着公交车，回到了家中。说来有趣，回到了家中，肚子的疼痛倒是有所缓解，真不知是否是心理因素也有一部分在其中。小时候的我就有得过胃病，肚子疼痛对我来说家常便饭，小初高，基本都有因胃病而去医院开药，倒也习惯了。</p>
+<p>胃炎过后，肚子倒是没有那么痛了。去医院拍了b超，做了个c14检测（也正是这个时候我才发现我已经能够仅呵水就吞咽下药丸了），开了药，胃炎就算结束了。但，疼痛开始转移了，我的头开始了疼痛。</p>
+<p>那是难以遏制的疼痛。并非天旋地转，而是犹若大脑中有一个气球，正在不断地充气膨胀着。尤其是在午睡醒来的那段时间，头疼的真的忍不住想要叫出声，全身乏力。甚至，那段时间我的额头温度还会持续升温，很烫很烫，且难以降下来。于是我理所当然地请假了，理由是发烧。</p>
+<p>似乎自那时候，我就没有将手机交上去了。一律放在寝室的行李箱包中。于是请假后我也没有去政教处拿手机，直接回了寝室，拿了手机，回家了。家里刚好买了测温枪，测了测，约莫37多度，明显的发烧，于是便去医院了。去的是当地的二院，离家挺近。首先做的是核酸，要抽血。很明显，不可能是阳性。诊断结果是感冒，开了些感冒药，便离开了医院。</p>
+<p>在家休息了一天，又返校了。本以为事情就此结束了，我也要开始补之前落下来的一个月的课程了，但事情远远没有结束——头继续疼起来了。</p>
+<p>于是我继续请假。父亲决定带我去诊所挂点滴——从小到大，我基本就没怎么靠吃药好过，都靠挂点滴。（当然，也有从小我就不吃药，吃胶囊根本咽不下去的因素在……）点滴连续挂了两三天，似乎病情好转了，时间也来到了十月中旬，我又回校了。可天不遂人愿，病来如山倒。很明显，竞赛失利后我的精神状态绝对是低迷到了极点，我开始肆无忌惮的悲观、消极。于是我的头疼又一次犯了。我依稀记得有一天的晚上，晚自修结束后，九点二十分后，我去办公室找班主任请假，班主任不在，于是我去了政教处，给班主任打了电话，在政教处盖了章成功请了假然后回了家……其实我回家后也不知道可以做什么，毕竟似乎也没有发烧……但我那天似乎说的便是发烧?毕竟我睡一觉后，额头的温度总是高的吓人，还降不下去。我去政教处大概请过两次假，第二次请假的时候也是晚上了，似乎第一次是下午？不确定了。第二次请假时候，
+我说我的体温达到了37.8℃，于是班主任又让我请假了。那天我打车回的家……我现在还记得那辆网约车的司机是个中年大叔，年龄偏大，副驾上还坐着身份大概是他母亲的一个人。那天下着雨，晚上九点四十左右。打车时候，倒也有件趣事。我一共打了大约三辆车，这三辆车，除了第一次是我主动取消的订单，后两单都是他们莫名其妙的迟迟不来，还在距离几百米的时候取消了订单。于是等我打到网约车的时候，已经是九点四五十了。当时目的地是医院，父亲先到的医院，我在十点半左右到达。而后又准备去做核酸，但医护人员说结果大概要十二点出来，想了想，又决定隔天早上再去，遂归家。翌日，做了核酸，又是一次抽血。结果依旧是感冒，没诊断出什么，我也就无奈了。但头疼照旧。</p>
+<p>无奈，决定去拍个ct。而后是显示是鼻窦炎。医生也说正因为鼻窦炎，所以会导致额头发热，头疼。于是买了喷雾，开始了鼻窦炎的治疗。回到学校后，大概十月月末左右，二十几号，我又有请假，我已经忘记了理由。那一次请假我整整一周没去学校。</p>
+<p>我现在还记得在诊所挂点滴的时候，父亲与医生说的一句话“他从月初开始生病，基本隔几天就跑一趟医院，这个月就没怎么读书了啊”是的，十月份，我用完了一个请假本，一月有四周，每周我大约仅有一两天在学校。</p>
+<p>大概在十月十几号吧，我在家修养的时候，大概是胃炎那段时间，我开始了直播。我也很疑惑，我当初重新拾起直播的缘由是什么？想发展新的人际关系？想与人交往？（交流？）想赚钱？应该都有吧。其实消遣应该占主要因素。可能是想跟人聊天了。直播，能直播什么？唯有游戏。游戏，能玩什么游戏？Minecraft。有趣的是，我只在直播的时候玩游戏，下播后我对游戏完全不感兴趣。哪怕直播的时候也对游戏没那么大兴趣，只是不知道直播什么，只好选择直播游戏罢了。游戏只是载体，桥梁，我在小学时候就已经把自己对游戏的所有感情倾注了。于是我疏远了游戏。未曾想最后却因为直播开始玩起了游戏。</p>
+<p>之后，建了个粉丝群，弄了个我的世界服务器。神奇宝可梦、魔法金属、群峦传说……开了挺多类型的，不过还是以宝可梦为主，开了基本有两个周目，也就是两个月。其中的花费都是水友赞助的，我倒是只在其中花费了人力，负责开服，修改bug罢了。</p>
+<p>于是大概在十几号的时候，开始了直播之后，我就开始一去不复返了……仅有的在校时间也有想着直播里的事……</p>
+<p>有时候哪是回家养病，回家玩电脑罢了………</p>
+<p>就这么请假请到了十一月份，我曾在十月月底的时候，对自己说“下个月要振作起来，不这样了！”，可……</p>
+<p>（2022年2月26日02:24:58，睡觉，有点困，不想打字了，3776词了，累了。这是在不断的精神输出，太累了。）</p>
+<p>……</p>
+<p>2022年3月25日16:31:26</p>
+<p>流水账罢了……</p>
+<p>2020年十一月份？又间歇请假了一些日子。2020年十二月份？记不大清，约莫也有请假罢。2021年一月份？啊，有学考在这个月。唯一的印象大概便是某节班会，老师让同学上去说接下来的复习计划，想法——轮到我时，我说了些“要多锻炼，保养好身体，身体是革命的本钱。别像我一样，一直请假……”以及“希望学考能过”。这似乎不是同一节班会说的？忘了。过往如云烟，烟消云散。既如此，何须与过往格格不入。</p>
+<p>二月份是寒假，十六号便开学，哈。关于期间的春节，是真真睡了一天呢……毫无动力，小说也不看了……</p>
+<p>大概，便没了？</p>
+<p>这不是沉思呢，这是回忆。不甘、懊悔、无奈、厌恶、惆怅的过往。</p>
+<p>过往云烟，烟消了又起，云散了又聚。</p>
+<p>……</p>
+<p>青春、少女、恋爱。</p>
+<p>少女、恋爱。</p>
+<p>恋爱。</p>
+<p>爱恋。</p>
+<p>大概“欲望”吧。</p>
+<p>性欲？</p>
+<p>荷尔蒙？</p>
+<p>不知科学如何解释。</p>
+<p>若是“爱不知何起，一往情深”，那，“性欲不知何来，难以自拔”。</p>
+<p>有时总是暗暗地想，若是现代女子能够如古代那般，深锁闺房，轻纱掩面，往往与男子的初见，便是一生，那是不是会更适合我呢……渐渐地长大，慢慢明白了这是占有欲太重，直至病态。</p>
+<p>……</p>
+<p>2022年3月31日23:22:04</p>
+<p>也许，我享受的是被人喜欢。yy他人，每次的情节竟全是他人倒贴，我颇有点“欲拒还迎”……我不喜欢主动？我太被动？也许，是我根本就没打算跟“这位”谈呢……我享受的，似乎只是这种，也许可以称之为“舔狗”的行为？或者说，是他人对自己的，犹如亲朋的宽慰，属下的恭敬，无奈的气愤，不舍……是什么造成了这个？也许，是自记事起便缺乏关心？但我并不需要关心……抑或着说，我并不需要主动去寻求关心啊。我总是将自己与世人分的很是清楚的。”人与人之间的悲欢各不相通”也罢，“君忧我亦忧，君喜我亦喜”也罢，我的悲伤，欣喜，总是难以与他人分享的。我悲春天之萌芽，我喜秋日之凋零，叶落之疏疏。犹如此般。一口一句世人，我也是世人之一呵。“逢人不说人间事，便是人间无事人。“有些思绪唯有幽暗的心河才得以安放。</p>
+<p>难道我真的不需要关心？不。若真如此，悲伤之际我也不会去社交软件上聊天，欣喜之际我也就不会去群里分享自己所遇之事。只是，他们的关心于我又是一种“什么”呢？锦上添花还是雪中送炭？也许待我过了那时，想起悲伤时他人的宽慰（啊，真的有吗？悲伤之际我并不会去社交软件上言及伤感，只会不断的聊天来麻痹，劝慰自己罢了）……呵，在说些什么啊！</p>
+<p>近几天想着想着，想到了四个字“俗不可耐”。（有趣之一，打字之时，第一次打出来的是“俗人可耐”）言及yy，我怕不是一个猥琐淫秽之人。然，于我幻想，更多的却是并无一张面庞是同现实中的人物相近的。我喜欢的，爱慕的，向往的，是她们的行为，她们的言语，她们深处的魂灵。我幻想的，与现实有所相关联的，怕便只有环境、物件了罢。我心中的人儿，足以模糊世界，唯她一人清晰夺目。若伴之左右，他人之言语与我何干？</p>
+<p>俗不可耐，更多的是我为了自己开脱而想出来的。我心中厌烦着现世的这些女性，又因她们是女性，女性所挺有的魅力又令我着迷。（啊，或许称呼为姑娘更加妥当，毕竟若论起来，我却还是喜欢貌美的。啊，若是愿意听我辩解，那请知晓：我相信有人的灵魂能让我与之神交，忘却皮囊）我一边向往着，又一边厌恶着，反感她们仗着自身的美好肆意妄为，美的破碎在我眼中是那么的无可奈何，不知何言。不但反感她们，也反感自身，反感自身居然曾着迷与她们，曾希冀着她们是那么的美好。</p>
+<p>皮囊的美丽或许能让我着迷，却难以令我为之痴狂。我会为皮囊美的人儿的行为无奈，厌恶，好奇，惆怅，却不会想着倾尽所有，只为红颜一笑。她们的外在的美丽只能令我目眩，意动。唯有魂魄的灵性能令我心向往之，为此神迷。</p>
+<p>所以想想也是可笑……但总归是阻挠了我许久。</p>
+<p>美人何美哉？人美美何哉？</p>
+<p>人间可有绝色乎？</p>
+<p>……</p>
+<p>2022年4月16日22:26:51</p>
+<p>这根本不是什么沉思录啊，只是狗屁的流水账、回忆！</p>
+<p>想抒发一些感受，居然还在想是写在沉思录这篇文章里面还是新开一章，不由烦躁起来。</p>
+<p>狗屁的沉思录！</p>
+<p>故，易名。</p>
+<p>《我的流水回忆》，好！</p>
+<p>然后将其中的一些感受再单发一章罢！</p>
+<p>狗屁的束缚！真的很烦，以至于厌恶。</p>
+<p>怕是躁郁症，唯一了解的就这个症了，且莫名还有点符合现在的自己了……不想去医院啊，有个焦虑就够受的了。自从不头疼后便停药了，实在讨厌吃药……以及那种，明明，难道，这是病吗？心灵的问题，是为心病？</p>
+<p>罢了罢了，让我忘却这些！</p>
+<p>若有所思，便再成一章罢！</p>
+<p>去他妈的世界！</p>
+]]></content>
+  </entry>
+  <entry>
     <title>打赏</title>
     <url>/posts/219880c1/</url>
     <content><![CDATA[<p>What's past is prologue.</p>
@@ -10154,17 +10160,6 @@ href="https://tinypng.com/">tinypng</a> 然后盖是没有了</p>
 ]]></content>
   </entry>
   <entry>
-    <title>换了个个人引导页</title>
-    <url>/posts/3b6fee6d/</url>
-    <content><![CDATA[<p>What's past is prologue.</p>
-<span id="more"></span>
-<p>嗯。 zhiluo.top 很简洁的一个个人引导页
-果然老了么...越来越喜欢这种简单纯粹单纯的了..
-<del>不，那是大道至简</del> <del>不，那是返璞归真</del>
-<del>不，那是赤子之心</del></p>
-]]></content>
-  </entry>
-  <entry>
     <title>换了个个人引导页并迁移</title>
     <url>/posts/18bcaca5/</url>
     <content><![CDATA[<p>What's past is prologue.</p>
@@ -10186,6 +10181,17 @@ href="https://www.51.la/">51la</a> 源码网上找的 嗯自己修改了下。 �
 <p>中国的话，七月初七是七夕节= = 我觉得应该过七夕节吧= =
 这个情人节。。也是真的= = <del>情人啊，情人，不是第三者么咳咳</del>
 没了没了。 溜了。 听课。</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>换了个个人引导页</title>
+    <url>/posts/3b6fee6d/</url>
+    <content><![CDATA[<p>What's past is prologue.</p>
+<span id="more"></span>
+<p>嗯。 zhiluo.top 很简洁的一个个人引导页
+果然老了么...越来越喜欢这种简单纯粹单纯的了..
+<del>不，那是大道至简</del> <del>不，那是返璞归真</del>
+<del>不，那是赤子之心</del></p>
 ]]></content>
   </entry>
   <entry>
@@ -10489,34 +10495,6 @@ https://www.bilibili.com/read/cv4332227/?spm_id_from=333.788.b_636f6d6d656e74.7<
 ]]></content>
   </entry>
   <entry>
-    <title>欢迎使用 Typecho</title>
-    <url>/posts/6e020ab9/</url>
-    <content><![CDATA[<p>What's past is prologue.</p>
-<span id="more"></span>
-<p>如果您看到这篇文章,表示您的 blog 已经安装成功.</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>每日一愿之坚决不熬夜</title>
-    <url>/posts/9535d931/</url>
-    <content><![CDATA[<p>What's past is prologue.</p>
-<span id="more"></span>
-<p>宁愿五点起，也不一点睡。</p>
-<p>熬夜？再见再见再见再见再见再见。
-其实我都不确定我这个算不算是货真价实的熬夜，毕竟我不会“熬过这个夜”，最迟是四点睡，极少情况下，大多数情况是十一点多点或者十二点，一点两点这样子。
-要做的事情太多，要学的知识太多，白天又太懒惰，所以只能晚上学习了。
-然后偶然逛blog，然后又逛到了一篇文章，关于熬夜的：<a
-href="https://www.coolapk.com/feed/17911131?shareKey=MGNlY2RmMDQzODc4NWU5MWUxY2Q~&amp;shareUid=1658780"
-class="uri">https://www.coolapk.com/feed/17911131?shareKey=MGNlY2RmMDQzODc4NWU5MWUxY2Q~&amp;shareUid=1658780</a>
-从心了从心了。 以前经常不吃饭，熬出了胃病。
-以前总是玩电脑，有了颈椎病。</p>
-<p>因此，我决定遵从自己的内心。 也就是从心。 <del>也就是怂</del></p>
-<p>每天自我督促，最迟十点半睡觉。
-<del>话说今天是不是周摘的日子。。</del>
-<del>算了明天早上早起补吧</del></p>
-]]></content>
-  </entry>
-  <entry>
     <title>札记</title>
     <url>/posts/863cf106/</url>
     <content><![CDATA[<p>What's past is prologue.</p>
@@ -10617,6 +10595,34 @@ class="uri">https://www.coolapk.com/feed/17911131?shareKey=MGNlY2RmMDQzODc4NWU5M
 ]]></content>
   </entry>
   <entry>
+    <title>欢迎使用 Typecho</title>
+    <url>/posts/6e020ab9/</url>
+    <content><![CDATA[<p>What's past is prologue.</p>
+<span id="more"></span>
+<p>如果您看到这篇文章,表示您的 blog 已经安装成功.</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>每日一愿之坚决不熬夜</title>
+    <url>/posts/9535d931/</url>
+    <content><![CDATA[<p>What's past is prologue.</p>
+<span id="more"></span>
+<p>宁愿五点起，也不一点睡。</p>
+<p>熬夜？再见再见再见再见再见再见。
+其实我都不确定我这个算不算是货真价实的熬夜，毕竟我不会“熬过这个夜”，最迟是四点睡，极少情况下，大多数情况是十一点多点或者十二点，一点两点这样子。
+要做的事情太多，要学的知识太多，白天又太懒惰，所以只能晚上学习了。
+然后偶然逛blog，然后又逛到了一篇文章，关于熬夜的：<a
+href="https://www.coolapk.com/feed/17911131?shareKey=MGNlY2RmMDQzODc4NWU5MWUxY2Q~&amp;shareUid=1658780"
+class="uri">https://www.coolapk.com/feed/17911131?shareKey=MGNlY2RmMDQzODc4NWU5MWUxY2Q~&amp;shareUid=1658780</a>
+从心了从心了。 以前经常不吃饭，熬出了胃病。
+以前总是玩电脑，有了颈椎病。</p>
+<p>因此，我决定遵从自己的内心。 也就是从心。 <del>也就是怂</del></p>
+<p>每天自我督促，最迟十点半睡觉。
+<del>话说今天是不是周摘的日子。。</del>
+<del>算了明天早上早起补吧</del></p>
+]]></content>
+  </entry>
+  <entry>
     <title>浅谈爱国观</title>
     <url>/posts/1ede0606/</url>
     <content><![CDATA[<p>What's past is prologue.</p>
@@ -10629,19 +10635,6 @@ class="uri">https://www.coolapk.com/feed/17911131?shareKey=MGNlY2RmMDQzODc4NWU5M
 <p>就像对于一些科学家获得了诺贝尔奖后，人们说的“他们并不因诺贝尔奖而崇高，诺贝尔奖因他们而光辉”为民者与组织，亦诚如斯言。我愿意将自身的敬意加注到个人，或是加注到一个民族，而不是一个团体，一个组织，一个国家。国家？我一直爱戴着这片土地，喜爱着所有为了她而世代奋斗着的人们，以及在她庇佑下辛勤劳作的人们。这片土地的掌权者换了又换，人民一代代地传承着，唯有其名为“华夏”的精神，刻在骨子里，随着血脉的流淌，源源不绝。我热爱的是人民，敬佩的是人民，能让我热爱的，敬佩的，也唯有人民，以及由人民组成的，民族，国家。组织跟国家，不一样的。</p>
 <p>以前的我也许看着《雷锋的故事》，看着网上流传的好人好事的文字报道，视频会愚昧不知，一笑而过。如今的我却最是怕见到这些，能令我瞬间潸然泪下的承载着一种说不清道不明却令我的灵魂深深颤栗的视频、文字了。于是我知晓，我开始了共情，我对人民，对与我同在一片天空下的人们，在经历了小时候懵懵懂懂的“断线失联“后，”恢复了链接“。我的心，开始为之牵动。遇难时恨不得能够亲身前往，替他们阻挡哪怕片刻的危险，哪怕杯水车薪，哪怕于事无补，至少体内这一颗心，会在他们的面前受到解脱，不再流泪。每当见到有人愿意为了他们伸出援手，哪怕是下意识的小小举动，我却会又一次的控制不住自己，泪湿眼眶、明明是“男儿有泪不轻弹”，却不知为何我的泪水在他们的面前是那么的廉价。在人间真情面前，在世间美好之前，我忘记了社会黑暗，忘记了阶级压迫，忘记了礼制规矩，只是单纯的为了这份无言的人性体现，难以自禁。</p>
 <p>我爱国，但我更爱人民。</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>清明时节雨，纷纷</title>
-    <url>/posts/dbe76576/</url>
-    <content><![CDATA[<p>What's past is prologue.</p>
-<span id="more"></span>
-<p>三分钟 长鸣 是你们的呐喊 是国人的呼唤。</p>
-<p>你们执 利剑 划破了黑暗 你们迎 厉风 撷下了曙光。</p>
-<p>时代 落下了一粒灰 于你 抗起了一座山 而我 有了一个港湾。</p>
-<p>此刻春暖 花开 如今海晏 河清 万物生长 清明。</p>
-<p>清明雨 纷纷 黄土又埋 几许人？</p>
-<p>悄落泪 沾袖 残寒销尽 清明后。</p>
 ]]></content>
   </entry>
   <entry>
@@ -10663,6 +10656,19 @@ class="uri">https://www.coolapk.com/feed/17911131?shareKey=MGNlY2RmMDQzODc4NWU5M
 然后主题的话我是直接cv了一份，另一份用的是原版的，无渐变的运行时间统计。
 同时还把返回顶部这个从手机主题那边删去了来着，太影响阅读了233</p>
 <figure class="highlight php"><table><tr><td class="code"><pre><span class="line">&lt;!--安全运行代码开始--&gt;</span><br><span class="line">&lt;span id=<span class="string">&quot;momk&quot;</span>&gt;&lt;/span&gt;</span><br><span class="line">&lt;script language=javascript&gt;</span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">show_date_time</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line">window.<span class="title function_ invoke__">setTimeout</span>(<span class="string">&quot;show_date_time()&quot;</span>, <span class="number">1000</span>);</span><br><span class="line">BirthDay=<span class="keyword">new</span> <span class="title class_">Date</span>(<span class="string">&quot;01-27-2020 7:07:7&quot;</span>);<span class="comment">//日期</span></span><br><span class="line">today=<span class="keyword">new</span> <span class="title class_">Date</span>();</span><br><span class="line">timeold=(today.<span class="title function_ invoke__">getTime</span>()-BirthDay.<span class="title function_ invoke__">getTime</span>());</span><br><span class="line">sectimeold=timeold/<span class="number">1000</span></span><br><span class="line">secondsold=Math.<span class="title function_ invoke__">floor</span>(sectimeold);</span><br><span class="line">msPerDay=<span class="number">24</span>*<span class="number">60</span>*<span class="number">60</span>*<span class="number">1000</span></span><br><span class="line">e_daysold=timeold/msPerDay</span><br><span class="line">daysold=Math.<span class="title function_ invoke__">floor</span>(e_daysold);</span><br><span class="line">e_hrsold=(daysold-e_daysold)*-<span class="number">24</span>;</span><br><span class="line">hrsold=Math.<span class="title function_ invoke__">floor</span>(e_hrsold);</span><br><span class="line">e_minsold=(hrsold-e_hrsold)*-<span class="number">60</span>;</span><br><span class="line">minsold=Math.<span class="title function_ invoke__">floor</span>((hrsold-e_hrsold)*-<span class="number">60</span>);</span><br><span class="line">seconds=Math.<span class="title function_ invoke__">floor</span>((minsold-e_minsold)*-<span class="number">60</span>);</span><br><span class="line">momk.innerHTML=<span class="string">&quot;感谢有你：&quot;</span>+daysold+<span class="string">&quot;天&quot;</span>+hrsold+<span class="string">&quot;小时&quot;</span>+minsold+<span class="string">&quot;分&quot;</span>+seconds+<span class="string">&quot;秒&quot;</span> ;</span><br><span class="line">&#125;</span><br><span class="line"><span class="title function_ invoke__">show_date_time</span>();</span><br><span class="line">&lt;/script&gt;</span><br><span class="line">&lt;style&gt;</span><br><span class="line"><span class="comment">#momk&#123;animation:change 10s infinite;font-weight:800; &#125;</span></span><br><span class="line">@keyframes change&#123;<span class="number">0</span>%&#123;color:<span class="comment">#5cb85c;&#125;25%&#123;color:#556bd8;&#125;50%&#123;color:#e40707;&#125;75%&#123;color:#66e616;&#125;100% &#123;color:#67bd31;&#125;&#125;</span></span><br><span class="line">&lt;/style&gt;</span><br><span class="line">  &lt;!--安全运行代码结束--&gt;</span><br></pre></td></tr></table></figure>
+]]></content>
+  </entry>
+  <entry>
+    <title>清明时节雨，纷纷</title>
+    <url>/posts/dbe76576/</url>
+    <content><![CDATA[<p>What's past is prologue.</p>
+<span id="more"></span>
+<p>三分钟 长鸣 是你们的呐喊 是国人的呼唤。</p>
+<p>你们执 利剑 划破了黑暗 你们迎 厉风 撷下了曙光。</p>
+<p>时代 落下了一粒灰 于你 抗起了一座山 而我 有了一个港湾。</p>
+<p>此刻春暖 花开 如今海晏 河清 万物生长 清明。</p>
+<p>清明雨 纷纷 黄土又埋 几许人？</p>
+<p>悄落泪 沾袖 残寒销尽 清明后。</p>
 ]]></content>
   </entry>
   <entry>
@@ -12923,6 +12929,55 @@ href="https://github.com/jzwalk/HighSlide">HighSlide</a>
 ]]></content>
   </entry>
   <entry>
+    <title>迷惑小卦</title>
+    <url>/posts/b5f77874/</url>
+    <content><![CDATA[<p>What's past is prologue.</p>
+<span id="more"></span>
+<p>测天时的，也就是今天天气。 问的是“今日天气如何”
+<del>其实我感觉问“今日雨否”会好点啧</del></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">公历起卦时间：2020年3月14日14时18分　(在线摇卦)</span><br><span class="line">农历：庚子年二月廿一日未时</span><br><span class="line">惊蛰：2020年03月05日11时03分</span><br><span class="line">清明：2020年04月04日15时48分</span><br><span class="line">干支：庚子年　己卯月　丙辰日　乙未时　　（日空：子丑）</span><br><span class="line">神煞：驿马－寅　桃花－酉　日禄－巳　贵人－酉，亥</span><br><span class="line"></span><br><span class="line">　　 　　　　　　　艮宫：风泽中孚 (游魂)　 　　艮宫：风泽中孚 (游魂)</span><br><span class="line">六神　　伏神　　　本　 　　卦　　 　 　　　　变　 　　卦</span><br><span class="line">青龙 　　　　　 官鬼辛卯木 ▅▅▅▅▅ 　 　　 官鬼辛卯木 ▅▅▅▅▅ 　</span><br><span class="line">玄武 妻财丙子水 父母辛巳火 ▅▅▅▅▅ 　 　　 父母辛巳火 ▅▅▅▅▅ 　</span><br><span class="line">白虎 　　　　　 兄弟辛未土 ▅▅　▅▅ 世 　　 兄弟辛未土 ▅▅　▅▅ 世</span><br><span class="line">螣蛇 子孙丙申金 兄弟丁丑土 ▅▅　▅▅ 　 　　 兄弟丁丑土 ▅▅　▅▅ 　</span><br><span class="line">勾陈 　　　　　 官鬼丁卯木 ▅▅▅▅▅ 　 　　 官鬼丁卯木 ▅▅▅▅▅ 　</span><br><span class="line">朱雀 　　　　　 父母丁巳火 ▅▅▅▅▅ 应 　　 父母丁巳火 ▅▅▅▅▅ 应</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<p>第一卦，挺迷惑的，然后又起了一卦。</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">公历起卦时间：2020年3月14日14时24分　(在线摇卦)</span><br><span class="line">农历：庚子年二月廿一日未时</span><br><span class="line">惊蛰：2020年03月05日11时03分</span><br><span class="line">清明：2020年04月04日15时48分</span><br><span class="line">干支：庚子年　己卯月　丙辰日　乙未时　　（日空：子丑）</span><br><span class="line">神煞：驿马－寅　桃花－酉　日禄－巳　贵人－酉，亥</span><br><span class="line"></span><br><span class="line">　　 　　　　　　　兑宫：地山谦 　　　 　 　　坎宫：地水师 (归魂)　</span><br><span class="line">六神　　伏神　　　本　 　　卦　　 　 　　　　变　 　　卦</span><br><span class="line">青龙 　　　　　 兄弟癸酉金 ▅▅　▅▅ 　 　　 兄弟癸酉金 ▅▅　▅▅ 应</span><br><span class="line">玄武 　　　　　 子孙癸亥水 ▅▅　▅▅ 世 　　 子孙癸亥水 ▅▅　▅▅ 　</span><br><span class="line">白虎 　　　　　 父母癸丑土 ▅▅　▅▅ 　 　　 父母癸丑土 ▅▅　▅▅ 　</span><br><span class="line">螣蛇 　　　　　 兄弟丙申金 ▅▅▅▅▅ 　 ○→ 官鬼戊午火 ▅▅　▅▅ 世</span><br><span class="line">勾陈 妻财丁卯木 官鬼丙午火 ▅▅　▅▅ 应 ╳→ 父母戊辰土 ▅▅▅▅▅ 　</span><br><span class="line">朱雀 　　　　　 父母丙辰土 ▅▅　▅▅ 　 　　 妻财戊寅木 ▅▅　▅▅ 　</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<p>这一卦嘛。。。 唔。 子孙持世，子孙爻主晴空万里。 月建卯，卯木。
+父母爻主雨。 辰土父母遭月破。 同时子孙爻暗动来着。。
+亥水子孙，日辰是辰，辰土，土克水。。。 我他。。。。 唔。
+申金兄弟发动化回头克。 兄弟爻主风云。 微风吧。 我是真他的迷惑。</p>
+<p>看看第一卦的话。 兄弟爻暗动，木克土。 害。。。。
+看不出来啥了我还。。</p>
+<p>反正总之差不多应该就是晴天微风无雨了。（天气挺好）</p>
+<p>反正到目前为止天气是挺好的。。</p>
+<p>aaaaa，好气哟(╯‵□′)╯︵┻━┻</p>
+<p>看完三卷了，终于搞懂了反吟伏吟。 一共有十二卷，上册有五卷。
+上册这边一卷是《黄金策》，还有一卷是天时章的来着。 天时章粗略翻了下。
+黄金策那边还没怎么看。 下册的话，主要是一些。。更具体的知识吧。
+细节的那种= = 理论知识基本上学完了hhhhhhh <del>没骄傲，真的</del>
+但是其实也不算学完吧，算是看完了，有了一个了解了。
+很多其实还是没记住(╯‵□′)╯︵┻━┻</p>
+<p>然后又闲的去占了一卦，占衣服颜色。
+火为红，水为蓝，土为暗黄甚至于偏黑，金为亮黄，木为绿。
+木弱为浅绿，旺则深绿，土弱则黄，旺则黑，水弱则旺，旺则偏黑。
+若用神两现，一色休囚无力则不用，若二色皆有气，可取混色。</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">**公历起卦时间：**2020年3月14日15时38分　(在线摇卦)</span><br><span class="line">**农历：**庚子年二月廿一日申时</span><br><span class="line">**惊蛰：**2020年03月05日11时03分</span><br><span class="line">**清明：**2020年04月04日15时48分</span><br><span class="line">**干支：**庚子年　己卯月　丙辰日　丙申时　　（日空：子丑）</span><br><span class="line">**神煞：**驿马－寅　桃花－酉　日禄－巳　贵人－酉，亥</span><br><span class="line"></span><br><span class="line">　　 　　　　　　　兑宫：水山蹇 　　　 　 　　兑宫：水山蹇 　　　</span><br><span class="line">**六神　　伏神　　　本　 　　卦　　 　 　　　　变　 　　卦**</span><br><span class="line">青龙 　　　　　 子孙戊子水 ▅▅　▅▅ 　 　　 子孙戊子水 ▅▅　▅▅ 　</span><br><span class="line">玄武 　　　　　 父母戊戌土 ▅▅▅▅▅ 　 　　 父母戊戌土 ▅▅▅▅▅ 　</span><br><span class="line">白虎 　　　　　 兄弟戊申金 ▅▅　▅▅ 世 　　 兄弟戊申金 ▅▅　▅▅ 世</span><br><span class="line">螣蛇 　　　　　 兄弟丙申金 ▅▅▅▅▅ 　 　　 兄弟丙申金 ▅▅▅▅▅ 　</span><br><span class="line">勾陈 妻财丁卯木 官鬼丙午火 ▅▅　▅▅ 　 　　 官鬼丙午火 ▅▅　▅▅ 　</span><br><span class="line">朱雀 　　　　　 父母丙辰土 ▅▅　▅▅ 应 　　 父母丙辰土 ▅▅　▅▅ 应</span><br></pre></td></tr></table></figure>
+<p>因为测的是衣服，我想着说，衣服是来抵御寒冷，保护自己的。
+所以去父母爻为用神。 用神两现，且卯月，土为休囚。
+不过戌土父母爻与月建卯相合。 《增删卜易》里有这么一句话：</p>
+<blockquote>
+<p>爻静，或与日、月、动爻合者，得合而起，即使休囚，亦有旺相之意。</p>
+</blockquote>
+<p>所以就看戌土父母爻了。 土旺，衣服颜色为黑。</p>
+<p>嗯= = 穿的就是黑色衣服来着= = 准备着等会儿再试试= = 纯练手= =</p>
+<p><del>想收集卦例了。。。</del> <del>我他。。。自讨苦吃？</del>
+<del>hhhh，想练练自己的手动排卦的能力，因为到目前为止没排过几次卦，都是电脑自动排盘的</del></p>
+<p>咳。 收集卦例有淫给我发嘛。 主要是收集
+天气的吧，其他的也可以，但是不确定是否准确= =
+我现在对天气真的是。。杠上了哼唧。 <del>咳</del> 欢迎留言:)</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">1.寻一方静处（不要让你打扰到你）</span><br><span class="line">2.放空心灵，心无杂念（不要乱想，就什么都不想就行）</span><br><span class="line">3.取硬币三枚，记数字面为字，guo徽/花面为背</span><br><span class="line">4.取白纸一张，记下起卦时的年月日时，性别，所占何事</span><br><span class="line">5.将三枚硬币平放于手掌，合上手心，闭眼，心中默念所占之事，然后掷到地面上（瓷盘里也行，只要是平整的水平面即可）</span><br><span class="line">6.然后将得到的图案（三枚硬币的，不分顺序）记录到纸上</span><br><span class="line">7.再摇五次。(记住，在白纸上从下往上写。如第一次写到第六行，第二次写到第五行。)</span><br><span class="line">8.摇完六次后，拍下来，或者自己手打，发给我好了= =</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">2020年3月9日23时12分</span><br><span class="line">男</span><br><span class="line">今天天气如何？</span><br><span class="line">第六次：……</span><br><span class="line">第五次：……</span><br><span class="line">第四次：……</span><br><span class="line">第三次：……</span><br><span class="line">第二次：背字背</span><br><span class="line">第一次：背背花</span><br></pre></td></tr></table></figure>
+<p><font color='MediumAquaMarine'> 有人给我这个萌新检验自己的机会嘛owo
+</font></p>
+]]></content>
+  </entry>
+  <entry>
     <title>趣事</title>
     <url>/posts/412717f5/</url>
     <content><![CDATA[<p>What's past is prologue.</p>
@@ -12980,55 +13035,6 @@ href="https://github.com/jzwalk/HighSlide">HighSlide</a>
 <p>战士是光，志愿者是光。“医院缺电”“医院缺工人”“医院缺……"“我来！我来！我来！……”，在“雷火”医院的建设中，一句句的“我来！”，一笔笔的善款，一排排的卡车，汇聚成抗击疫情的“滚滚暖流”，构建起抗击疫情的”钢铁长城”。人们再一次向医生们展现了“你们安心治疗病人，你们的背后，有我们！”的担当，让在战场上的医护人员知道，他们不是“孤军奋战”，他们背后的那万家灯火，是为他们而亮，是为他们而暖。</p>
 <p>我们也是光。“我们”，是一个个在疫情期间的“宅”在家中的人。也许我们之中，有人按下了那小小的“确认”键，捐献出了自己的一点点力量，有人在家中自娱自乐，不跑出门为国家添麻烦，还有人……我们是光，也是追光者。我们所有人就像那点点萤火，汇成了人间星河。</p>
 <p>前路虽未知，但勇者亦无惧。这就是逆行者，这就是追光者。让我们静待山河无恙，人间皆安，看那人声鼎沸，樱花怒放，笑声遍布山川。</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>迷惑小卦</title>
-    <url>/posts/b5f77874/</url>
-    <content><![CDATA[<p>What's past is prologue.</p>
-<span id="more"></span>
-<p>测天时的，也就是今天天气。 问的是“今日天气如何”
-<del>其实我感觉问“今日雨否”会好点啧</del></p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">公历起卦时间：2020年3月14日14时18分　(在线摇卦)</span><br><span class="line">农历：庚子年二月廿一日未时</span><br><span class="line">惊蛰：2020年03月05日11时03分</span><br><span class="line">清明：2020年04月04日15时48分</span><br><span class="line">干支：庚子年　己卯月　丙辰日　乙未时　　（日空：子丑）</span><br><span class="line">神煞：驿马－寅　桃花－酉　日禄－巳　贵人－酉，亥</span><br><span class="line"></span><br><span class="line">　　 　　　　　　　艮宫：风泽中孚 (游魂)　 　　艮宫：风泽中孚 (游魂)</span><br><span class="line">六神　　伏神　　　本　 　　卦　　 　 　　　　变　 　　卦</span><br><span class="line">青龙 　　　　　 官鬼辛卯木 ▅▅▅▅▅ 　 　　 官鬼辛卯木 ▅▅▅▅▅ 　</span><br><span class="line">玄武 妻财丙子水 父母辛巳火 ▅▅▅▅▅ 　 　　 父母辛巳火 ▅▅▅▅▅ 　</span><br><span class="line">白虎 　　　　　 兄弟辛未土 ▅▅　▅▅ 世 　　 兄弟辛未土 ▅▅　▅▅ 世</span><br><span class="line">螣蛇 子孙丙申金 兄弟丁丑土 ▅▅　▅▅ 　 　　 兄弟丁丑土 ▅▅　▅▅ 　</span><br><span class="line">勾陈 　　　　　 官鬼丁卯木 ▅▅▅▅▅ 　 　　 官鬼丁卯木 ▅▅▅▅▅ 　</span><br><span class="line">朱雀 　　　　　 父母丁巳火 ▅▅▅▅▅ 应 　　 父母丁巳火 ▅▅▅▅▅ 应</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-<p>第一卦，挺迷惑的，然后又起了一卦。</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">公历起卦时间：2020年3月14日14时24分　(在线摇卦)</span><br><span class="line">农历：庚子年二月廿一日未时</span><br><span class="line">惊蛰：2020年03月05日11时03分</span><br><span class="line">清明：2020年04月04日15时48分</span><br><span class="line">干支：庚子年　己卯月　丙辰日　乙未时　　（日空：子丑）</span><br><span class="line">神煞：驿马－寅　桃花－酉　日禄－巳　贵人－酉，亥</span><br><span class="line"></span><br><span class="line">　　 　　　　　　　兑宫：地山谦 　　　 　 　　坎宫：地水师 (归魂)　</span><br><span class="line">六神　　伏神　　　本　 　　卦　　 　 　　　　变　 　　卦</span><br><span class="line">青龙 　　　　　 兄弟癸酉金 ▅▅　▅▅ 　 　　 兄弟癸酉金 ▅▅　▅▅ 应</span><br><span class="line">玄武 　　　　　 子孙癸亥水 ▅▅　▅▅ 世 　　 子孙癸亥水 ▅▅　▅▅ 　</span><br><span class="line">白虎 　　　　　 父母癸丑土 ▅▅　▅▅ 　 　　 父母癸丑土 ▅▅　▅▅ 　</span><br><span class="line">螣蛇 　　　　　 兄弟丙申金 ▅▅▅▅▅ 　 ○→ 官鬼戊午火 ▅▅　▅▅ 世</span><br><span class="line">勾陈 妻财丁卯木 官鬼丙午火 ▅▅　▅▅ 应 ╳→ 父母戊辰土 ▅▅▅▅▅ 　</span><br><span class="line">朱雀 　　　　　 父母丙辰土 ▅▅　▅▅ 　 　　 妻财戊寅木 ▅▅　▅▅ 　</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-<p>这一卦嘛。。。 唔。 子孙持世，子孙爻主晴空万里。 月建卯，卯木。
-父母爻主雨。 辰土父母遭月破。 同时子孙爻暗动来着。。
-亥水子孙，日辰是辰，辰土，土克水。。。 我他。。。。 唔。
-申金兄弟发动化回头克。 兄弟爻主风云。 微风吧。 我是真他的迷惑。</p>
-<p>看看第一卦的话。 兄弟爻暗动，木克土。 害。。。。
-看不出来啥了我还。。</p>
-<p>反正总之差不多应该就是晴天微风无雨了。（天气挺好）</p>
-<p>反正到目前为止天气是挺好的。。</p>
-<p>aaaaa，好气哟(╯‵□′)╯︵┻━┻</p>
-<p>看完三卷了，终于搞懂了反吟伏吟。 一共有十二卷，上册有五卷。
-上册这边一卷是《黄金策》，还有一卷是天时章的来着。 天时章粗略翻了下。
-黄金策那边还没怎么看。 下册的话，主要是一些。。更具体的知识吧。
-细节的那种= = 理论知识基本上学完了hhhhhhh <del>没骄傲，真的</del>
-但是其实也不算学完吧，算是看完了，有了一个了解了。
-很多其实还是没记住(╯‵□′)╯︵┻━┻</p>
-<p>然后又闲的去占了一卦，占衣服颜色。
-火为红，水为蓝，土为暗黄甚至于偏黑，金为亮黄，木为绿。
-木弱为浅绿，旺则深绿，土弱则黄，旺则黑，水弱则旺，旺则偏黑。
-若用神两现，一色休囚无力则不用，若二色皆有气，可取混色。</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">**公历起卦时间：**2020年3月14日15时38分　(在线摇卦)</span><br><span class="line">**农历：**庚子年二月廿一日申时</span><br><span class="line">**惊蛰：**2020年03月05日11时03分</span><br><span class="line">**清明：**2020年04月04日15时48分</span><br><span class="line">**干支：**庚子年　己卯月　丙辰日　丙申时　　（日空：子丑）</span><br><span class="line">**神煞：**驿马－寅　桃花－酉　日禄－巳　贵人－酉，亥</span><br><span class="line"></span><br><span class="line">　　 　　　　　　　兑宫：水山蹇 　　　 　 　　兑宫：水山蹇 　　　</span><br><span class="line">**六神　　伏神　　　本　 　　卦　　 　 　　　　变　 　　卦**</span><br><span class="line">青龙 　　　　　 子孙戊子水 ▅▅　▅▅ 　 　　 子孙戊子水 ▅▅　▅▅ 　</span><br><span class="line">玄武 　　　　　 父母戊戌土 ▅▅▅▅▅ 　 　　 父母戊戌土 ▅▅▅▅▅ 　</span><br><span class="line">白虎 　　　　　 兄弟戊申金 ▅▅　▅▅ 世 　　 兄弟戊申金 ▅▅　▅▅ 世</span><br><span class="line">螣蛇 　　　　　 兄弟丙申金 ▅▅▅▅▅ 　 　　 兄弟丙申金 ▅▅▅▅▅ 　</span><br><span class="line">勾陈 妻财丁卯木 官鬼丙午火 ▅▅　▅▅ 　 　　 官鬼丙午火 ▅▅　▅▅ 　</span><br><span class="line">朱雀 　　　　　 父母丙辰土 ▅▅　▅▅ 应 　　 父母丙辰土 ▅▅　▅▅ 应</span><br></pre></td></tr></table></figure>
-<p>因为测的是衣服，我想着说，衣服是来抵御寒冷，保护自己的。
-所以去父母爻为用神。 用神两现，且卯月，土为休囚。
-不过戌土父母爻与月建卯相合。 《增删卜易》里有这么一句话：</p>
-<blockquote>
-<p>爻静，或与日、月、动爻合者，得合而起，即使休囚，亦有旺相之意。</p>
-</blockquote>
-<p>所以就看戌土父母爻了。 土旺，衣服颜色为黑。</p>
-<p>嗯= = 穿的就是黑色衣服来着= = 准备着等会儿再试试= = 纯练手= =</p>
-<p><del>想收集卦例了。。。</del> <del>我他。。。自讨苦吃？</del>
-<del>hhhh，想练练自己的手动排卦的能力，因为到目前为止没排过几次卦，都是电脑自动排盘的</del></p>
-<p>咳。 收集卦例有淫给我发嘛。 主要是收集
-天气的吧，其他的也可以，但是不确定是否准确= =
-我现在对天气真的是。。杠上了哼唧。 <del>咳</del> 欢迎留言:)</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">1.寻一方静处（不要让你打扰到你）</span><br><span class="line">2.放空心灵，心无杂念（不要乱想，就什么都不想就行）</span><br><span class="line">3.取硬币三枚，记数字面为字，guo徽/花面为背</span><br><span class="line">4.取白纸一张，记下起卦时的年月日时，性别，所占何事</span><br><span class="line">5.将三枚硬币平放于手掌，合上手心，闭眼，心中默念所占之事，然后掷到地面上（瓷盘里也行，只要是平整的水平面即可）</span><br><span class="line">6.然后将得到的图案（三枚硬币的，不分顺序）记录到纸上</span><br><span class="line">7.再摇五次。(记住，在白纸上从下往上写。如第一次写到第六行，第二次写到第五行。)</span><br><span class="line">8.摇完六次后，拍下来，或者自己手打，发给我好了= =</span><br></pre></td></tr></table></figure>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">2020年3月9日23时12分</span><br><span class="line">男</span><br><span class="line">今天天气如何？</span><br><span class="line">第六次：……</span><br><span class="line">第五次：……</span><br><span class="line">第四次：……</span><br><span class="line">第三次：……</span><br><span class="line">第二次：背字背</span><br><span class="line">第一次：背背花</span><br></pre></td></tr></table></figure>
-<p><font color='MediumAquaMarine'> 有人给我这个萌新检验自己的机会嘛owo
-</font></p>
 ]]></content>
   </entry>
   <entry>

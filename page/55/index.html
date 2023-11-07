@@ -199,6 +199,112 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-Hans">
+    <link itemprop="mainEntityOfPage" href="https://taoyifan.cn/posts/cf554108/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.png">
+      <meta itemprop="name" content="taoyifan">
+      <meta itemprop="description" content="What is past is prologue.">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="taoyifan">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/posts/cf554108/" class="post-title-link" itemprop="url">关于typecho的评论邮件通知#已解决</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+
+              <time title="Created: 2020-02-16 07:38:00" itemprop="dateCreated datePublished" datetime="2020-02-16T07:38:00+08:00">2020-02-16</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">Edited on</span>
+                <time title="Modified: 2023-01-18 13:34:49" itemprop="dateModified" datetime="2023-01-18T13:34:49+08:00">2023-01-18</time>
+              </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <!--markdown-->
+<p>我的天= = 今天又捣鼓了下。 但是这个邮件通知功能就是。。。。 半死不活=
+= 很难受= = 后台可以正常发送。
+就是当我回复评论的时候并不能发送邮件给评论人。 这就很蓝瘦== 然后在一篇<a
+target="_blank" rel="noopener" href="http://www.neversettle.club/skill/typechocomment.html">博文</a>上找到了解决方法
+用了一个新插件 然后立马ok。。。。 配置完了就可以用了////
+(╯‵□′)╯︵┻━┻</p>
+<p>博文上用的是对接阿里云的 我使用的是SMTP 嗯 比较方便且之前有捣鼓过
+然后配置起来也很简单 用到的插件为<a
+target="_blank" rel="noopener" href="https://github.com/ylqjgm/LoveKKComment">LoveKKComment</a>
+*点击即可进入插件的GitHub进行下载 然后配置的话我稍微说下吧
+其实跟之前发的<a
+target="_blank" rel="noopener" href="https://wansz.xyz/index.php/archives/166/">博文</a>一样：D
+插件需要配置的东西其实是差不多的：D</p>
+<p>我使用的是SMTP 若是需要使用SendCloud服务的可以看下<a
+target="_blank" rel="noopener" href="http://www.neversettle.club/skill/typechocomment.html">这篇博文</a>
+咳。</p>
+<p>前面不需要自己设置。 默认即可。 即：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line">公共信息配置</span><br><span class="line">是否启用找回密码功能</span><br><span class="line">√启用找回密码</span><br><span class="line">启用后，将在登录界面出现找回密码链接，并发送邮件至账号邮箱找回密码</span><br><span class="line"></span><br><span class="line">验证过期时间</span><br><span class="line">10</span><br><span class="line">当发起找回密码申请后，会有一封链接邮件，此处定义链接过期时间，单位为分钟</span><br><span class="line"></span><br><span class="line">是否启用Debug模式</span><br><span class="line">√启用Debug</span><br><span class="line">启用后将在插件目录生成debug.txt文件，可记录邮件发送详细错误</span><br><span class="line"></span><br><span class="line">是否启用参数配置验证</span><br><span class="line">√启用配置验证</span><br><span class="line">启用配置验证后，将会在提交配置时进行验证，检测配置是否正确，启用后可能导致配置保存速度缓慢，注意，若使用SSL连接465端口模式，可能导致验证失败，建议使用TLS连接587端口发送邮件</span><br></pre></td></tr></table></figure>
+<p><code>发信接口</code>选择<code>SMTP</code></p>
+<p><code>发件人名称</code>自行填写 *留空则为博客名称</p>
+<p><code>发件邮箱地址</code>
+：填写自己的邮箱地址，如我的是<code>supine@wansz.xyz</code>，而如果填写<code>xxx@qq.com</code>也是可以的</p>
+<p><code>邮件回复地址</code>
+：附带在邮件中的默认回信地址，即用户回复你的邮件时，负责接收邮件的邮箱。
+一般来说与<code>发件邮箱地址</code>一致即可，我填写的是<code>supien@wansz.xyz</code></p>
+<p><code>SMTP地址</code>：qq企业邮箱（即域名邮箱）的话填写<code>smtp.exmail.qq.com</code>
+用的是qq邮箱的话（即@qq.com）的话填写<code>smtp.qq.com</code>
+(也许填写<code>smtp.exmail.qq.com</code>也可以，没有测试过，可以自行测试
+（至于其他邮箱的话可以自己去找下，不过记得去开启SMTP服务，开启后会提供给你的=
+=</p>
+<p><code>SMTP端口</code>：qq企业邮箱的话填写<code>465</code>
+（开启SMTP服务后会提供给你的= =</p>
+<p><code>SMTP登录用户</code>：一般为邮箱地址，如我的是“supine@wansz.xyz”</p>
+<p><code>SMTP登录密码</code>：一般为邮箱密码，但是qq邮箱的话，需要使用开启SMTP服务后提供给你的特定密码</p>
+<p><code>SMTP验证模式</code>:√ 服务器需要验证<br />
+（默认即可</p>
+<p><code>SMTP加密模式</code>：一般需要勾选<code>SSL加密</code>，如若失败可以选择其他两个，一个个测试过去即可=
+=</p>
+<p>然后就没了┓(???`?)┏</p>
+<p>总结下： 必填： <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line">发信接口</span><br><span class="line"></span><br><span class="line">发件人名称</span><br><span class="line"></span><br><span class="line">发件邮箱地址</span><br><span class="line"></span><br><span class="line">邮件回复地址</span><br><span class="line"></span><br><span class="line">SMTP地址</span><br><span class="line"></span><br><span class="line">SMTP端口</span><br><span class="line"></span><br><span class="line">SMTP登录用户</span><br><span class="line"></span><br><span class="line">SMTP登录密码</span><br><span class="line"></span><br><span class="line">SMTP加密模式</span><br><span class="line"></span><br></pre></td></tr></table></figure></p>
+<p>没了_(:з」∠)_</p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-Hans">
     <link itemprop="mainEntityOfPage" href="https://taoyifan.cn/posts/4d830a09/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -339,78 +445,6 @@
   
   
 
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-Hans">
-    <link itemprop="mainEntityOfPage" href="https://taoyifan.cn/posts/43018aca/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.png">
-      <meta itemprop="name" content="taoyifan">
-      <meta itemprop="description" content="What is past is prologue.">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="taoyifan">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/posts/43018aca/" class="post-title-link" itemprop="url">十八</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">Posted on</span>
-
-              <time title="Created: 2020-02-14 16:19:00" itemprop="dateCreated datePublished" datetime="2020-02-14T16:19:00+08:00">2020-02-14</time>
-            </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="far fa-calendar-check"></i>
-                </span>
-                <span class="post-meta-item-text">Edited on</span>
-                <time title="Modified: 2023-01-18 13:51:13" itemprop="dateModified" datetime="2023-01-18T13:51:13+08:00">2023-01-18</time>
-              </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <p>What's past is prologue.</p>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/posts/43018aca/#more" rel="contents">
-                Read more &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
 
   
   <nav class="pagination">
@@ -482,7 +516,7 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">205</span>
+          <span class="site-state-item-count">206</span>
           <span class="site-state-item-name">posts</span>
         </a>
       </div>
