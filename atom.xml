@@ -6,7 +6,7 @@
   <link href="https://taoyifan.cn/atom.xml" rel="self"/>
   
   <link href="https://taoyifan.cn/"/>
-  <updated>2023-11-13T14:25:22.062Z</updated>
+  <updated>2023-11-14T12:55:24.045Z</updated>
   <id>https://taoyifan.cn/</id>
   
   <author>
@@ -15,6 +15,24 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>桐柏记之一</title>
+    <link href="https://taoyifan.cn/posts/1fe52210/"/>
+    <id>https://taoyifan.cn/posts/1fe52210/</id>
+    <published>2023-11-14T12:40:14.000Z</published>
+    <updated>2023-11-14T12:55:24.045Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;华表千年一鹤归，凝丹为顶雪为衣。&lt;/p&gt;
+&lt;p&gt;星星仙语人听尽，却向五云翻翅飞。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="桐柏记" scheme="https://taoyifan.cn/categories/%E6%A1%90%E6%9F%8F%E8%AE%B0/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>桐柏记之零</title>
@@ -293,21 +311,6 @@
     <link href="https://taoyifan.cn/posts/f3404829/"/>
     <id>https://taoyifan.cn/posts/f3404829/</id>
     <published>2021-04-02T06:08:00.000Z</published>
-    <updated>2023-01-17T17:09:37.434Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;What&#39;s past is prologue.&lt;/p&gt;</summary>
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>白书志五.do-while语句</title>
-    <link href="https://taoyifan.cn/posts/6686cf96/"/>
-    <id>https://taoyifan.cn/posts/6686cf96/</id>
-    <published>2021-02-19T03:22:00.000Z</published>
     <updated>2023-01-17T17:09:37.434Z</updated>
     
     
