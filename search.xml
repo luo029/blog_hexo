@@ -746,21 +746,6 @@ href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
 ]]></content>
   </entry>
   <entry>
-    <title>typecho加上gzip压缩，使网站更快加载</title>
-    <url>/posts/d5cfd609/</url>
-    <content><![CDATA[<p>What's past is prologue.</p>
-<span id="more"></span>
-<p>放到网站<code>根目录</code>的<code>index.php</code>文件中即可，建议放在开头。（不是<code>主题</code>的那个<code>index.php</code>，是整个<code>主程序</code>的）
-代码：</p>
-<figure class="highlight php"><table><tr><td class="code"><pre><span class="line"><span class="comment">/*添加Gzip*/</span></span><br><span class="line"><span class="title function_ invoke__">ob_start</span>(<span class="string">&#x27;ob_gzhandler&#x27;</span>);</span><br></pre></td></tr></table></figure>
-<p>可以去<a href="http://tool.chinaz.com/gzips/"
-class="uri">http://tool.chinaz.com/gzips/</a>查看是否开启。
-gzip是一项压缩技术，减小网络传输的数据量，使网站得到更快的加载。
-<del>各位可以自行尝试</del>
-<del>反正我加了后不管是不是心理作用，总之是变快了挺多。。。三分之一有余吧？</del></p>
-]]></content>
-  </entry>
-  <entry>
     <title>wiki翻译记</title>
     <url>/posts/174d3e8/</url>
     <content><![CDATA[<p>What's past is prologue.</p>
@@ -779,6 +764,21 @@ href="http://www.animaniamod.net/index.php/Main_Page">wiki文档页面</a>
 唔翻译的挺累的hhhh
 跟我组某鱼同学翻译的部分应该是相差不大的，不过是小组作品也不需要在意这些：D
 没了：D</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>typecho加上gzip压缩，使网站更快加载</title>
+    <url>/posts/d5cfd609/</url>
+    <content><![CDATA[<p>What's past is prologue.</p>
+<span id="more"></span>
+<p>放到网站<code>根目录</code>的<code>index.php</code>文件中即可，建议放在开头。（不是<code>主题</code>的那个<code>index.php</code>，是整个<code>主程序</code>的）
+代码：</p>
+<figure class="highlight php"><table><tr><td class="code"><pre><span class="line"><span class="comment">/*添加Gzip*/</span></span><br><span class="line"><span class="title function_ invoke__">ob_start</span>(<span class="string">&#x27;ob_gzhandler&#x27;</span>);</span><br></pre></td></tr></table></figure>
+<p>可以去<a href="http://tool.chinaz.com/gzips/"
+class="uri">http://tool.chinaz.com/gzips/</a>查看是否开启。
+gzip是一项压缩技术，减小网络传输的数据量，使网站得到更快的加载。
+<del>各位可以自行尝试</del>
+<del>反正我加了后不管是不是心理作用，总之是变快了挺多。。。三分之一有余吧？</del></p>
 ]]></content>
   </entry>
   <entry>
@@ -991,52 +991,6 @@ Store”上的，付费游戏第一名，“瘟疫公司”。 三RMB。 嗯。
 ]]></content>
   </entry>
   <entry>
-    <title>一个五层表白密码——Iloveyoutoo</title>
-    <url>/posts/c4f06dc/</url>
-    <content><![CDATA[<p>What's past is prologue.</p>
-<span id="more"></span>
-<p>这是贴吧上的一个贴。 09年的-_-|| 十一年过去了。 但是真的是神贴啊。。
-嗯使我对密码又产生了兴趣。。。。 兴趣广泛而无一精。 我要传承下去？ hh
-咳咳。
-就是一位男士向一位女士表白，然后女士给了他一串摩斯密码，解出来了才可以跟他约会。
-并且那位女士给了她提示：这是个五层加密的密码。
-（看到这个我就觉得是真的厉害= = （在贴吧解出密码的和这位女士都厉害= =
-（原谅我语言苍白无力// 贴吧：<a
-href="http://tieba.baidu.com/p/529691897?pn=1"
-class="uri">http://tieba.baidu.com/p/529691897?pn=1</a> 答案：<a
-href="http://tieba.baidu.com/p/529691897?pn=7"
-class="uri">http://tieba.baidu.com/p/529691897?pn=7</a> （207L）</p>
-<p>摩斯密码： <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">****-/*----/----*/****-/****-/*----/---**/*----/****-/*----/-****/***--/****-/*----/----*/**---/-****/**---/**---/***--/--***/****-/</span><br></pre></td></tr></table></figure></p>
-<p><strong>1.</strong> 摩斯密码解密得出：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">41?94?41?81?41?63?41?92?62?23?74</span><br></pre></td></tr></table></figure>
-<p>手机的键盘上7和9的字母也是4个的，其他的都不超过4个字母 因此
-把密码拆分得：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">41/94/41/81/41/63/41/92/62/23/74</span><br></pre></td></tr></table></figure>
-<p><strong>2.</strong> 以第一个“41”为例
-4代表九宫格的第四格，1代表是九宫格第四格里的第一个字母 因此可得是G
-再以“94”为例 9代表九宫格第九格，4代表是九宫格里第九格的第四格字母
-因此可得是Z 以此类推 可得： <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">G?Z?G?T?G?O?G?X?N?C?S</span><br></pre></td></tr></table></figure></p>
-<h1 id="section"><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">QWERTYUIOP ASDFGHJKL ZXCVBNM ————————电脑键盘表</span><br></pre></td></tr></table></figure></h1>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">ABCDEFGHIJ KLMNOPQRS TUVWXYZ ————————字母表</span><br></pre></td></tr></table></figure>
-<p><strong>3.</strong> 将所得字母代入到电脑键盘表中
-再与字母表里的进行替代
-如“G”在电脑键盘表的位置，就是“O”在字母表的位置，即G→O 由此得出?</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">O?T?O?E?O?I?O?U?Y?V?L</span><br></pre></td></tr></table></figure>
-<p>（在这里其实便可以看出是“ILOVEYOUTOO”了，但是因为是五层密码，所以可以再转换，不过结果是一样的_(:з」∠)_</p>
-<p><strong>4.</strong> 这个是一个栅栏密码 将此分成2排 O T O E O I? O U Y
-V L</p>
-<p>第一组和第二组上下组合后，即上面的“O”与下面的“O”组合，上面的“T”与下面的“U”组合
-由此可得：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">OOTUOYEVOLI</span><br></pre></td></tr></table></figure>
-<p><strong>5.</strong> 然后倒序 得出：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">ILOVEYOUTOO</span><br></pre></td></tr></table></figure>
-<p>啧下次没点本事都不敢表白了啧 有空可以钻研钻研下这个密码
-然后啥时候羞于表白就去发密码给她hh</p>
-<p>捣鼓个排版捣鼓了半天，反复修改= = 第一次捣鼓这个代码= =
-用一个编辑器增强插件捣鼓的代码：D</p>
-]]></content>
-  </entry>
-  <entry>
     <title>一个很迷的评论邮件通知插件,换了个头像</title>
     <url>/posts/ebde5a83/</url>
     <content><![CDATA[<p>What's past is prologue.</p>
@@ -1097,6 +1051,52 @@ qq企业邮箱的话。 登录密码就好。 其他邮箱应该也只是需要�
 <p>是不是高冷气质扑面而来= = 真的用最高冷的头像说最逗比的话。 啧。 孤。
 甚傲。 咳咳。 另外再推荐个图片压缩网站。 我一般都会压缩后再上传。
 能省很多很多空间。 好评。 五星。 [Tinypng]</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>一个五层表白密码——Iloveyoutoo</title>
+    <url>/posts/c4f06dc/</url>
+    <content><![CDATA[<p>What's past is prologue.</p>
+<span id="more"></span>
+<p>这是贴吧上的一个贴。 09年的-_-|| 十一年过去了。 但是真的是神贴啊。。
+嗯使我对密码又产生了兴趣。。。。 兴趣广泛而无一精。 我要传承下去？ hh
+咳咳。
+就是一位男士向一位女士表白，然后女士给了他一串摩斯密码，解出来了才可以跟他约会。
+并且那位女士给了她提示：这是个五层加密的密码。
+（看到这个我就觉得是真的厉害= = （在贴吧解出密码的和这位女士都厉害= =
+（原谅我语言苍白无力// 贴吧：<a
+href="http://tieba.baidu.com/p/529691897?pn=1"
+class="uri">http://tieba.baidu.com/p/529691897?pn=1</a> 答案：<a
+href="http://tieba.baidu.com/p/529691897?pn=7"
+class="uri">http://tieba.baidu.com/p/529691897?pn=7</a> （207L）</p>
+<p>摩斯密码： <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">****-/*----/----*/****-/****-/*----/---**/*----/****-/*----/-****/***--/****-/*----/----*/**---/-****/**---/**---/***--/--***/****-/</span><br></pre></td></tr></table></figure></p>
+<p><strong>1.</strong> 摩斯密码解密得出：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">41?94?41?81?41?63?41?92?62?23?74</span><br></pre></td></tr></table></figure>
+<p>手机的键盘上7和9的字母也是4个的，其他的都不超过4个字母 因此
+把密码拆分得：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">41/94/41/81/41/63/41/92/62/23/74</span><br></pre></td></tr></table></figure>
+<p><strong>2.</strong> 以第一个“41”为例
+4代表九宫格的第四格，1代表是九宫格第四格里的第一个字母 因此可得是G
+再以“94”为例 9代表九宫格第九格，4代表是九宫格里第九格的第四格字母
+因此可得是Z 以此类推 可得： <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">G?Z?G?T?G?O?G?X?N?C?S</span><br></pre></td></tr></table></figure></p>
+<h1 id="section"><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">QWERTYUIOP ASDFGHJKL ZXCVBNM ————————电脑键盘表</span><br></pre></td></tr></table></figure></h1>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">ABCDEFGHIJ KLMNOPQRS TUVWXYZ ————————字母表</span><br></pre></td></tr></table></figure>
+<p><strong>3.</strong> 将所得字母代入到电脑键盘表中
+再与字母表里的进行替代
+如“G”在电脑键盘表的位置，就是“O”在字母表的位置，即G→O 由此得出?</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">O?T?O?E?O?I?O?U?Y?V?L</span><br></pre></td></tr></table></figure>
+<p>（在这里其实便可以看出是“ILOVEYOUTOO”了，但是因为是五层密码，所以可以再转换，不过结果是一样的_(:з」∠)_</p>
+<p><strong>4.</strong> 这个是一个栅栏密码 将此分成2排 O T O E O I? O U Y
+V L</p>
+<p>第一组和第二组上下组合后，即上面的“O”与下面的“O”组合，上面的“T”与下面的“U”组合
+由此可得：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">OOTUOYEVOLI</span><br></pre></td></tr></table></figure>
+<p><strong>5.</strong> 然后倒序 得出：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">ILOVEYOUTOO</span><br></pre></td></tr></table></figure>
+<p>啧下次没点本事都不敢表白了啧 有空可以钻研钻研下这个密码
+然后啥时候羞于表白就去发密码给她hh</p>
+<p>捣鼓个排版捣鼓了半天，反复修改= = 第一次捣鼓这个代码= =
+用一个编辑器增强插件捣鼓的代码：D</p>
 ]]></content>
   </entry>
   <entry>
@@ -4700,17 +4700,6 @@ href="https://www.php.wf/archives/top-to-bottom-remram-typecho-plug-in.html">Top
 ]]></content>
   </entry>
   <entry>
-    <title>卜记五</title>
-    <url>/posts/192fc3d8/</url>
-    <content><![CDATA[<p>What's past is prologue.</p>
-<span id="more"></span>
-<p>秘： 与人嬉戏闲聊，起射覆之念。令其手握一物，报一字。
-余问时，其发“行”字，报字“死”。余按“行”字起卦。左边二画为上卦，右边三画为下卦，总画五画，五爻动。得泽火革，互卦天风姤，变卦雷火丰。
-因兑金为用卦，金多为坚硬之物，故猜是硬物。离火为红色，故猜颜色为红。其余因技艺有限，难解。
-友人所覆之物为身份证也。 庚子年庚申月乙酉日子时 梅花易数</p>
-]]></content>
-  </entry>
-  <entry>
     <title>卜记六</title>
     <url>/posts/1f360bdb/</url>
     <content><![CDATA[<p>What's past is prologue.</p>
@@ -4722,6 +4711,17 @@ href="https://www.php.wf/archives/top-to-bottom-remram-typecho-plug-in.html">Top
 酉时，余见一人钱被骗，兴起起卦。以年月日时起卦。子年，一数。腊月，十二数。廿五，二十五数。酉时，十数。本卦水地比，互卦山地剥，变卦风山渐。
 体为主，用为财/失物。体卦坤土，用卦坎水，体克用。书云“体克用，有财。”又云“体克用，可寻迟得”卦中无克体之卦，无生体之卦。比和则吉。且坤艮土旺于辰戌丑未月。辰戌丑未月，坎卦气衰。卦中土多水少，且坎水变巽木，水生木，余不知是否可作“泄气”。有克，有泄，月令亦克坎，坎为钱财，为失物，故余粗断：钱能要回来。
 且所得之卦亦有诸多奥妙。 梅花易数 庚子年庚寅月丙戌日亥时</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>卜记五</title>
+    <url>/posts/192fc3d8/</url>
+    <content><![CDATA[<p>What's past is prologue.</p>
+<span id="more"></span>
+<p>秘： 与人嬉戏闲聊，起射覆之念。令其手握一物，报一字。
+余问时，其发“行”字，报字“死”。余按“行”字起卦。左边二画为上卦，右边三画为下卦，总画五画，五爻动。得泽火革，互卦天风姤，变卦雷火丰。
+因兑金为用卦，金多为坚硬之物，故猜是硬物。离火为红色，故猜颜色为红。其余因技艺有限，难解。
+友人所覆之物为身份证也。 庚子年庚申月乙酉日子时 梅花易数</p>
 ]]></content>
   </entry>
   <entry>
@@ -5095,6 +5095,53 @@ hhh其实那个也不能说是画纸，买的是信纸来着hhh
 ]]></content>
   </entry>
   <entry>
+    <title>四十七</title>
+    <url>/posts/a5d1fb71/</url>
+    <content><![CDATA[<p>What's past is prologue.</p>
+<span id="more"></span>
+<p>注： 文中的今天为3.14 2020年3月15日00:56:24 ┓(???`?)┏</p>
+<p>好久没这么迟写日摘的来着 <del>刚刚差点直接关机了hhh</del>
+主要在捣鼓作业吧。 写完了历史和数学。 还差语文英语物理。 ┓(???`?)┏</p>
+<p>伊始，挺早醒的，然后蒙在被窝里，想事情，思考淫生。</p>
+<p>中午，午饭。。。貌似麻糍？hhhhh，能吃就不错了，然后在看《增删卜易》</p>
+<p>下午，看到两点多吧，看完了三卷，然后就玩了下电脑。</p>
+<p>晚上，晚饭还是麻糍系列/捂脸，然后玩了会儿电脑，顺带着语音通话了下，最后写作业=
+=</p>
+<p>日摘越来越短系列怕是。 主要是有些事情都分开发了= =
+比如说下午的占卜方面hhh 想着说。。 继续学吧，任重道远。 贫士辛落。
+心似孤云无所依,悠悠世事何处觅. hhhhh 有点格调咳咳。</p>
+<blockquote>
+<p>《太上太霄琅书经》有云:"道士谦辞于道未富,自言贫道,亦贫士。理未周足,如未周,我独若遗,故为贫士。士之为理,修善为事。"</p>
+</blockquote>
+<p>hhh 继续学继续学，路还长。</p>
+<p>其他的话。。。。 没啥感悟啊。。
+脑袋有点昏沉沉的，可能是刚肝完数学的缘故。
+害，在写完数学的时候纸上多了一根头发，我也真的就是..... ┓(???`?)┏</p>
+<p>习惯就好。</p>
+<p>咳咳咳咳。 突然间想统计下域名啦 啦啦啦啦啦啦 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">zhiluo.top</span><br><span class="line">wansz.xyz</span><br><span class="line">wansz.top</span><br><span class="line">buyao.mobi</span><br><span class="line">nololi.com</span><br><span class="line">nololi.ml</span><br><span class="line">singlor.tk</span><br><span class="line">zhinan.gq</span><br><span class="line">萝莉.餐厅</span><br><span class="line">萤火初燃.网址</span><br><span class="line">辛落.网址</span><br><span class="line">这里是.网址</span><br></pre></td></tr></table></figure></p>
+<p>十二个。 十二嘛，一轮回。
+觉得这个数字挺好于是乎就注册了十二个域名hhhh
+其中‘wansz.top’和‘萝莉.餐厅’是无法正常访问的= =
+不过注册者倒是我来着hhhhh 还没过期hhh 其他的话，都是可以正常访问的
+今天下午捣鼓的免费域名现在也都是可以正常使用了。
+目前是拿来做跳转，跳转到blog= = 因为想不到有啥用，就拿来做跳转了。
+充量的hhh</p>
+<p>准备着拿来当头像的图片hhh</p>
+<p>记录下。 hhh挺好的。 数字都挺不错。 111,200,23,31... 都挺好，记录下。
+不知不觉居然写了这么多= = 将近每篇2000字呀.... hh 挺好的。 唔。
+顺便说下。 现在是文章下面禁用评论了，但是在页面下面是可以评论的。
+可以在留言处评论= =</p>
+<p>其他的。 唔。 今日份临摹欠着吧。 临摹×1</p>
+<p>句子句子<del>秃头的句子</del></p>
+<blockquote>
+<p>In all the parting,i like best see you tomorrow.</p>
+<p><font color='LightGrey'>Of all the blessings,i prefer,as you
+wish.</font></p>
+<p><font color='LightGreen'> 所有的祝福中，我最偏爱：如你愿. </font></p>
+</blockquote>
+]]></content>
+  </entry>
+  <entry>
     <title>四十一</title>
     <url>/posts/3cd8aacb/</url>
     <content><![CDATA[<p>What's past is prologue.</p>
@@ -5196,53 +5243,6 @@ hhh其实那个也不能说是画纸，买的是信纸来着hhh
 ]]></content>
   </entry>
   <entry>
-    <title>四十七</title>
-    <url>/posts/a5d1fb71/</url>
-    <content><![CDATA[<p>What's past is prologue.</p>
-<span id="more"></span>
-<p>注： 文中的今天为3.14 2020年3月15日00:56:24 ┓(???`?)┏</p>
-<p>好久没这么迟写日摘的来着 <del>刚刚差点直接关机了hhh</del>
-主要在捣鼓作业吧。 写完了历史和数学。 还差语文英语物理。 ┓(???`?)┏</p>
-<p>伊始，挺早醒的，然后蒙在被窝里，想事情，思考淫生。</p>
-<p>中午，午饭。。。貌似麻糍？hhhhh，能吃就不错了，然后在看《增删卜易》</p>
-<p>下午，看到两点多吧，看完了三卷，然后就玩了下电脑。</p>
-<p>晚上，晚饭还是麻糍系列/捂脸，然后玩了会儿电脑，顺带着语音通话了下，最后写作业=
-=</p>
-<p>日摘越来越短系列怕是。 主要是有些事情都分开发了= =
-比如说下午的占卜方面hhh 想着说。。 继续学吧，任重道远。 贫士辛落。
-心似孤云无所依,悠悠世事何处觅. hhhhh 有点格调咳咳。</p>
-<blockquote>
-<p>《太上太霄琅书经》有云:"道士谦辞于道未富,自言贫道,亦贫士。理未周足,如未周,我独若遗,故为贫士。士之为理,修善为事。"</p>
-</blockquote>
-<p>hhh 继续学继续学，路还长。</p>
-<p>其他的话。。。。 没啥感悟啊。。
-脑袋有点昏沉沉的，可能是刚肝完数学的缘故。
-害，在写完数学的时候纸上多了一根头发，我也真的就是..... ┓(???`?)┏</p>
-<p>习惯就好。</p>
-<p>咳咳咳咳。 突然间想统计下域名啦 啦啦啦啦啦啦 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">zhiluo.top</span><br><span class="line">wansz.xyz</span><br><span class="line">wansz.top</span><br><span class="line">buyao.mobi</span><br><span class="line">nololi.com</span><br><span class="line">nololi.ml</span><br><span class="line">singlor.tk</span><br><span class="line">zhinan.gq</span><br><span class="line">萝莉.餐厅</span><br><span class="line">萤火初燃.网址</span><br><span class="line">辛落.网址</span><br><span class="line">这里是.网址</span><br></pre></td></tr></table></figure></p>
-<p>十二个。 十二嘛，一轮回。
-觉得这个数字挺好于是乎就注册了十二个域名hhhh
-其中‘wansz.top’和‘萝莉.餐厅’是无法正常访问的= =
-不过注册者倒是我来着hhhhh 还没过期hhh 其他的话，都是可以正常访问的
-今天下午捣鼓的免费域名现在也都是可以正常使用了。
-目前是拿来做跳转，跳转到blog= = 因为想不到有啥用，就拿来做跳转了。
-充量的hhh</p>
-<p>准备着拿来当头像的图片hhh</p>
-<p>记录下。 hhh挺好的。 数字都挺不错。 111,200,23,31... 都挺好，记录下。
-不知不觉居然写了这么多= = 将近每篇2000字呀.... hh 挺好的。 唔。
-顺便说下。 现在是文章下面禁用评论了，但是在页面下面是可以评论的。
-可以在留言处评论= =</p>
-<p>其他的。 唔。 今日份临摹欠着吧。 临摹×1</p>
-<p>句子句子<del>秃头的句子</del></p>
-<blockquote>
-<p>In all the parting,i like best see you tomorrow.</p>
-<p><font color='LightGrey'>Of all the blessings,i prefer,as you
-wish.</font></p>
-<p><font color='LightGreen'> 所有的祝福中，我最偏爱：如你愿. </font></p>
-</blockquote>
-]]></content>
-  </entry>
-  <entry>
     <title>四十三</title>
     <url>/posts/4504126f/</url>
     <content><![CDATA[<p>What's past is prologue.</p>
@@ -5297,42 +5297,6 @@ articles，或者说 diary 就这样写了hh 这样子条理清晰点，唔，�
 <p>句子啦。</p>
 <blockquote>
 <p>待我发现已经摆脱了背后的灯火和人语时，一片星月下的竹林接纳了我。</p>
-</blockquote>
-]]></content>
-  </entry>
-  <entry>
-    <title>四十九</title>
-    <url>/posts/46c5f753/</url>
-    <content><![CDATA[<p>What's past is prologue.</p>
-<span id="more"></span>
-<p>2020年3月17日00:03:13 所以文中的今天为3.16 ┓(???`?)┏</p>
-<p>早点写完早点睡觉。</p>
-<p>早上，三点多入睡，六点多睁眼，伴随着心脏一阵阵轻微搅动。 嘶....
-那感觉。。</p>
-<p>中午。。吃了午饭麻糍。。。吧？大概？忘了=
-=，然后依旧再捣鼓鬼畜视频</p>
-<p>下午，听课，捣鼓鬼畜视频</p>
-<p>晚上，写作业，写到了现在，语文写完了，数学写完了，英语写完了，历史写完了，科学写完了但是被退回来了因为写错地方了...
-算了不慌，不就四页么，不方不方，能圆回来</p>
-<p>好了，日摘差不多记完了。 瞎聊吧。 我他。。。 我现在。 真的。
-短短三分钟的视频。 我捣鼓了大概十几个小时。
-而且是几乎可以说是持续性工作，最多中间因为睡眠休息了三四个小时。
-然后因此导致的后果是什么呢？
-心脏轻微疼痛，精神萎靡，虚弱乏力，耳边一直回响着音乐。。。
-<del>一度怀疑我出现了幻听，我他，一安静下来耳畔就浮现自己捣鼓的视频音乐声....</del>
-唔。 视频已经上传了。 正在审核中。 不捣鼓了可能。
-不过写写词什么的还是挺有兴趣的。 但是押韵有点难我也就真的是//
-本以为还不算太艰难的// 结果实战一下发现我的词汇量还是太少//
-经历还是太短// 组词，成语，倒置什么的
-其实想着说写的歌词优美一点，文艺一点，偏古风那种的来着
-结果发现实在写不出我他也真的是。 视频主要是写关于占卜一类的吧。
-六爻，大六壬，梅花易数，奇门遁甲，<del>四柱八字</del> 啊啊啊啊啊
-又响起了音乐声 不码了不码了</p>
-<p>补：</p>
-<p>临摹×3</p>
-<p>句子，哼。</p>
-<blockquote>
-<p>这个世界上， 总有美好的情感与梦想， 值得我们追随。</p>
 </blockquote>
 ]]></content>
   </entry>
@@ -5437,6 +5401,42 @@ run</p>
 <blockquote>
 <p>人生总是奇妙的， 一旦你努力去做一件事， 如果结果不是你想象的那样，
 那么老天一定会给你一个更好的结果</p>
+</blockquote>
+]]></content>
+  </entry>
+  <entry>
+    <title>四十九</title>
+    <url>/posts/46c5f753/</url>
+    <content><![CDATA[<p>What's past is prologue.</p>
+<span id="more"></span>
+<p>2020年3月17日00:03:13 所以文中的今天为3.16 ┓(???`?)┏</p>
+<p>早点写完早点睡觉。</p>
+<p>早上，三点多入睡，六点多睁眼，伴随着心脏一阵阵轻微搅动。 嘶....
+那感觉。。</p>
+<p>中午。。吃了午饭麻糍。。。吧？大概？忘了=
+=，然后依旧再捣鼓鬼畜视频</p>
+<p>下午，听课，捣鼓鬼畜视频</p>
+<p>晚上，写作业，写到了现在，语文写完了，数学写完了，英语写完了，历史写完了，科学写完了但是被退回来了因为写错地方了...
+算了不慌，不就四页么，不方不方，能圆回来</p>
+<p>好了，日摘差不多记完了。 瞎聊吧。 我他。。。 我现在。 真的。
+短短三分钟的视频。 我捣鼓了大概十几个小时。
+而且是几乎可以说是持续性工作，最多中间因为睡眠休息了三四个小时。
+然后因此导致的后果是什么呢？
+心脏轻微疼痛，精神萎靡，虚弱乏力，耳边一直回响着音乐。。。
+<del>一度怀疑我出现了幻听，我他，一安静下来耳畔就浮现自己捣鼓的视频音乐声....</del>
+唔。 视频已经上传了。 正在审核中。 不捣鼓了可能。
+不过写写词什么的还是挺有兴趣的。 但是押韵有点难我也就真的是//
+本以为还不算太艰难的// 结果实战一下发现我的词汇量还是太少//
+经历还是太短// 组词，成语，倒置什么的
+其实想着说写的歌词优美一点，文艺一点，偏古风那种的来着
+结果发现实在写不出我他也真的是。 视频主要是写关于占卜一类的吧。
+六爻，大六壬，梅花易数，奇门遁甲，<del>四柱八字</del> 啊啊啊啊啊
+又响起了音乐声 不码了不码了</p>
+<p>补：</p>
+<p>临摹×3</p>
+<p>句子，哼。</p>
+<blockquote>
+<p>这个世界上， 总有美好的情感与梦想， 值得我们追随。</p>
 </blockquote>
 ]]></content>
   </entry>
@@ -5778,13 +5778,6 @@ class="uri">http://q7cd66l0a.bkt.clouddn.com/xuan.mp4</a>
 ]]></content>
   </entry>
   <entry>
-    <title>大梦初醒</title>
-    <url>/posts/7922faa0/</url>
-    <content><![CDATA[<p>What's past is prologue. <span id="more"></span>13点起床。
-看看点看到2020年1月31日15:08:24 嗯。 看书去了-_-||</p>
-]]></content>
-  </entry>
-  <entry>
     <title>天时卦教你做人</title>
     <url>/posts/9079c922/</url>
     <content><![CDATA[<!--markdown-->
@@ -5816,6 +5809,13 @@ class="uri">http://q7cd66l0a.bkt.clouddn.com/xuan.mp4</a>
 <p>且我问的是“今日雨否”</p>
 <p>所以卦中告诉我“辰酉相合，父母爻合住，主不雨，今日不下雨了，别想了”么？</p>
 <p>争取啥时候遇到一个能够看应期且能看对了的卦#run</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>大梦初醒</title>
+    <url>/posts/7922faa0/</url>
+    <content><![CDATA[<p>What's past is prologue. <span id="more"></span>13点起床。
+看看点看到2020年1月31日15:08:24 嗯。 看书去了-_-||</p>
 ]]></content>
   </entry>
   <entry>
@@ -9317,1033 +9317,6 @@ id="一世界的bug终究是我一个人承担了">一、世界的BUG，终究�
 ]]></content>
   </entry>
   <entry>
-    <title>纪念下，被百度收录了，360申请中</title>
-    <url>/posts/b62d9bb8/</url>
-    <content><![CDATA[<p>What's past is prologue.</p>
-<span id="more"></span>
-<p>-_-|| 一直没分清楚搜狗跟360，尴尬</p>
-<p>2020.3.4 2020年3月4日01:27:37 心血来潮通过so.com 查了下自己网站
-发现没有收录。
-就去360那边注册了个账号，邮箱注册的，然后提交了自己网站，且通过了验证。
-然后就是去申请了。 同时提交了网站的sitemap。
-以及自己手动推送了大概十条链接。 搜狐这边一般来说挺好弄得。
-就像wansz.xyz一样，发邮件跟我说认证失败了，结果还是能够搜到hhh
-但是应该不算收录吧？不知道= =不清楚不了解这一方面。 咳。
-然后就去逛了51la，突然间发现事情不对 一个全是0的地方出现了1
-定睛一看，百度收录了我一个页面，虽然是首页，但是这是成功的开始嘛。
-辛落<del>loli</del>号，起航！</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>纪念我那逝去的青春..灵摆orz</title>
-    <url>/posts/f72156a4/</url>
-    <content><![CDATA[<p>What's past is prologue.</p>
-<span id="more"></span>
-<p>这是个悲伤的事情.... 这背后包含苦与泪.... 这背后是满满的辛酸.... 啊！
-灵摆！ 走好.</p>
-<p>orz怎么就碎了呢。 不过貌似还可以转来转去的说orz</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>背上剑，江湖路</title>
-    <url>/posts/980a622/</url>
-    <content><![CDATA[<p>What's past is prologue.</p>
-<span id="more"></span>
-<p>明天开学了。 今天洗了个澡，理了个发，写了下作业，玩了下电脑。</p>
-<p>周摘随缘更新，更多的会是生活散文了。
-是的，散文了，连续性的了。。。。吧？ 嗯。 我尽量。</p>
-<p>明天开学咯，整理好了书本，收拾好了书包。
-书包也是真的沉重，十几本书的重量呀。</p>
-<p>少年心事当拿云。 <del>谁说学校不是一座江湖呢...</del></p>
-<p>背上剑，踏上，江湖路。 我们，青云之巅再聚。</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>给你的blog加上rss邮箱订阅吧！（文章若更新自动发送内容至订阅者邮箱）</title>
-    <url>/posts/58b15d4e/</url>
-    <content><![CDATA[<p>What's past is prologue.</p>
-<span id="more"></span>
-<p>###前言</p>
-<p>咳。</p>
-<p>终于捣鼓明白了rss订阅来着。</p>
-<p>感觉之前的自己挺蠢的来着hhh</p>
-<p>挺早就开启了邮件订阅，订阅者的话。。。还行吧。</p>
-<p>目前有六十四个订阅者，除去我一个的话，63个。</p>
-<p>还行吧:)</p>
-<p>唔，之前的话其实一直也是通过检测blog的feed文件，若是有文章更新，则在每天的早晨七点发送一份邮件到订阅者邮箱。</p>
-<p>然后那时候也是没看到，所以只是单纯的发了一封邮件，提醒更新了，可以去blog看。</p>
-<p>然后昨天晚上，捣鼓百度云不限速下载的时候，下载了个自带一些插件，脚本的Chrome浏览器，发现了个rss订阅插件来着。</p>
-<p>然后更新完昨天的日摘之后邮箱收到了一封邮件，因为我用那个插件，订阅了自己blog，然后我点开自动发送的邮件之后，发现原来rss邮件订阅不是我想的那样，原来还可以直接推送更新的文章内容来着/挠头，之前没有接触过这个-_-||</p>
-<p>然后我就开始捣鼓了，本想着用ifttt，后来发现也没怎么折腾明白，就没捣鼓了。</p>
-<p>但是我会就此放弃？hhh，就去<a
-href="https://mailchimp.com/">Mailchimp</a>自己捣鼓了下，发现也有推送文章内容以及标题的功能来着。</p>
-<p>然后就捣鼓完了:)</p>
-<p>其实之前也想过<del>水一篇博文</del>，写这个折腾过程的来着，但是一直没时间，现在刚好乘着功能差不多完善了，上课时间还有五十分钟左右的机会来<del>水一篇博文</del>，写一下吧。</p>
-<p><br></p>
-<p>###过程</p>
-<p>####注册账号</p>
-<p>进入<a href="https://mailchimp.com/">Mailchimp</a>官网</p>
-<p>点击右上角的<code>Sign up free</code>，进行注册</p>
-<p>第一个框<code>Email</code>：填写邮箱</p>
-<p>第二个框<code>Username</code>:填写用户名</p>
-<p>第三个框<code>Password</code>：填写密码</p>
-<p>PS：密码最少需要<code>一个大写字母，一个小写字母，一个特殊字符（符号），一个数字</code>以及<code>最少八位</code></p>
-<p>PS:用户名<code>不支持中文</code></p>
-<p>PS:输入完后有个绿框则说明你的密码是可行的</p>
-<p>（Your password is secure and you're all set!））</p>
-<p>选择好后点击<code>Get started</code>即可</p>
-<p>然后会有一封邮件发到<code>你填写的邮箱</code>里面</p>
-<p>去邮箱里面找到并打开这封邮件（可能会在垃圾箱），点击<code>Activate Account</code>按钮即可。</p>
-<p>然后就注册好了，并且会跳转到一个页面让你选择服务。</p>
-<p><br></p>
-<p>####配置</p>
-<p>注册完后，点击邮箱里的按钮会跳转到一个页面，默认选择是<code>free</code>的套餐。</p>
-<p>有钱可以选择其他的</p>
-<p><del>看起来好贵的来着，反正我没钱，几十美元，几百R的说run</del></p>
-<p>我选择的是<code>free</code>类型的，选择好套餐后点击右边的'Complete'即可</p>
-<p>然后会让你填写名字了</p>
-<p><code>First name</code>是名，<code>Last name</code>是姓</p>
-<p><del>就当给自己复习英语了？？？迷惑</del></p>
-<p>填写好后点击<code>Continue</code>即可</p>
-<p>之后会让你继续填写。</p>
-<p><code>What's the name of your business?</code>：填写你的公司名称（像我是直接填写blog名了）</p>
-<p><code>Do you have a website?</code>：有两个选项，没有的话填写<code>No</code>,<del>没有的话捣鼓什么rss订阅是吧hh</del>，<code>yes</code>后面填写你自己的blog链接.（我是直接填写<code>http://nololi.com</code>）</p>
-<p><del>当然我这边是重新注册了一遍所以我给自己的buyao.mobi域名填写上去了hh</del></p>
-<p>之后会让你继续填写信息。</p>
-<p><code>Address line1</code>:填写你的地址（可以直接填个省份）</p>
-<p><code>Address line2</code>:填写你的地址（可选）（可以忽略掉，<code>留空不填</code>）</p>
-<p><code>City</code>：所在城市</p>
-<p><code>State/Province/Region</code>：填写所在的洲/省份/地区</p>
-<p><code>Zip/Postel code</code>:邮政编码(百度搜索'XX市/州邮政编码'即可)</p>
-<p><code>Counter</code>:选择<code>China</code>即可。</p>
-<p><code>Phone number</code>：电话号码（可选）</p>
-<p><code>Can we call you with special offers or services that may be of interest?</code>:选择是否允许这个平台给你推送你可能感兴趣的特别优惠或者服务</p>
-<p>然后会继续让你选择一些选项。</p>
-<p><code>Do you have a list of email subscribers?</code>:是否有电子邮件订阅者列表</p>
-<p>（第一次注册的话选择<code>No</code>即可，要是是之前有注册过，或者有订阅者邮箱的可以自行选择<code>yes</code>试试）</p>
-<p>（第三个选项是<code>我不确定</code>）</p>
-<p>然后点击<code>Continue</code>继续即可</p>
-<p>之后会让你添加你的<code>Facebook</code>或者<code>twitter</code>账号</p>
-<p>如果没有的话直接点击<code>Continue</code>即可</p>
-<p>然后点击<code>OK，Let's do it</code>即可</p>
-<p>然后就需要来填写一些选项了。</p>
-<p>嫌麻烦可以自己随便选择。毕竟只有两个选项<code>yes</code> or
-<code>no</code>.</p>
-<p><code>Do you sell things online?</code>:是否在网上卖东西</p>
-<p><code>Do you support bookings, ticket sales, or appointments online?</code>:是否支持网上预订/售票？/预约</p>
-<p><code>Do you want people to talk one-on-one with a person? (This could be on the phone, online, or at a location.)</code>:是否允许人们一对一交谈？(私聊？）（打电话/上网/在某个地方见面交谈）</p>
-<p><code>Do you make money off the content on your site?</code>：你的网站是否能够盈利？</p>
-<p><code>Do your customers interact with your business mostly through your software or app's interface?</code>:你的客户与你交流的方式是否主要为你的软件/应用程序上的接口？（客服那种？）</p>
-<p>然后还有一个选项。</p>
-<p><code>Want to stay in the loop with Mailchimp?</code>:是否与MailChimp保持联系（发邮件到你邮箱）</p>
-<p>两个选项都是可选的= =</p>
-<p>``可以不用管这些，直接点击Let's go 即可，若是不想有这些邮件的话~~</p>
-<p>然后会跳转道一个页面。</p>
-<p>大概会显示'You're almost there.'之类的，不用管</p>
-<p>到这里账号就差不多注册好了，设置好了</p>
-<p><br></p>
-<p>####设置邮件</p>
-<p>配置好后不用管跳转的页面，当然如果不是这个页面的话也没事，只要账号注册好了即可。</p>
-<p>直接找到左上方的'Automate'，并点击，选择<code>Email</code></p>
-<p>如果是要<code>RSS订阅</code>的话，选择<code>Share blog uplate</code></p>
-<p><code>Campaign Name</code>是<code>名字</code>，后台显示的，默认即可，当然你也可以自己随便起个，用户不会看到的。</p>
-<p>下一个选项是<code>订阅者</code>，类似于社交软件中的<code>分组</code>，就是你想要这份邮件发给哪个<code>分组</code>的人.</p>
-<p>如果自己没去创建的话，会默认是你的用户名，单纯捣鼓rss订阅的话，用这个即可，不需要再去创建了。</p>
-<p>(创建订阅者分组主要是方便，唔，两个网站的人吧，检测两个网站的feed，推送不同的内容。</p>
-<p>要是只有一个blog的话，不用去创建一个订阅者分组了）</p>
-<p>选择好后点击<code>Begin</code></p>
-<p><code>Rss feed URL</code>：自己网站的feed链接</p>
-<p>PS:</p>
-<p>若是没有设置<code>伪静态</code>的话还是自己手动填写吧，即<code>http://域名/index.php/feed</code></p>
-<p>设置了伪静态的话，可以直接填写自己的域名，也可以填写自己的feed链接</p>
-<p>若是显示<code>Please check your entry and try again.</code>的话，用<code>http</code>，不要用`https``</p>
-<p>然后可以设置<code>什么时候推送</code></p>
-<p>分别是<code>每天/每星期/每月</code></p>
-<p>（就是如果检测到你的blog有更新，何时推送，是一周后推送，还是隔天推送，还是一个月后推送）</p>
-<p>旁边的设置何时推送，更加具体，精确到小时</p>
-<p>（有时会延迟一两分钟，毕竟跨国，不过不会延迟太久，也就几分钟的样子）</p>
-<p>'am'是上午,'pm'是下午</p>
-<p><code>这里是美国东部时间，与北.京时间相差13个小时，我们比他们快13个小时！</code></p>
-<p><code>这里是美国东部时间，与北.京时间相差13个小时，我们比他们快13个小时！</code></p>
-<p><code>这里是美国东部时间，与北.京时间相差13个小时，我们比他们快13个小时！</code></p>
-<p>重要的是事情说三遍。</p>
-<p>所以:</p>
-<p><code>你选择的时间</code>=<code>你想推送的时间段</code>-<code>13</code>小时</p>
-<p>下面的是星期几推送，默认`一周七天都会推送）（如果你设置的是隔天推送的话）</p>
-<p><code>Resize RSS feed images to fit template</code>：是否自动调整RSS大小来自适应模板宽度</p>
-<p>以防万一可以勾选上。</p>
-<p>然后点击右下角的<code>Next</code>即可</p>
-<p>然后会让你选择是全部观众还是你标上标签的观众还是其他的。</p>
-<p>选择第一个，全部观众即可。</p>
-<p>然后点击<code>Next</code></p>
-<p><code>Emai subject</code>为邮件主题，默认是blog名字以及最新文章更新时间，从rss中获取的。</p>
-<p><code>Preview text</code>为预览文字，即在收件箱中，邮件主题后面出现的能够直接看到的文字，不需要点开邮件就可以看到的那行字</p>
-<p>'From name'：来自:XX,一般填写自己的blog名或者自己的名字即可</p>
-<p>'From email
-address'：来自邮箱：XX，填写自己的邮箱即可，发件人会显示你这个邮箱</p>
-<p>其他的不用设置，点击<code>Next</code>即可</p>
-<p>然后是选择'模板'，有些是'付费'的，每个主题的前两三个一般都是<code>免费的</code></p>
-<p>我选择的是<code>Featured</code>的<code>Make an Announcement</code>，比较简洁。</p>
-<p>点击主题即可，会自动跳转到编辑主题的页面。</p>
-<p>因为主要讲rss订阅，我就讲rss订阅模块了，其他的不讲，各位可以自行添加其他模块或者在原主题上修改些许文字即可。</p>
-<p>找到右边的'Blocks'，模块。</p>
-<p>有两个模块，是<code>RSS Header</code>(获取blog名字/描述的),以及，<code>RSS Items</code>(获取文章名字/具体内容的)</p>
-<p>首先，是选择'RSS Header',然后拖动到左边即可。</p>
-<p>位置哪里都没事，最好放在<code>Header</code>或者<code>Body</code>里面。</p>
-<p>放好后右边会自动变化，你可以编辑这个rss标题，如果没有变化的话，找到这个左边rss的模块，选择左上角的那个<code>笔</code>图标即可。</p>
-<p>第一个<code>Contene</code>是设置内容的。</p>
-<p><code>Basic</code>是基本，即只显示你blog的名字以及你blog的介绍。（typecho里面就是站点名称和站点描述，后台设置这里可以修改）</p>
-<p>其他三个可以自行看看，这里就不多说了，大概就是一些blog的链接，blog的标签之类。</p>
-<p>简洁一点的话选择第一个<code>Basic</code>即可，够用了。</p>
-<p><code>Style</code>是样式，font是修改字体的，另外建议在<code>Align</code>这里选择下居中（第二个），看上去会好点233</p>
-<p>修改好后点击<code>Save&amp;Close</code>（保存并关闭）即可</p>
-<p>然是是<code>RSS Items</code>，拖动到左边即可，最好放在<code>Body</code>这里</p>
-<p><code>Content</code>（内容）中，默认是<code>Excerpts</code>.会显示文章的一部分内容+文章名字。</p>
-<p><code>Titles Only</code>：仅显示文章名字</p>
-<p><code>Full Content</code>显示文章具体内容</p>
-<p>'Custom'是自定义= =</p>
-<p>PS：建议如果没有<code>twitter</code>账号的话，选择自定义吧，删掉<code>*|RSSITEM:TWITTER|*</code>即可。</p>
-<p><code>自定义</code>默认其实就是<code>Full Content</code>.</p>
-<blockquote>
-<p>注：</p>
-</blockquote>
-<blockquote>
-<p>这个<code>RSS Items</code>中的<code>Full Content</code>显示的内容是你更新的文章的内容，是你那一天发送的内容。</p>
-</blockquote>
-<blockquote>
-<p>即rss中你增加的内容。</p>
-</blockquote>
-<blockquote>
-<p>（如我昨天更新了两篇文章，那么今天我邮件里就会收到一封邮件，只会显示我更新的那两篇文章的具体内容，其他文章只会显示标题，且有个跳转链接（其他文章貌似只会显示三章，不会占太大空间的））</p>
-</blockquote>
-<p>因为只讲rss订阅，所以其他模块就不解释了= =</p>
-<p>这样子其实也够用了。</p>
-<p>那些没用的模块，主题自带的模块只需要删除即可。</p>
-<p>rss订阅这边不需要你怎么配置来着，只需要拖动模块放到邮件相应位置即可。</p>
-<p>配置好后点击<code>Next</code></p>
-<p>然后再点击右下角<code>Start RSS</code>就设置完成了。</p>
-<p>（有的时候可能会报错，不能发送邮件，可以点击左下角的'BACK'返回上一步，看看有没有什么空的模块，不要有空模块，哪怕是放点分割线就可以，不放的话记得删除，要删除干净。不然可能会因为占用而不能运行。）</p>
-<p>PS:</p>
-<p>如果想测试一下邮件效果的话，可以在左上角的'Preview and
-Test'中选择<code>Sent a text email</code>.</p>
-<p>然后再弹出的窗口里填写自己的邮箱，点击<code>send text</code>即可。</p>
-<p><br></p>
-<p>####弹窗</p>
-<p>类似于我这个网站的弹出窗口一样，用户可以输入自己的邮箱，自动订阅我的blog。</p>
-<p>文字可自定义。</p>
-<p>1.返回首页或者回到<a
-href="https://us19.admin.mailchimp.com/">这个页面</a></p>
-<p>2.点击在左上角的自己的头像，选择<code>Connect</code>,再选择'Conected
-Sites'</p>
-<p>3.会跳转到一个页面，往下滑找到'WorldPress',单击。</p>
-<p>（只要是blog应该都可以，自测typecho是可以的）</p>
-<p>4.在<code>Enter site URL</code>这里填写自己的网站地址,<code>Select audience to connect</code>是选择自己的观众，只需要跟你设置的rss推送中选择的观众分组是同一个即可。然后点击<code>Get Code</code></p>
-<p>PS:</p>
-<p>如果<code>不行</code>的话，试试<code>http</code></p>
-<p>网站<code>不要设置强制https</code>，不然会<code>无法连接</code></p>
-5.之后会有一段代码给你，复制这段代码，粘贴到主题的<code>header.php</code>文件即可（注：在
-<head>
-下方，在
-</head>
-<p>上方即可）</p>
-（typecho的话，进入后台，左上角控制台，选择外观，编辑当前外观，找到header.php，找到
-<head>
-<p>，复制在其下方即可）</p>
-<p>6.然后回到页面确定。</p>
-<p>7.成功添加后，找到<code>Pop-up Form</code>，选择<code>Edit</code></p>
-<p>8.自行选择修改即可= =</p>
-<p>9.没了，完成。</p>
-<p><br></p>
-<p>###后记</p>
-<p>差不多都有了。</p>
-<p>如果发现网站没有弹窗的话可以试试清除浏览器cookies.</p>
-<p>用户进入你的网站，弹窗弹出，用户输入邮箱，订阅成功，用户邮箱计入到你设置的观众分组里面。</p>
-<p>blog更新了文章，rss更新，Mailchimp检测到了，在你设置的时间里给订阅了你的用户发送邮件。</p>
-<p>都是自动化的= =</p>
-<p>也可以自行在后台添加用户。</p>
-<p>看我写了这么多的份上，若是对您有帮助，就留个评论呗？</p>
-<p><del>打赏是不可能，这辈子都不可能的，说的我要打赏你们会给一样，既然如此，我不要评论我要什么？</del></p>
-<p>没了。</p>
-<p>撒花。</p>
-<blockquote>
-<p>我有在认真的上网课！ 有！ 绝对！ 有！ 不接受任何反驳！
-(╯‵□′)╯︵┻━┻</p>
-</blockquote>
-]]></content>
-  </entry>
-  <entry>
-    <title>网站统计使用cnzz</title>
-    <url>/posts/b5037ed8/</url>
-    <content><![CDATA[<p>What's past is prologue.</p>
-<span id="more"></span>
-<p>嗯 <a href="https://web.51.la/">51la</a>有些不顺手
-挺迷糊的看着某些页面 然后就使用<a
-href="https://web.umeng.com/main.php?c=user&amp;a=index">cnzz</a>了
-记录下51la的数据吧 毕竟也是用了十天左右了：D</p>
-<pre><code>wansz.xyz
-
-
-
-zhiluo.top</code></pre>
-<p>至于<code>buyao.mobi</code>这个 我是准备不放网站统计了
-一个是不知道放哪个位置 一个是不太想放 所以就不放了2333</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>自动刷新网页的代码</title>
-    <url>/posts/44109aac/</url>
-    <content><![CDATA[<!--markdown-->
-<p>捣鼓这个<a
-href="https://zhiluo.top/eight">页面</a>的时候需要用到，记录下，自动刷新页面来更新句子。</p>
-<figure class="highlight php"><table><tr><td class="code"><pre><span class="line">＜meta http-equiv=<span class="string">&quot;refresh&quot;</span> content=<span class="string">&quot;20&quot;</span>&gt;?<span class="comment">//其中20指每隔20秒刷新一次页面,放到页面的&lt;head&gt;下就好</span></span><br></pre></td></tr></table></figure>
-<p>js 版本 <figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">＜script language=<span class="string">&quot;JavaScript&quot;</span>&gt;</span><br><span class="line"><span class="keyword">function</span> <span class="title function_">myrefresh</span>(<span class="params"></span>)&#123;</span><br><span class="line"><span class="variable language_">window</span>.<span class="property">location</span>.<span class="title function_">reload</span>();</span><br><span class="line">&#125;</span><br><span class="line"><span class="built_in">setTimeout</span>(<span class="string">&#x27;myrefresh()&#x27;</span>,<span class="number">1000</span>); <span class="comment">//指定1秒刷新一次</span></span><br><span class="line">＜/script&gt;</span><br></pre></td></tr></table></figure></p>
-]]></content>
-  </entry>
-  <entry>
-    <title>落日悟#95</title>
-    <url>/posts/628da05b/</url>
-    <content><![CDATA[<p>What's past is prologue.</p>
-<span id="more"></span>
-<p>第九十五次直播 没啥好看的。 就是直播。 我直播了一分钟。
-我说了大概两句话。 没了。</p>
-<p>句子？</p>
-<blockquote>
-<p>甚时跃马归来，认得迎门轻笑。</p>
-</blockquote>
-]]></content>
-  </entry>
-  <entry>
-    <title>落日悟#96</title>
-    <url>/posts/fb84f1e1/</url>
-    <content><![CDATA[<p>What's past is prologue.</p>
-<span id="more"></span>
-<p>第九十六次直播啦。 快九十九次和一百次了呢。 啧。
-没啥感想，反正就是说直播间也没多少活人的来着/捂脸
-人气倒是4w+点，活人也不多/捂脸
-<del>话说我有两个有我十级粉丝牌子和两三个有我八九级粉丝牌子的人来着/捂脸</del>
-没了。 没什么感悟/捂脸
-本来还想说是不放诗词为了捣鼓那个“七月上”改变的视频素材需要。
-结果懒得捣鼓了/捂脸 <del>真是个悲伤的故事/呵</del>
-所以就自己找一句当做这次直播的诗词吧/捂脸
-唔，这句好了，之前也用过，觉得是时候再用一次了：</p>
-<blockquote>
-<p>功成身退，天之道。</p>
-</blockquote>
-]]></content>
-  </entry>
-  <entry>
-    <title>记军训/台风有感</title>
-    <url>/posts/da2e272d/</url>
-    <content><![CDATA[<p>What's past is prologue.</p>
-<span id="more"></span>
-<p><font size="3" >昨天刚军训完。 7.31-8.4，一共五天，这是原计划。
-结果因为台风，黑格比，导致提前一天结束。
-也正是如此，导致闭幕礼，联欢晚会都没有了。
-昨天8.3，下午一点半左右开始坐上大巴返回，由于我所在的班级是第一批，所以快了点。（毕竟去的时候是第二批，望天）
-军训没多大感慨。 如果“成长”可以轻说，那我可以说，我成长了。</font>
--<font size="3" >
-军训第三天的时候左脚扭伤了的来着，自己作，跑太快加上拐弯弧度太大，导致……
-然后第三天下午和第四天上午就没有参加军训了，呆在一旁看着，望天
-不过该晒的太阳也都晒了，该练的东西也都练了。 嗯，黑了，望天
-两只手，手背，一整块通红，偏黑，怕是晒伤。 还有脖颈，望天。
-挺有意思的，军训。
-虽然我也数次想要骂街，但是这个念头刚起然后就会莫名其妙的消失，望天。
-(跟那种自命清高却是俗人的人差不多想法了，望天</font> -<font size="3" >
-台风。黑格比。 昨天下午开始，到现在，2020年8月4日07:55:12，还在继续。
-风，呼天啸地；雨，铺天盖地。 没了。</font> -<font size="3" >
-昨天下午还买了一堆零食倒是，花了大概七十多，也不多，毕竟是个小超市，以及……够吃就行，要求不高。
-穷，懒，欲望有点低。</font> 望天。 -<font size="3" >
-话说云南白药气雾剂和药贴挺贵的，八片装的药贴和两瓶小的气雾剂，七十九块多，望天。
-（虽然不是我买的</font> -<font size="3" > 没了
-只是单纯记下，以及，练练手感，要码字了。 hh </font></p>
-]]></content>
-  </entry>
-  <entry>
-    <title>论hexo的修改</title>
-    <url>/posts/8ffc272d/</url>
-    <content><![CDATA[<p>What's past is prologue.</p>
-<span id="more"></span>
-<h1 id="论hexo的修改">论hexo的修改</h1>
-<p>RT</p>
-<h1 id="hexo首页文章只显示摘要">hexo首页文章只显示摘要</h1>
-<h3 id="前情提要">前情提要</h3>
-<p>hexo首页文章默认显示全文</p>
-<p>因不爽</p>
-<p>改之</p>
-<h3 id="两种方法显示摘要">两种方法显示摘要</h3>
-<h5 id="方法一写概述">方法一：写概述</h5>
-<p>在文章的<code>front-matter</code>中添加<code>description</code>，其中description中的内容就会被显示在首页上，其余一律不显示。</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: 让首页显示部分内容</span><br><span class="line">date: 2020-02-23 22:55:10</span><br><span class="line">description: 这是显示在首页的概述，正文内容均会被隐藏。</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
-<p>比较不方便的是还得写一下概述，很多时候会懒得写概述，于是就需要第二种方法了。</p>
-<h5 id="方法二文章截断">方法二：文章截断</h5>
-<p>在需要截断的地方加入：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;!--more--&gt;</span><br></pre></td></tr></table></figure>
-<p>首页就会显示这条以上的所有内容，隐藏接下来的所有内容。</p>
-<h3 id="后记">后记</h3>
-<p>来源：<a
-href="https://yueyue200830.github.io/2020/02/23/设置hexo首页只显示部分摘要（不显示全文）/">https://yueyue200830.github.io/2020/02/23/%E8%AE%BE%E7%BD%AEhexo%E9%A6%96%E9%A1%B5%E5%8F%AA%E6%98%BE%E7%A4%BA%E9%83%A8%E5%88%86%E6%91%98%E8%A6%81%EF%BC%88%E4%B8%8D%E6%98%BE%E7%A4%BA%E5%85%A8%E6%96%87%EF%BC%89/</a></p>
-<h1 id="hexo修改站点标题等">hexo修改站点标题等</h1>
-<p>在文件<code>_config.yml</code>中找到<code>#site_</code></p>
-<table>
-<colgroup>
-<col style="width: 17%" />
-<col style="width: 82%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>参数</th>
-<th>描述</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><code>title</code></td>
-<td>网站标题</td>
-</tr>
-<tr class="even">
-<td><code>subtitle</code></td>
-<td>网站副标题</td>
-</tr>
-<tr class="odd">
-<td><code>description</code></td>
-<td>网站描述</td>
-</tr>
-<tr class="even">
-<td><code>author</code></td>
-<td>您的名字</td>
-</tr>
-<tr class="odd">
-<td><code>language</code></td>
-<td>网站使用的语言</td>
-</tr>
-<tr class="even">
-<td><code>timezone</code></td>
-<td>网站时区。Hexo 默认使用您电脑的时区。<a
-href="https://en.wikipedia.org/wiki/List_of_tz_database_time_zones">时区列表</a>。比如说：<code>America/New_York</code>,
-<code>Japan</code>, 和 <code>UTC</code> 。</td>
-</tr>
-</tbody>
-</table>
-<h1 id="hexo增加分类">hexo增加分类</h1>
-<h3 id="生成分类选项">生成“分类”选项</h3>
-<p>在博客目录打开git，在git中输入:<code>hexo new page categories</code></p>
-<p>//生成“分类”页并添加tpye属性</p>
-<p>接下来会有一个目录，找到该目录。</p>
-<p>categories文件夹下会有个index.md文件。</p>
-<p>添加<code>type: "categories"</code></p>
-<p>//注意有空格</p>
-<p>最后文件大致如下：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">title: categories</span><br><span class="line">date: 2021-09-18 20:53:10</span><br><span class="line">type: &quot;categories&quot;</span><br></pre></td></tr></table></figure>
-<p>保存并退出。</p>
-<h3 id="文章中添加分类">文章中添加“分类”</h3>
-<p>找到要添加分类的文章。</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">title: 论hexo的修改</span><br><span class="line">categories: 七八</span><br></pre></td></tr></table></figure>
-<p>输入:<code>categories: 分类名</code></p>
-<p>//注意，仅限一个分类名。</p>
-<h1
-id="hexo部署github会重置自定义域名">hexo部署github会重置自定义域名</h1>
-<p>//md怪不得，部署后就访问不了</p>
-<p>//看了看自定义域名，果然它的锅</p>
-<p>干。</p>
-<p>解决方法：</p>
-<p>在<code>source</code>中新建一个文件<code>CNAME</code></p>
-<p>//注意，无后缀</p>
-<p>在里面添加自己的域名即可。</p>
-<p>如我的是：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">taoyifan.cn</span><br><span class="line">www.taoyifan.cn</span><br></pre></td></tr></table></figure>
-<h1 id="hexo上传图片">hexo上传图片</h1>
-<h3 id="修改_config.yml文件">修改<code>_config.yml</code>文件</h3>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">post_asset_folder: true </span><br><span class="line">/*</span><br><span class="line">默认为false，改为true</span><br><span class="line">执行命令 $ hexo new post_name，在 source/_posts 中会生成文章 post_name.md 和同名文件夹 post_name。将图片资源放在 post_name 中，文章就可以使用相对路径引用图片资源了</span><br><span class="line">*/</span><br></pre></td></tr></table></figure>
-<h3 id="修改typora">修改typora</h3>
-<p>//typora是markdown文本编辑器，不用可跳过</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">文件→偏好设置→图像</span><br><span class="line">第一个选择：复制到指定路径</span><br><span class="line">第二个：默认</span><br><span class="line"></span><br><span class="line">下方五个选项，打勾前三个。</span><br><span class="line">即：</span><br><span class="line">对本地位置的图片应用上述规则</span><br><span class="line">对网络位置的图片应用上述规则</span><br><span class="line">优秀使用相对路径</span><br></pre></td></tr></table></figure>
-<h3 id="使用">使用</h3>
-<p>若使用typora，直接将图片拖到typora里即可（typora一定要经过上面配置才可），然后记得删除文件名。</p>
-<p>若不使用，直接将图片放到同名文件夹中即可。</p>
-<p>如：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">![xiang](论hexo的修改/xiang.jpg)</span><br></pre></td></tr></table></figure>
-<p>直接将图片拖进来会显示这个，此时文章会显示图片</p>
-<p>但在hexo中是不会显示图片的。</p>
-<p>需要删除<code>论hexo的修改/</code></p>
-<p>即：</p>
-<p>如果要在hexo中插入图片</p>
-<p>假设图片名为test</p>
-<p>则写入：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">![](test.jpg)</span><br></pre></td></tr></table></figure>
-<p>-</p>
-<p><strong>只保留图片名</strong></p>
-<p>know？</p>
-<h1 id="修改底部信息">修改底部信息</h1>
-<p>在主题的<code>footer.ejs</code>中修改</p>
-<p>//找不到？直接搜索，也就主题里有了。</p>
-<h1 id="一台电脑多个hexo博客搭建过程">一台电脑多个hexo博客搭建过程</h1>
-<p>主要参照来源:https://blog.csdn.net/qq_36759224/article/details/86546729</p>
-<p>下面为遇到的问题</p>
-<p>1.windows下./ssh目录</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">如我的电脑用户名为singlor</span><br><span class="line">.ssh目录就在：C:\Users\singlor\.ssh</span><br><span class="line">而不是，c:\users\administrator</span><br></pre></td></tr></table></figure>
-<p>2.清除本地SSH缓存，执行 ssh -add 出现报错”Could not open a connection
-to your authentication agent.”</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">执行如下命令　ssh-agent bash</span><br></pre></td></tr></table></figure>
-<p>3.主题下载失败，链接超时，显示”Failed to connect to github.com port
-443 after 21078 ms: Timed out”</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">很玄学，多试几次就能下载成功。</span><br></pre></td></tr></table></figure>
-<h1 id="上传hexo到gitee">上传hexo到gitee</h1>
-<p>上传时出现报错”remote: error: GE007: Your push would publish a
-private email address.”</p>
-<p>解决方法：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">设置——不公开我的邮箱地址（取消勾选）——提交邮箱设置（选择自己的邮箱）</span><br><span class="line">//将邮箱设置为非私有即可</span><br></pre></td></tr></table></figure>
-<h1 id="上传hexo到coding">上传hexo到coding</h1>
-<h4 id="出现报错"><strong>出现报错：</strong></h4>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Permission Denied (publickey)</span><br></pre></td></tr></table></figure>
-<h4 id="解决方法">解决方法：</h4>
-<p>修改 <code>C:\Program Files\Git\etc\ssh\ssh_config</code>
-文件，在最后添加：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Host *.coding.net</span><br><span class="line">        HostkeyAlgorithms +ssh-rsa</span><br><span class="line">        PubkeyAcceptedAlgorithms +ssh-rsa</span><br></pre></td></tr></table></figure>
-<p>而后测试 <code>ssh -T git@e.coding.net</code>即可。</p>
-<h1 id="给hexo文章加密">给hexo文章加密</h1>
-<p>所用插件：https://github.com/D0n9X1n/hexo-blog-encrypt</p>
-<p>以下内容转载至github</p>
-<h2 id="这是个啥">这是个啥</h2>
-<ul>
-<li><del>首先, 这是 Hexo 生态圈中 <strong>最好的</strong>
-博客加密插件</del></li>
-<li>你可能需要写一些私密的博客, 通过密码验证的方式让人不能随意浏览.</li>
-<li>这在 wordpress, emlog 或是其他博客系统中都很容易实现, 然而 hexo
-除外. :(</li>
-<li>为了解决这个问题, 让我们有请 “hexo-blog-encrypt”.</li>
-</ul>
-<h2 id="特性">特性</h2>
-<ul>
-<li>一旦你输入了正确的密码, 它将会被存储在本地浏览器的 localStorage中.
-按个按钮, 密码将会被清空. 若博客中有脚本, 它将会被正确地执行.</li>
-<li>支持按标签加密.</li>
-<li>所有的核心功能都是由原生的 API 所提供的. 在 Node.js中, 我们使用 <a
-href="https://nodejs.org/dist/latest-v12.x/docs/api/crypto.html">Crypto</a>.
-在浏览器中, 我们使用 <a
-href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Crypto_API">Web
-Crypto API</a>.</li>
-<li><a href="https://tools.ietf.org/html/rfc2898">PBKDF2</a>, <a
-href="https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.180-4.pdf">SHA256</a>
-被用于分发密钥, <a
-href="https://csrc.nist.gov/publications/detail/sp/800-38a/final">AES256-CBC</a>
-被用于加解密, 我们还使用 <a
-href="https://csrc.nist.gov/csrc/media/publications/fips/198/1/final/documents/fips-198-1_final.pdf">HMAC</a>
-来验证密文的来源, 并确保其未被篡改.</li>
-<li>我们广泛地使用 Promise 来进行异步操作, 以此确保线程不被阻塞.</li>
-<li>加密页面多主题支持, 现在已经支持的主题有 [<code>default</code>,
-<code>xray</code>], 更多的主题正在开发中.</li>
-<li>过时的浏览器将不能正常显示, 因此, 请升级您的浏览器.</li>
-</ul>
-<h2 id="在线演示">在线演示</h2>
-<ul>
-<li>点击 <a href="https://mhexo.github.io/">Demo Page</a>,
-<strong>所有的密码都是 <code>hello</code></strong>.</li>
-</ul>
-<h2 id="安装">安装</h2>
-<ul>
-<li><code>npm install --save hexo-blog-encrypt</code></li>
-<li>或 <code>yarn add hexo-blog-encrypt</code> (需要) <a
-href="https://yarnpkg.com/en/">Yarn</a>)</li>
-</ul>
-<h2 id="快速使用">快速使用</h2>
-<ul>
-<li>将 “password” 字段添加到您文章信息头就像这样.</li>
-</ul>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: Hello World</span><br><span class="line">date: 2016-03-30 21:18:02</span><br><span class="line">password: hello</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
-<ul>
-<li>再使用 <code>hexo clean &amp;&amp; hexo g &amp;&amp; hexo s</code>
-在本地预览加密的文章.</li>
-</ul>
-<h2 id="设置优先级">设置优先级</h2>
-<p>文章信息头 &gt; 按标签加密</p>
-<h2 id="高级设置">高级设置</h2>
-<h3 id="文章信息头">文章信息头</h3>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: Hello World</span><br><span class="line">tags:</span><br><span class="line">- 作为日记加密</span><br><span class="line">date: 2016-03-30 21:12:21</span><br><span class="line">password: mikemessi</span><br><span class="line">abstract: 有东西被加密了, 请输入密码查看.</span><br><span class="line">message: 您好, 这里需要密码.</span><br><span class="line">wrong_pass_message: 抱歉, 这个密码看着不太对, 请再试试.</span><br><span class="line">wrong_hash_message: 抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容.</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
-<h3 id="config.yml"><code>_config.yml</code></h3>
-<h4 id="示例">示例</h4>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># Security</span><br><span class="line">encrypt: # hexo-blog-encrypt</span><br><span class="line">  abstract: 有东西被加密了, 请输入密码查看.</span><br><span class="line">  message: 您好, 这里需要密码.</span><br><span class="line">  tags:</span><br><span class="line">  - &#123;name: tagName, password: 密码A&#125;</span><br><span class="line">  - &#123;name: tagName, password: 密码B&#125;</span><br><span class="line">  wrong_pass_message: 抱歉, 这个密码看着不太对, 请再试试.</span><br><span class="line">  wrong_hash_message: 抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容.</span><br></pre></td></tr></table></figure>
-<h4 id="对博文禁用-tag-加密">对博文禁用 Tag 加密</h4>
-<p>只需要将博文头部的 <code>password</code> 设置为 <code>""</code>
-即可取消 Tag 加密.</p>
-<p>Example:</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: Callback Test</span><br><span class="line">date: 2019-12-21 11:54:07</span><br><span class="line">tags:</span><br><span class="line">    - A Tag should be encrypted</span><br><span class="line">password: &quot;&quot;</span><br><span class="line">---</span><br><span class="line"></span><br><span class="line">Use a &quot;&quot; to diable tag encryption.</span><br></pre></td></tr></table></figure>
-<h3 id="配置优先级">配置优先级</h3>
-<p>文章信息头 &gt; <code>_config.yml</code> (站点根目录下的) &gt;
-默认配置</p>
-<h3 id="关于-callback-函数">关于 Callback 函数</h3>
-<p>在部分博客中, 解密后部分元素可能无法正常显示或者表现, 这属于已知问题.
-目前的解决办法是通过自行查阅自己的博客中的代码, 了解到在 onload
-事件发生时调用了哪些函数, 并将这些函数挑选后写入到博客内容中. 如:</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: Callback Test</span><br><span class="line">date: 2019-12-21 11:54:07</span><br><span class="line">tags:</span><br><span class="line">    - Encrypted</span><br><span class="line">---</span><br><span class="line"></span><br><span class="line">This is a blog to test Callback functions. You just need to add code at the last of your post like following:</span><br><span class="line"></span><br><span class="line">It will be called after the blog decrypted.</span><br><span class="line"></span><br><span class="line">&lt;script&gt;</span><br><span class="line">    // 添加一个 script tag 与代码在文章末尾.</span><br><span class="line">    alert(&quot;Hello World&quot;);</span><br><span class="line">&lt;/script&gt;</span><br></pre></td></tr></table></figure>
-<p>例子在: <a
-href="https://mhexo.github.io/2020/12/06/Callback-Test/">Callback
-例子</a>.</p>
-<h3 id="对-toc-进行加密">对 TOC 进行加密</h3>
-<p>如果你有一篇文章使用了 TOC，你需要修改模板的部分代码。这里用
-landscape 作为例子：</p>
-<ul>
-<li>你可以在 hexo/themes/landscape/layout/_partial/article.ejs 找到
-article.ejs。</li>
-<li>然后找到 &lt;% post.content %&gt; 这段代码，通常在30行左右。</li>
-<li>使用如下的代码来替代它:</li>
-</ul>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;% if(post.toc == true)&#123; %&gt;</span><br><span class="line">  &lt;div id=&quot;toc-div&quot; class=&quot;toc-article&quot; &lt;% if (post.encrypt == true) &#123; %&gt;style=&quot;display:none&quot; &lt;% &#125; %&gt;&gt;</span><br><span class="line">    &lt;strong class=&quot;toc-title&quot;&gt;Index&lt;/strong&gt;</span><br><span class="line">      &lt;% if (post.encrypt == true) &#123; %&gt;</span><br><span class="line">        &lt;%- toc(post.origin, &#123;list_number: true&#125;) %&gt;</span><br><span class="line">      &lt;% &#125; else &#123; %&gt;</span><br><span class="line">        &lt;%- toc(post.content, &#123;list_number: true&#125;) %&gt;</span><br><span class="line">      &lt;% &#125; %&gt;</span><br><span class="line">  &lt;/div&gt;</span><br><span class="line">&lt;% &#125; %&gt;</span><br><span class="line">&lt;%- post.content %&gt;</span><br></pre></td></tr></table></figure>
-<h3 id="禁用-log">禁用 Log</h3>
-<p>If you want to disable the logging, you can add a silent property in
-<code>_config.yml</code> and set it to true. 如果你想要禁止使用 Log,
-你可以在 <code>_config.yml</code> 中增加一个 silent 属性, 并将其设置为
-true.</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># Security</span><br><span class="line">encrypt: # hexo-blog-encrypt</span><br><span class="line">  silent: true</span><br></pre></td></tr></table></figure>
-<p>这样就会禁止如
-<code>INFO hexo-blog-encrypt: encrypting "&#123;Blog Name&#125;" based on Tag: "EncryptedTag".</code>
-的日志.</p>
-<h3 id="加密主题">加密主题</h3>
-<p>之前, 我们尝试使用 <code>template</code>
-关键字来让用户能修改自己的主题. 后来发现真不是一个好主意.
-所以我们现在引入了主题: <code>theme</code> 关键字.</p>
-<p>你可以简单的使用 <code>theme</code> 在 <code>_config.yml</code>
-里或者文章头, 如下:</p>
-<h3 id="文章信息头-1">文章信息头</h3>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: Hello World</span><br><span class="line">tags:</span><br><span class="line">- 作为日记加密</span><br><span class="line">date: 2016-03-30 21:12:21</span><br><span class="line">password: mikemessi</span><br><span class="line">abstract: 有东西被加密了, 请输入密码查看.</span><br><span class="line">message: 您好, 这里需要密码.</span><br><span class="line">theme: xray</span><br><span class="line">wrong_pass_message: 抱歉, 这个密码看着不太对, 请再试试.</span><br><span class="line">wrong_hash_message: 抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容.</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
-<h3 id="在-_config.yml">在 <code>_config.yml</code></h3>
-<h4 id="示例-1">示例</h4>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># Security</span><br><span class="line">encrypt: # hexo-blog-encrypt</span><br><span class="line">  abstract: 有东西被加密了, 请输入密码查看.</span><br><span class="line">  message: 您好, 这里需要密码.</span><br><span class="line">  tags:</span><br><span class="line">  - &#123;name: tagName, password: 密码A&#125;</span><br><span class="line">  - &#123;name: tagName, password: 密码B&#125;</span><br><span class="line">  theme: xray</span><br><span class="line">  wrong_pass_message: 抱歉, 这个密码看着不太对, 请再试试.</span><br><span class="line">  wrong_hash_message: 抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容.</span><br></pre></td></tr></table></figure>
-<h1
-id="typecho转hexo即将文章转换为.md格式支持评论">Typecho转hexo（即将文章转换为.md格式，支持评论）</h1>
-<p>只需要数据库文件就可以。</p>
-<p>我试过用我备份下来的数据库文件重新安装typecho，失败了。</p>
-<p>这个软件是直接对数据库文件进行转换，无需重新搭建typecho。</p>
-<p>地址：<a
-href="http://www.mebyz.cn/rjdm/typechotohexo2.html">www.mebyz.cn/rjdm/typechotohexo2.html</a></p>
-<p>备份：</p>
-<p>链接: https://pan.baidu.com/s/1RXP1jvbJIGX9gBs9D9VmxQ?pwd=g49m</p>
-<p>提取码: g49m</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>设置百度网盘留言,装了个灯箱插件</title>
-    <url>/posts/37cecb6e/</url>
-    <content><![CDATA[<p>What's past is prologue.</p>
-<span id="more"></span>
-<p>###设置百度网盘留言</p>
-<figure>
-<img src="https://wansz.xyz/usr/uploads/2020/02/1836172311.png"
-alt="QQ截图20200216212029.png" />
-<figcaption aria-hidden="true">QQ截图20200216212029.png</figcaption>
-</figure>
-<p>就是说当用户下载你分享的百度网盘时，能够在你头像下面显示你的站点：D
-另外应该只限于加密分享，无密分享也没有这玩意儿不是么：D
-另外这个头像下面的文字可以自定义：D
-如果百度网盘没多少人看的话其实也引不了多少流：D 设置方法：
-手机APP“<code>百度网盘</code>” 登录后点击“<code>我的</code>”
-点击自己<code>左上角头像</code> 点击<code>个性签名</code>
-自行修改即可_(:з」∠)<em>
-~~我没水博文！没有！⑧可能！我也是第一次知道的好吧</em>(:з」∠)<em>~~
-~~虽然这个对我来说没多大用就是了</em>(:з」∠)_~~ <img
-src="https://wansz.xyz/usr/uploads/2020/02/1828441244.png"
-alt="sshot-1 (1).png" /> <del>是吧hhhhhh</del></p>
-<p>###装了个灯箱插件 <a
-href="https://github.com/jzwalk/HighSlide">HighSlide</a>
-挺不错的一个灯箱插件，效果可以自行看上方：D 好评：D
-<del>自带的话太麻烦了，以及当初捣鼓过后来又捣鼓没了，以及也没捣鼓完，还不如插件好点233</del></p>
-]]></content>
-  </entry>
-  <entry>
-    <title>设置typecho伪静态,设置typecho首页静态页面</title>
-    <url>/posts/f0cbd505/</url>
-    <content><![CDATA[<p>What's past is prologue.</p>
-<span id="more"></span>
-<h3 id="设置typecho伪静态">设置typecho伪静态</h3>
-<h4 id="什么是伪静态">什么是伪静态？</h4>
-<blockquote>
-<p>伪静态是相对真实静态来讲的，通常我们为了增强搜索引擎的友好面，都将文章内容生成静态页面，但是有的朋友为了实时的显示一些信息。或者还想运用动态脚本解决一些问题。不能用静态的方式来展示网站内容。但是这就损失了对搜索引擎的友好面。怎么样在两者之间找个中间方法呢，这就产生了伪静态技术。伪静态技术是指展示出来的是以html一类的静态页面形式，但其实是用ASP一类的动态脚本来处理的。</p>
-</blockquote>
-<p>简单来说 以域名<code>wansz.xyz</code>为例 如果用这个域名搭建博客的话
-点击一篇文章 域名应该是<code>wansz.xyz/index.php/325</code>
-而设置了<code>伪静态</code> 点击一篇文章
-域名应该是<code>wansz.xyz/325.html</code> 影响，唔，不大
-但是缩短了一点，很简介，且有些人不是会看<code>index.php</code>不顺眼的嘛owo</p>
-<h4 id="如何设置">如何设置？</h4>
-<p>参照了下这篇文章：https://blog.csdn.net/yiferhuang/article/details/86473209</p>
-<p>首先在你的<code>程序根目录</code>创建一个<code>文件</code>
-文件名为<code>.htaccess</code>
-（有<code>.</code>不要忘记了，以及没有后缀，就是这么一个名字
-（话说<code>.htaccess</code>就是后缀来着#run
-（如果不知道<code>程序根目录</code>在哪里的话，唔，你看看你程序的<code>index.php</code>在哪里，<code>.htaccess</code>文件就放在哪里</p>
-<p>然后在<code>.htaccess</code>文件中放入以下代码 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;IfModule mod_rewrite.c&gt;</span><br><span class="line">RewriteEngine On</span><br><span class="line"># 下面是在根目录，文件夹要修改路径</span><br><span class="line">RewriteBase /</span><br><span class="line">RewriteCond %&#123;REQUEST_FILENAME&#125; !-f</span><br><span class="line">RewriteCond %&#123;REQUEST_FILENAME&#125; !-d</span><br><span class="line">RewriteRule ^(.*)$ /index.php/$1 [L]</span><br><span class="line">&lt;/IfModule&gt;</span><br></pre></td></tr></table></figure>
-直接cv过去就好，不需要修改什么</p>
-<p>（针对<code>Apache</code>服务器而言是这样子的
-（其他的话，我没有搞懂，因为我已经配置成功了就没去看其他例子
-（我直接cv下好了，防止丢失</p>
-<p>Linux Apache环境（Nginx） <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">location / &#123;</span><br><span class="line">index index.html index.php;</span><br><span class="line">if (-f $request_filename/index.html) &#123;</span><br><span class="line">rewrite (.*) $1/index.html break;</span><br><span class="line">&#125;</span><br><span class="line">if (-f $request_filename/index.php) &#123;</span><br><span class="line">rewrite (.*) $1/index.php;</span><br><span class="line">&#125;</span><br><span class="line">if (!-f $request_filename) &#123;</span><br><span class="line">rewrite (.*) /index.php;</span><br><span class="line">&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
-<p>Windows IIS伪静态(httpd.ini) <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">[ISAPI_Rewrite]</span><br><span class="line"># 3600 = 1 hour</span><br><span class="line">CacheClockRate 3600</span><br><span class="line">RepeatLimit 32</span><br><span class="line"># 中文tag解决</span><br><span class="line">RewriteRule /tag/(.*) /index\.php\?tag=$1</span><br><span class="line"># sitemapxml</span><br><span class="line">RewriteRule /sitemap.xml /sitemap.xml [L]</span><br><span class="line">RewriteRule /favicon.ico /favicon.ico [L]</span><br><span class="line"># 内容页</span><br><span class="line">RewriteRule /(.*).html /index.php/$1.html [L]</span><br><span class="line"># 评论</span><br><span class="line">RewriteRule /(.*)/comment /index.php/$1/comment [L]</span><br><span class="line"># 分类页</span><br><span class="line">RewriteRule /category/(.*) /index.php/category/$1 [L]</span><br><span class="line"># 分页</span><br><span class="line">RewriteRule /page/(.*) /index.php/page/$1 [L]</span><br><span class="line"># 搜索页</span><br><span class="line">RewriteRule /search/(.*) /index.php/search/$1 [L]</span><br><span class="line"># feed</span><br><span class="line">RewriteRule /feed/(.*) /index.php/feed/$1 [L]</span><br><span class="line"># 日期归档</span><br><span class="line">RewriteRule /2(.*) /index.php/2$1 [L]</span><br><span class="line"># 上传图片等</span><br><span class="line">RewriteRule /action(.*) /index.php/action$1 [L]</span><br></pre></td></tr></table></figure></p>
-<h4
-id="配置完后如何在typecho后台设置">配置完后如何在typecho后台设置？</h4>
-<ul>
-<li>进入<code>后台</code></li>
-<li><code>设置</code>-<code>永久链接</code></li>
-<li><code>是否使用地址重写功能</code>选择<code>启用</code>，<code>自定义文章路径</code>选择<code>除第一个（默认风格）之外的任意一个</code></li>
-<li>保存设置</li>
-</ul>
-<p>（可能会提示<code>失败，是否要强制设置</code>什么的，不用管，选择<code>强制设置</code>就行了
-（大概就这么个意思，忘了：D</p>
-<h3 id="设置typecho首页静态页面">设置typecho首页静态页面</h3>
-<p>来源：https://itlu.org/articles/1857.html</p>
-<h4 id="新建文件">新建文件</h4>
-<p>新建文件<code>f5.php</code>
-放在<code>软件根目录</code>（即<code>index.php</code>所在的目录</p>
-<h4 id="放入代码">放入代码</h4>
-<p>将下列代码放入<code>f5.php</code>中</p>
-<figure class="highlight php"><table><tr><td class="code"><pre><span class="line"><span class="meta">&lt;?php</span></span><br><span class="line"><span class="variable">$nowtime</span>=<span class="title function_ invoke__">time</span>();</span><br><span class="line"><span class="variable">$pastsec</span> = <span class="variable">$nowtime</span> - <span class="variable">$_GET</span>[<span class="string">&quot;t&quot;</span>];</span><br><span class="line"><span class="keyword">if</span>(<span class="variable">$pastsec</span>&lt;<span class="number">600</span>)</span><br><span class="line">&#123;</span><br><span class="line"><span class="keyword">exit</span>; <span class="comment">//10分钟更新一次，时间可以自己调整</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="title function_ invoke__">ob_start</span>(); <span class="comment">//打开缓冲区</span></span><br><span class="line"><span class="keyword">include</span>(<span class="string">&quot;index.php&quot;</span>);</span><br><span class="line"><span class="variable">$content</span> = <span class="title function_ invoke__">ob_get_contents</span>(); <span class="comment">//得到缓冲区的内容</span></span><br><span class="line"><span class="variable">$content</span> .= <span class="string">&quot;\n&lt;script language=javascript src=\&quot;f5.php?t=&quot;</span>.<span class="variable">$nowtime</span>.<span class="string">&quot;\&quot;&gt;&lt;/script&gt;&quot;</span>; <span class="comment">//加上调用更新程序的代码</span></span><br><span class="line"></span><br><span class="line"><span class="title function_ invoke__">file_put_contents</span>(<span class="string">&quot;index.html&quot;</span>,<span class="variable">$content</span>);</span><br><span class="line"><span class="keyword">if</span> (!<span class="title function_ invoke__">function_exists</span>(<span class="string">&quot;file_put_contents&quot;</span>))</span><br><span class="line">&#123;</span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">file_put_contents</span>(<span class="params"><span class="variable">$fn</span>,<span class="variable">$fs</span></span>)</span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line"><span class="variable">$fp</span>=<span class="title function_ invoke__">fopen</span>(<span class="variable">$fn</span>,<span class="string">&quot;w+&quot;</span>);</span><br><span class="line"><span class="title function_ invoke__">fputs</span>(<span class="variable">$fp</span>,<span class="variable">$fs</span>);</span><br><span class="line"><span class="title function_ invoke__">fclose</span>(<span class="variable">$fp</span>);  </span><br><span class="line">&#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="meta">?&gt;</span></span><br></pre></td></tr></table></figure>
-<h4 id="设置">设置</h4>
-<p>放入代码之后，在浏览器中打开<code>域名/f5.php</code>
-如我的网站是<code>wansz.xyz</code>，那么我应该打开的是<code>wansz.xyz/f5.php</code>
-打开后你看到的依旧是<code>首页</code>，且将会有一个<code>index.heml</code>文件在软件根目录生成。
-<code>刷新</code>，<code>重新进入</code>网站（不用进入<code>域名/f5.php</code>）
-<code>右键</code>页面，<code>查看网页源代码</code>/<code>审查元素</code>都可以
-若是末尾有出现
-<code>&lt;script language=javascript ……"&gt;&lt;/script&gt;</code>
-即成功 即说明你访问的是“index.html”页面</p>
-<h4 id="补充">补充</h4>
-<p>若是<code>index.html</code>生成成功，末尾却没有出现
-<code>&lt;script language=javascript ……"&gt;&lt;/script&gt;</code>
-可能是程序默认访问<code>index.php</code>的权限比<code>index.html</code>高。</p>
-<p><code>宝塔</code>的话在<code>站点修改</code>中的<code>默认文档</code>中
-将<code>index.html</code>放在<code>index.php</code>上面即可</p>
-<p><code>cPanel</code>的话在<code>.heaccess</code>中添加代码<code>DirectoryIndex index.html index.php index.htm</code>然后保存即可。
-（可以放在文档最上面，任意位置。</p>
-<h4 id="后话">后话</h4>
-<p>唔。 设置typecho首页静态页面那个
-刚刚发现你发布文章的话是不能第一时间显示的 原因是这个：
-<figure class="highlight php"><table><tr><td class="code"><pre><span class="line"><span class="keyword">if</span>(<span class="variable">$pastsec</span>&lt;<span class="number">600</span>)</span><br><span class="line">&#123;</span><br><span class="line"><span class="keyword">exit</span>; <span class="comment">//10分钟更新一次，时间可以自己调整</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
-<p>代码里的时间是，你想要刷新的时间（分钟）*60=填写的时间
-（填写的是<code>秒</code>计的：D
-我觉得太慢了就设置了一分钟刷新一次，然后代码是这样子的：
-<figure class="highlight php"><table><tr><td class="code"><pre><span class="line"><span class="keyword">if</span>(<span class="variable">$pastsec</span>&lt;<span class="number">60</span>)</span><br><span class="line">&#123;</span><br><span class="line"><span class="keyword">exit</span>; <span class="comment">//1分钟更新一次，时间可以自己调整</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
-<p>（修改了后没有改的话可以试试重新生成下<code>index.html</code>文件
-<del>(小媳妇受欺负语气哈哈哈哈哈哈哈哈哈哈哈</del>
-应某沙强烈要求，补上图片hhhh 感谢我方<a
-href="http://crash-logs.ml/">幻沙</a>同学。
-也是，他最先提出来，然后我问他是不是捣鼓了伪静态= =
-然后他说是，然后我就向他取了下<del>精</del>，经
-也的确在我捣鼓的时候给我了一些帮助 行吧：D (╯‵□′)╯︵┻━┻ 咳，嘘。</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>趣事</title>
-    <url>/posts/412717f5/</url>
-    <content><![CDATA[<p>What's past is prologue.</p>
-<span id="more"></span>
-<p>咳。 其实说起来有点丢人的说// 有点不务正业其实// 占卜之人能吃牛肉么？
-这是在我中午下楼时看到牛肉并且已经开始吃的时候想的。
-然后想着吃都吃了。。就。。没怎么管。 “其实自己也不算个占卜之人是吧hh”
-嗯然后上楼。 去搜了下。 如图：</p>
-<p>看来可以吃/// 咳咳，道家，不是讲究顺其自然么。 随性而为。
-既如此，可有忌食？
-主要是之前在看占卜视频的时候，因为心定不下来，然后就去看来下一些有关中华传统武术的视频。
-然后在看武当山的师父们展示。
-嗯然后看到弹幕那边说“道教两大派中全真派素食；正一派四不吃：牛肉，狗肉，乌鱼，鸿雁”
-嗯然后有点慌。 嗯然后因为忘记弹幕然后就去百度了。 嗯然后更慌了///</p>
-<blockquote>
-<p>道教不仅明文规定了各种修持戒律，也在祀神、修真、拜师、斋醮、参访、饮食等方面形成了独特的宗教禁忌。</p>
-</blockquote>
-<blockquote>
-<p>四不吃：道教徒不吃四种肉食——牛肉、乌鱼、鸿雁、狗肉，因为牛、乌鱼、鸿雁、狗分别代表忠、孝、节、义。</p>
-</blockquote>
-<blockquote>
-<p>道不言寿：道教重生恶死，忌讳询问年龄，所以问老道长高寿是不礼貌的行为。</p>
-</blockquote>
-<blockquote>
-<p>戊不朝真：道教逢阴历天干为“戊”之日(戊子、戊戌、戊午、戊寅、戊申、戊辰)，不烧香、不诵经、不朝拜，不建斋设醮。</p>
-</blockquote>
-<blockquote>
-<p>参考资料来源：百度百科-道教</p>
-</blockquote>
-<p>我信仰道家？有点。 所以。。我这个。。 算不算。。。 hh。 下次注意吧。
-挺好吃的。。。 咳咳。 幸亏其他的很少吃。 （或者基本没吃过= =</p>
-<p>然后呢就是早上心血来潮。 想了一些有关占卜却又跟占卜无关的。
-就是想着说能不能把自己的能力大致数据化一下。 就是分等级。
-嗯其实这个是真的有点不务正业了是吧///
-但是我觉得这样子可能更能令我坚持下去？ 我不知道。 拙见。
-所以还是看下吧：D</p>
-<p>嗯，我懒。 道徒。 道士。 就两个级别。 我对自己要求不高// 级别分九重。
-九，为数极，代表无穷无尽。 所以道徒-道士那可就是质的飞跃了= =</p>
-<p>给自己来个总结吧： 道徒一重（1/10）</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>逆行者，追光者</title>
-    <url>/posts/7f66d75b/</url>
-    <content><![CDATA[<p>What's past is prologue.</p>
-<span id="more"></span>
-<p>满分60分的作文只能得52分的文，太弱了。扶额 继续练吧。
-<del>还要练字来着，写字分只有四分的我，扶额</del></p>
-<p>病毒让我们失望，但从未让我们绝望，我们仍怀有希望。——题记</p>
-<p>城市沉重地呼吸着，戴着蓝色的口罩像抓住最后的希望。疫情像是一张灰色的巨网，撒在城市的每个角落，人们无处可逃。医院里是看不见的病毒，无力的病人，这是2020年的序幕。</p>
-<p>疫情当下，病毒肆虐，有着钢铁意志的华夏儿女，怎会为此屈服？中华民族饱经沧桑，受岁月洗礼而生生不息，倘若阴阳倒转，也定扭转乾坤：君可见昔日洪水滔滔,我们胼手砥足释水患，君可见昔日非典黕黕，我们众志成城抗病疫，君可见昔日汶川之震，我们携手站起建家园。而今新冠来势汹汹，我们只需举国上下卯足气力以击之，心同一处想，劲往一处使，形成一排排御毒网，一道道万人墙，共克时艰，共待光的到来。</p>
-<p>那么，光是什么？物理上，光是一段处于特定频段的光子流。光源能够发出光。而在现实中，光是希望，是一角灰暗中萌芽的花朵，是透过小小的坑洞迸溅出的那股生命之泉。</p>
-<p>那么，在这个暗波涌动的世界中，谁是光？</p>
-<p>医生是光，护士是光。“国有战，召必回，战必胜。”，这是一位位医生们的请缨书所言。他们在阖家团圆之际，放下了家人，放下了生命，在患者的懊丧，亲人的劝阻中，选择了逆行，选择了奉献。这一天，他们白衣着身，那是英雄出征战场的铠甲。那一天，她们青丝斩断，那是巾帼不让须眉的豪情。他们脚踩万里山河，头顶千丈光芒，携带万里春风，来到了第一线。而与其说他们不畏生死，不如说他们有一颗救世之心，一腔赤子热诚，一种职业精神，一片责任担当和一片赤胆忠心，让他们冲破了对生死的畏惧，选择了“向前，不退”的坚定，向我们展示了布衣之下的炎炎赤血。</p>
-<p>战士是光，志愿者是光。“医院缺电”“医院缺工人”“医院缺……"“我来！我来！我来！……”，在“雷火”医院的建设中，一句句的“我来！”，一笔笔的善款，一排排的卡车，汇聚成抗击疫情的“滚滚暖流”，构建起抗击疫情的”钢铁长城”。人们再一次向医生们展现了“你们安心治疗病人，你们的背后，有我们！”的担当，让在战场上的医护人员知道，他们不是“孤军奋战”，他们背后的那万家灯火，是为他们而亮，是为他们而暖。</p>
-<p>我们也是光。“我们”，是一个个在疫情期间的“宅”在家中的人。也许我们之中，有人按下了那小小的“确认”键，捐献出了自己的一点点力量，有人在家中自娱自乐，不跑出门为国家添麻烦，还有人……我们是光，也是追光者。我们所有人就像那点点萤火，汇成了人间星河。</p>
-<p>前路虽未知，但勇者亦无惧。这就是逆行者，这就是追光者。让我们静待山河无恙，人间皆安，看那人声鼎沸，樱花怒放，笑声遍布山川。</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>迷惑小卦</title>
-    <url>/posts/b5f77874/</url>
-    <content><![CDATA[<p>What's past is prologue.</p>
-<span id="more"></span>
-<p>测天时的，也就是今天天气。 问的是“今日天气如何”
-<del>其实我感觉问“今日雨否”会好点啧</del></p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">公历起卦时间：2020年3月14日14时18分　(在线摇卦)</span><br><span class="line">农历：庚子年二月廿一日未时</span><br><span class="line">惊蛰：2020年03月05日11时03分</span><br><span class="line">清明：2020年04月04日15时48分</span><br><span class="line">干支：庚子年　己卯月　丙辰日　乙未时　　（日空：子丑）</span><br><span class="line">神煞：驿马－寅　桃花－酉　日禄－巳　贵人－酉，亥</span><br><span class="line"></span><br><span class="line">　　 　　　　　　　艮宫：风泽中孚 (游魂)　 　　艮宫：风泽中孚 (游魂)</span><br><span class="line">六神　　伏神　　　本　 　　卦　　 　 　　　　变　 　　卦</span><br><span class="line">青龙 　　　　　 官鬼辛卯木 ▅▅▅▅▅ 　 　　 官鬼辛卯木 ▅▅▅▅▅ 　</span><br><span class="line">玄武 妻财丙子水 父母辛巳火 ▅▅▅▅▅ 　 　　 父母辛巳火 ▅▅▅▅▅ 　</span><br><span class="line">白虎 　　　　　 兄弟辛未土 ▅▅　▅▅ 世 　　 兄弟辛未土 ▅▅　▅▅ 世</span><br><span class="line">螣蛇 子孙丙申金 兄弟丁丑土 ▅▅　▅▅ 　 　　 兄弟丁丑土 ▅▅　▅▅ 　</span><br><span class="line">勾陈 　　　　　 官鬼丁卯木 ▅▅▅▅▅ 　 　　 官鬼丁卯木 ▅▅▅▅▅ 　</span><br><span class="line">朱雀 　　　　　 父母丁巳火 ▅▅▅▅▅ 应 　　 父母丁巳火 ▅▅▅▅▅ 应</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-<p>第一卦，挺迷惑的，然后又起了一卦。</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">公历起卦时间：2020年3月14日14时24分　(在线摇卦)</span><br><span class="line">农历：庚子年二月廿一日未时</span><br><span class="line">惊蛰：2020年03月05日11时03分</span><br><span class="line">清明：2020年04月04日15时48分</span><br><span class="line">干支：庚子年　己卯月　丙辰日　乙未时　　（日空：子丑）</span><br><span class="line">神煞：驿马－寅　桃花－酉　日禄－巳　贵人－酉，亥</span><br><span class="line"></span><br><span class="line">　　 　　　　　　　兑宫：地山谦 　　　 　 　　坎宫：地水师 (归魂)　</span><br><span class="line">六神　　伏神　　　本　 　　卦　　 　 　　　　变　 　　卦</span><br><span class="line">青龙 　　　　　 兄弟癸酉金 ▅▅　▅▅ 　 　　 兄弟癸酉金 ▅▅　▅▅ 应</span><br><span class="line">玄武 　　　　　 子孙癸亥水 ▅▅　▅▅ 世 　　 子孙癸亥水 ▅▅　▅▅ 　</span><br><span class="line">白虎 　　　　　 父母癸丑土 ▅▅　▅▅ 　 　　 父母癸丑土 ▅▅　▅▅ 　</span><br><span class="line">螣蛇 　　　　　 兄弟丙申金 ▅▅▅▅▅ 　 ○→ 官鬼戊午火 ▅▅　▅▅ 世</span><br><span class="line">勾陈 妻财丁卯木 官鬼丙午火 ▅▅　▅▅ 应 ╳→ 父母戊辰土 ▅▅▅▅▅ 　</span><br><span class="line">朱雀 　　　　　 父母丙辰土 ▅▅　▅▅ 　 　　 妻财戊寅木 ▅▅　▅▅ 　</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-<p>这一卦嘛。。。 唔。 子孙持世，子孙爻主晴空万里。 月建卯，卯木。
-父母爻主雨。 辰土父母遭月破。 同时子孙爻暗动来着。。
-亥水子孙，日辰是辰，辰土，土克水。。。 我他。。。。 唔。
-申金兄弟发动化回头克。 兄弟爻主风云。 微风吧。 我是真他的迷惑。</p>
-<p>看看第一卦的话。 兄弟爻暗动，木克土。 害。。。。
-看不出来啥了我还。。</p>
-<p>反正总之差不多应该就是晴天微风无雨了。（天气挺好）</p>
-<p>反正到目前为止天气是挺好的。。</p>
-<p>aaaaa，好气哟(╯‵□′)╯︵┻━┻</p>
-<p>看完三卷了，终于搞懂了反吟伏吟。 一共有十二卷，上册有五卷。
-上册这边一卷是《黄金策》，还有一卷是天时章的来着。 天时章粗略翻了下。
-黄金策那边还没怎么看。 下册的话，主要是一些。。更具体的知识吧。
-细节的那种= = 理论知识基本上学完了hhhhhhh <del>没骄傲，真的</del>
-但是其实也不算学完吧，算是看完了，有了一个了解了。
-很多其实还是没记住(╯‵□′)╯︵┻━┻</p>
-<p>然后又闲的去占了一卦，占衣服颜色。
-火为红，水为蓝，土为暗黄甚至于偏黑，金为亮黄，木为绿。
-木弱为浅绿，旺则深绿，土弱则黄，旺则黑，水弱则旺，旺则偏黑。
-若用神两现，一色休囚无力则不用，若二色皆有气，可取混色。</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">**公历起卦时间：**2020年3月14日15时38分　(在线摇卦)</span><br><span class="line">**农历：**庚子年二月廿一日申时</span><br><span class="line">**惊蛰：**2020年03月05日11时03分</span><br><span class="line">**清明：**2020年04月04日15时48分</span><br><span class="line">**干支：**庚子年　己卯月　丙辰日　丙申时　　（日空：子丑）</span><br><span class="line">**神煞：**驿马－寅　桃花－酉　日禄－巳　贵人－酉，亥</span><br><span class="line"></span><br><span class="line">　　 　　　　　　　兑宫：水山蹇 　　　 　 　　兑宫：水山蹇 　　　</span><br><span class="line">**六神　　伏神　　　本　 　　卦　　 　 　　　　变　 　　卦**</span><br><span class="line">青龙 　　　　　 子孙戊子水 ▅▅　▅▅ 　 　　 子孙戊子水 ▅▅　▅▅ 　</span><br><span class="line">玄武 　　　　　 父母戊戌土 ▅▅▅▅▅ 　 　　 父母戊戌土 ▅▅▅▅▅ 　</span><br><span class="line">白虎 　　　　　 兄弟戊申金 ▅▅　▅▅ 世 　　 兄弟戊申金 ▅▅　▅▅ 世</span><br><span class="line">螣蛇 　　　　　 兄弟丙申金 ▅▅▅▅▅ 　 　　 兄弟丙申金 ▅▅▅▅▅ 　</span><br><span class="line">勾陈 妻财丁卯木 官鬼丙午火 ▅▅　▅▅ 　 　　 官鬼丙午火 ▅▅　▅▅ 　</span><br><span class="line">朱雀 　　　　　 父母丙辰土 ▅▅　▅▅ 应 　　 父母丙辰土 ▅▅　▅▅ 应</span><br></pre></td></tr></table></figure>
-<p>因为测的是衣服，我想着说，衣服是来抵御寒冷，保护自己的。
-所以去父母爻为用神。 用神两现，且卯月，土为休囚。
-不过戌土父母爻与月建卯相合。 《增删卜易》里有这么一句话：</p>
-<blockquote>
-<p>爻静，或与日、月、动爻合者，得合而起，即使休囚，亦有旺相之意。</p>
-</blockquote>
-<p>所以就看戌土父母爻了。 土旺，衣服颜色为黑。</p>
-<p>嗯= = 穿的就是黑色衣服来着= = 准备着等会儿再试试= = 纯练手= =</p>
-<p><del>想收集卦例了。。。</del> <del>我他。。。自讨苦吃？</del>
-<del>hhhh，想练练自己的手动排卦的能力，因为到目前为止没排过几次卦，都是电脑自动排盘的</del></p>
-<p>咳。 收集卦例有淫给我发嘛。 主要是收集
-天气的吧，其他的也可以，但是不确定是否准确= =
-我现在对天气真的是。。杠上了哼唧。 <del>咳</del> 欢迎留言:)</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">1.寻一方静处（不要让你打扰到你）</span><br><span class="line">2.放空心灵，心无杂念（不要乱想，就什么都不想就行）</span><br><span class="line">3.取硬币三枚，记数字面为字，guo徽/花面为背</span><br><span class="line">4.取白纸一张，记下起卦时的年月日时，性别，所占何事</span><br><span class="line">5.将三枚硬币平放于手掌，合上手心，闭眼，心中默念所占之事，然后掷到地面上（瓷盘里也行，只要是平整的水平面即可）</span><br><span class="line">6.然后将得到的图案（三枚硬币的，不分顺序）记录到纸上</span><br><span class="line">7.再摇五次。(记住，在白纸上从下往上写。如第一次写到第六行，第二次写到第五行。)</span><br><span class="line">8.摇完六次后，拍下来，或者自己手打，发给我好了= =</span><br></pre></td></tr></table></figure>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">2020年3月9日23时12分</span><br><span class="line">男</span><br><span class="line">今天天气如何？</span><br><span class="line">第六次：……</span><br><span class="line">第五次：……</span><br><span class="line">第四次：……</span><br><span class="line">第三次：……</span><br><span class="line">第二次：背字背</span><br><span class="line">第一次：背背花</span><br></pre></td></tr></table></figure>
-<p><font color='MediumAquaMarine'> 有人给我这个萌新检验自己的机会嘛owo
-</font></p>
-]]></content>
-  </entry>
-  <entry>
-    <title>问</title>
-    <url>/posts/561ca00f/</url>
-    <content><![CDATA[<p>What's past is prologue.</p>
-<span id="more"></span>
-<h1 id="问">问</h1>
-<p>唔？</p>
-<p>我该写点什么，我想写点什么。</p>
-<p>这会不会浪费时间？可又是自我感动，呻吟阵阵？这可又是写了又忘，又因羞愧心，不甘心而忘而又写？一个闭环，可是如此？</p>
-<p>我要不要承认自己的堕落？要不要承认自己的任性？要不要承认自己灵魂中的劣根性？要不要麻木不仁地看着世界而又自我安慰道这是看淡一切？要不要毫无激情毫无进取心的得过且过？这就是现在的我啊。我啊。</p>
-<p>我该怎么做？也许，我不该想这些，使自己忙起来，便不会有时间想这些，也就不会滋生这些闲愁了。但，我可曾如此无畏？我愿将忙起来不顾一切只知前进的我称为无畏。那时候的我不顾世俗，沉浸自我的小世界，不断汲取着书中的一切，一字一句犹若曼妙美人，一颦一笑间风情万种，深深地吸引着我。那是什么时候的我呢？我想，九月份的我，无畏的我。</p>
-<p>哈，结局是失败的。九月份的当头一棒，打的我彻底，失望，绝望，迷茫了。也许是绝望，也许是失望，迷茫总是在的。我其实也没什么气愤，有的更多的是不甘，不甘平庸，不甘自己又成了一名普通的高中生。感受到了竞赛后，我对这种高中生活厌烦更甚。于是我疾病横生。</p>
-<p>一直想着写一下十月的总结，因为将有二十多天的日子是在家中度过。却懒得动笔。简单说下生的病吧，先是胃炎，后又感冒，发热，再是鼻窦炎。胃炎做了B超，感冒发热做了核酸检测，鼻窦炎拍了CT。似乎以前从未体验过得，现在接踵而至。在家的我在做什么？直播，玩游戏，看小说。真是可悲的我。</p>
-<p>十一月份，在第二周的周五又请假了一次，头又疼起来了。虽说请假过程比较繁琐，终究还是在晚上九点四十分后出了校门。倒是辛苦父亲了，必须家长到校方可离去。</p>
-<p>这几个月来我怕是吃了以前一直因为咽不下去而没有吃的药丸的量了。有趣的事，第一次发现自己能够就水吞下药丸，是上个月在医院做C14检查时。之后便无师自通般学会了且精通。</p>
-<p>啊？我又在说些什么？这周换了个手机，是移动公司送的。摩托罗拉，本是个小作坊而后被微软收购了，似乎是这样的。很便宜的一款手机，三四百似乎便可买到。于我而言，正好。好久未曾使用安卓手机了，数据的迁移于我并非繁琐，毕竟，我一无所有。</p>
-<p>昨日第一次吃了虫草，看着那形如虫子的东西，实在是难以下口。万幸，没有爆浆。以及，昨日换了座位，来到了倒数第二排，本想独自一人坐的来着，我同桌也有此念想，可未曾实现。</p>
-<p>纵观全篇，我想表达什么？怎么之后的段落便是记录生活了？你的朝气，决心呢？我在心中激励了自己千万遍，没日没夜的想了许久关于未来的幻想。我的大脑已经承重不堪，我已经疼痛的不得不开始吃散利痛等止疼药来缓解自己的头疼。吃药后我才可以苟且偷安的思考着。</p>
-<p>“退役？只是从头再来罢了。”10.16在空间发的说说，来源以前看过的《全职高手》。</p>
-<p>于是，我启航。</p>
-<p>辛丑年己亥月己巳日卯时</p>
-<p>taoyifan于学校宿舍</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>随缘更新了</title>
-    <url>/posts/7edbd142/</url>
-    <content><![CDATA[<p>What's past is prologue.</p>
-<span id="more"></span>
-<p>没时间。 要毕业了。 好好学习，天天向上。
-感悟是有，但是难以用言语表达。
-抑或着说，这些感悟还不够拿出来说，我还在完善。 周摘本以为会稳定更新的。
-呵。 习惯就好。</p>
-<p>要毕业了。 没多少天了。 两位数了啊。。。</p>
-<p>但是blog还是会有更新的，内容随缘，时间随缘。</p>
-<p>就这样。</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>雪</title>
-    <url>/posts/fdc42b1a/</url>
-    <content><![CDATA[<p>What's past is prologue.</p>
-<span id="more"></span>
-<p>雪的别称。 看bilibili视频看到的，记录下。 <a
-href="https://www.bilibili.com/video/BV1SJ411U7g8/"
-class="uri">https://www.bilibili.com/video/BV1SJ411U7g8/</a></p>
-<p>1.银粟 独来独往银粟地，一行一步玉沙声 宋-杨万里《雪冻未解散策郡圃》
-2.仙藻 欲验丰年象，飘摇仙藻来 唐-张说《奉和圣制》 3.云娇
-玉软云娇，姑射肌肤洁 宋-赵鼎《蝶恋花-一朵江梅春带雪》 4.玉鸾
-造物故豪纵，千里玉鸾飞 宋-辛弃疾《水调歌头-吴江观雪》 5.碎琼
-微于疏竹上，时作碎琼声 宋-张宪《听雪斋》 6.琼芳
-宫城团回凛严光，白天碎碎堕琼芳 唐-李贺《十二月辞-十一月》 7.寒英
-昨宵天意聚回复，繁阴一布飘寒英 宋-范仲淹《依韵和提刑太傅嘉雪》 8.凝雨
-独有凝雨姿，贞晼而无殉 南朝 沈约《雪赞》 9.瑞叶
-瑞叶飞来麦已青，更烦膏雨发欣英 宋 范成大《雪后雨作》 10.玉沙
-天风淅淅飞玉沙，韶恩归沐休早衙 宋 苏轼《小饮清虚堂示王定国》 11.玉絮
-开门枝鸟散，玉絮堕纷纷 宋 司马光《雪霁登普贤阁》 12.璇花
-琼树留宸瞩，璇花入户睿词 唐 徐彦伯《游禁苑幸临渭亭遇雪应制》 13.六出花
-琼章定少千人知，银树长芳六出花 唐 宋之问《奉知春日玩雪应制》 14.玉霙
-晚雨纤纤变玉霙，小庵高卧有余清 宋 苏轼《夜雪独宿柏仙庵》 15.玉蛾
-须臾云汉飘白蕊，咫尺空中舞玉蛾 元 薛昂夫《端正好-高隐》 16.琼华
-闲招好阁斟香蚁，闷对琼华咏散盐 唐 韦庄《冬日长安感志》 17.祥英
-千钟圣酒御筵披，六出祥英乱绕枝 唐 李济《上清晖閤遇雪》 18.寒酥
-朝来试看青枝上，几朵寒酥未肯消 明 徐渭《梨花》 19.瑞白
-宣和初载元冬尾，瑞白才消尘不起 元 马熙载《预赏元宵曲宴近臣诗》 20.银砂
-两岸严风吹玉树，一滩明月晒银砂 唐 韦庄《夜雪泛舟游南溪》 21.玉尘
-漠漠復雰雰，东风散玉尘 唐 自居易《酬皇甫十早春对雪见赠》 22.飞花
-白雪却嫌春色晚，故穿庭树作飞花 唐 韩愈《春雪》 23.玉花
-箬笠但闻冰散响，蓑衣时振玉花空 宋 李纲《望江雪-江上雪》 24.琼屑
-皇穹何处飞琼屑，散下人间作春雪 唐 无名氏《白雪歌》 25.撒盐
-撒盐如可拟，愿糁和羮梅 唐 孟浩然《和张丞相春朝对雪》 26.羽浮
-细绕回风转，轻随落羽浮 唐 钱起《禁闱玩雪寄薛左丞》 27.梦蝶
-雪飞当梦蝶，风度几惊人 唐 王烈《雪》 28.株叶 洒散千株叶，销凝九陌埃 唐
-令狐楚《雪寄李师素侍郎》</p>
-<p>不知天上谁横笛，吹落琼花满世间-元 吴橙 《咏雪》</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>饮水</title>
-    <url>/posts/105ce006/</url>
-    <content><![CDATA[<p>What's past is prologue.</p>
-<span id="more"></span>
-<blockquote>
-<p>如人饮水，冷暖自知，不可向人说也。</p>
-</blockquote>
-<blockquote>
-<p>"军训结束后，同学们会变得更有纪律吗？"</p>
-<p>"马戏团结束后，猴子会骑着自行车回家吗？"</p>
-</blockquote>
-<blockquote>
-<p>都是千年的狐狸，跟我玩什么聊斋。</p>
-</blockquote>
-<blockquote>
-<p>所谓无底深渊，下去，也是前程万里。</p>
-</blockquote>
-<blockquote>
-<p>信任的深浅，不在于会不会在你面前笑，而在于愿不愿意在你面前哭。</p>
-</blockquote>
-<blockquote>
-<p>麦穗随着风弯腰，不是为了致敬，而是为了给风指明离别的道路。</p>
-</blockquote>
-<blockquote>
-<p>不读书的人，思想就会停止。读书是在别人思想的帮助下，建立起自己的思想。</p>
-</blockquote>
-<blockquote>
-<p>做粥要，放三分米，七分水。 处事要，三分为己，七分为人。
-对朋友要，三分认真，七分宽容。 对家庭要，三分爱，七分责任。
-看文章要，三分在看，七分在品。 喝酒要，三分醉，七分醒。
-三分...七分...是人生的掂量。</p>
-</blockquote>
-<blockquote>
-<p>残杯与冷炙，到处潜悲辛。</p>
-</blockquote>
-<blockquote>
-<p>不著一字，尽得风流。</p>
-</blockquote>
-<blockquote>
-<p>杳杳诗魂，真化凤蝶。</p>
-</blockquote>
-<blockquote>
-<p>芝兰生于幽林，不以无人而不芳； 君子修身立德，不为穷困而改节。</p>
-</blockquote>
-<blockquote>
-<p>无论什么时候都不要沦落到忧郁寡欢，
-这世间最美好的事情就是每天一个烦恼能够换回两个微笑： 笑过往风轻云淡，
-笑明日水静天晴。</p>
-</blockquote>
-<blockquote>
-<p>我流泪了，因为眼睛也疲倦了。</p>
-</blockquote>
-<blockquote>
-<p>当我朝着前方行走的时候，我只想有那么一个人，独为我撑伞。</p>
-</blockquote>
-<blockquote>
-<p>那美女多娇，爱看英雄。</p>
-</blockquote>
-<blockquote>
-<p>日日想我，夜夜思我，终不得我。</p>
-</blockquote>
-<blockquote>
-<p>无为又清高。</p>
-</blockquote>
-<blockquote>
-<p>我不沉浮了，我要坠渊沉沦。</p>
-</blockquote>
-<blockquote>
-<p>纵有春风词笔，病怀浑懒。</p>
-</blockquote>
-<blockquote>
-<p>消瘦休文，顿觉春衫褪。</p>
-</blockquote>
-<blockquote>
-<p>道是天公果惜花，雨洗风吹了。</p>
-</blockquote>
-<blockquote>
-<p>未来未来，我来。</p>
-</blockquote>
-<blockquote>
-<p>下雨了，雨伞借给你。</p>
-</blockquote>
-<blockquote>
-<p>心若向阳，无畏悲伤。</p>
-</blockquote>
-<blockquote>
-<p>西风解事，为人间，洗尽三庚烦暑。</p>
-</blockquote>
-<blockquote>
-<p>点点楼头细雨，重重江外平湖。</p>
-</blockquote>
-<blockquote>
-<p>俯仰人间今古。</p>
-</blockquote>
-<blockquote>
-<p>我是清都山水郎，天教分付与疏狂。曾批给雨支风劵，累上留云借月章。
-诗万首，酒千觞。何曾着眼看侯王。金楼玉阙慵归去，且插梅花醉洛阳。</p>
-</blockquote>
-<blockquote>
-<p>上大学一次性交多少钱？</p>
-</blockquote>
-<blockquote>
-<p>人间岁月堂堂去，劝君快上青云路。</p>
-</blockquote>
-<blockquote>
-<p>日出扶桑一丈高，人间万事细如毛。 野夫怒见不平处，磨损胸中万古刀。</p>
-</blockquote>
-<blockquote>
-<p>怕什么真理无穷，进一寸有一寸的欢喜。</p>
-</blockquote>
-<blockquote>
-<p>满怀心腹事，尽在不言中。</p>
-</blockquote>
-<blockquote>
-<p>君子之交，合则同道，散无恶语。</p>
-</blockquote>
-<blockquote>
-<p>有钱活得好，没钱活得好？.....</p>
-</blockquote>
-<blockquote>
-<p>一个能升起月亮的身体，必然驮注了无数次的日落。</p>
-</blockquote>
-<blockquote>
-<p>你懂我的奇奇怪怪，那么我也可以懂你的可可爱爱。</p>
-</blockquote>
-]]></content>
-  </entry>
-  <entry>
     <title>强制https</title>
     <url>/posts/30eb72fe/</url>
     <content><![CDATA[<p>What's past is prologue.</p>
@@ -10413,21 +9386,6 @@ href="https://crash-logs.ml/wrong/crash-2020-02-25_3-client.txt">某幻</a>blog�
 ]]></content>
   </entry>
   <entry>
-    <title>恢复每周rss邮件推送= =</title>
-    <url>/posts/cee35b0d/</url>
-    <content><![CDATA[<p>What's past is prologue.</p>
-<span id="more"></span>
-<p>邮件推送刚刚捣鼓了下。 之前是关了，现在可以了。
-订阅了的可以在每周一早上八点左右收到一份邮件，里面有我blog这一周更新的内容。
-呐大概就是这样。 （应该是周一/捂脸 （应该是八点多/捂脸
-（us的/捂脸，所以有延迟/望天</p>
-<p>虽然话说回来，这个blog是一个生活向blog来着。 emmm。
-有空变得技术一点哒。 （也是个做过一个python项目参赛了的准高一生呀hh
-（虽然最后连名次都不知道，初中时候参加的，现在都毕业了，望天？
-/蒟蒻，望天，别闹。</p>
-]]></content>
-  </entry>
-  <entry>
     <title>成语扯一</title>
     <url>/posts/2a7a4ea/</url>
     <content><![CDATA[<p>What's past is prologue.</p>
@@ -10449,6 +9407,21 @@ href="https://crash-logs.ml/wrong/crash-2020-02-25_3-client.txt">某幻</a>blog�
 <strong>波澜壮阔</strong> [褒义]【澜：大波浪】 一、波浪浩大汹涌
 二、比喻声势浩大，规模宏伟 <br> 扯：
 《如何在一分钟内花掉一分钱》一文，行文流畅，<strong>波澜老成</strong>。针对当今人们已经不再重视的这在好好久之前发挥了大作用的一分钱的现象，作者笔下的文字如同一双巨手，<strong>拨乱反正</strong>，将一分钱对个人，对社会，对国家，乃至对世界的贡献性，说的那是一个<strong>波澜起伏</strong>，小明只觉自己<strong>拨云见日</strong>，眼前仿佛浮现出了一片<strong>波澜壮阔</strong>的大海，令他不由得觉得当今这如此<strong>波澜不惊</strong>的局面是如此扯淡！</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>恢复每周rss邮件推送= =</title>
+    <url>/posts/cee35b0d/</url>
+    <content><![CDATA[<p>What's past is prologue.</p>
+<span id="more"></span>
+<p>邮件推送刚刚捣鼓了下。 之前是关了，现在可以了。
+订阅了的可以在每周一早上八点左右收到一份邮件，里面有我blog这一周更新的内容。
+呐大概就是这样。 （应该是周一/捂脸 （应该是八点多/捂脸
+（us的/捂脸，所以有延迟/望天</p>
+<p>虽然话说回来，这个blog是一个生活向blog来着。 emmm。
+有空变得技术一点哒。 （也是个做过一个python项目参赛了的准高一生呀hh
+（虽然最后连名次都不知道，初中时候参加的，现在都毕业了，望天？
+/蒟蒻，望天，别闹。</p>
 ]]></content>
   </entry>
   <entry>
@@ -10995,22 +9968,6 @@ table.tftable td {font-size:12px;border-width: 1px;padding: 8px;border-style: so
 ]]></content>
   </entry>
   <entry>
-    <title>拿起了铅笔系列#4</title>
-    <url>/posts/98212339/</url>
-    <content><![CDATA[<p>What's past is prologue.</p>
-<span id="more"></span>
-<p>作者大大我对不起你！！/<em>(:з」∠)</em> owo画炸了
-原话来自p站画师“SHEYA” 属实好看，真的= =
-<del>就我临摹的不好看！！(╯‵□′)╯︵┻━┻</del></p>
-<p>咳有在写作业好吧。 休息时间画的。</p>
-<p>总感觉肯定是因为自己拍摄角度不行的原因2333 明明看上去还行的hhh
-<del>这眼睛是真的画不好，(╯‵□′)╯︵┻━┻</del> 再接再厉吧。</p>
-<p>原画：</p>
-<p><br><br> 滴：</p>
-<p><br><br> 签名：</p>
-]]></content>
-  </entry>
-  <entry>
     <title>拿起了铅笔系列#5</title>
     <url>/posts/ef2613af/</url>
     <content><![CDATA[<p>What's past is prologue.</p>
@@ -11024,6 +9981,22 @@ table.tftable td {font-size:12px;border-width: 1px;padding: 8px;border-style: so
 <p><del>以及顺便说下关闭评论了，不社交了= =</del> <del>随心情开评论？=
 =</del> <del>随缘吧</del></p>
 <p>字体：</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>拿起了铅笔系列#4</title>
+    <url>/posts/98212339/</url>
+    <content><![CDATA[<p>What's past is prologue.</p>
+<span id="more"></span>
+<p>作者大大我对不起你！！/<em>(:з」∠)</em> owo画炸了
+原话来自p站画师“SHEYA” 属实好看，真的= =
+<del>就我临摹的不好看！！(╯‵□′)╯︵┻━┻</del></p>
+<p>咳有在写作业好吧。 休息时间画的。</p>
+<p>总感觉肯定是因为自己拍摄角度不行的原因2333 明明看上去还行的hhh
+<del>这眼睛是真的画不好，(╯‵□′)╯︵┻━┻</del> 再接再厉吧。</p>
+<p>原画：</p>
+<p><br><br> 滴：</p>
+<p><br><br> 签名：</p>
 ]]></content>
   </entry>
   <entry>
@@ -11414,6 +10387,26 @@ href="https://www.moeloli.top/archives/moe-title.html">blog</a>的时候看到�
 ]]></content>
   </entry>
   <entry>
+    <title>显示加载文章所消耗的时间</title>
+    <url>/posts/ec4ec64e/</url>
+    <content><![CDATA[<p>What's past is prologue.</p>
+<span id="more"></span>
+<p>来源：https://eebk.com/12.html</p>
+<p>嗯偶然找到的。 挺有意思。
+我发现我自己这边普遍是4ms，就第一篇那个“typecho欢迎你”那个的3ms，以及第一次加载的时候5ms
+啧= = 不过我现在没有用。
+因为觉得貌似作用并不是特别的大以及有些占空间，留给其他的吧，写这篇博文权当记录及分享了owo</p>
+<p>首先是将下列代码加入到<code>functions.php</code>中，直接在文件最后加入这段代码即可=
+=</p>
+<figure class="highlight php"><table><tr><td class="code"><pre><span class="line"> <span class="comment">/**</span></span><br><span class="line"><span class="comment">* 加载所耗时间</span></span><br><span class="line"><span class="comment">*/</span></span><br><span class="line">    <span class="function"><span class="keyword">function</span> <span class="title">timer_start</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">        <span class="keyword">global</span> <span class="variable">$timestart</span>;</span><br><span class="line">        <span class="variable">$mtime</span>     = <span class="title function_ invoke__">explode</span>( <span class="string">&#x27; &#x27;</span>, <span class="title function_ invoke__">microtime</span>() );</span><br><span class="line">        <span class="variable">$timestart</span> = <span class="variable">$mtime</span>[<span class="number">1</span>] + <span class="variable">$mtime</span>[<span class="number">0</span>];</span><br><span class="line">        <span class="keyword">return</span> <span class="literal">true</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="title function_ invoke__">timer_start</span>();</span><br><span class="line">    <span class="function"><span class="keyword">function</span> <span class="title">timer_stop</span>(<span class="params"> <span class="variable">$display</span> = <span class="number">0</span>, <span class="variable">$precision</span> = <span class="number">3</span> </span>) </span>&#123;</span><br><span class="line">        <span class="keyword">global</span> <span class="variable">$timestart</span>, <span class="variable">$timeend</span>;</span><br><span class="line">        <span class="variable">$mtime</span>     = <span class="title function_ invoke__">explode</span>( <span class="string">&#x27; &#x27;</span>, <span class="title function_ invoke__">microtime</span>() );</span><br><span class="line">        <span class="variable">$timeend</span>   = <span class="variable">$mtime</span>[<span class="number">1</span>] + <span class="variable">$mtime</span>[<span class="number">0</span>];</span><br><span class="line">        <span class="variable">$timetotal</span> = <span class="title function_ invoke__">number_format</span>( <span class="variable">$timeend</span> - <span class="variable">$timestart</span>, <span class="variable">$precision</span> );</span><br><span class="line">        <span class="variable">$r</span>         = <span class="variable">$timetotal</span> &lt; <span class="number">1</span> ? <span class="variable">$timetotal</span> * <span class="number">1000</span> . <span class="string">&quot; ms&quot;</span> : <span class="variable">$timetotal</span> . <span class="string">&quot; s&quot;</span>;</span><br><span class="line">        <span class="keyword">if</span> ( <span class="variable">$display</span> ) &#123;</span><br><span class="line">            <span class="keyword">echo</span> <span class="variable">$r</span>;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> <span class="variable">$r</span>;</span><br><span class="line">    &#125;</span><br></pre></td></tr></table></figure>
+<p>然后在需要调用的时候加入下列代码即可：</p>
+<figure class="highlight php"><table><tr><td class="code"><pre><span class="line">Loading：<span class="meta">&lt;?php</span> <span class="keyword">echo</span> <span class="title function_ invoke__">timer_stop</span>();<span class="meta">?&gt;</span></span><br></pre></td></tr></table></figure>
+<p><code>Loading：</code>
+可以删去的说，唔，也是，删不删影响不大，觉得占空间可以删去233</p>
+<p>没了</p>
+]]></content>
+  </entry>
+  <entry>
     <title>时也，命也</title>
     <url>/posts/b4545bc9/</url>
     <content><![CDATA[<p>What's past is prologue.</p>
@@ -11446,26 +10439,6 @@ https://www.bilibili.com/read/cv4332227/?spm_id_from=333.788.b_636f6d6d656e74.7<
 <p>如果你向上天寻求帮助，说明你相信老天的能力。
 而如果上天不帮你，则意味着他也相信你的能力。</p>
 </blockquote>
-]]></content>
-  </entry>
-  <entry>
-    <title>显示加载文章所消耗的时间</title>
-    <url>/posts/ec4ec64e/</url>
-    <content><![CDATA[<p>What's past is prologue.</p>
-<span id="more"></span>
-<p>来源：https://eebk.com/12.html</p>
-<p>嗯偶然找到的。 挺有意思。
-我发现我自己这边普遍是4ms，就第一篇那个“typecho欢迎你”那个的3ms，以及第一次加载的时候5ms
-啧= = 不过我现在没有用。
-因为觉得貌似作用并不是特别的大以及有些占空间，留给其他的吧，写这篇博文权当记录及分享了owo</p>
-<p>首先是将下列代码加入到<code>functions.php</code>中，直接在文件最后加入这段代码即可=
-=</p>
-<figure class="highlight php"><table><tr><td class="code"><pre><span class="line"> <span class="comment">/**</span></span><br><span class="line"><span class="comment">* 加载所耗时间</span></span><br><span class="line"><span class="comment">*/</span></span><br><span class="line">    <span class="function"><span class="keyword">function</span> <span class="title">timer_start</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">        <span class="keyword">global</span> <span class="variable">$timestart</span>;</span><br><span class="line">        <span class="variable">$mtime</span>     = <span class="title function_ invoke__">explode</span>( <span class="string">&#x27; &#x27;</span>, <span class="title function_ invoke__">microtime</span>() );</span><br><span class="line">        <span class="variable">$timestart</span> = <span class="variable">$mtime</span>[<span class="number">1</span>] + <span class="variable">$mtime</span>[<span class="number">0</span>];</span><br><span class="line">        <span class="keyword">return</span> <span class="literal">true</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="title function_ invoke__">timer_start</span>();</span><br><span class="line">    <span class="function"><span class="keyword">function</span> <span class="title">timer_stop</span>(<span class="params"> <span class="variable">$display</span> = <span class="number">0</span>, <span class="variable">$precision</span> = <span class="number">3</span> </span>) </span>&#123;</span><br><span class="line">        <span class="keyword">global</span> <span class="variable">$timestart</span>, <span class="variable">$timeend</span>;</span><br><span class="line">        <span class="variable">$mtime</span>     = <span class="title function_ invoke__">explode</span>( <span class="string">&#x27; &#x27;</span>, <span class="title function_ invoke__">microtime</span>() );</span><br><span class="line">        <span class="variable">$timeend</span>   = <span class="variable">$mtime</span>[<span class="number">1</span>] + <span class="variable">$mtime</span>[<span class="number">0</span>];</span><br><span class="line">        <span class="variable">$timetotal</span> = <span class="title function_ invoke__">number_format</span>( <span class="variable">$timeend</span> - <span class="variable">$timestart</span>, <span class="variable">$precision</span> );</span><br><span class="line">        <span class="variable">$r</span>         = <span class="variable">$timetotal</span> &lt; <span class="number">1</span> ? <span class="variable">$timetotal</span> * <span class="number">1000</span> . <span class="string">&quot; ms&quot;</span> : <span class="variable">$timetotal</span> . <span class="string">&quot; s&quot;</span>;</span><br><span class="line">        <span class="keyword">if</span> ( <span class="variable">$display</span> ) &#123;</span><br><span class="line">            <span class="keyword">echo</span> <span class="variable">$r</span>;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> <span class="variable">$r</span>;</span><br><span class="line">    &#125;</span><br></pre></td></tr></table></figure>
-<p>然后在需要调用的时候加入下列代码即可：</p>
-<figure class="highlight php"><table><tr><td class="code"><pre><span class="line">Loading：<span class="meta">&lt;?php</span> <span class="keyword">echo</span> <span class="title function_ invoke__">timer_stop</span>();<span class="meta">?&gt;</span></span><br></pre></td></tr></table></figure>
-<p><code>Loading：</code>
-可以删去的说，唔，也是，删不删影响不大，觉得占空间可以删去233</p>
-<p>没了</p>
 ]]></content>
   </entry>
   <entry>
@@ -11683,6 +10656,42 @@ Ordinary的护肤品，尝试让眼睫毛变长。//功能是消除水肿和黑�
 <p>战鲨的海妖V3蝴蝶刀，有空可以玩玩，锻炼手指。右手蝴蝶刀，左手转笔，手指的灵活度大概可以提高不少。</p>
 <p>——</p>
 <p>癸卯年十月初一 亥时</p>
+]]></content>
+      <categories>
+        <category>桐柏记</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>桐柏记之二</title>
+    <url>/posts/24650cb9/</url>
+    <content><![CDATA[<p>草铺横野六七里，笛弄晚风三四声。</p>
+<p>归来饱饭黄昏后，不脱蓑衣卧月明。</p>
+<span id="more"></span>
+<h1 id="今日自然乎">今日自然乎？</h1>
+<ul class="task-list">
+<li><label><input type="checkbox" />早课</label></li>
+<li><label><input type="checkbox" checked="" />晚课</label></li>
+<li><label><input type="checkbox" checked="" />金刚功</label></li>
+<li><label><input type="checkbox" checked="" />长寿功</label></li>
+</ul>
+<p>不太自然。</p>
+<p>未早起，仍懒惰。</p>
+<h1 id="碎语">碎语</h1>
+<p>脸上的皮肤依旧很干。</p>
+<p>洗完澡能够看见不少白色的碎屑。</p>
+<p>早上涂了大宝，却未曾彻底缓解。</p>
+<p>晚上洗完澡，涂了水杨酸，霎时好转……</p>
+<p>沉默，是今晚的康桥。</p>
+<p>今晚喝了感冒灵，今天的状态有点糟糕，还是喝一碗为妙。</p>
+<p>昨日上了黄老师的声乐课后，晚课时嗓子顿觉不同。</p>
+<p>感觉能够自由地唱高而不至于跑到假声并且气不足了？</p>
+<p>昨天的晚课，完整地跟着唱了一遍。感觉微妙，换言之，没想到居然能跟下来，意外的愉悦舒爽。</p>
+<p>今天晚课亦然，嗓子经过锻炼似乎有了不少改变？</p>
+<p>可明明貌似没啥训练来着emmm,只是一个小时的训练，有效如此？</p>
+<p>哈？</p>
+<p>就酱～</p>
+<hr />
+<p>癸卯年十月初三 戌时</p>
 ]]></content>
       <categories>
         <category>桐柏记</category>
@@ -11931,6 +10940,127 @@ class="uri">https://www.coolapk.com/feed/17911131?shareKey=MGNlY2RmMDQzODc4NWU5M
 <blockquote>
 <p>别来沧海事，语罢暮天钟</p>
 </blockquote>
+]]></content>
+  </entry>
+  <entry>
+    <title>白书习二.for语句</title>
+    <url>/posts/a2be8bfa/</url>
+    <content><![CDATA[<p>What's past is prologue.</p>
+<span id="more"></span>
+<p>/<em> 1.求平均年龄【1.5编程基础之循环控制01】
+班上有学生若干名，给出每名学生的年龄（整数），求班上所有学生的平均年龄，保留到小数点后两位。
+输入: 第一行有一个整数n（1&lt;= n &lt;=
+100），表示学生的人数。其后n行每行有1个整数，表示每个学生的年龄，取值为15到25。
+输出:
+输出一行，该行包含一个浮点数，为要求的平均年龄，保留到小数点后两位。
+样例输入: 2 18 17 样例输出: 17.50　 </em>/ #include <iostream> #include
+<iomanip> using namespace std; int main() { int n,score; float sum=0;
+cin&gt;&gt;n; for (int i=0;i&lt;n;i++) { cin&gt;&gt;score; sum =
+score+sum;</p>
+<pre><code>    &#125; 
+    sum = sum/n;
+    cout&lt;&lt;fixed&lt;&lt;setprecision(2)&lt;&lt;sum&lt;&lt;endl;
+    
+&#125;
+
+
+
+/*
+2.均值【1.5编程基础之循环控制02】
+   给出一组样本数据，包含n个浮点数，计算其均值，精确到小数点后4位。 
+输入:
+    输入有两行，第一行包含一个整数n（n小于100），代表样本容量；第二行包含n个绝对值不超过1000的浮点数，代表各个样本数据。
+输出:
+    输出一行，包含一个浮点数，表示均值，精确到小数点后4位。
+样例输入:
+    2
+    1.0 3.0
+样例输出:
+    2.0000
+*/
+#include &lt;iostream&gt;
+#include &lt;iomanip&gt;
+using namespace std;
+int main()
+&#123;
+    int n;
+    float sum=0,data;
+    cin&gt;&gt;n;
+    for(int i=0;i&lt;n;i++)
+    &#123;
+        cin&gt;&gt;data;
+        sum += data;
+    &#125;
+    sum = sum/n;
+    cout&lt;&lt;fixed&lt;&lt;setprecision(4)&lt;&lt;sum&lt;&lt;endl; 
+&#125;
+
+
+
+/*
+3.求整数的和与均值【1.5编程基础之循环控制03】
+    读入n(1&lt;=n&lt;=10000)个整数，求它们的和与均值。
+输入:
+    输入第一行是一个整数n，表示有n个整数。
+    第2~n+1行每行包含1个整数。每个整数的绝对值均不超过10000。
+输出:
+    输出一行，先输出和，再输出平均值(保留到小数点后5位)，两个数间用单个空格分隔。
+样例输入:
+    4
+    344
+    222
+    343
+    222
+样例输出:
+    1131 282.75000
+*/
+#include &lt;iostream&gt;
+#include &lt;iomanip&gt;
+using namespace std;
+int main()
+&#123;
+    int n;
+    cin&gt;&gt;n;
+    float sum=0,data,sum1;
+    for(int i=0;i&lt;n;i++)
+    &#123;
+        cin&gt;&gt;data;
+        sum += data;
+    &#125;
+    sum1 = sum/n;
+    cout&lt;&lt;sum&lt;&lt;&quot; &quot;&lt;&lt;fixed&lt;&lt;setprecision(5)&lt;&lt;sum1&lt;&lt;endl;
+&#125;
+
+
+
+/*
+4.最高的分数【1.5编程基础之循环控制04】
+    孙老师讲授的《计算概论》这门课期中考试刚刚结束，他想知道考试中取得的最高分数。因为人数比较多，他觉得这件事情交给计算机来做比较方便。你能帮孙老师解决这个问题吗？
+输入:
+    输入两行，第一行为整数n（1 &lt;= n &lt; 100），表示参加这次考试的人数.第二行是这n个学生的成绩，相邻两个数之间用单个空格隔开。所有成绩均为0到100之间的整数。
+输出:
+    输出一个整数，即最高的成绩。
+样例输入:
+    5
+    85 78 90 99 60
+样例输出:
+    99
+*/ 
+#include &lt;iostream&gt;
+using namespace std;
+int main()
+&#123;
+    int a,b,n;
+    cin&gt;&gt;n;
+    cin&gt;&gt;a;
+    b=a;
+    for (int i=2;i&lt;=n;i++)
+    &#123;
+        cin&gt;&gt;a;
+        if (a&gt;b) b=a;
+    &#125;
+    cout&lt;&lt;b&lt;&lt;endl;
+&#125;</code></pre>
 ]]></content>
   </entry>
   <entry>
@@ -12345,127 +11475,6 @@ cout&lt;&lt;"x1="&lt;&lt;x1&lt;&lt;",x2="&lt;&lt;x2; ​ } ​ else ​ { ​ x1
 <hr />
 <p>最后一个，虚根那边还是有点没搞懂，没动脑子在做来着。
 醒来后再研究吧，2021年1月2日02:17:31</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>白书习二.for语句</title>
-    <url>/posts/a2be8bfa/</url>
-    <content><![CDATA[<p>What's past is prologue.</p>
-<span id="more"></span>
-<p>/<em> 1.求平均年龄【1.5编程基础之循环控制01】
-班上有学生若干名，给出每名学生的年龄（整数），求班上所有学生的平均年龄，保留到小数点后两位。
-输入: 第一行有一个整数n（1&lt;= n &lt;=
-100），表示学生的人数。其后n行每行有1个整数，表示每个学生的年龄，取值为15到25。
-输出:
-输出一行，该行包含一个浮点数，为要求的平均年龄，保留到小数点后两位。
-样例输入: 2 18 17 样例输出: 17.50　 </em>/ #include <iostream> #include
-<iomanip> using namespace std; int main() { int n,score; float sum=0;
-cin&gt;&gt;n; for (int i=0;i&lt;n;i++) { cin&gt;&gt;score; sum =
-score+sum;</p>
-<pre><code>    &#125; 
-    sum = sum/n;
-    cout&lt;&lt;fixed&lt;&lt;setprecision(2)&lt;&lt;sum&lt;&lt;endl;
-    
-&#125;
-
-
-
-/*
-2.均值【1.5编程基础之循环控制02】
-   给出一组样本数据，包含n个浮点数，计算其均值，精确到小数点后4位。 
-输入:
-    输入有两行，第一行包含一个整数n（n小于100），代表样本容量；第二行包含n个绝对值不超过1000的浮点数，代表各个样本数据。
-输出:
-    输出一行，包含一个浮点数，表示均值，精确到小数点后4位。
-样例输入:
-    2
-    1.0 3.0
-样例输出:
-    2.0000
-*/
-#include &lt;iostream&gt;
-#include &lt;iomanip&gt;
-using namespace std;
-int main()
-&#123;
-    int n;
-    float sum=0,data;
-    cin&gt;&gt;n;
-    for(int i=0;i&lt;n;i++)
-    &#123;
-        cin&gt;&gt;data;
-        sum += data;
-    &#125;
-    sum = sum/n;
-    cout&lt;&lt;fixed&lt;&lt;setprecision(4)&lt;&lt;sum&lt;&lt;endl; 
-&#125;
-
-
-
-/*
-3.求整数的和与均值【1.5编程基础之循环控制03】
-    读入n(1&lt;=n&lt;=10000)个整数，求它们的和与均值。
-输入:
-    输入第一行是一个整数n，表示有n个整数。
-    第2~n+1行每行包含1个整数。每个整数的绝对值均不超过10000。
-输出:
-    输出一行，先输出和，再输出平均值(保留到小数点后5位)，两个数间用单个空格分隔。
-样例输入:
-    4
-    344
-    222
-    343
-    222
-样例输出:
-    1131 282.75000
-*/
-#include &lt;iostream&gt;
-#include &lt;iomanip&gt;
-using namespace std;
-int main()
-&#123;
-    int n;
-    cin&gt;&gt;n;
-    float sum=0,data,sum1;
-    for(int i=0;i&lt;n;i++)
-    &#123;
-        cin&gt;&gt;data;
-        sum += data;
-    &#125;
-    sum1 = sum/n;
-    cout&lt;&lt;sum&lt;&lt;&quot; &quot;&lt;&lt;fixed&lt;&lt;setprecision(5)&lt;&lt;sum1&lt;&lt;endl;
-&#125;
-
-
-
-/*
-4.最高的分数【1.5编程基础之循环控制04】
-    孙老师讲授的《计算概论》这门课期中考试刚刚结束，他想知道考试中取得的最高分数。因为人数比较多，他觉得这件事情交给计算机来做比较方便。你能帮孙老师解决这个问题吗？
-输入:
-    输入两行，第一行为整数n（1 &lt;= n &lt; 100），表示参加这次考试的人数.第二行是这n个学生的成绩，相邻两个数之间用单个空格隔开。所有成绩均为0到100之间的整数。
-输出:
-    输出一个整数，即最高的成绩。
-样例输入:
-    5
-    85 78 90 99 60
-样例输出:
-    99
-*/ 
-#include &lt;iostream&gt;
-using namespace std;
-int main()
-&#123;
-    int a,b,n;
-    cin&gt;&gt;n;
-    cin&gt;&gt;a;
-    b=a;
-    for (int i=2;i&lt;=n;i++)
-    &#123;
-        cin&gt;&gt;a;
-        if (a&gt;b) b=a;
-    &#125;
-    cout&lt;&lt;b&lt;&lt;endl;
-&#125;</code></pre>
 ]]></content>
   </entry>
   <entry>
@@ -13103,43 +12112,6 @@ int k=a[30]</code></pre>
 ]]></content>
   </entry>
   <entry>
-    <title>白书志四.while语句</title>
-    <url>/posts/807ec8ff/</url>
-    <content><![CDATA[<p>What's past is prologue.</p>
-<span id="more"></span>
-<p>语句格式</p>
-<ul>
-<li><p>格式一、</p>
-<p>while (条件表达式) 语句1</p></li>
-</ul>
-<blockquote>
-<p>语句1是while循环语句的循环体，它将在满足条件的情况下被重复执行。</p>
-</blockquote>
-<ul>
-<li><p>格式二、</p>
-<p>while (条件表达式) { 语句1； 语句2； …… }</p></li>
-</ul>
-<blockquote>
-<p>循环体部分由多个语句构成，应由一对花括号括起来，构成一个语句块的形式。
-<br> 程序风格提示：写while循环语句时，循环体的语句相对于while缩进两格。
-<br> <br></p>
-</blockquote>
-<h2 id="二语句执行过程">二、语句执行过程</h2>
-<p>(1)计算作为循环控制条件表达式的值，得到逻辑真或假，假定用M表示。
-(2)若M为真，则执行了一遍循环体，否则离开循环，结束整个while语句的执行。
-(3)循环体的所有语句执行结束后，自动转向第(1)步执行。 <br> <br></p>
-<h2 id="三格式举例">三、格式举例</h2>
-<ol type="1">
-<li>i=0; while (i&lt;10) ++i;</li>
-</ol>
-<p>功能：当i的值小于10，重复执行++i语句 (2)</p>
-<pre><code> cin&gt;&gt;x;
- while（x&lt;0）
-   cin&gt;&gt;x;</code></pre>
-<p>功能：当输入的数据小于0时，重复读数据。</p>
-]]></content>
-  </entry>
-  <entry>
     <title>皆</title>
     <url>/posts/dc995bb2/</url>
     <content><![CDATA[<p>What's past is prologue.</p>
@@ -13183,6 +12155,43 @@ cm长，一/二 cm深。 伤口不是特别严重。 她在叫我的时候我才
 <p>假令占防灾虑患，若得子孙持世，自是无忧。</p>
 </blockquote>
 <p>嗯，略感宽慰。</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>白书志四.while语句</title>
+    <url>/posts/807ec8ff/</url>
+    <content><![CDATA[<p>What's past is prologue.</p>
+<span id="more"></span>
+<p>语句格式</p>
+<ul>
+<li><p>格式一、</p>
+<p>while (条件表达式) 语句1</p></li>
+</ul>
+<blockquote>
+<p>语句1是while循环语句的循环体，它将在满足条件的情况下被重复执行。</p>
+</blockquote>
+<ul>
+<li><p>格式二、</p>
+<p>while (条件表达式) { 语句1； 语句2； …… }</p></li>
+</ul>
+<blockquote>
+<p>循环体部分由多个语句构成，应由一对花括号括起来，构成一个语句块的形式。
+<br> 程序风格提示：写while循环语句时，循环体的语句相对于while缩进两格。
+<br> <br></p>
+</blockquote>
+<h2 id="二语句执行过程">二、语句执行过程</h2>
+<p>(1)计算作为循环控制条件表达式的值，得到逻辑真或假，假定用M表示。
+(2)若M为真，则执行了一遍循环体，否则离开循环，结束整个while语句的执行。
+(3)循环体的所有语句执行结束后，自动转向第(1)步执行。 <br> <br></p>
+<h2 id="三格式举例">三、格式举例</h2>
+<ol type="1">
+<li>i=0; while (i&lt;10) ++i;</li>
+</ol>
+<p>功能：当i的值小于10，重复执行++i语句 (2)</p>
+<pre><code> cin&gt;&gt;x;
+ while（x&lt;0）
+   cin&gt;&gt;x;</code></pre>
+<p>功能：当输入的数据小于0时，重复读数据。</p>
 ]]></content>
   </entry>
   <entry>
@@ -13310,6 +12319,828 @@ cm长，一/二 cm深。 伤口不是特别严重。 她在叫我的时候我才
 ]]></content>
   </entry>
   <entry>
+    <title>纪念下，被百度收录了，360申请中</title>
+    <url>/posts/b62d9bb8/</url>
+    <content><![CDATA[<p>What's past is prologue.</p>
+<span id="more"></span>
+<p>-_-|| 一直没分清楚搜狗跟360，尴尬</p>
+<p>2020.3.4 2020年3月4日01:27:37 心血来潮通过so.com 查了下自己网站
+发现没有收录。
+就去360那边注册了个账号，邮箱注册的，然后提交了自己网站，且通过了验证。
+然后就是去申请了。 同时提交了网站的sitemap。
+以及自己手动推送了大概十条链接。 搜狐这边一般来说挺好弄得。
+就像wansz.xyz一样，发邮件跟我说认证失败了，结果还是能够搜到hhh
+但是应该不算收录吧？不知道= =不清楚不了解这一方面。 咳。
+然后就去逛了51la，突然间发现事情不对 一个全是0的地方出现了1
+定睛一看，百度收录了我一个页面，虽然是首页，但是这是成功的开始嘛。
+辛落<del>loli</del>号，起航！</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>纪念我那逝去的青春..灵摆orz</title>
+    <url>/posts/f72156a4/</url>
+    <content><![CDATA[<p>What's past is prologue.</p>
+<span id="more"></span>
+<p>这是个悲伤的事情.... 这背后包含苦与泪.... 这背后是满满的辛酸.... 啊！
+灵摆！ 走好.</p>
+<p>orz怎么就碎了呢。 不过貌似还可以转来转去的说orz</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>给你的blog加上rss邮箱订阅吧！（文章若更新自动发送内容至订阅者邮箱）</title>
+    <url>/posts/58b15d4e/</url>
+    <content><![CDATA[<p>What's past is prologue.</p>
+<span id="more"></span>
+<p>###前言</p>
+<p>咳。</p>
+<p>终于捣鼓明白了rss订阅来着。</p>
+<p>感觉之前的自己挺蠢的来着hhh</p>
+<p>挺早就开启了邮件订阅，订阅者的话。。。还行吧。</p>
+<p>目前有六十四个订阅者，除去我一个的话，63个。</p>
+<p>还行吧:)</p>
+<p>唔，之前的话其实一直也是通过检测blog的feed文件，若是有文章更新，则在每天的早晨七点发送一份邮件到订阅者邮箱。</p>
+<p>然后那时候也是没看到，所以只是单纯的发了一封邮件，提醒更新了，可以去blog看。</p>
+<p>然后昨天晚上，捣鼓百度云不限速下载的时候，下载了个自带一些插件，脚本的Chrome浏览器，发现了个rss订阅插件来着。</p>
+<p>然后更新完昨天的日摘之后邮箱收到了一封邮件，因为我用那个插件，订阅了自己blog，然后我点开自动发送的邮件之后，发现原来rss邮件订阅不是我想的那样，原来还可以直接推送更新的文章内容来着/挠头，之前没有接触过这个-_-||</p>
+<p>然后我就开始捣鼓了，本想着用ifttt，后来发现也没怎么折腾明白，就没捣鼓了。</p>
+<p>但是我会就此放弃？hhh，就去<a
+href="https://mailchimp.com/">Mailchimp</a>自己捣鼓了下，发现也有推送文章内容以及标题的功能来着。</p>
+<p>然后就捣鼓完了:)</p>
+<p>其实之前也想过<del>水一篇博文</del>，写这个折腾过程的来着，但是一直没时间，现在刚好乘着功能差不多完善了，上课时间还有五十分钟左右的机会来<del>水一篇博文</del>，写一下吧。</p>
+<p><br></p>
+<p>###过程</p>
+<p>####注册账号</p>
+<p>进入<a href="https://mailchimp.com/">Mailchimp</a>官网</p>
+<p>点击右上角的<code>Sign up free</code>，进行注册</p>
+<p>第一个框<code>Email</code>：填写邮箱</p>
+<p>第二个框<code>Username</code>:填写用户名</p>
+<p>第三个框<code>Password</code>：填写密码</p>
+<p>PS：密码最少需要<code>一个大写字母，一个小写字母，一个特殊字符（符号），一个数字</code>以及<code>最少八位</code></p>
+<p>PS:用户名<code>不支持中文</code></p>
+<p>PS:输入完后有个绿框则说明你的密码是可行的</p>
+<p>（Your password is secure and you're all set!））</p>
+<p>选择好后点击<code>Get started</code>即可</p>
+<p>然后会有一封邮件发到<code>你填写的邮箱</code>里面</p>
+<p>去邮箱里面找到并打开这封邮件（可能会在垃圾箱），点击<code>Activate Account</code>按钮即可。</p>
+<p>然后就注册好了，并且会跳转到一个页面让你选择服务。</p>
+<p><br></p>
+<p>####配置</p>
+<p>注册完后，点击邮箱里的按钮会跳转到一个页面，默认选择是<code>free</code>的套餐。</p>
+<p>有钱可以选择其他的</p>
+<p><del>看起来好贵的来着，反正我没钱，几十美元，几百R的说run</del></p>
+<p>我选择的是<code>free</code>类型的，选择好套餐后点击右边的'Complete'即可</p>
+<p>然后会让你填写名字了</p>
+<p><code>First name</code>是名，<code>Last name</code>是姓</p>
+<p><del>就当给自己复习英语了？？？迷惑</del></p>
+<p>填写好后点击<code>Continue</code>即可</p>
+<p>之后会让你继续填写。</p>
+<p><code>What's the name of your business?</code>：填写你的公司名称（像我是直接填写blog名了）</p>
+<p><code>Do you have a website?</code>：有两个选项，没有的话填写<code>No</code>,<del>没有的话捣鼓什么rss订阅是吧hh</del>，<code>yes</code>后面填写你自己的blog链接.（我是直接填写<code>http://nololi.com</code>）</p>
+<p><del>当然我这边是重新注册了一遍所以我给自己的buyao.mobi域名填写上去了hh</del></p>
+<p>之后会让你继续填写信息。</p>
+<p><code>Address line1</code>:填写你的地址（可以直接填个省份）</p>
+<p><code>Address line2</code>:填写你的地址（可选）（可以忽略掉，<code>留空不填</code>）</p>
+<p><code>City</code>：所在城市</p>
+<p><code>State/Province/Region</code>：填写所在的洲/省份/地区</p>
+<p><code>Zip/Postel code</code>:邮政编码(百度搜索'XX市/州邮政编码'即可)</p>
+<p><code>Counter</code>:选择<code>China</code>即可。</p>
+<p><code>Phone number</code>：电话号码（可选）</p>
+<p><code>Can we call you with special offers or services that may be of interest?</code>:选择是否允许这个平台给你推送你可能感兴趣的特别优惠或者服务</p>
+<p>然后会继续让你选择一些选项。</p>
+<p><code>Do you have a list of email subscribers?</code>:是否有电子邮件订阅者列表</p>
+<p>（第一次注册的话选择<code>No</code>即可，要是是之前有注册过，或者有订阅者邮箱的可以自行选择<code>yes</code>试试）</p>
+<p>（第三个选项是<code>我不确定</code>）</p>
+<p>然后点击<code>Continue</code>继续即可</p>
+<p>之后会让你添加你的<code>Facebook</code>或者<code>twitter</code>账号</p>
+<p>如果没有的话直接点击<code>Continue</code>即可</p>
+<p>然后点击<code>OK，Let's do it</code>即可</p>
+<p>然后就需要来填写一些选项了。</p>
+<p>嫌麻烦可以自己随便选择。毕竟只有两个选项<code>yes</code> or
+<code>no</code>.</p>
+<p><code>Do you sell things online?</code>:是否在网上卖东西</p>
+<p><code>Do you support bookings, ticket sales, or appointments online?</code>:是否支持网上预订/售票？/预约</p>
+<p><code>Do you want people to talk one-on-one with a person? (This could be on the phone, online, or at a location.)</code>:是否允许人们一对一交谈？(私聊？）（打电话/上网/在某个地方见面交谈）</p>
+<p><code>Do you make money off the content on your site?</code>：你的网站是否能够盈利？</p>
+<p><code>Do your customers interact with your business mostly through your software or app's interface?</code>:你的客户与你交流的方式是否主要为你的软件/应用程序上的接口？（客服那种？）</p>
+<p>然后还有一个选项。</p>
+<p><code>Want to stay in the loop with Mailchimp?</code>:是否与MailChimp保持联系（发邮件到你邮箱）</p>
+<p>两个选项都是可选的= =</p>
+<p>``可以不用管这些，直接点击Let's go 即可，若是不想有这些邮件的话~~</p>
+<p>然后会跳转道一个页面。</p>
+<p>大概会显示'You're almost there.'之类的，不用管</p>
+<p>到这里账号就差不多注册好了，设置好了</p>
+<p><br></p>
+<p>####设置邮件</p>
+<p>配置好后不用管跳转的页面，当然如果不是这个页面的话也没事，只要账号注册好了即可。</p>
+<p>直接找到左上方的'Automate'，并点击，选择<code>Email</code></p>
+<p>如果是要<code>RSS订阅</code>的话，选择<code>Share blog uplate</code></p>
+<p><code>Campaign Name</code>是<code>名字</code>，后台显示的，默认即可，当然你也可以自己随便起个，用户不会看到的。</p>
+<p>下一个选项是<code>订阅者</code>，类似于社交软件中的<code>分组</code>，就是你想要这份邮件发给哪个<code>分组</code>的人.</p>
+<p>如果自己没去创建的话，会默认是你的用户名，单纯捣鼓rss订阅的话，用这个即可，不需要再去创建了。</p>
+<p>(创建订阅者分组主要是方便，唔，两个网站的人吧，检测两个网站的feed，推送不同的内容。</p>
+<p>要是只有一个blog的话，不用去创建一个订阅者分组了）</p>
+<p>选择好后点击<code>Begin</code></p>
+<p><code>Rss feed URL</code>：自己网站的feed链接</p>
+<p>PS:</p>
+<p>若是没有设置<code>伪静态</code>的话还是自己手动填写吧，即<code>http://域名/index.php/feed</code></p>
+<p>设置了伪静态的话，可以直接填写自己的域名，也可以填写自己的feed链接</p>
+<p>若是显示<code>Please check your entry and try again.</code>的话，用<code>http</code>，不要用`https``</p>
+<p>然后可以设置<code>什么时候推送</code></p>
+<p>分别是<code>每天/每星期/每月</code></p>
+<p>（就是如果检测到你的blog有更新，何时推送，是一周后推送，还是隔天推送，还是一个月后推送）</p>
+<p>旁边的设置何时推送，更加具体，精确到小时</p>
+<p>（有时会延迟一两分钟，毕竟跨国，不过不会延迟太久，也就几分钟的样子）</p>
+<p>'am'是上午,'pm'是下午</p>
+<p><code>这里是美国东部时间，与北.京时间相差13个小时，我们比他们快13个小时！</code></p>
+<p><code>这里是美国东部时间，与北.京时间相差13个小时，我们比他们快13个小时！</code></p>
+<p><code>这里是美国东部时间，与北.京时间相差13个小时，我们比他们快13个小时！</code></p>
+<p>重要的是事情说三遍。</p>
+<p>所以:</p>
+<p><code>你选择的时间</code>=<code>你想推送的时间段</code>-<code>13</code>小时</p>
+<p>下面的是星期几推送，默认`一周七天都会推送）（如果你设置的是隔天推送的话）</p>
+<p><code>Resize RSS feed images to fit template</code>：是否自动调整RSS大小来自适应模板宽度</p>
+<p>以防万一可以勾选上。</p>
+<p>然后点击右下角的<code>Next</code>即可</p>
+<p>然后会让你选择是全部观众还是你标上标签的观众还是其他的。</p>
+<p>选择第一个，全部观众即可。</p>
+<p>然后点击<code>Next</code></p>
+<p><code>Emai subject</code>为邮件主题，默认是blog名字以及最新文章更新时间，从rss中获取的。</p>
+<p><code>Preview text</code>为预览文字，即在收件箱中，邮件主题后面出现的能够直接看到的文字，不需要点开邮件就可以看到的那行字</p>
+<p>'From name'：来自:XX,一般填写自己的blog名或者自己的名字即可</p>
+<p>'From email
+address'：来自邮箱：XX，填写自己的邮箱即可，发件人会显示你这个邮箱</p>
+<p>其他的不用设置，点击<code>Next</code>即可</p>
+<p>然后是选择'模板'，有些是'付费'的，每个主题的前两三个一般都是<code>免费的</code></p>
+<p>我选择的是<code>Featured</code>的<code>Make an Announcement</code>，比较简洁。</p>
+<p>点击主题即可，会自动跳转到编辑主题的页面。</p>
+<p>因为主要讲rss订阅，我就讲rss订阅模块了，其他的不讲，各位可以自行添加其他模块或者在原主题上修改些许文字即可。</p>
+<p>找到右边的'Blocks'，模块。</p>
+<p>有两个模块，是<code>RSS Header</code>(获取blog名字/描述的),以及，<code>RSS Items</code>(获取文章名字/具体内容的)</p>
+<p>首先，是选择'RSS Header',然后拖动到左边即可。</p>
+<p>位置哪里都没事，最好放在<code>Header</code>或者<code>Body</code>里面。</p>
+<p>放好后右边会自动变化，你可以编辑这个rss标题，如果没有变化的话，找到这个左边rss的模块，选择左上角的那个<code>笔</code>图标即可。</p>
+<p>第一个<code>Contene</code>是设置内容的。</p>
+<p><code>Basic</code>是基本，即只显示你blog的名字以及你blog的介绍。（typecho里面就是站点名称和站点描述，后台设置这里可以修改）</p>
+<p>其他三个可以自行看看，这里就不多说了，大概就是一些blog的链接，blog的标签之类。</p>
+<p>简洁一点的话选择第一个<code>Basic</code>即可，够用了。</p>
+<p><code>Style</code>是样式，font是修改字体的，另外建议在<code>Align</code>这里选择下居中（第二个），看上去会好点233</p>
+<p>修改好后点击<code>Save&amp;Close</code>（保存并关闭）即可</p>
+<p>然是是<code>RSS Items</code>，拖动到左边即可，最好放在<code>Body</code>这里</p>
+<p><code>Content</code>（内容）中，默认是<code>Excerpts</code>.会显示文章的一部分内容+文章名字。</p>
+<p><code>Titles Only</code>：仅显示文章名字</p>
+<p><code>Full Content</code>显示文章具体内容</p>
+<p>'Custom'是自定义= =</p>
+<p>PS：建议如果没有<code>twitter</code>账号的话，选择自定义吧，删掉<code>*|RSSITEM:TWITTER|*</code>即可。</p>
+<p><code>自定义</code>默认其实就是<code>Full Content</code>.</p>
+<blockquote>
+<p>注：</p>
+</blockquote>
+<blockquote>
+<p>这个<code>RSS Items</code>中的<code>Full Content</code>显示的内容是你更新的文章的内容，是你那一天发送的内容。</p>
+</blockquote>
+<blockquote>
+<p>即rss中你增加的内容。</p>
+</blockquote>
+<blockquote>
+<p>（如我昨天更新了两篇文章，那么今天我邮件里就会收到一封邮件，只会显示我更新的那两篇文章的具体内容，其他文章只会显示标题，且有个跳转链接（其他文章貌似只会显示三章，不会占太大空间的））</p>
+</blockquote>
+<p>因为只讲rss订阅，所以其他模块就不解释了= =</p>
+<p>这样子其实也够用了。</p>
+<p>那些没用的模块，主题自带的模块只需要删除即可。</p>
+<p>rss订阅这边不需要你怎么配置来着，只需要拖动模块放到邮件相应位置即可。</p>
+<p>配置好后点击<code>Next</code></p>
+<p>然后再点击右下角<code>Start RSS</code>就设置完成了。</p>
+<p>（有的时候可能会报错，不能发送邮件，可以点击左下角的'BACK'返回上一步，看看有没有什么空的模块，不要有空模块，哪怕是放点分割线就可以，不放的话记得删除，要删除干净。不然可能会因为占用而不能运行。）</p>
+<p>PS:</p>
+<p>如果想测试一下邮件效果的话，可以在左上角的'Preview and
+Test'中选择<code>Sent a text email</code>.</p>
+<p>然后再弹出的窗口里填写自己的邮箱，点击<code>send text</code>即可。</p>
+<p><br></p>
+<p>####弹窗</p>
+<p>类似于我这个网站的弹出窗口一样，用户可以输入自己的邮箱，自动订阅我的blog。</p>
+<p>文字可自定义。</p>
+<p>1.返回首页或者回到<a
+href="https://us19.admin.mailchimp.com/">这个页面</a></p>
+<p>2.点击在左上角的自己的头像，选择<code>Connect</code>,再选择'Conected
+Sites'</p>
+<p>3.会跳转到一个页面，往下滑找到'WorldPress',单击。</p>
+<p>（只要是blog应该都可以，自测typecho是可以的）</p>
+<p>4.在<code>Enter site URL</code>这里填写自己的网站地址,<code>Select audience to connect</code>是选择自己的观众，只需要跟你设置的rss推送中选择的观众分组是同一个即可。然后点击<code>Get Code</code></p>
+<p>PS:</p>
+<p>如果<code>不行</code>的话，试试<code>http</code></p>
+<p>网站<code>不要设置强制https</code>，不然会<code>无法连接</code></p>
+5.之后会有一段代码给你，复制这段代码，粘贴到主题的<code>header.php</code>文件即可（注：在
+<head>
+下方，在
+</head>
+<p>上方即可）</p>
+（typecho的话，进入后台，左上角控制台，选择外观，编辑当前外观，找到header.php，找到
+<head>
+<p>，复制在其下方即可）</p>
+<p>6.然后回到页面确定。</p>
+<p>7.成功添加后，找到<code>Pop-up Form</code>，选择<code>Edit</code></p>
+<p>8.自行选择修改即可= =</p>
+<p>9.没了，完成。</p>
+<p><br></p>
+<p>###后记</p>
+<p>差不多都有了。</p>
+<p>如果发现网站没有弹窗的话可以试试清除浏览器cookies.</p>
+<p>用户进入你的网站，弹窗弹出，用户输入邮箱，订阅成功，用户邮箱计入到你设置的观众分组里面。</p>
+<p>blog更新了文章，rss更新，Mailchimp检测到了，在你设置的时间里给订阅了你的用户发送邮件。</p>
+<p>都是自动化的= =</p>
+<p>也可以自行在后台添加用户。</p>
+<p>看我写了这么多的份上，若是对您有帮助，就留个评论呗？</p>
+<p><del>打赏是不可能，这辈子都不可能的，说的我要打赏你们会给一样，既然如此，我不要评论我要什么？</del></p>
+<p>没了。</p>
+<p>撒花。</p>
+<blockquote>
+<p>我有在认真的上网课！ 有！ 绝对！ 有！ 不接受任何反驳！
+(╯‵□′)╯︵┻━┻</p>
+</blockquote>
+]]></content>
+  </entry>
+  <entry>
+    <title>网站统计使用cnzz</title>
+    <url>/posts/b5037ed8/</url>
+    <content><![CDATA[<p>What's past is prologue.</p>
+<span id="more"></span>
+<p>嗯 <a href="https://web.51.la/">51la</a>有些不顺手
+挺迷糊的看着某些页面 然后就使用<a
+href="https://web.umeng.com/main.php?c=user&amp;a=index">cnzz</a>了
+记录下51la的数据吧 毕竟也是用了十天左右了：D</p>
+<pre><code>wansz.xyz
+
+
+
+zhiluo.top</code></pre>
+<p>至于<code>buyao.mobi</code>这个 我是准备不放网站统计了
+一个是不知道放哪个位置 一个是不太想放 所以就不放了2333</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>背上剑，江湖路</title>
+    <url>/posts/980a622/</url>
+    <content><![CDATA[<p>What's past is prologue.</p>
+<span id="more"></span>
+<p>明天开学了。 今天洗了个澡，理了个发，写了下作业，玩了下电脑。</p>
+<p>周摘随缘更新，更多的会是生活散文了。
+是的，散文了，连续性的了。。。。吧？ 嗯。 我尽量。</p>
+<p>明天开学咯，整理好了书本，收拾好了书包。
+书包也是真的沉重，十几本书的重量呀。</p>
+<p>少年心事当拿云。 <del>谁说学校不是一座江湖呢...</del></p>
+<p>背上剑，踏上，江湖路。 我们，青云之巅再聚。</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>自动刷新网页的代码</title>
+    <url>/posts/44109aac/</url>
+    <content><![CDATA[<!--markdown-->
+<p>捣鼓这个<a
+href="https://zhiluo.top/eight">页面</a>的时候需要用到，记录下，自动刷新页面来更新句子。</p>
+<figure class="highlight php"><table><tr><td class="code"><pre><span class="line">＜meta http-equiv=<span class="string">&quot;refresh&quot;</span> content=<span class="string">&quot;20&quot;</span>&gt;?<span class="comment">//其中20指每隔20秒刷新一次页面,放到页面的&lt;head&gt;下就好</span></span><br></pre></td></tr></table></figure>
+<p>js 版本 <figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">＜script language=<span class="string">&quot;JavaScript&quot;</span>&gt;</span><br><span class="line"><span class="keyword">function</span> <span class="title function_">myrefresh</span>(<span class="params"></span>)&#123;</span><br><span class="line"><span class="variable language_">window</span>.<span class="property">location</span>.<span class="title function_">reload</span>();</span><br><span class="line">&#125;</span><br><span class="line"><span class="built_in">setTimeout</span>(<span class="string">&#x27;myrefresh()&#x27;</span>,<span class="number">1000</span>); <span class="comment">//指定1秒刷新一次</span></span><br><span class="line">＜/script&gt;</span><br></pre></td></tr></table></figure></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>落日悟#95</title>
+    <url>/posts/628da05b/</url>
+    <content><![CDATA[<p>What's past is prologue.</p>
+<span id="more"></span>
+<p>第九十五次直播 没啥好看的。 就是直播。 我直播了一分钟。
+我说了大概两句话。 没了。</p>
+<p>句子？</p>
+<blockquote>
+<p>甚时跃马归来，认得迎门轻笑。</p>
+</blockquote>
+]]></content>
+  </entry>
+  <entry>
+    <title>落日悟#96</title>
+    <url>/posts/fb84f1e1/</url>
+    <content><![CDATA[<p>What's past is prologue.</p>
+<span id="more"></span>
+<p>第九十六次直播啦。 快九十九次和一百次了呢。 啧。
+没啥感想，反正就是说直播间也没多少活人的来着/捂脸
+人气倒是4w+点，活人也不多/捂脸
+<del>话说我有两个有我十级粉丝牌子和两三个有我八九级粉丝牌子的人来着/捂脸</del>
+没了。 没什么感悟/捂脸
+本来还想说是不放诗词为了捣鼓那个“七月上”改变的视频素材需要。
+结果懒得捣鼓了/捂脸 <del>真是个悲伤的故事/呵</del>
+所以就自己找一句当做这次直播的诗词吧/捂脸
+唔，这句好了，之前也用过，觉得是时候再用一次了：</p>
+<blockquote>
+<p>功成身退，天之道。</p>
+</blockquote>
+]]></content>
+  </entry>
+  <entry>
+    <title>记军训/台风有感</title>
+    <url>/posts/da2e272d/</url>
+    <content><![CDATA[<p>What's past is prologue.</p>
+<span id="more"></span>
+<p><font size="3" >昨天刚军训完。 7.31-8.4，一共五天，这是原计划。
+结果因为台风，黑格比，导致提前一天结束。
+也正是如此，导致闭幕礼，联欢晚会都没有了。
+昨天8.3，下午一点半左右开始坐上大巴返回，由于我所在的班级是第一批，所以快了点。（毕竟去的时候是第二批，望天）
+军训没多大感慨。 如果“成长”可以轻说，那我可以说，我成长了。</font>
+-<font size="3" >
+军训第三天的时候左脚扭伤了的来着，自己作，跑太快加上拐弯弧度太大，导致……
+然后第三天下午和第四天上午就没有参加军训了，呆在一旁看着，望天
+不过该晒的太阳也都晒了，该练的东西也都练了。 嗯，黑了，望天
+两只手，手背，一整块通红，偏黑，怕是晒伤。 还有脖颈，望天。
+挺有意思的，军训。
+虽然我也数次想要骂街，但是这个念头刚起然后就会莫名其妙的消失，望天。
+(跟那种自命清高却是俗人的人差不多想法了，望天</font> -<font size="3" >
+台风。黑格比。 昨天下午开始，到现在，2020年8月4日07:55:12，还在继续。
+风，呼天啸地；雨，铺天盖地。 没了。</font> -<font size="3" >
+昨天下午还买了一堆零食倒是，花了大概七十多，也不多，毕竟是个小超市，以及……够吃就行，要求不高。
+穷，懒，欲望有点低。</font> 望天。 -<font size="3" >
+话说云南白药气雾剂和药贴挺贵的，八片装的药贴和两瓶小的气雾剂，七十九块多，望天。
+（虽然不是我买的</font> -<font size="3" > 没了
+只是单纯记下，以及，练练手感，要码字了。 hh </font></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>论hexo的修改</title>
+    <url>/posts/8ffc272d/</url>
+    <content><![CDATA[<p>What's past is prologue.</p>
+<span id="more"></span>
+<h1 id="论hexo的修改">论hexo的修改</h1>
+<p>RT</p>
+<h1 id="hexo首页文章只显示摘要">hexo首页文章只显示摘要</h1>
+<h3 id="前情提要">前情提要</h3>
+<p>hexo首页文章默认显示全文</p>
+<p>因不爽</p>
+<p>改之</p>
+<h3 id="两种方法显示摘要">两种方法显示摘要</h3>
+<h5 id="方法一写概述">方法一：写概述</h5>
+<p>在文章的<code>front-matter</code>中添加<code>description</code>，其中description中的内容就会被显示在首页上，其余一律不显示。</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: 让首页显示部分内容</span><br><span class="line">date: 2020-02-23 22:55:10</span><br><span class="line">description: 这是显示在首页的概述，正文内容均会被隐藏。</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
+<p>比较不方便的是还得写一下概述，很多时候会懒得写概述，于是就需要第二种方法了。</p>
+<h5 id="方法二文章截断">方法二：文章截断</h5>
+<p>在需要截断的地方加入：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;!--more--&gt;</span><br></pre></td></tr></table></figure>
+<p>首页就会显示这条以上的所有内容，隐藏接下来的所有内容。</p>
+<h3 id="后记">后记</h3>
+<p>来源：<a
+href="https://yueyue200830.github.io/2020/02/23/设置hexo首页只显示部分摘要（不显示全文）/">https://yueyue200830.github.io/2020/02/23/%E8%AE%BE%E7%BD%AEhexo%E9%A6%96%E9%A1%B5%E5%8F%AA%E6%98%BE%E7%A4%BA%E9%83%A8%E5%88%86%E6%91%98%E8%A6%81%EF%BC%88%E4%B8%8D%E6%98%BE%E7%A4%BA%E5%85%A8%E6%96%87%EF%BC%89/</a></p>
+<h1 id="hexo修改站点标题等">hexo修改站点标题等</h1>
+<p>在文件<code>_config.yml</code>中找到<code>#site_</code></p>
+<table>
+<colgroup>
+<col style="width: 17%" />
+<col style="width: 82%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>参数</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>title</code></td>
+<td>网站标题</td>
+</tr>
+<tr class="even">
+<td><code>subtitle</code></td>
+<td>网站副标题</td>
+</tr>
+<tr class="odd">
+<td><code>description</code></td>
+<td>网站描述</td>
+</tr>
+<tr class="even">
+<td><code>author</code></td>
+<td>您的名字</td>
+</tr>
+<tr class="odd">
+<td><code>language</code></td>
+<td>网站使用的语言</td>
+</tr>
+<tr class="even">
+<td><code>timezone</code></td>
+<td>网站时区。Hexo 默认使用您电脑的时区。<a
+href="https://en.wikipedia.org/wiki/List_of_tz_database_time_zones">时区列表</a>。比如说：<code>America/New_York</code>,
+<code>Japan</code>, 和 <code>UTC</code> 。</td>
+</tr>
+</tbody>
+</table>
+<h1 id="hexo增加分类">hexo增加分类</h1>
+<h3 id="生成分类选项">生成“分类”选项</h3>
+<p>在博客目录打开git，在git中输入:<code>hexo new page categories</code></p>
+<p>//生成“分类”页并添加tpye属性</p>
+<p>接下来会有一个目录，找到该目录。</p>
+<p>categories文件夹下会有个index.md文件。</p>
+<p>添加<code>type: "categories"</code></p>
+<p>//注意有空格</p>
+<p>最后文件大致如下：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">title: categories</span><br><span class="line">date: 2021-09-18 20:53:10</span><br><span class="line">type: &quot;categories&quot;</span><br></pre></td></tr></table></figure>
+<p>保存并退出。</p>
+<h3 id="文章中添加分类">文章中添加“分类”</h3>
+<p>找到要添加分类的文章。</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">title: 论hexo的修改</span><br><span class="line">categories: 七八</span><br></pre></td></tr></table></figure>
+<p>输入:<code>categories: 分类名</code></p>
+<p>//注意，仅限一个分类名。</p>
+<h1
+id="hexo部署github会重置自定义域名">hexo部署github会重置自定义域名</h1>
+<p>//md怪不得，部署后就访问不了</p>
+<p>//看了看自定义域名，果然它的锅</p>
+<p>干。</p>
+<p>解决方法：</p>
+<p>在<code>source</code>中新建一个文件<code>CNAME</code></p>
+<p>//注意，无后缀</p>
+<p>在里面添加自己的域名即可。</p>
+<p>如我的是：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">taoyifan.cn</span><br><span class="line">www.taoyifan.cn</span><br></pre></td></tr></table></figure>
+<h1 id="hexo上传图片">hexo上传图片</h1>
+<h3 id="修改_config.yml文件">修改<code>_config.yml</code>文件</h3>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">post_asset_folder: true </span><br><span class="line">/*</span><br><span class="line">默认为false，改为true</span><br><span class="line">执行命令 $ hexo new post_name，在 source/_posts 中会生成文章 post_name.md 和同名文件夹 post_name。将图片资源放在 post_name 中，文章就可以使用相对路径引用图片资源了</span><br><span class="line">*/</span><br></pre></td></tr></table></figure>
+<h3 id="修改typora">修改typora</h3>
+<p>//typora是markdown文本编辑器，不用可跳过</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">文件→偏好设置→图像</span><br><span class="line">第一个选择：复制到指定路径</span><br><span class="line">第二个：默认</span><br><span class="line"></span><br><span class="line">下方五个选项，打勾前三个。</span><br><span class="line">即：</span><br><span class="line">对本地位置的图片应用上述规则</span><br><span class="line">对网络位置的图片应用上述规则</span><br><span class="line">优秀使用相对路径</span><br></pre></td></tr></table></figure>
+<h3 id="使用">使用</h3>
+<p>若使用typora，直接将图片拖到typora里即可（typora一定要经过上面配置才可），然后记得删除文件名。</p>
+<p>若不使用，直接将图片放到同名文件夹中即可。</p>
+<p>如：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">![xiang](论hexo的修改/xiang.jpg)</span><br></pre></td></tr></table></figure>
+<p>直接将图片拖进来会显示这个，此时文章会显示图片</p>
+<p>但在hexo中是不会显示图片的。</p>
+<p>需要删除<code>论hexo的修改/</code></p>
+<p>即：</p>
+<p>如果要在hexo中插入图片</p>
+<p>假设图片名为test</p>
+<p>则写入：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">![](test.jpg)</span><br></pre></td></tr></table></figure>
+<p>-</p>
+<p><strong>只保留图片名</strong></p>
+<p>know？</p>
+<h1 id="修改底部信息">修改底部信息</h1>
+<p>在主题的<code>footer.ejs</code>中修改</p>
+<p>//找不到？直接搜索，也就主题里有了。</p>
+<h1 id="一台电脑多个hexo博客搭建过程">一台电脑多个hexo博客搭建过程</h1>
+<p>主要参照来源:https://blog.csdn.net/qq_36759224/article/details/86546729</p>
+<p>下面为遇到的问题</p>
+<p>1.windows下./ssh目录</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">如我的电脑用户名为singlor</span><br><span class="line">.ssh目录就在：C:\Users\singlor\.ssh</span><br><span class="line">而不是，c:\users\administrator</span><br></pre></td></tr></table></figure>
+<p>2.清除本地SSH缓存，执行 ssh -add 出现报错”Could not open a connection
+to your authentication agent.”</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">执行如下命令　ssh-agent bash</span><br></pre></td></tr></table></figure>
+<p>3.主题下载失败，链接超时，显示”Failed to connect to github.com port
+443 after 21078 ms: Timed out”</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">很玄学，多试几次就能下载成功。</span><br></pre></td></tr></table></figure>
+<h1 id="上传hexo到gitee">上传hexo到gitee</h1>
+<p>上传时出现报错”remote: error: GE007: Your push would publish a
+private email address.”</p>
+<p>解决方法：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">设置——不公开我的邮箱地址（取消勾选）——提交邮箱设置（选择自己的邮箱）</span><br><span class="line">//将邮箱设置为非私有即可</span><br></pre></td></tr></table></figure>
+<h1 id="上传hexo到coding">上传hexo到coding</h1>
+<h4 id="出现报错"><strong>出现报错：</strong></h4>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Permission Denied (publickey)</span><br></pre></td></tr></table></figure>
+<h4 id="解决方法">解决方法：</h4>
+<p>修改 <code>C:\Program Files\Git\etc\ssh\ssh_config</code>
+文件，在最后添加：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Host *.coding.net</span><br><span class="line">        HostkeyAlgorithms +ssh-rsa</span><br><span class="line">        PubkeyAcceptedAlgorithms +ssh-rsa</span><br></pre></td></tr></table></figure>
+<p>而后测试 <code>ssh -T git@e.coding.net</code>即可。</p>
+<h1 id="给hexo文章加密">给hexo文章加密</h1>
+<p>所用插件：https://github.com/D0n9X1n/hexo-blog-encrypt</p>
+<p>以下内容转载至github</p>
+<h2 id="这是个啥">这是个啥</h2>
+<ul>
+<li><del>首先, 这是 Hexo 生态圈中 <strong>最好的</strong>
+博客加密插件</del></li>
+<li>你可能需要写一些私密的博客, 通过密码验证的方式让人不能随意浏览.</li>
+<li>这在 wordpress, emlog 或是其他博客系统中都很容易实现, 然而 hexo
+除外. :(</li>
+<li>为了解决这个问题, 让我们有请 “hexo-blog-encrypt”.</li>
+</ul>
+<h2 id="特性">特性</h2>
+<ul>
+<li>一旦你输入了正确的密码, 它将会被存储在本地浏览器的 localStorage中.
+按个按钮, 密码将会被清空. 若博客中有脚本, 它将会被正确地执行.</li>
+<li>支持按标签加密.</li>
+<li>所有的核心功能都是由原生的 API 所提供的. 在 Node.js中, 我们使用 <a
+href="https://nodejs.org/dist/latest-v12.x/docs/api/crypto.html">Crypto</a>.
+在浏览器中, 我们使用 <a
+href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Crypto_API">Web
+Crypto API</a>.</li>
+<li><a href="https://tools.ietf.org/html/rfc2898">PBKDF2</a>, <a
+href="https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.180-4.pdf">SHA256</a>
+被用于分发密钥, <a
+href="https://csrc.nist.gov/publications/detail/sp/800-38a/final">AES256-CBC</a>
+被用于加解密, 我们还使用 <a
+href="https://csrc.nist.gov/csrc/media/publications/fips/198/1/final/documents/fips-198-1_final.pdf">HMAC</a>
+来验证密文的来源, 并确保其未被篡改.</li>
+<li>我们广泛地使用 Promise 来进行异步操作, 以此确保线程不被阻塞.</li>
+<li>加密页面多主题支持, 现在已经支持的主题有 [<code>default</code>,
+<code>xray</code>], 更多的主题正在开发中.</li>
+<li>过时的浏览器将不能正常显示, 因此, 请升级您的浏览器.</li>
+</ul>
+<h2 id="在线演示">在线演示</h2>
+<ul>
+<li>点击 <a href="https://mhexo.github.io/">Demo Page</a>,
+<strong>所有的密码都是 <code>hello</code></strong>.</li>
+</ul>
+<h2 id="安装">安装</h2>
+<ul>
+<li><code>npm install --save hexo-blog-encrypt</code></li>
+<li>或 <code>yarn add hexo-blog-encrypt</code> (需要) <a
+href="https://yarnpkg.com/en/">Yarn</a>)</li>
+</ul>
+<h2 id="快速使用">快速使用</h2>
+<ul>
+<li>将 “password” 字段添加到您文章信息头就像这样.</li>
+</ul>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: Hello World</span><br><span class="line">date: 2016-03-30 21:18:02</span><br><span class="line">password: hello</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
+<ul>
+<li>再使用 <code>hexo clean &amp;&amp; hexo g &amp;&amp; hexo s</code>
+在本地预览加密的文章.</li>
+</ul>
+<h2 id="设置优先级">设置优先级</h2>
+<p>文章信息头 &gt; 按标签加密</p>
+<h2 id="高级设置">高级设置</h2>
+<h3 id="文章信息头">文章信息头</h3>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: Hello World</span><br><span class="line">tags:</span><br><span class="line">- 作为日记加密</span><br><span class="line">date: 2016-03-30 21:12:21</span><br><span class="line">password: mikemessi</span><br><span class="line">abstract: 有东西被加密了, 请输入密码查看.</span><br><span class="line">message: 您好, 这里需要密码.</span><br><span class="line">wrong_pass_message: 抱歉, 这个密码看着不太对, 请再试试.</span><br><span class="line">wrong_hash_message: 抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容.</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
+<h3 id="config.yml"><code>_config.yml</code></h3>
+<h4 id="示例">示例</h4>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># Security</span><br><span class="line">encrypt: # hexo-blog-encrypt</span><br><span class="line">  abstract: 有东西被加密了, 请输入密码查看.</span><br><span class="line">  message: 您好, 这里需要密码.</span><br><span class="line">  tags:</span><br><span class="line">  - &#123;name: tagName, password: 密码A&#125;</span><br><span class="line">  - &#123;name: tagName, password: 密码B&#125;</span><br><span class="line">  wrong_pass_message: 抱歉, 这个密码看着不太对, 请再试试.</span><br><span class="line">  wrong_hash_message: 抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容.</span><br></pre></td></tr></table></figure>
+<h4 id="对博文禁用-tag-加密">对博文禁用 Tag 加密</h4>
+<p>只需要将博文头部的 <code>password</code> 设置为 <code>""</code>
+即可取消 Tag 加密.</p>
+<p>Example:</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: Callback Test</span><br><span class="line">date: 2019-12-21 11:54:07</span><br><span class="line">tags:</span><br><span class="line">    - A Tag should be encrypted</span><br><span class="line">password: &quot;&quot;</span><br><span class="line">---</span><br><span class="line"></span><br><span class="line">Use a &quot;&quot; to diable tag encryption.</span><br></pre></td></tr></table></figure>
+<h3 id="配置优先级">配置优先级</h3>
+<p>文章信息头 &gt; <code>_config.yml</code> (站点根目录下的) &gt;
+默认配置</p>
+<h3 id="关于-callback-函数">关于 Callback 函数</h3>
+<p>在部分博客中, 解密后部分元素可能无法正常显示或者表现, 这属于已知问题.
+目前的解决办法是通过自行查阅自己的博客中的代码, 了解到在 onload
+事件发生时调用了哪些函数, 并将这些函数挑选后写入到博客内容中. 如:</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: Callback Test</span><br><span class="line">date: 2019-12-21 11:54:07</span><br><span class="line">tags:</span><br><span class="line">    - Encrypted</span><br><span class="line">---</span><br><span class="line"></span><br><span class="line">This is a blog to test Callback functions. You just need to add code at the last of your post like following:</span><br><span class="line"></span><br><span class="line">It will be called after the blog decrypted.</span><br><span class="line"></span><br><span class="line">&lt;script&gt;</span><br><span class="line">    // 添加一个 script tag 与代码在文章末尾.</span><br><span class="line">    alert(&quot;Hello World&quot;);</span><br><span class="line">&lt;/script&gt;</span><br></pre></td></tr></table></figure>
+<p>例子在: <a
+href="https://mhexo.github.io/2020/12/06/Callback-Test/">Callback
+例子</a>.</p>
+<h3 id="对-toc-进行加密">对 TOC 进行加密</h3>
+<p>如果你有一篇文章使用了 TOC，你需要修改模板的部分代码。这里用
+landscape 作为例子：</p>
+<ul>
+<li>你可以在 hexo/themes/landscape/layout/_partial/article.ejs 找到
+article.ejs。</li>
+<li>然后找到 &lt;% post.content %&gt; 这段代码，通常在30行左右。</li>
+<li>使用如下的代码来替代它:</li>
+</ul>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;% if(post.toc == true)&#123; %&gt;</span><br><span class="line">  &lt;div id=&quot;toc-div&quot; class=&quot;toc-article&quot; &lt;% if (post.encrypt == true) &#123; %&gt;style=&quot;display:none&quot; &lt;% &#125; %&gt;&gt;</span><br><span class="line">    &lt;strong class=&quot;toc-title&quot;&gt;Index&lt;/strong&gt;</span><br><span class="line">      &lt;% if (post.encrypt == true) &#123; %&gt;</span><br><span class="line">        &lt;%- toc(post.origin, &#123;list_number: true&#125;) %&gt;</span><br><span class="line">      &lt;% &#125; else &#123; %&gt;</span><br><span class="line">        &lt;%- toc(post.content, &#123;list_number: true&#125;) %&gt;</span><br><span class="line">      &lt;% &#125; %&gt;</span><br><span class="line">  &lt;/div&gt;</span><br><span class="line">&lt;% &#125; %&gt;</span><br><span class="line">&lt;%- post.content %&gt;</span><br></pre></td></tr></table></figure>
+<h3 id="禁用-log">禁用 Log</h3>
+<p>If you want to disable the logging, you can add a silent property in
+<code>_config.yml</code> and set it to true. 如果你想要禁止使用 Log,
+你可以在 <code>_config.yml</code> 中增加一个 silent 属性, 并将其设置为
+true.</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># Security</span><br><span class="line">encrypt: # hexo-blog-encrypt</span><br><span class="line">  silent: true</span><br></pre></td></tr></table></figure>
+<p>这样就会禁止如
+<code>INFO hexo-blog-encrypt: encrypting "&#123;Blog Name&#125;" based on Tag: "EncryptedTag".</code>
+的日志.</p>
+<h3 id="加密主题">加密主题</h3>
+<p>之前, 我们尝试使用 <code>template</code>
+关键字来让用户能修改自己的主题. 后来发现真不是一个好主意.
+所以我们现在引入了主题: <code>theme</code> 关键字.</p>
+<p>你可以简单的使用 <code>theme</code> 在 <code>_config.yml</code>
+里或者文章头, 如下:</p>
+<h3 id="文章信息头-1">文章信息头</h3>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: Hello World</span><br><span class="line">tags:</span><br><span class="line">- 作为日记加密</span><br><span class="line">date: 2016-03-30 21:12:21</span><br><span class="line">password: mikemessi</span><br><span class="line">abstract: 有东西被加密了, 请输入密码查看.</span><br><span class="line">message: 您好, 这里需要密码.</span><br><span class="line">theme: xray</span><br><span class="line">wrong_pass_message: 抱歉, 这个密码看着不太对, 请再试试.</span><br><span class="line">wrong_hash_message: 抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容.</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
+<h3 id="在-_config.yml">在 <code>_config.yml</code></h3>
+<h4 id="示例-1">示例</h4>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># Security</span><br><span class="line">encrypt: # hexo-blog-encrypt</span><br><span class="line">  abstract: 有东西被加密了, 请输入密码查看.</span><br><span class="line">  message: 您好, 这里需要密码.</span><br><span class="line">  tags:</span><br><span class="line">  - &#123;name: tagName, password: 密码A&#125;</span><br><span class="line">  - &#123;name: tagName, password: 密码B&#125;</span><br><span class="line">  theme: xray</span><br><span class="line">  wrong_pass_message: 抱歉, 这个密码看着不太对, 请再试试.</span><br><span class="line">  wrong_hash_message: 抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容.</span><br></pre></td></tr></table></figure>
+<h1
+id="typecho转hexo即将文章转换为.md格式支持评论">Typecho转hexo（即将文章转换为.md格式，支持评论）</h1>
+<p>只需要数据库文件就可以。</p>
+<p>我试过用我备份下来的数据库文件重新安装typecho，失败了。</p>
+<p>这个软件是直接对数据库文件进行转换，无需重新搭建typecho。</p>
+<p>地址：<a
+href="http://www.mebyz.cn/rjdm/typechotohexo2.html">www.mebyz.cn/rjdm/typechotohexo2.html</a></p>
+<p>备份：</p>
+<p>链接: https://pan.baidu.com/s/1RXP1jvbJIGX9gBs9D9VmxQ?pwd=g49m</p>
+<p>提取码: g49m</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>设置typecho伪静态,设置typecho首页静态页面</title>
+    <url>/posts/f0cbd505/</url>
+    <content><![CDATA[<p>What's past is prologue.</p>
+<span id="more"></span>
+<h3 id="设置typecho伪静态">设置typecho伪静态</h3>
+<h4 id="什么是伪静态">什么是伪静态？</h4>
+<blockquote>
+<p>伪静态是相对真实静态来讲的，通常我们为了增强搜索引擎的友好面，都将文章内容生成静态页面，但是有的朋友为了实时的显示一些信息。或者还想运用动态脚本解决一些问题。不能用静态的方式来展示网站内容。但是这就损失了对搜索引擎的友好面。怎么样在两者之间找个中间方法呢，这就产生了伪静态技术。伪静态技术是指展示出来的是以html一类的静态页面形式，但其实是用ASP一类的动态脚本来处理的。</p>
+</blockquote>
+<p>简单来说 以域名<code>wansz.xyz</code>为例 如果用这个域名搭建博客的话
+点击一篇文章 域名应该是<code>wansz.xyz/index.php/325</code>
+而设置了<code>伪静态</code> 点击一篇文章
+域名应该是<code>wansz.xyz/325.html</code> 影响，唔，不大
+但是缩短了一点，很简介，且有些人不是会看<code>index.php</code>不顺眼的嘛owo</p>
+<h4 id="如何设置">如何设置？</h4>
+<p>参照了下这篇文章：https://blog.csdn.net/yiferhuang/article/details/86473209</p>
+<p>首先在你的<code>程序根目录</code>创建一个<code>文件</code>
+文件名为<code>.htaccess</code>
+（有<code>.</code>不要忘记了，以及没有后缀，就是这么一个名字
+（话说<code>.htaccess</code>就是后缀来着#run
+（如果不知道<code>程序根目录</code>在哪里的话，唔，你看看你程序的<code>index.php</code>在哪里，<code>.htaccess</code>文件就放在哪里</p>
+<p>然后在<code>.htaccess</code>文件中放入以下代码 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;IfModule mod_rewrite.c&gt;</span><br><span class="line">RewriteEngine On</span><br><span class="line"># 下面是在根目录，文件夹要修改路径</span><br><span class="line">RewriteBase /</span><br><span class="line">RewriteCond %&#123;REQUEST_FILENAME&#125; !-f</span><br><span class="line">RewriteCond %&#123;REQUEST_FILENAME&#125; !-d</span><br><span class="line">RewriteRule ^(.*)$ /index.php/$1 [L]</span><br><span class="line">&lt;/IfModule&gt;</span><br></pre></td></tr></table></figure>
+直接cv过去就好，不需要修改什么</p>
+<p>（针对<code>Apache</code>服务器而言是这样子的
+（其他的话，我没有搞懂，因为我已经配置成功了就没去看其他例子
+（我直接cv下好了，防止丢失</p>
+<p>Linux Apache环境（Nginx） <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">location / &#123;</span><br><span class="line">index index.html index.php;</span><br><span class="line">if (-f $request_filename/index.html) &#123;</span><br><span class="line">rewrite (.*) $1/index.html break;</span><br><span class="line">&#125;</span><br><span class="line">if (-f $request_filename/index.php) &#123;</span><br><span class="line">rewrite (.*) $1/index.php;</span><br><span class="line">&#125;</span><br><span class="line">if (!-f $request_filename) &#123;</span><br><span class="line">rewrite (.*) /index.php;</span><br><span class="line">&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
+<p>Windows IIS伪静态(httpd.ini) <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">[ISAPI_Rewrite]</span><br><span class="line"># 3600 = 1 hour</span><br><span class="line">CacheClockRate 3600</span><br><span class="line">RepeatLimit 32</span><br><span class="line"># 中文tag解决</span><br><span class="line">RewriteRule /tag/(.*) /index\.php\?tag=$1</span><br><span class="line"># sitemapxml</span><br><span class="line">RewriteRule /sitemap.xml /sitemap.xml [L]</span><br><span class="line">RewriteRule /favicon.ico /favicon.ico [L]</span><br><span class="line"># 内容页</span><br><span class="line">RewriteRule /(.*).html /index.php/$1.html [L]</span><br><span class="line"># 评论</span><br><span class="line">RewriteRule /(.*)/comment /index.php/$1/comment [L]</span><br><span class="line"># 分类页</span><br><span class="line">RewriteRule /category/(.*) /index.php/category/$1 [L]</span><br><span class="line"># 分页</span><br><span class="line">RewriteRule /page/(.*) /index.php/page/$1 [L]</span><br><span class="line"># 搜索页</span><br><span class="line">RewriteRule /search/(.*) /index.php/search/$1 [L]</span><br><span class="line"># feed</span><br><span class="line">RewriteRule /feed/(.*) /index.php/feed/$1 [L]</span><br><span class="line"># 日期归档</span><br><span class="line">RewriteRule /2(.*) /index.php/2$1 [L]</span><br><span class="line"># 上传图片等</span><br><span class="line">RewriteRule /action(.*) /index.php/action$1 [L]</span><br></pre></td></tr></table></figure></p>
+<h4
+id="配置完后如何在typecho后台设置">配置完后如何在typecho后台设置？</h4>
+<ul>
+<li>进入<code>后台</code></li>
+<li><code>设置</code>-<code>永久链接</code></li>
+<li><code>是否使用地址重写功能</code>选择<code>启用</code>，<code>自定义文章路径</code>选择<code>除第一个（默认风格）之外的任意一个</code></li>
+<li>保存设置</li>
+</ul>
+<p>（可能会提示<code>失败，是否要强制设置</code>什么的，不用管，选择<code>强制设置</code>就行了
+（大概就这么个意思，忘了：D</p>
+<h3 id="设置typecho首页静态页面">设置typecho首页静态页面</h3>
+<p>来源：https://itlu.org/articles/1857.html</p>
+<h4 id="新建文件">新建文件</h4>
+<p>新建文件<code>f5.php</code>
+放在<code>软件根目录</code>（即<code>index.php</code>所在的目录</p>
+<h4 id="放入代码">放入代码</h4>
+<p>将下列代码放入<code>f5.php</code>中</p>
+<figure class="highlight php"><table><tr><td class="code"><pre><span class="line"><span class="meta">&lt;?php</span></span><br><span class="line"><span class="variable">$nowtime</span>=<span class="title function_ invoke__">time</span>();</span><br><span class="line"><span class="variable">$pastsec</span> = <span class="variable">$nowtime</span> - <span class="variable">$_GET</span>[<span class="string">&quot;t&quot;</span>];</span><br><span class="line"><span class="keyword">if</span>(<span class="variable">$pastsec</span>&lt;<span class="number">600</span>)</span><br><span class="line">&#123;</span><br><span class="line"><span class="keyword">exit</span>; <span class="comment">//10分钟更新一次，时间可以自己调整</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="title function_ invoke__">ob_start</span>(); <span class="comment">//打开缓冲区</span></span><br><span class="line"><span class="keyword">include</span>(<span class="string">&quot;index.php&quot;</span>);</span><br><span class="line"><span class="variable">$content</span> = <span class="title function_ invoke__">ob_get_contents</span>(); <span class="comment">//得到缓冲区的内容</span></span><br><span class="line"><span class="variable">$content</span> .= <span class="string">&quot;\n&lt;script language=javascript src=\&quot;f5.php?t=&quot;</span>.<span class="variable">$nowtime</span>.<span class="string">&quot;\&quot;&gt;&lt;/script&gt;&quot;</span>; <span class="comment">//加上调用更新程序的代码</span></span><br><span class="line"></span><br><span class="line"><span class="title function_ invoke__">file_put_contents</span>(<span class="string">&quot;index.html&quot;</span>,<span class="variable">$content</span>);</span><br><span class="line"><span class="keyword">if</span> (!<span class="title function_ invoke__">function_exists</span>(<span class="string">&quot;file_put_contents&quot;</span>))</span><br><span class="line">&#123;</span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">file_put_contents</span>(<span class="params"><span class="variable">$fn</span>,<span class="variable">$fs</span></span>)</span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line"><span class="variable">$fp</span>=<span class="title function_ invoke__">fopen</span>(<span class="variable">$fn</span>,<span class="string">&quot;w+&quot;</span>);</span><br><span class="line"><span class="title function_ invoke__">fputs</span>(<span class="variable">$fp</span>,<span class="variable">$fs</span>);</span><br><span class="line"><span class="title function_ invoke__">fclose</span>(<span class="variable">$fp</span>);  </span><br><span class="line">&#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="meta">?&gt;</span></span><br></pre></td></tr></table></figure>
+<h4 id="设置">设置</h4>
+<p>放入代码之后，在浏览器中打开<code>域名/f5.php</code>
+如我的网站是<code>wansz.xyz</code>，那么我应该打开的是<code>wansz.xyz/f5.php</code>
+打开后你看到的依旧是<code>首页</code>，且将会有一个<code>index.heml</code>文件在软件根目录生成。
+<code>刷新</code>，<code>重新进入</code>网站（不用进入<code>域名/f5.php</code>）
+<code>右键</code>页面，<code>查看网页源代码</code>/<code>审查元素</code>都可以
+若是末尾有出现
+<code>&lt;script language=javascript ……"&gt;&lt;/script&gt;</code>
+即成功 即说明你访问的是“index.html”页面</p>
+<h4 id="补充">补充</h4>
+<p>若是<code>index.html</code>生成成功，末尾却没有出现
+<code>&lt;script language=javascript ……"&gt;&lt;/script&gt;</code>
+可能是程序默认访问<code>index.php</code>的权限比<code>index.html</code>高。</p>
+<p><code>宝塔</code>的话在<code>站点修改</code>中的<code>默认文档</code>中
+将<code>index.html</code>放在<code>index.php</code>上面即可</p>
+<p><code>cPanel</code>的话在<code>.heaccess</code>中添加代码<code>DirectoryIndex index.html index.php index.htm</code>然后保存即可。
+（可以放在文档最上面，任意位置。</p>
+<h4 id="后话">后话</h4>
+<p>唔。 设置typecho首页静态页面那个
+刚刚发现你发布文章的话是不能第一时间显示的 原因是这个：
+<figure class="highlight php"><table><tr><td class="code"><pre><span class="line"><span class="keyword">if</span>(<span class="variable">$pastsec</span>&lt;<span class="number">600</span>)</span><br><span class="line">&#123;</span><br><span class="line"><span class="keyword">exit</span>; <span class="comment">//10分钟更新一次，时间可以自己调整</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
+<p>代码里的时间是，你想要刷新的时间（分钟）*60=填写的时间
+（填写的是<code>秒</code>计的：D
+我觉得太慢了就设置了一分钟刷新一次，然后代码是这样子的：
+<figure class="highlight php"><table><tr><td class="code"><pre><span class="line"><span class="keyword">if</span>(<span class="variable">$pastsec</span>&lt;<span class="number">60</span>)</span><br><span class="line">&#123;</span><br><span class="line"><span class="keyword">exit</span>; <span class="comment">//1分钟更新一次，时间可以自己调整</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
+<p>（修改了后没有改的话可以试试重新生成下<code>index.html</code>文件
+<del>(小媳妇受欺负语气哈哈哈哈哈哈哈哈哈哈哈</del>
+应某沙强烈要求，补上图片hhhh 感谢我方<a
+href="http://crash-logs.ml/">幻沙</a>同学。
+也是，他最先提出来，然后我问他是不是捣鼓了伪静态= =
+然后他说是，然后我就向他取了下<del>精</del>，经
+也的确在我捣鼓的时候给我了一些帮助 行吧：D (╯‵□′)╯︵┻━┻ 咳，嘘。</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>设置百度网盘留言,装了个灯箱插件</title>
+    <url>/posts/37cecb6e/</url>
+    <content><![CDATA[<p>What's past is prologue.</p>
+<span id="more"></span>
+<p>###设置百度网盘留言</p>
+<figure>
+<img src="https://wansz.xyz/usr/uploads/2020/02/1836172311.png"
+alt="QQ截图20200216212029.png" />
+<figcaption aria-hidden="true">QQ截图20200216212029.png</figcaption>
+</figure>
+<p>就是说当用户下载你分享的百度网盘时，能够在你头像下面显示你的站点：D
+另外应该只限于加密分享，无密分享也没有这玩意儿不是么：D
+另外这个头像下面的文字可以自定义：D
+如果百度网盘没多少人看的话其实也引不了多少流：D 设置方法：
+手机APP“<code>百度网盘</code>” 登录后点击“<code>我的</code>”
+点击自己<code>左上角头像</code> 点击<code>个性签名</code>
+自行修改即可_(:з」∠)<em>
+~~我没水博文！没有！⑧可能！我也是第一次知道的好吧</em>(:з」∠)<em>~~
+~~虽然这个对我来说没多大用就是了</em>(:з」∠)_~~ <img
+src="https://wansz.xyz/usr/uploads/2020/02/1828441244.png"
+alt="sshot-1 (1).png" /> <del>是吧hhhhhh</del></p>
+<p>###装了个灯箱插件 <a
+href="https://github.com/jzwalk/HighSlide">HighSlide</a>
+挺不错的一个灯箱插件，效果可以自行看上方：D 好评：D
+<del>自带的话太麻烦了，以及当初捣鼓过后来又捣鼓没了，以及也没捣鼓完，还不如插件好点233</del></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>趣事</title>
+    <url>/posts/412717f5/</url>
+    <content><![CDATA[<p>What's past is prologue.</p>
+<span id="more"></span>
+<p>咳。 其实说起来有点丢人的说// 有点不务正业其实// 占卜之人能吃牛肉么？
+这是在我中午下楼时看到牛肉并且已经开始吃的时候想的。
+然后想着吃都吃了。。就。。没怎么管。 “其实自己也不算个占卜之人是吧hh”
+嗯然后上楼。 去搜了下。 如图：</p>
+<p>看来可以吃/// 咳咳，道家，不是讲究顺其自然么。 随性而为。
+既如此，可有忌食？
+主要是之前在看占卜视频的时候，因为心定不下来，然后就去看来下一些有关中华传统武术的视频。
+然后在看武当山的师父们展示。
+嗯然后看到弹幕那边说“道教两大派中全真派素食；正一派四不吃：牛肉，狗肉，乌鱼，鸿雁”
+嗯然后有点慌。 嗯然后因为忘记弹幕然后就去百度了。 嗯然后更慌了///</p>
+<blockquote>
+<p>道教不仅明文规定了各种修持戒律，也在祀神、修真、拜师、斋醮、参访、饮食等方面形成了独特的宗教禁忌。</p>
+</blockquote>
+<blockquote>
+<p>四不吃：道教徒不吃四种肉食——牛肉、乌鱼、鸿雁、狗肉，因为牛、乌鱼、鸿雁、狗分别代表忠、孝、节、义。</p>
+</blockquote>
+<blockquote>
+<p>道不言寿：道教重生恶死，忌讳询问年龄，所以问老道长高寿是不礼貌的行为。</p>
+</blockquote>
+<blockquote>
+<p>戊不朝真：道教逢阴历天干为“戊”之日(戊子、戊戌、戊午、戊寅、戊申、戊辰)，不烧香、不诵经、不朝拜，不建斋设醮。</p>
+</blockquote>
+<blockquote>
+<p>参考资料来源：百度百科-道教</p>
+</blockquote>
+<p>我信仰道家？有点。 所以。。我这个。。 算不算。。。 hh。 下次注意吧。
+挺好吃的。。。 咳咳。 幸亏其他的很少吃。 （或者基本没吃过= =</p>
+<p>然后呢就是早上心血来潮。 想了一些有关占卜却又跟占卜无关的。
+就是想着说能不能把自己的能力大致数据化一下。 就是分等级。
+嗯其实这个是真的有点不务正业了是吧///
+但是我觉得这样子可能更能令我坚持下去？ 我不知道。 拙见。
+所以还是看下吧：D</p>
+<p>嗯，我懒。 道徒。 道士。 就两个级别。 我对自己要求不高// 级别分九重。
+九，为数极，代表无穷无尽。 所以道徒-道士那可就是质的飞跃了= =</p>
+<p>给自己来个总结吧： 道徒一重（1/10）</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>迷惑小卦</title>
+    <url>/posts/b5f77874/</url>
+    <content><![CDATA[<p>What's past is prologue.</p>
+<span id="more"></span>
+<p>测天时的，也就是今天天气。 问的是“今日天气如何”
+<del>其实我感觉问“今日雨否”会好点啧</del></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">公历起卦时间：2020年3月14日14时18分　(在线摇卦)</span><br><span class="line">农历：庚子年二月廿一日未时</span><br><span class="line">惊蛰：2020年03月05日11时03分</span><br><span class="line">清明：2020年04月04日15时48分</span><br><span class="line">干支：庚子年　己卯月　丙辰日　乙未时　　（日空：子丑）</span><br><span class="line">神煞：驿马－寅　桃花－酉　日禄－巳　贵人－酉，亥</span><br><span class="line"></span><br><span class="line">　　 　　　　　　　艮宫：风泽中孚 (游魂)　 　　艮宫：风泽中孚 (游魂)</span><br><span class="line">六神　　伏神　　　本　 　　卦　　 　 　　　　变　 　　卦</span><br><span class="line">青龙 　　　　　 官鬼辛卯木 ▅▅▅▅▅ 　 　　 官鬼辛卯木 ▅▅▅▅▅ 　</span><br><span class="line">玄武 妻财丙子水 父母辛巳火 ▅▅▅▅▅ 　 　　 父母辛巳火 ▅▅▅▅▅ 　</span><br><span class="line">白虎 　　　　　 兄弟辛未土 ▅▅　▅▅ 世 　　 兄弟辛未土 ▅▅　▅▅ 世</span><br><span class="line">螣蛇 子孙丙申金 兄弟丁丑土 ▅▅　▅▅ 　 　　 兄弟丁丑土 ▅▅　▅▅ 　</span><br><span class="line">勾陈 　　　　　 官鬼丁卯木 ▅▅▅▅▅ 　 　　 官鬼丁卯木 ▅▅▅▅▅ 　</span><br><span class="line">朱雀 　　　　　 父母丁巳火 ▅▅▅▅▅ 应 　　 父母丁巳火 ▅▅▅▅▅ 应</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<p>第一卦，挺迷惑的，然后又起了一卦。</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">公历起卦时间：2020年3月14日14时24分　(在线摇卦)</span><br><span class="line">农历：庚子年二月廿一日未时</span><br><span class="line">惊蛰：2020年03月05日11时03分</span><br><span class="line">清明：2020年04月04日15时48分</span><br><span class="line">干支：庚子年　己卯月　丙辰日　乙未时　　（日空：子丑）</span><br><span class="line">神煞：驿马－寅　桃花－酉　日禄－巳　贵人－酉，亥</span><br><span class="line"></span><br><span class="line">　　 　　　　　　　兑宫：地山谦 　　　 　 　　坎宫：地水师 (归魂)　</span><br><span class="line">六神　　伏神　　　本　 　　卦　　 　 　　　　变　 　　卦</span><br><span class="line">青龙 　　　　　 兄弟癸酉金 ▅▅　▅▅ 　 　　 兄弟癸酉金 ▅▅　▅▅ 应</span><br><span class="line">玄武 　　　　　 子孙癸亥水 ▅▅　▅▅ 世 　　 子孙癸亥水 ▅▅　▅▅ 　</span><br><span class="line">白虎 　　　　　 父母癸丑土 ▅▅　▅▅ 　 　　 父母癸丑土 ▅▅　▅▅ 　</span><br><span class="line">螣蛇 　　　　　 兄弟丙申金 ▅▅▅▅▅ 　 ○→ 官鬼戊午火 ▅▅　▅▅ 世</span><br><span class="line">勾陈 妻财丁卯木 官鬼丙午火 ▅▅　▅▅ 应 ╳→ 父母戊辰土 ▅▅▅▅▅ 　</span><br><span class="line">朱雀 　　　　　 父母丙辰土 ▅▅　▅▅ 　 　　 妻财戊寅木 ▅▅　▅▅ 　</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<p>这一卦嘛。。。 唔。 子孙持世，子孙爻主晴空万里。 月建卯，卯木。
+父母爻主雨。 辰土父母遭月破。 同时子孙爻暗动来着。。
+亥水子孙，日辰是辰，辰土，土克水。。。 我他。。。。 唔。
+申金兄弟发动化回头克。 兄弟爻主风云。 微风吧。 我是真他的迷惑。</p>
+<p>看看第一卦的话。 兄弟爻暗动，木克土。 害。。。。
+看不出来啥了我还。。</p>
+<p>反正总之差不多应该就是晴天微风无雨了。（天气挺好）</p>
+<p>反正到目前为止天气是挺好的。。</p>
+<p>aaaaa，好气哟(╯‵□′)╯︵┻━┻</p>
+<p>看完三卷了，终于搞懂了反吟伏吟。 一共有十二卷，上册有五卷。
+上册这边一卷是《黄金策》，还有一卷是天时章的来着。 天时章粗略翻了下。
+黄金策那边还没怎么看。 下册的话，主要是一些。。更具体的知识吧。
+细节的那种= = 理论知识基本上学完了hhhhhhh <del>没骄傲，真的</del>
+但是其实也不算学完吧，算是看完了，有了一个了解了。
+很多其实还是没记住(╯‵□′)╯︵┻━┻</p>
+<p>然后又闲的去占了一卦，占衣服颜色。
+火为红，水为蓝，土为暗黄甚至于偏黑，金为亮黄，木为绿。
+木弱为浅绿，旺则深绿，土弱则黄，旺则黑，水弱则旺，旺则偏黑。
+若用神两现，一色休囚无力则不用，若二色皆有气，可取混色。</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">**公历起卦时间：**2020年3月14日15时38分　(在线摇卦)</span><br><span class="line">**农历：**庚子年二月廿一日申时</span><br><span class="line">**惊蛰：**2020年03月05日11时03分</span><br><span class="line">**清明：**2020年04月04日15时48分</span><br><span class="line">**干支：**庚子年　己卯月　丙辰日　丙申时　　（日空：子丑）</span><br><span class="line">**神煞：**驿马－寅　桃花－酉　日禄－巳　贵人－酉，亥</span><br><span class="line"></span><br><span class="line">　　 　　　　　　　兑宫：水山蹇 　　　 　 　　兑宫：水山蹇 　　　</span><br><span class="line">**六神　　伏神　　　本　 　　卦　　 　 　　　　变　 　　卦**</span><br><span class="line">青龙 　　　　　 子孙戊子水 ▅▅　▅▅ 　 　　 子孙戊子水 ▅▅　▅▅ 　</span><br><span class="line">玄武 　　　　　 父母戊戌土 ▅▅▅▅▅ 　 　　 父母戊戌土 ▅▅▅▅▅ 　</span><br><span class="line">白虎 　　　　　 兄弟戊申金 ▅▅　▅▅ 世 　　 兄弟戊申金 ▅▅　▅▅ 世</span><br><span class="line">螣蛇 　　　　　 兄弟丙申金 ▅▅▅▅▅ 　 　　 兄弟丙申金 ▅▅▅▅▅ 　</span><br><span class="line">勾陈 妻财丁卯木 官鬼丙午火 ▅▅　▅▅ 　 　　 官鬼丙午火 ▅▅　▅▅ 　</span><br><span class="line">朱雀 　　　　　 父母丙辰土 ▅▅　▅▅ 应 　　 父母丙辰土 ▅▅　▅▅ 应</span><br></pre></td></tr></table></figure>
+<p>因为测的是衣服，我想着说，衣服是来抵御寒冷，保护自己的。
+所以去父母爻为用神。 用神两现，且卯月，土为休囚。
+不过戌土父母爻与月建卯相合。 《增删卜易》里有这么一句话：</p>
+<blockquote>
+<p>爻静，或与日、月、动爻合者，得合而起，即使休囚，亦有旺相之意。</p>
+</blockquote>
+<p>所以就看戌土父母爻了。 土旺，衣服颜色为黑。</p>
+<p>嗯= = 穿的就是黑色衣服来着= = 准备着等会儿再试试= = 纯练手= =</p>
+<p><del>想收集卦例了。。。</del> <del>我他。。。自讨苦吃？</del>
+<del>hhhh，想练练自己的手动排卦的能力，因为到目前为止没排过几次卦，都是电脑自动排盘的</del></p>
+<p>咳。 收集卦例有淫给我发嘛。 主要是收集
+天气的吧，其他的也可以，但是不确定是否准确= =
+我现在对天气真的是。。杠上了哼唧。 <del>咳</del> 欢迎留言:)</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">1.寻一方静处（不要让你打扰到你）</span><br><span class="line">2.放空心灵，心无杂念（不要乱想，就什么都不想就行）</span><br><span class="line">3.取硬币三枚，记数字面为字，guo徽/花面为背</span><br><span class="line">4.取白纸一张，记下起卦时的年月日时，性别，所占何事</span><br><span class="line">5.将三枚硬币平放于手掌，合上手心，闭眼，心中默念所占之事，然后掷到地面上（瓷盘里也行，只要是平整的水平面即可）</span><br><span class="line">6.然后将得到的图案（三枚硬币的，不分顺序）记录到纸上</span><br><span class="line">7.再摇五次。(记住，在白纸上从下往上写。如第一次写到第六行，第二次写到第五行。)</span><br><span class="line">8.摇完六次后，拍下来，或者自己手打，发给我好了= =</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">2020年3月9日23时12分</span><br><span class="line">男</span><br><span class="line">今天天气如何？</span><br><span class="line">第六次：……</span><br><span class="line">第五次：……</span><br><span class="line">第四次：……</span><br><span class="line">第三次：……</span><br><span class="line">第二次：背字背</span><br><span class="line">第一次：背背花</span><br></pre></td></tr></table></figure>
+<p><font color='MediumAquaMarine'> 有人给我这个萌新检验自己的机会嘛owo
+</font></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>逆行者，追光者</title>
+    <url>/posts/7f66d75b/</url>
+    <content><![CDATA[<p>What's past is prologue.</p>
+<span id="more"></span>
+<p>满分60分的作文只能得52分的文，太弱了。扶额 继续练吧。
+<del>还要练字来着，写字分只有四分的我，扶额</del></p>
+<p>病毒让我们失望，但从未让我们绝望，我们仍怀有希望。——题记</p>
+<p>城市沉重地呼吸着，戴着蓝色的口罩像抓住最后的希望。疫情像是一张灰色的巨网，撒在城市的每个角落，人们无处可逃。医院里是看不见的病毒，无力的病人，这是2020年的序幕。</p>
+<p>疫情当下，病毒肆虐，有着钢铁意志的华夏儿女，怎会为此屈服？中华民族饱经沧桑，受岁月洗礼而生生不息，倘若阴阳倒转，也定扭转乾坤：君可见昔日洪水滔滔,我们胼手砥足释水患，君可见昔日非典黕黕，我们众志成城抗病疫，君可见昔日汶川之震，我们携手站起建家园。而今新冠来势汹汹，我们只需举国上下卯足气力以击之，心同一处想，劲往一处使，形成一排排御毒网，一道道万人墙，共克时艰，共待光的到来。</p>
+<p>那么，光是什么？物理上，光是一段处于特定频段的光子流。光源能够发出光。而在现实中，光是希望，是一角灰暗中萌芽的花朵，是透过小小的坑洞迸溅出的那股生命之泉。</p>
+<p>那么，在这个暗波涌动的世界中，谁是光？</p>
+<p>医生是光，护士是光。“国有战，召必回，战必胜。”，这是一位位医生们的请缨书所言。他们在阖家团圆之际，放下了家人，放下了生命，在患者的懊丧，亲人的劝阻中，选择了逆行，选择了奉献。这一天，他们白衣着身，那是英雄出征战场的铠甲。那一天，她们青丝斩断，那是巾帼不让须眉的豪情。他们脚踩万里山河，头顶千丈光芒，携带万里春风，来到了第一线。而与其说他们不畏生死，不如说他们有一颗救世之心，一腔赤子热诚，一种职业精神，一片责任担当和一片赤胆忠心，让他们冲破了对生死的畏惧，选择了“向前，不退”的坚定，向我们展示了布衣之下的炎炎赤血。</p>
+<p>战士是光，志愿者是光。“医院缺电”“医院缺工人”“医院缺……"“我来！我来！我来！……”，在“雷火”医院的建设中，一句句的“我来！”，一笔笔的善款，一排排的卡车，汇聚成抗击疫情的“滚滚暖流”，构建起抗击疫情的”钢铁长城”。人们再一次向医生们展现了“你们安心治疗病人，你们的背后，有我们！”的担当，让在战场上的医护人员知道，他们不是“孤军奋战”，他们背后的那万家灯火，是为他们而亮，是为他们而暖。</p>
+<p>我们也是光。“我们”，是一个个在疫情期间的“宅”在家中的人。也许我们之中，有人按下了那小小的“确认”键，捐献出了自己的一点点力量，有人在家中自娱自乐，不跑出门为国家添麻烦，还有人……我们是光，也是追光者。我们所有人就像那点点萤火，汇成了人间星河。</p>
+<p>前路虽未知，但勇者亦无惧。这就是逆行者，这就是追光者。让我们静待山河无恙，人间皆安，看那人声鼎沸，樱花怒放，笑声遍布山川。</p>
+]]></content>
+  </entry>
+  <entry>
     <title>阅读次数统计,代码高亮</title>
     <url>/posts/d28937c6/</url>
     <content><![CDATA[<p>What's past is prologue.</p>
@@ -13345,6 +13176,211 @@ href="https://github.com/Xcnte/Code-Prettify-for-typecho">Code-Prettify</a>
 如果显示<code>sever error</code>可能就是插件名字问题：D，重命名下就好
 然后调用的话是这样子的： <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">/``` xxx(编程语言，如python/java/php……)</span><br><span class="line">code</span><br><span class="line">/```</span><br><span class="line">(使用的时候记得去掉“/”</span><br></pre></td></tr></table></figure> 没啦~！
 PS:另外发现代码被挡住了啧，应该是我没配置好的原因。如果被挡住了的话有个简单解决方法就是在<code>插件设置</code>里面<code>取消显示代码行数</code>即可</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>问</title>
+    <url>/posts/561ca00f/</url>
+    <content><![CDATA[<p>What's past is prologue.</p>
+<span id="more"></span>
+<h1 id="问">问</h1>
+<p>唔？</p>
+<p>我该写点什么，我想写点什么。</p>
+<p>这会不会浪费时间？可又是自我感动，呻吟阵阵？这可又是写了又忘，又因羞愧心，不甘心而忘而又写？一个闭环，可是如此？</p>
+<p>我要不要承认自己的堕落？要不要承认自己的任性？要不要承认自己灵魂中的劣根性？要不要麻木不仁地看着世界而又自我安慰道这是看淡一切？要不要毫无激情毫无进取心的得过且过？这就是现在的我啊。我啊。</p>
+<p>我该怎么做？也许，我不该想这些，使自己忙起来，便不会有时间想这些，也就不会滋生这些闲愁了。但，我可曾如此无畏？我愿将忙起来不顾一切只知前进的我称为无畏。那时候的我不顾世俗，沉浸自我的小世界，不断汲取着书中的一切，一字一句犹若曼妙美人，一颦一笑间风情万种，深深地吸引着我。那是什么时候的我呢？我想，九月份的我，无畏的我。</p>
+<p>哈，结局是失败的。九月份的当头一棒，打的我彻底，失望，绝望，迷茫了。也许是绝望，也许是失望，迷茫总是在的。我其实也没什么气愤，有的更多的是不甘，不甘平庸，不甘自己又成了一名普通的高中生。感受到了竞赛后，我对这种高中生活厌烦更甚。于是我疾病横生。</p>
+<p>一直想着写一下十月的总结，因为将有二十多天的日子是在家中度过。却懒得动笔。简单说下生的病吧，先是胃炎，后又感冒，发热，再是鼻窦炎。胃炎做了B超，感冒发热做了核酸检测，鼻窦炎拍了CT。似乎以前从未体验过得，现在接踵而至。在家的我在做什么？直播，玩游戏，看小说。真是可悲的我。</p>
+<p>十一月份，在第二周的周五又请假了一次，头又疼起来了。虽说请假过程比较繁琐，终究还是在晚上九点四十分后出了校门。倒是辛苦父亲了，必须家长到校方可离去。</p>
+<p>这几个月来我怕是吃了以前一直因为咽不下去而没有吃的药丸的量了。有趣的事，第一次发现自己能够就水吞下药丸，是上个月在医院做C14检查时。之后便无师自通般学会了且精通。</p>
+<p>啊？我又在说些什么？这周换了个手机，是移动公司送的。摩托罗拉，本是个小作坊而后被微软收购了，似乎是这样的。很便宜的一款手机，三四百似乎便可买到。于我而言，正好。好久未曾使用安卓手机了，数据的迁移于我并非繁琐，毕竟，我一无所有。</p>
+<p>昨日第一次吃了虫草，看着那形如虫子的东西，实在是难以下口。万幸，没有爆浆。以及，昨日换了座位，来到了倒数第二排，本想独自一人坐的来着，我同桌也有此念想，可未曾实现。</p>
+<p>纵观全篇，我想表达什么？怎么之后的段落便是记录生活了？你的朝气，决心呢？我在心中激励了自己千万遍，没日没夜的想了许久关于未来的幻想。我的大脑已经承重不堪，我已经疼痛的不得不开始吃散利痛等止疼药来缓解自己的头疼。吃药后我才可以苟且偷安的思考着。</p>
+<p>“退役？只是从头再来罢了。”10.16在空间发的说说，来源以前看过的《全职高手》。</p>
+<p>于是，我启航。</p>
+<p>辛丑年己亥月己巳日卯时</p>
+<p>taoyifan于学校宿舍</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>随缘更新了</title>
+    <url>/posts/7edbd142/</url>
+    <content><![CDATA[<p>What's past is prologue.</p>
+<span id="more"></span>
+<p>没时间。 要毕业了。 好好学习，天天向上。
+感悟是有，但是难以用言语表达。
+抑或着说，这些感悟还不够拿出来说，我还在完善。 周摘本以为会稳定更新的。
+呵。 习惯就好。</p>
+<p>要毕业了。 没多少天了。 两位数了啊。。。</p>
+<p>但是blog还是会有更新的，内容随缘，时间随缘。</p>
+<p>就这样。</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>饮水</title>
+    <url>/posts/105ce006/</url>
+    <content><![CDATA[<p>What's past is prologue.</p>
+<span id="more"></span>
+<blockquote>
+<p>如人饮水，冷暖自知，不可向人说也。</p>
+</blockquote>
+<blockquote>
+<p>"军训结束后，同学们会变得更有纪律吗？"</p>
+<p>"马戏团结束后，猴子会骑着自行车回家吗？"</p>
+</blockquote>
+<blockquote>
+<p>都是千年的狐狸，跟我玩什么聊斋。</p>
+</blockquote>
+<blockquote>
+<p>所谓无底深渊，下去，也是前程万里。</p>
+</blockquote>
+<blockquote>
+<p>信任的深浅，不在于会不会在你面前笑，而在于愿不愿意在你面前哭。</p>
+</blockquote>
+<blockquote>
+<p>麦穗随着风弯腰，不是为了致敬，而是为了给风指明离别的道路。</p>
+</blockquote>
+<blockquote>
+<p>不读书的人，思想就会停止。读书是在别人思想的帮助下，建立起自己的思想。</p>
+</blockquote>
+<blockquote>
+<p>做粥要，放三分米，七分水。 处事要，三分为己，七分为人。
+对朋友要，三分认真，七分宽容。 对家庭要，三分爱，七分责任。
+看文章要，三分在看，七分在品。 喝酒要，三分醉，七分醒。
+三分...七分...是人生的掂量。</p>
+</blockquote>
+<blockquote>
+<p>残杯与冷炙，到处潜悲辛。</p>
+</blockquote>
+<blockquote>
+<p>不著一字，尽得风流。</p>
+</blockquote>
+<blockquote>
+<p>杳杳诗魂，真化凤蝶。</p>
+</blockquote>
+<blockquote>
+<p>芝兰生于幽林，不以无人而不芳； 君子修身立德，不为穷困而改节。</p>
+</blockquote>
+<blockquote>
+<p>无论什么时候都不要沦落到忧郁寡欢，
+这世间最美好的事情就是每天一个烦恼能够换回两个微笑： 笑过往风轻云淡，
+笑明日水静天晴。</p>
+</blockquote>
+<blockquote>
+<p>我流泪了，因为眼睛也疲倦了。</p>
+</blockquote>
+<blockquote>
+<p>当我朝着前方行走的时候，我只想有那么一个人，独为我撑伞。</p>
+</blockquote>
+<blockquote>
+<p>那美女多娇，爱看英雄。</p>
+</blockquote>
+<blockquote>
+<p>日日想我，夜夜思我，终不得我。</p>
+</blockquote>
+<blockquote>
+<p>无为又清高。</p>
+</blockquote>
+<blockquote>
+<p>我不沉浮了，我要坠渊沉沦。</p>
+</blockquote>
+<blockquote>
+<p>纵有春风词笔，病怀浑懒。</p>
+</blockquote>
+<blockquote>
+<p>消瘦休文，顿觉春衫褪。</p>
+</blockquote>
+<blockquote>
+<p>道是天公果惜花，雨洗风吹了。</p>
+</blockquote>
+<blockquote>
+<p>未来未来，我来。</p>
+</blockquote>
+<blockquote>
+<p>下雨了，雨伞借给你。</p>
+</blockquote>
+<blockquote>
+<p>心若向阳，无畏悲伤。</p>
+</blockquote>
+<blockquote>
+<p>西风解事，为人间，洗尽三庚烦暑。</p>
+</blockquote>
+<blockquote>
+<p>点点楼头细雨，重重江外平湖。</p>
+</blockquote>
+<blockquote>
+<p>俯仰人间今古。</p>
+</blockquote>
+<blockquote>
+<p>我是清都山水郎，天教分付与疏狂。曾批给雨支风劵，累上留云借月章。
+诗万首，酒千觞。何曾着眼看侯王。金楼玉阙慵归去，且插梅花醉洛阳。</p>
+</blockquote>
+<blockquote>
+<p>上大学一次性交多少钱？</p>
+</blockquote>
+<blockquote>
+<p>人间岁月堂堂去，劝君快上青云路。</p>
+</blockquote>
+<blockquote>
+<p>日出扶桑一丈高，人间万事细如毛。 野夫怒见不平处，磨损胸中万古刀。</p>
+</blockquote>
+<blockquote>
+<p>怕什么真理无穷，进一寸有一寸的欢喜。</p>
+</blockquote>
+<blockquote>
+<p>满怀心腹事，尽在不言中。</p>
+</blockquote>
+<blockquote>
+<p>君子之交，合则同道，散无恶语。</p>
+</blockquote>
+<blockquote>
+<p>有钱活得好，没钱活得好？.....</p>
+</blockquote>
+<blockquote>
+<p>一个能升起月亮的身体，必然驮注了无数次的日落。</p>
+</blockquote>
+<blockquote>
+<p>你懂我的奇奇怪怪，那么我也可以懂你的可可爱爱。</p>
+</blockquote>
+]]></content>
+  </entry>
+  <entry>
+    <title>雪</title>
+    <url>/posts/fdc42b1a/</url>
+    <content><![CDATA[<p>What's past is prologue.</p>
+<span id="more"></span>
+<p>雪的别称。 看bilibili视频看到的，记录下。 <a
+href="https://www.bilibili.com/video/BV1SJ411U7g8/"
+class="uri">https://www.bilibili.com/video/BV1SJ411U7g8/</a></p>
+<p>1.银粟 独来独往银粟地，一行一步玉沙声 宋-杨万里《雪冻未解散策郡圃》
+2.仙藻 欲验丰年象，飘摇仙藻来 唐-张说《奉和圣制》 3.云娇
+玉软云娇，姑射肌肤洁 宋-赵鼎《蝶恋花-一朵江梅春带雪》 4.玉鸾
+造物故豪纵，千里玉鸾飞 宋-辛弃疾《水调歌头-吴江观雪》 5.碎琼
+微于疏竹上，时作碎琼声 宋-张宪《听雪斋》 6.琼芳
+宫城团回凛严光，白天碎碎堕琼芳 唐-李贺《十二月辞-十一月》 7.寒英
+昨宵天意聚回复，繁阴一布飘寒英 宋-范仲淹《依韵和提刑太傅嘉雪》 8.凝雨
+独有凝雨姿，贞晼而无殉 南朝 沈约《雪赞》 9.瑞叶
+瑞叶飞来麦已青，更烦膏雨发欣英 宋 范成大《雪后雨作》 10.玉沙
+天风淅淅飞玉沙，韶恩归沐休早衙 宋 苏轼《小饮清虚堂示王定国》 11.玉絮
+开门枝鸟散，玉絮堕纷纷 宋 司马光《雪霁登普贤阁》 12.璇花
+琼树留宸瞩，璇花入户睿词 唐 徐彦伯《游禁苑幸临渭亭遇雪应制》 13.六出花
+琼章定少千人知，银树长芳六出花 唐 宋之问《奉知春日玩雪应制》 14.玉霙
+晚雨纤纤变玉霙，小庵高卧有余清 宋 苏轼《夜雪独宿柏仙庵》 15.玉蛾
+须臾云汉飘白蕊，咫尺空中舞玉蛾 元 薛昂夫《端正好-高隐》 16.琼华
+闲招好阁斟香蚁，闷对琼华咏散盐 唐 韦庄《冬日长安感志》 17.祥英
+千钟圣酒御筵披，六出祥英乱绕枝 唐 李济《上清晖閤遇雪》 18.寒酥
+朝来试看青枝上，几朵寒酥未肯消 明 徐渭《梨花》 19.瑞白
+宣和初载元冬尾，瑞白才消尘不起 元 马熙载《预赏元宵曲宴近臣诗》 20.银砂
+两岸严风吹玉树，一滩明月晒银砂 唐 韦庄《夜雪泛舟游南溪》 21.玉尘
+漠漠復雰雰，东风散玉尘 唐 自居易《酬皇甫十早春对雪见赠》 22.飞花
+白雪却嫌春色晚，故穿庭树作飞花 唐 韩愈《春雪》 23.玉花
+箬笠但闻冰散响，蓑衣时振玉花空 宋 李纲《望江雪-江上雪》 24.琼屑
+皇穹何处飞琼屑，散下人间作春雪 唐 无名氏《白雪歌》 25.撒盐
+撒盐如可拟，愿糁和羮梅 唐 孟浩然《和张丞相春朝对雪》 26.羽浮
+细绕回风转，轻随落羽浮 唐 钱起《禁闱玩雪寄薛左丞》 27.梦蝶
+雪飞当梦蝶，风度几惊人 唐 王烈《雪》 28.株叶 洒散千株叶，销凝九陌埃 唐
+令狐楚《雪寄李师素侍郎》</p>
+<p>不知天上谁横笛，吹落琼花满世间-元 吴橙 《咏雪》</p>
 ]]></content>
   </entry>
 </search>

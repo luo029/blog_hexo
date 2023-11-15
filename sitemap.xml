@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://taoyifan.cn/posts/24650cb9/</loc>
+    
+    <lastmod>2023-11-15</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://taoyifan.cn/posts/1fe52210/</loc>
     
     <lastmod>2023-11-14</lastmod>
@@ -1352,6 +1361,15 @@
   </url>
   
   <url>
+    <loc>https://taoyifan.cn/posts/9beb790c/</loc>
+    
+    <lastmod>2023-01-17</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://taoyifan.cn/posts/fb84f1e1/</loc>
     
     <lastmod>2023-01-17</lastmod>
@@ -1371,15 +1389,6 @@
   
   <url>
     <loc>https://taoyifan.cn/posts/8ffc272d/</loc>
-    
-    <lastmod>2023-01-17</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://taoyifan.cn/posts/9beb790c/</loc>
     
     <lastmod>2023-01-17</lastmod>
     
@@ -1622,7 +1631,7 @@
   </url>
   
   <url>
-    <loc>https://taoyifan.cn/posts/7922faa0/</loc>
+    <loc>https://taoyifan.cn/posts/9079c922/</loc>
     
     <lastmod>2023-01-17</lastmod>
     
@@ -1631,7 +1640,7 @@
   </url>
   
   <url>
-    <loc>https://taoyifan.cn/posts/9079c922/</loc>
+    <loc>https://taoyifan.cn/posts/7922faa0/</loc>
     
     <lastmod>2023-01-17</lastmod>
     
@@ -1712,7 +1721,7 @@
   </url>
   
   <url>
-    <loc>https://taoyifan.cn/posts/192fc3d8/</loc>
+    <loc>https://taoyifan.cn/posts/1f360bdb/</loc>
     
     <lastmod>2023-01-17</lastmod>
     
@@ -1721,7 +1730,7 @@
   </url>
   
   <url>
-    <loc>https://taoyifan.cn/posts/1f360bdb/</loc>
+    <loc>https://taoyifan.cn/posts/192fc3d8/</loc>
     
     <lastmod>2023-01-17</lastmod>
     
@@ -1903,7 +1912,7 @@
 
   <url>
     <loc>https://taoyifan.cn/</loc>
-    <lastmod>2023-11-14</lastmod>
+    <lastmod>2023-11-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -1913,7 +1922,7 @@
   
   <url>
     <loc>https://taoyifan.cn/categories/%E6%A1%90%E6%9F%8F%E8%AE%B0/</loc>
-    <lastmod>2023-11-14</lastmod>
+    <lastmod>2023-11-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
